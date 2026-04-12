@@ -1,5 +1,566 @@
 {
   "_comment": "Paragraph Comprehension (PC) questions — AFQT section. Each item must be type 'passage'. Required fields: id (string, e.g. 'PC-001'), sectionId ('PC'), difficulty ('easy'|'medium'|'hard'), type ('passage'), passage (string — the reading excerpt), question (string), options (string[4]), correctIndex (0–3), explanation (string).",
   "sectionId": "PC",
-  "questions": []
+  "questions": [
+    {
+      "id": "PC-001",
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "The formation of clouds",
+        "The sun's heat",
+        "The rotation of the Earth",
+        "The falling of precipitation"
+      ],
+      "explanation": "The passage explicitly states that 'The sun provides the energy needed to power this cycle by warming the oceans and land.' This identifies the sun as the primary energy source for evaporation and the subsequent stages of the water cycle described in the text.",
+      "type": "passage",
+      "passage": "The water cycle describes how water evaporates from the Earth's surface, rises into the atmosphere, cools and condenses into clouds, and falls again to the surface as precipitation. This cycle is a continuous process that has no beginning or end. The sun provides the energy needed to power this cycle by warming the oceans and land. When water evaporates, it turns into an invisible gas called water vapor. Eventually, this vapor cools enough to turn back into liquid droplets, forming clouds before falling as rain or snow.",
+      "question": "According to the passage, what provides the energy required to drive the water cycle?"
+    },
+    {
+      "id": "PC-002",
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Aluminum",
+        "Copper",
+        "Silicon",
+        "Glass"
+      ],
+      "explanation": "The passage identifies the material used in solar cells by stating, 'These cells are made from semiconductor materials, such as silicon.' While other materials might be used in the construction of solar panels, the text specifically highlights silicon as the semiconductor material for the cells themselves.",
+      "type": "passage",
+      "passage": "Photovoltaic cells, commonly known as solar cells, are devices that convert sunlight directly into electricity. When sunlight hits the surface of a solar cell, it creates an electric field across the layers of the cell, causing electricity to flow. These cells are made from semiconductor materials, such as silicon. Multiple cells are often wired together to form a solar panel. Because they rely on light rather than heat, solar cells can still generate electricity on cold days, provided that the sun is shining.",
+      "question": "According to the passage, what material is frequently used to make solar cells?"
+    },
+    {
+      "id": "PC-003",
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "They became heavier and larger",
+        "They became more expensive to buy",
+        "They were written in fewer languages",
+        "They became cheaper and easier to find"
+      ],
+      "explanation": "The passage states that the printing press 'allowed for the mass production of books, making them more affordable and accessible to the general public.' This directly supports the idea that books became cheaper (more affordable) and easier to find (accessible) as a result of Gutenberg's invention.",
+      "type": "passage",
+      "passage": "In the mid-15th century, Johannes Gutenberg developed the movable-type printing press in Germany. Before this invention, books were copied by hand or printed using carved wooden blocks, which was a slow and expensive process. Gutenberg's machine allowed for the mass production of books, making them more affordable and accessible to the general public. This innovation led to a dramatic increase in literacy rates across Europe and facilitated the rapid spread of new ideas and scientific discoveries during the Renaissance.",
+      "question": "According to the passage, how did books change after the invention of the printing press?"
+    },
+    {
+      "id": "PC-004",
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "Bees are the most important pollinators for human food.",
+        "Pollination is a necessary process for plant reproduction.",
+        "Flowers have both male and female components.",
+        "Wind and water are the primary ways pollen is moved."
+      ],
+      "explanation": "The passage focuses on the overall importance of pollination to the plant life cycle and its role in producing seeds and food. While it mentions specific pollinators and flower parts, these details support the central theme that pollination is essential for plants to reproduce and survive.",
+      "type": "passage",
+      "passage": "Pollination is a critical process in the life cycle of many plants. It occurs when pollen grains are transferred from the male part of a flower, the anther, to the female part, the stigma. This transfer can happen through various means, including wind, water, and animals like bees, butterflies, and birds. Once pollination is successful, the plant can produce seeds, which will eventually grow into new plants. Without pollinators, many of the fruits and vegetables that humans rely on for food would not be able to grow.",
+      "question": "What is the main idea of this passage?"
+    },
+    {
+      "id": "PC-005",
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "The tectonic plates would move much faster.",
+        "Volcanic activity would likely increase.",
+        "Tectonic plate movement would eventually stop.",
+        "The Earth's mantle would become liquid."
+      ],
+      "explanation": "The passage states that plate movement is 'driven by the heat generated deep within the Earth's core.' If that heat source were removed (by cooling down), the convection process in the mantle would cease, leading to the logical conclusion that the movement of the plates would also stop.",
+      "type": "passage",
+      "passage": "The Earth's outer shell is divided into several large and small pieces called tectonic plates. These plates are constantly moving, though very slowly—usually only a few centimeters per year. This movement is driven by the heat generated deep within the Earth's core, which causes the mantle to circulate in a process known as convection. When these plates interact at their boundaries, they can slide past one another, pull apart, or collide. Such interactions are responsible for most of the world's earthquakes, volcanic activity, and mountain formation.",
+      "question": "Based on the passage, it can be inferred that if the Earth's core were to cool down completely, what would happen?"
+    },
+    {
+      "id": "PC-006",
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "The troposphere",
+        "The stratosphere",
+        "The mesosphere",
+        "The exosphere"
+      ],
+      "explanation": "The passage specifically notes that the stratosphere 'contains the ozone layer that protects the Earth from harmful ultraviolet radiation.' This identifies the stratosphere as the specific layer providing that protective function, distinguishing it from the other layers mentioned like the troposphere or mesosphere.",
+      "type": "passage",
+      "passage": "The Earth's atmosphere is composed of several layers, each with distinct characteristics. The troposphere is the lowest layer, where weather occurs and where most of the atmosphere's mass is concentrated. Above it lies the stratosphere, which contains the ozone layer that protects the Earth from harmful ultraviolet radiation. Higher up are the mesosphere, thermosphere, and exosphere. As altitude increases, the air becomes thinner and the pressure drops significantly. Understanding these layers is vital for meteorology and aviation, as different layers affect communication and flight paths.",
+      "question": "According to the passage, which layer of the atmosphere is responsible for protecting Earth from ultraviolet radiation?"
+    },
+    {
+      "id": "PC-007",
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "A protective barrier",
+        "A substance that slows a process",
+        "A primary ingredient or fuel",
+        "An agent that initiates or accelerates a reaction"
+      ],
+      "explanation": "In the context of the passage, sunlight is described as a catalyst because it provides the necessary energy to trigger the chemical conversion of carbon dioxide and water into glucose. In science, a catalyst is something that speeds up or enables a chemical reaction to occur.",
+      "type": "passage",
+      "passage": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll. During this process, plants take in carbon dioxide from the air and water from the soil. Sunlight acts as a catalyst, providing the energy needed to convert these raw materials into glucose, a type of sugar that the plant uses for energy. A byproduct of this reaction is oxygen, which is released into the atmosphere. This complex chemical reaction is the foundation of almost all life on Earth, as it provides the primary energy source for food chains.",
+      "question": "As used in the passage, the word 'catalyst' most nearly means:"
+    },
+    {
+      "id": "PC-008",
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "The price of the product will likely increase.",
+        "The government will force the price to stay low.",
+        "The demand for the product will automatically drop.",
+        "Businesses will stop trying to improve the product."
+      ],
+      "explanation": "The passage states that 'if demand is high and supply is limited, prices tend to rise.' If a product is difficult to produce in large quantities (low supply) but many people want it (high demand), the principles of a market economy described in the text indicate that the price will go up.",
+      "type": "passage",
+      "passage": "In a market economy, the prices of goods and services are determined by the interaction of supply and demand. When the supply of a product is high but the demand is low, prices generally decrease as sellers try to encourage more people to buy. Conversely, if demand is high and supply is limited, prices tend to rise because consumers are willing to pay more for a scarce item. This system relies on competition to keep prices fair and to encourage businesses to improve the quality of their products. Government intervention is typically minimal, allowing the market to self-regulate through consumer choices.",
+      "question": "Based on the passage, what is an expected outcome when a product becomes difficult for a manufacturer to produce in large quantities while many people still want to buy it?"
+    },
+    {
+      "id": "PC-009",
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "Glaciers are found only in extremely cold climates.",
+        "The movement of glaciers is the only cause of landscape erosion.",
+        "Glaciers form through snow accumulation and significantly impact the Earth's surface.",
+        "Glaciers are the most accurate way to measure changes in annual rainfall."
+      ],
+      "explanation": "The passage describes how glaciers are formed (snow compression over time) and their physical impact on the environment (carving valleys and eroding landscapes). The main idea encompasses both the creation and the geologic significance of glaciers, rather than focusing on just one aspect like climate measurement or erosion.",
+      "type": "passage",
+      "passage": "Glaciers are massive bodies of ice that form in areas where the amount of snow that falls in winter exceeds the amount that melts in summer. Over centuries, the weight of the accumulating snow compresses the lower layers into dense ice. Because of their immense weight, glaciers act like very slow-moving rivers, carving out valleys and shaping the landscape as they crawl across the land. They are powerful agents of erosion, carrying rocks and debris over long distances. Today, glaciers serve as important indicators of global climate trends, as their growth or retreat reflects changes in temperature and precipitation.",
+      "question": "What is the main idea of the passage?"
+    },
+    {
+      "id": "PC-010",
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "Traditional water treatment plants are currently equipped to remove all microplastics.",
+        "Microplastics are easily visible and can be filtered out by hand.",
+        "Preventing plastics from entering the ocean is likely more effective than trying to remove them after they arrive.",
+        "Only animals at the bottom of the food chain are affected by microplastics."
+      ],
+      "explanation": "The passage notes that microplastics 'easily bypass wastewater filtration systems' and enter the ocean, where they are ingested by organisms throughout the food chain. Because the text emphasizes how difficult they are to catch with current systems and their wide dispersal, it can be inferred that prevention is more feasible than removal.",
+      "type": "passage",
+      "passage": "Microplastics are tiny plastic particles, often less than five millimeters in size, that have become a pervasive environmental concern. These particles originate from the breakdown of larger plastic debris or are manufactured as small beads for use in cosmetics and industrial processes. Because they are so small, microplastics easily bypass wastewater filtration systems and enter the world's oceans. Once in the marine environment, they can be ingested by a wide range of organisms, from tiny plankton to large whales. The accumulation of these plastics in the food chain poses potential risks to marine life and, ultimately, to human health, as these toxins can bioaccumulate in the tissues of fish consumed by people.",
+      "question": "Which of the following can be inferred from the passage regarding the cleanup of microplastics?"
+    },
+    {
+      "id": "PC-011",
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "To argue that antibiotics should no longer be used in modern medicine.",
+        "To describe the biological mechanism of antibiotic resistance and its consequences.",
+        "To criticize the pharmaceutical industry for not developing enough new drugs.",
+        "To explain the history of how the first antibiotic was discovered."
+      ],
+      "explanation": "The author explains how antibiotics work, how resistance develops through selection pressure and mutation, and why this is a problem for modern medicine. The passage is informative and focuses on the mechanism of the issue rather than just history or a complete rejection of the drugs.",
+      "type": "passage",
+      "passage": "The discovery of antibiotics in the 20th century revolutionized medicine, turning once-fatal infections into treatable conditions. However, the widespread and sometimes inappropriate use of these drugs has led to the rise of antibiotic-resistant bacteria. When an antibiotic is used, it kills most of the target bacteria, but those with natural mutations that allow them to survive the drug can persist and multiply. These resistant strains then spread, making standard treatments ineffective. This phenomenon, known as selection pressure, means that the more we use antibiotics, the faster bacteria evolve to counter them. Modern medicine now faces the challenge of developing new treatments while encouraging more responsible use of existing ones.",
+      "question": "What is the author's primary purpose in this passage?"
+    },
+    {
+      "id": "PC-012",
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "To ignore or overlook",
+        "To make something more intense",
+        "To lessen the severity of a problem",
+        "To prove a theory through experimentation"
+      ],
+      "explanation": "In the context of the passage, the 'heat island effect' is a problem (high temperatures). The text states that green infrastructure is used to 'mitigate this issue' by providing shade and lowering temperatures. This implies that 'mitigate' means to reduce or lessen the negative impact of the heat.",
+      "type": "passage",
+      "passage": "In urban planning, the 'heat island effect' refers to the phenomenon where cities experience much higher temperatures than surrounding rural areas. This occurs because urban surfaces, such as asphalt roads and concrete buildings, absorb and retain heat more effectively than natural landscapes. Furthermore, the lack of vegetation in cities reduces the cooling effect provided by evapotranspiration. To mitigate this issue, many city planners are now incorporating 'green infrastructure,' such as rooftop gardens and increased tree canopies. These additions not only provide shade but also help lower surface and air temperatures, improving the overall livability and energy efficiency of the urban environment.",
+      "question": "As used in the passage, the word 'mitigate' most nearly means:"
+    },
+    {
+      "id": "PC-013",
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "A qubit is more stable and less sensitive to the environment than a bit.",
+        "A bit can process information faster than a qubit in all scenarios.",
+        "A bit is limited to a single state at a time, whereas a qubit can exist in multiple states at once.",
+        "A bit uses entanglement to communicate with other bits, while a qubit does not."
+      ],
+      "explanation": "The passage states that 'a classical bit represents either a 0 or a 1' (a single state), while a qubit 'can exist in a state of superposition, meaning it can represent multiple states simultaneously.' This is the fundamental difference highlighted in the text, enabling the superior processing power of quantum computers.",
+      "type": "passage",
+      "passage": "Quantum computing represents a paradigm shift from classical computing, utilizing the principles of quantum mechanics to process information. While a classical bit represents either a 0 or a 1, a quantum bit, or qubit, can exist in a state of superposition, meaning it can represent multiple states simultaneously. Additionally, qubits can be 'entangled,' a state where the condition of one qubit is directly linked to another, regardless of the distance between them. These properties allow quantum computers to perform complex calculations at speeds unattainable by even the most powerful traditional supercomputers. However, maintaining the stability of qubits is difficult, as they are extremely sensitive to environmental interference, a challenge known as decoherence.",
+      "question": "Based on the passage, what is the primary distinction between a classical bit and a qubit?"
+    },
+    {
+      "id": "PC-014",
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "The document's importance is overstated because it was only meant to solve a local dispute.",
+        "The document's primary value shifted from its specific legal clauses to its broader symbolic principles.",
+        "The document was revolutionary because it immediately granted rights to all people in England.",
+        "The document is no longer relevant because most of its provisions have been repealed."
+      ],
+      "explanation": "The author notes that while it began as a 'local political dispute' and many 'specific provisions have since been repealed,' its 'symbolic value' and 'long-term impact' on constitutional governance and due process are what make it influential today. This indicates a shift from local/specific importance to broad/symbolic importance.",
+      "type": "passage",
+      "passage": "The Magna Carta, signed in 1215, is often cited as one of the most influential documents in the history of Western law. Although it was originally intended to settle a local political dispute between King John of England and his rebellious barons, its long-term impact far exceeded its initial scope. By establishing the principle that no one, including the monarch, is above the law, it laid the groundwork for the development of constitutional governance. Many of its clauses protected the rights of 'free men' to due process, a concept that would later become a cornerstone of the American legal system. While many of its specific provisions have since been repealed, its symbolic value as a defense against arbitrary power remains potent.",
+      "question": "Which statement best describes the author's perspective on the Magna Carta?"
+    },
+    {
+      "id": "PC-015",
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "Ecosystems are defined by their ability to prevent natural disturbances.",
+        "Primary succession is a faster and more efficient process than secondary succession.",
+        "Ecological communities are in a state of constant, adaptive change rather than reaching a permanent end state.",
+        "Lava flows are the most common starting point for the development of new soil."
+      ],
+      "explanation": "The passage describes succession as a 'gradual process' and a 'dynamic process' that ensures ecosystems are 'constantly adapting... rather than remaining static.' It explicitly mentions that the 'climax' state is often temporary due to disturbances, supporting the idea that there is no permanent end state.",
+      "type": "passage",
+      "passage": "Ecological succession is the gradual process by which the species structure of an ecological community changes over time. It begins with primary succession in a barren habitat, such as a fresh lava flow or a retreating glacier, where no soil exists. Pioneer species, like lichens and mosses, are the first to inhabit the area, slowly breaking down rock into soil. As soil quality improves, more complex plants move in, eventually leading to a stable climax community. However, this 'climax' state is often temporary; natural disturbances like fires or storms can trigger secondary succession, restarting the cycle. This dynamic process ensures that ecosystems are constantly adapting to environmental changes rather than remaining static.",
+      "question": "What is the main idea of the passage regarding ecological communities?"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "To attract different types of birds",
+        "To increase the amount of chlorophyll they produce",
+        "To conserve energy and water during the winter",
+        "To prepare for the peak growing season in autumn"
+      ],
+      "explanation": "The passage explicitly states that trees enter a period of dormancy to 'conserve energy and water through the cold winter months.' It mentions that this process occurs as a response to dropping temperatures and decreasing daylight, acting as a survival mechanism during the harsh winter season.",
+      "type": "passage",
+      "passage": "Deciduous trees are characterized by their habit of losing their leaves at the end of each growing season. This usually occurs in autumn as temperatures drop and daylight hours decrease. During this time, the trees enter a period of dormancy to conserve energy and water through the cold winter months. Before the leaves fall, they often change color from green to vibrant shades of red, orange, and yellow because the chlorophyll, which gives leaves their green color, begins to break down. In the spring, when temperatures rise, the trees emerge from dormancy and grow new leaves.",
+      "question": "According to the passage, why do deciduous trees lose their leaves?",
+      "id": "PC-016"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 0,
+      "options": [
+        "To ensure ships could see it clearly through fog",
+        "To match the natural rock formations in California",
+        "To symbolize the gold found during the California Gold Rush",
+        "To make the bridge look modern compared to older structures"
+      ],
+      "explanation": "The text states that the color was 'specifically chosen to make the structure more visible to ships in the thick fog that frequently blankets the area.' This detail-recall question points directly to visibility and safety as the primary reasons for the bridge's iconic paint color.",
+      "type": "passage",
+      "passage": "The Golden Gate Bridge, located in San Francisco, California, is one of the most recognizable structures in the world. Completed in 1937, it spans the Golden Gate Strait, the channel between San Francisco Bay and the Pacific Ocean. The bridge is famous for its 'International Orange' color, which was specifically chosen to make the structure more visible to ships in the thick fog that frequently blankets the area. At the time of its opening, it was the longest suspension bridge in the world, stretching approximately 1.7 miles in total length.",
+      "question": "According to the passage, why was the color 'International Orange' selected for the bridge?",
+      "id": "PC-017"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "Nitrogen",
+        "Iron oxide",
+        "Oxygen",
+        "Carbon dioxide"
+      ],
+      "explanation": "The passage states that while the atmosphere is very thin, it is 'composed mostly of carbon dioxide.' Iron oxide is mentioned as the reason for the planet's red color on the surface, but it is not a gas that makes up the atmosphere.",
+      "type": "passage",
+      "passage": "Mars is often called the 'Red Planet' because of the iron oxide, or rust, on its surface. While the planet's atmosphere is very thin, it is composed mostly of carbon dioxide. Because the atmosphere is so thin, Mars cannot retain heat well, resulting in average temperatures around minus 80 degrees Fahrenheit. Mars is also home to the largest volcano in the solar system, Olympus Mons, and a massive canyon system called Valles Marineris. Despite its harsh environment, scientists continue to study Mars to see if it could have supported life in the distant past.",
+      "question": "What is the primary component of the Martian atmosphere?",
+      "id": "PC-018"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "The Gulf Stream is the largest ocean current in the world.",
+        "Ocean currents help regulate global temperatures and climate.",
+        "Western Europe is warmer than most other northern regions.",
+        "Cold water currents are more important than warm water currents."
+      ],
+      "explanation": "The passage focuses on the overall function of ocean currents in regulating the Earth's climate. While the Gulf Stream and Western Europe are mentioned as examples, the central theme is how these currents transport heat to prevent extreme temperatures globally.",
+      "type": "passage",
+      "passage": "Ocean currents play a vital role in regulating the Earth's climate by transporting warm water from the equator toward the poles and cold water back toward the tropics. One of the most famous currents is the Gulf Stream, which carries warm water from the Gulf of Mexico across the Atlantic Ocean toward Europe. This movement of water helps keep the climate of Western Europe significantly milder than it would otherwise be given its northern latitude. Without these currents, many regions of the world would experience much more extreme temperatures, making them far less habitable for humans and wildlife.",
+      "question": "What is the main idea of this passage?",
+      "id": "PC-019"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "Was invented by smartphone manufacturers.",
+        "Requires only one satellite to function accurately.",
+        "Is no longer used for military purposes.",
+        "Has become more accessible to the general public over time."
+      ],
+      "explanation": "The passage notes that GPS was 'originally developed... for military navigation' but is 'now used in a wide variety of civilian applications.' This implies that the technology transitioned from a restricted military tool to one that is widely accessible to the general public for daily use.",
+      "type": "passage",
+      "passage": "The Global Positioning System (GPS) is a network of satellites orbiting the Earth that send precise microwave signals to receivers on the ground. By calculating the time it takes for signals from at least four different satellites to reach a device, the GPS receiver can determine the user's exact location, altitude, and speed. Originally developed by the United States Department of Defense for military navigation, GPS technology is now used in a wide variety of civilian applications, including smartphone maps, maritime navigation, and commercial aviation, making it an essential part of modern global infrastructure.",
+      "question": "Based on the passage, it can be inferred that GPS technology:",
+      "id": "PC-020"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Wheat and iron tools were the most valuable items in ancient times.",
+        "Money was invented to make the barter system more complicated.",
+        "The barter system was a precursor to money but had limitations.",
+        "Societies only traded when they had a double coincidence of wants."
+      ],
+      "explanation": "The passage describes the barter system as a method of trade used before currency, highlights its primary flaw (the double coincidence of wants), and explains how money was introduced to resolve that issue. This overview defines the transition and the functional differences between the two systems.",
+      "type": "passage",
+      "passage": "Before the invention of standardized currency, many ancient societies relied on a barter system to trade goods and services. In a barter economy, people exchanged items they had for items they needed, such as trading a bushel of wheat for a set of iron tools. While this system allowed for trade, it had significant drawbacks, most notably the 'double coincidence of wants.' This meant that for a trade to occur, each person had to want exactly what the other person was offering. The introduction of money solved this problem by providing a universal medium of exchange that everyone accepted.",
+      "question": "What is the main idea of this passage?",
+      "id": "PC-021"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "The cave is likely very old and has had significant mineral activity.",
+        "The cave was formed by wind erosion rather than water dripping.",
+        "Stalactites are no longer forming in that specific cave.",
+        "The cave floor is made of a different material than the ceiling."
+      ],
+      "explanation": "The passage explains that columns are formed when stalactites and stalagmites 'eventually meet.' Since both individual formations take thousands of years to grow from slow dripping, the meeting of the two to form a column suggests a very long period of geologic time and consistent mineral deposition.",
+      "type": "passage",
+      "passage": "Speleothems, commonly known as cave formations, are created over thousands of years by the slow dripping of mineral-rich water. Stalactites are the icicle-shaped formations that hang from the ceiling of a cave. They form as water containing dissolved calcium carbonate drips down; as the water evaporates, it leaves behind a tiny ring of calcite. Over time, these rings build up to form a hollow tube. Conversely, stalagmites grow from the cave floor upward, created by the minerals in the water that drips off the end of a stalactite. If the two formations eventually meet, they form a solid structure known as a column.",
+      "question": "Based on the passage, it can be inferred that if a cave has a high number of columns:",
+      "id": "PC-022"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "Optional",
+        "Essential",
+        "External",
+        "Secondary"
+      ],
+      "explanation": "In the context of the passage, curing is described as necessary for the development of strength and durability. The text warns that without it, the concrete will fail. Therefore, 'integral' means that curing is an 'essential' or necessary part of the process to achieve the desired result.",
+      "type": "passage",
+      "passage": "Concrete is a composite material used in construction that consists of aggregate, such as sand or gravel, bonded together with fluid cement that hardens over time. One of the most important stages in concrete construction is 'curing,' the process of maintaining adequate moisture and temperature after the concrete is poured. Proper curing is integral to the development of the material's strength and durability. If concrete dries too quickly, it can shrink and crack, leading to structural weaknesses. By keeping the surface damp or using specialized curing compounds, engineers ensure that the chemical reaction between water and cement, known as hydration, is completed successfully.",
+      "question": "As used in the passage, the word 'integral' most nearly means:",
+      "id": "PC-023"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "It made mountain travel the preferred method for shipping goods.",
+        "It caused New York City to lose its status as a major port.",
+        "It lowered the cost of moving goods between the interior and the coast.",
+        "It discouraged other states from investing in infrastructure projects."
+      ],
+      "explanation": "The passage states that the canal 'dramatically reduced transportation costs and travel time' for goods moving between the Midwest and New York City. This directly implies that moving goods between the interior of the country and the coastal ports became more affordable.",
+      "type": "passage",
+      "passage": "Completed in 1825, the Erie Canal was a groundbreaking engineering feat that connected the Great Lakes with the Atlantic Ocean via the Hudson River. Before the canal, transporting goods between the Midwest and New York City was a slow and expensive journey over rugged mountain terrain. The canal dramatically reduced transportation costs and travel time, facilitating a surge in trade and migration. This link turned New York City into the nation's premier commercial port and accelerated the development of cities like Buffalo and Rochester. Its success sparked a 'canal fever' across the United States as other states sought to replicate its economic impact.",
+      "question": "Based on the passage, what was a primary economic consequence of the Erie Canal?",
+      "id": "PC-024"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "The body would produce higher levels of melatonin during the day.",
+        "The circadian rhythm would align more closely with the natural sunset.",
+        "The SCN would struggle to signal the body that it is time to sleep.",
+        "Metabolic efficiency would increase due to the lack of darkness."
+      ],
+      "explanation": "The passage explains that light signals the brain to suppress melatonin. If someone is in a bright, windowless room, their brain (the SCN) continues to receive light signals, even when it might be night outside. This would inhibit the release of melatonin, making it difficult for the body to recognize when it is time to sleep.",
+      "type": "passage",
+      "passage": "The human body operates on a circadian rhythm, an internal biological clock that regulates the sleep-wake cycle over a 24-hour period. This rhythm is heavily influenced by external cues, most notably light. When specialized cells in the retina detect daylight, they send signals to the suprachiasmatic nucleus (SCN) in the brain, which then suppresses the production of melatonin, a hormone that induces sleep. As darkness falls, the SCN triggers the release of melatonin, signaling the body to prepare for rest. Modern disruptions to this cycle, such as excessive exposure to artificial blue light from screens at night, can confuse the SCN and lead to sleep disorders and decreased metabolic efficiency.",
+      "question": "Based on the passage, what would be the most likely effect of working in a windowless office with constant bright lights?",
+      "id": "PC-025"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "Encourage the conversion of wetlands into productive agricultural land.",
+        "Highlight the functional importance of wetlands to justify their conservation.",
+        "Describe the different types of plants and animals that live in swamps.",
+        "Explain the chemical process by which wetlands remove toxins from water."
+      ],
+      "explanation": "The author argues against the view of wetlands as 'wastelands' by listing their critical functions—filtering water and preventing floods. By mentioning the loss of wetlands and the arguments of conservationists, the author’s goal is to show why these areas are valuable and should be protected.",
+      "type": "passage",
+      "passage": "Wetlands are often dismissed as mere swamps or wastelands, but they provide indispensable ecosystem services. They act as natural filters, trapping pollutants and sediment from runoff before the water enters larger bodies like lakes and oceans. Additionally, wetlands serve as massive sponges that absorb excess rainfall, significantly reducing the risk of flooding in nearby communities. Despite these benefits, nearly half of the world's wetlands have been lost to agriculture and urban development over the last century. Conservationists argue that preserving these areas is not just a matter of saving wildlife habitat, but is also a critical component of coastal and inland flood management strategies.",
+      "question": "The author's primary purpose in this passage is to:",
+      "id": "PC-026"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "Water boils at a lower temperature, which might increase cooking times.",
+        "The higher density of the air will help the food cook more quickly.",
+        "Water will take longer to reach its boiling point than it would at sea level.",
+        "The increased atmospheric pressure will cause the water to boil more violently."
+      ],
+      "explanation": "The passage states that 'the boiling point of liquids decreases at higher altitudes.' If water boils at a lower temperature (e.g., 190°F instead of 212°F), it provides less heat to the food, which would naturally result in a slower cooking process for items that require boiling.",
+      "type": "passage",
+      "passage": "Atmospheric pressure is the force exerted by the weight of the air above a given point. At sea level, this pressure is at its highest because the entire column of the Earth's atmosphere is pressing down. As one moves to higher altitudes, such as climbing a mountain, the amount of air above decreases, resulting in lower atmospheric pressure. This drop in pressure has physical effects: air becomes less dense, meaning there are fewer oxygen molecules in each breath. Furthermore, the boiling point of liquids decreases at higher altitudes because there is less pressure holding the liquid molecules together, allowing them to escape into a gaseous state at lower temperatures.",
+      "question": "Based on the passage, what can be inferred about cooking food in boiling water at a high altitude?",
+      "id": "PC-027"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "The author believes that juries are too emotional to make fair legal decisions.",
+        "The author argues that judges should have more power than they currently do.",
+        "The author presents the jury system as a vital democratic safeguard despite its potential flaws.",
+        "The author suggests that the jury system should be replaced by a panel of legal experts."
+      ],
+      "explanation": "The author describes the system as a 'cornerstone' and a 'check against judicial overreach.' While the passage acknowledges the 'critics' who worry about lack of expertise or emotion, the overall tone highlights the 'proponents' view of the system as 'democratic and legitimate.' It presents the system's value as a safeguard.",
+      "type": "passage",
+      "passage": "The jury system is a cornerstone of the American legal tradition, designed to ensure that the power to deprive a citizen of liberty rests with a group of their peers rather than solely with government officials. This process serves as a check against potential judicial overreach and ensures that community standards and common sense are integrated into the application of the law. While critics argue that juries can be swayed by emotion or lack the legal expertise to handle complex cases, proponents suggest that the deliberative process—requiring a group of diverse individuals to reach a consensus—ultimately produces a more democratic and legitimate outcome than a single judge's ruling.",
+      "question": "Which of the following best describes the author's perspective on the jury system?",
+      "id": "PC-028"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "They do not orbit host stars like larger planets do.",
+        "They are too far away for the Kepler telescope to see their host stars.",
+        "Their transits occur less frequently and cause less significant dimming.",
+        "The transit method can only detect planets made entirely of gas."
+      ],
+      "explanation": "The passage states that the method is biased toward large, close-orbiting planets because they produce 'frequent and noticeable dimming.' By contrast, smaller planets (less dimming) in wider orbits (less frequent transits) require 'higher sensitivity and longer periods' because their signal is weaker and happens less often.",
+      "type": "passage",
+      "passage": "The Kepler Space Telescope revolutionized our understanding of the universe by using the transit method to detect exoplanets—planets orbiting stars outside our solar system. When a planet passes between its host star and the telescope, it causes a slight, periodic dip in the star's brightness. By measuring the depth and frequency of these dips, scientists can determine the planet's size and orbital period. However, this method is biased toward detecting large planets that orbit close to their stars, as they produce more frequent and noticeable dimming. Finding smaller, Earth-sized planets in wider 'habitable zone' orbits requires much higher sensitivity and longer periods of observation to confirm a consistent pattern.",
+      "question": "According to the passage, why is it more difficult to find Earth-sized planets in the habitable zone using the transit method?",
+      "id": "PC-029"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "A student chooses to study for an exam instead of going to a movie, losing the enjoyment of the film.",
+        "A company increases the price of its product to cover rising manufacturing costs.",
+        "A government prints more money to pay off national debt, causing inflation.",
+        "A consumer buys a new car and discovers that the insurance premiums are higher than expected."
+      ],
+      "explanation": "Opportunity cost is defined as the value of the 'next best alternative that is forgone.' In the case of the student, the finite resource is time. By choosing to study, the student gives up the alternative (the movie). The 'lost enjoyment' is the opportunity cost of the decision to study.",
+      "type": "passage",
+      "passage": "In economics, the concept of opportunity cost refers to the value of the next best alternative that is forgone when a choice is made. Because resources—such as time, money, and labor—are finite, every decision to allocate resources to one activity inherently means they cannot be used for another. For instance, if a city decides to spend its budget on building a new park, the opportunity cost is the potential benefit that could have been gained by spending that same money on road repairs or public education. Understanding opportunity cost is essential for efficient decision-making, as it forces individuals and organizations to consider the hidden costs of their choices rather than just the immediate out-of-pocket expenses.",
+      "question": "Based on the passage's definition of opportunity cost, which scenario best illustrates this concept?",
+      "id": "PC-030"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Because they absorb large amounts of carbon dioxide.",
+        "Because they are home to half of the world's species.",
+        "Because they produce a large amount of the world's oxygen.",
+        "Because they are found in tropical regions."
+      ],
+      "explanation": "The passage explicitly states that rainforests are called the 'lungs of the planet' because they 'generate a significant portion of the world's oxygen.' While the other options mention facts about rainforests, they are not the specific reason given for that nickname in the provided text.",
+      "type": "passage",
+      "passage": "Tropical rainforests are often called the \"lungs of the planet\" because they generate a significant portion of the world's oxygen. However, their most remarkable feature is their biodiversity. Although they cover less than six percent of Earth's land surface, rainforests are home to more than half of the world’s plant and animal species. This dense concentration of life is supported by high rainfall and warm temperatures that occur year-round. Many medicines used today are derived from plants found in these forests, making their conservation vital for future medical research and global health.",
+      "question": "According to the passage, why are rainforests sometimes referred to as the \"lungs of the planet\"?",
+      "id": "PC-031"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "The technical specifications of the Enigma machine's rotating wheels.",
+        "The biography of Alan Turing and his life at Bletchley Park.",
+        "How German codes were used to send messages during World War II.",
+        "The effort to break the Enigma code and its impact on World War II."
+      ],
+      "explanation": "The passage focuses on the Enigma machine, the efforts by cryptologists to decode its messages, and the historical significance of that success in ending the war sooner. This overview encompasses the primary point of the entire text rather than focusing on a single detail like mechanics or biography.",
+      "type": "passage",
+      "passage": "During World War II, the German military used a device called the Enigma machine to encrypt strategic messages. The machine used a series of rotating wheels to scramble plain text into a complex code that changed daily. For years, the code was considered unbreakable. However, a team of cryptologists at Bletchley Park in England, led by Alan Turing, eventually developed techniques and early computing machines to crack the Enigma's ciphers. This achievement allowed Allied forces to intercept and read secret German communications, providing a decisive advantage that many historians believe shortened the war by at least two years.",
+      "question": "What is the main idea of this passage?",
+      "id": "PC-032"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "To gradually destroy or wear away.",
+        "To increase the value of.",
+        "To protect or safeguard.",
+        "To transport to another location."
+      ],
+      "explanation": "In the context of the passage, 'erode' refers to the effect high inflation has on the value of savings. If prices rise rapidly, the money people have saved loses its original value or 'purchasing power,' effectively wearing away the worth and utility of those savings over time.",
+      "type": "passage",
+      "passage": "Inflation is defined as a general increase in prices and a subsequent fall in the purchasing power of money. When inflation occurs, each unit of currency buys fewer goods and services than it did previously. Central banks typically aim for a modest and predictable rate of inflation to encourage consumer spending and investment. However, when inflation becomes \"galloping\" or out of control, it can erode the savings of citizens and create economic instability. To combat high inflation, central banks often raise interest rates to reduce the supply of money circulating in the economy, thereby slowing down the rate at which prices rise.",
+      "question": "As used in the passage, the word \"erode\" most nearly means:",
+      "id": "PC-033"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "Performing basic mathematical calculations.",
+        "Tasks where every possible scenario cannot be predicted by a programmer.",
+        "Storing large amounts of data in a digital format.",
+        "Operating on hardware with limited computational power."
+      ],
+      "explanation": "The passage notes that neural networks succeed in areas where 'traditional, rule-based' programs fail because they can recognize patterns without 'being explicitly programmed with every rule.' Therefore, we can infer that a traditional program would struggle with tasks where the programmer cannot provide a fixed set of predefined rules for every scenario.",
+      "type": "passage",
+      "passage": "Artificial neural networks are a type of machine learning inspired by the structure of the human brain. These systems consist of interconnected \"nodes\" that process information in layers. During the training phase, the network is fed massive amounts of data, and it adjusts the strength of the connections between nodes based on whether its outputs are correct. Over time, the system \"learns\" to recognize patterns, such as identifying a specific face in a photo or translating a language, without being explicitly programmed with every rule. This flexibility allows neural networks to solve problems that are too complex for traditional, rule-based computer programs, though they often require vast computational resources.",
+      "question": "Based on the passage, it can be inferred that a traditional rule-based computer program would likely struggle with:",
+      "id": "PC-034"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "Prove that extraterrestrial life does not exist in our galaxy.",
+        "Describe the history of radio telescope technology.",
+        "Explore the tension between statistical expectations and actual observations of alien life.",
+        "Argue that interstellar travel is physically impossible for any civilization."
+      ],
+      "explanation": "The author presents the Fermi Paradox as a 'contradiction' or 'discrepancy.' The passage balances the high mathematical probability of alien life against the lack of physical evidence, explaining why this situation is a paradox. The text explores this conflict and the theories scientists use to explain it, rather than arguing for a single conclusion.",
+      "type": "passage",
+      "passage": "The Fermi Paradox highlights the apparent contradiction between the high probability of extraterrestrial civilizations existing and the total lack of evidence for them. Given the billions of stars in our galaxy that are similar to the Sun, many of which are billions of years older, it is statistically likely that Earth-like planets are common and that intelligent life should have developed elsewhere. If even a few of these civilizations turned to interstellar travel, they could have crossed the entire galaxy in a few million years. Yet, despite decades of searching with radio telescopes, \"the Great Silence\" persists. This discrepancy forces scientists to consider various filters, such as the possibility that intelligent life inherently tends toward self-destruction or that the conditions for life are much rarer than initially suspected.",
+      "question": "The author's primary purpose in this passage is to:",
+      "id": "PC-035"
+    }
+  ]
 }

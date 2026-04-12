@@ -1,5 +1,306 @@
 {
   "_comment": "Math Knowledge (MK) questions — AFQT section. Each item must be type 'mcq'. Required fields: id (string, e.g. 'MK-001'), sectionId ('MK'), difficulty ('easy'|'medium'|'hard'), type ('mcq'), question (string), options (string[4]), correctIndex (0–3), explanation (string).",
   "sectionId": "MK",
-  "questions": []
+  "questions": [
+    {
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 0,
+      "options": [
+        "7/8",
+        "4/12",
+        "1/2",
+        "5/8"
+      ],
+      "explanation": "To add fractions with different denominators, we must first find a common denominator. The least common multiple of 4 and 8 is 8. We convert 3/4 to eighths: (3 × 2) / (4 × 2) = 6/8. Now we add the numerators: 6/8 + 1/8 = (6 + 1) / 8 = 7/8.",
+      "type": "mcq",
+      "question": "Simplify the expression: 3/4 + 1/8",
+      "id": "MK-001"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "19 square feet",
+        "84 square feet",
+        "38 square feet",
+        "72 square feet"
+      ],
+      "explanation": "The formula for the area of a rectangle is Area = length × width. Substituting the given values: Area = 12 feet × 7 feet. Calculating the product: 12 × 7 = 84. Therefore, the total area of the rectangle is 84 square feet. Options like 19 (sum) and 38 (perimeter) are common errors.",
+      "type": "mcq",
+      "question": "Find the area of a rectangle that has a length of 12 feet and a width of 7 feet.",
+      "id": "MK-002"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "9",
+        "15",
+        "21",
+        "23"
+      ],
+      "explanation": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. \n9 is divisible by 3 (3 × 3). \n15 is divisible by 3 and 5 (3 × 5). \n21 is divisible by 3 and 7 (3 × 7). \n23 has no factors other than 1 and 23.",
+      "type": "mcq",
+      "question": "Which of the following is a prime number?",
+      "id": "MK-003"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "13",
+        "19",
+        "24",
+        "11"
+      ],
+      "explanation": "Following the order of operations (PEMDAS/BODMAS):\n1. Handle exponents: 2^2 = 4.\n2. Solve inside parentheses: 4 + 4 = 8.\n3. Perform multiplication: 3(8) = 24.\n4. Perform subtraction: 24 - 5 = 19.\nEach step must be followed in sequence to arrive at the correct value of 19.",
+      "type": "mcq",
+      "question": "Evaluate the expression: 3(4 + 2^2) - 5",
+      "id": "MK-004"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "x = 3.5",
+        "x = 7",
+        "x = 5",
+        "x = 28"
+      ],
+      "explanation": "To solve for x, we perform inverse operations to isolate the variable.\nStep 1: Add 7 to both sides of the equation: 4x - 7 + 7 = 21 + 7, which simplifies to 4x = 28.\nStep 2: Divide both sides by 4: 4x / 4 = 28 / 4, which simplifies to x = 7.",
+      "type": "mcq",
+      "question": "Solve for x: 4x - 7 = 21",
+      "id": "MK-005"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "x^2",
+        "x^17",
+        "x^7",
+        "x^12"
+      ],
+      "explanation": "First, apply the power of a power rule, which states that (x^a)^b = x^(a*b). \n(x^3)^4 = x^(3 × 4) = x^12. \nNext, apply the quotient rule, which states that x^a / x^b = x^(a - b). \nx^12 / x^5 = x^(12 - 5) = x^7. The simplified expression is x^7.",
+      "type": "mcq",
+      "question": "Simplify the following expression using the laws of exponents: (x^3)^4 / x^5",
+      "id": "MK-006"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "(x - 4)(x - 5)",
+        "(x - 2)(x - 10)",
+        "(x + 4)(x + 5)",
+        "(x - 1)(x - 20)"
+      ],
+      "explanation": "To factor x^2 - 9x + 20, we look for two numbers that multiply to the constant term (+20) and add up to the linear coefficient (-9).\nTesting pairs: (-4) × (-5) = 20 and (-4) + (-5) = -9.\nThese numbers satisfy both conditions. Thus, the factored form is (x - 4)(x - 5).",
+      "type": "mcq",
+      "question": "Factor the trinomial completely: x^2 - 9x + 20",
+      "id": "MK-007"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "14 inches",
+        "10 inches",
+        "48 inches",
+        "100 inches"
+      ],
+      "explanation": "According to the Pythagorean theorem, a^2 + b^2 = c^2, where a and b are the legs and c is the hypotenuse.\nStep 1: 6^2 + 8^2 = c^2.\nStep 2: 36 + 64 = c^2.\nStep 3: 100 = c^2.\nStep 4: Take the square root of both sides: sqrt(100) = 10. The hypotenuse is 10 inches.",
+      "type": "mcq",
+      "question": "A right triangle has legs measuring 6 inches and 8 inches. What is the length of the hypotenuse?",
+      "id": "MK-008"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "x = 4, y = 6",
+        "x = 5, y = 5",
+        "x = 6, y = 4",
+        "x = 7, y = 3"
+      ],
+      "explanation": "We can use the elimination method by adding the two equations together.\n(x + y) + (x - y) = 10 + 2\n2x = 12\nx = 6.\nNow substitute x = 6 into the first equation: 6 + y = 10. Subtract 6 from both sides to find y = 4. The solution is (6, 4).",
+      "type": "mcq",
+      "question": "Solve the system of equations for x and y: \nx + y = 10 \nx - y = 2",
+      "id": "MK-009"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "2",
+        "1/2",
+        "-1/2",
+        "-2"
+      ],
+      "explanation": "The slope (m) formula is m = (y2 - y1) / (x2 - x1). \nUsing the points (x1, y1) = (2, 5) and (x2, y2) = (4, 1):\nm = (1 - 5) / (4 - 2).\nm = -4 / 2.\nm = -2. \nA negative slope indicates the line moves downward as it moves from left to right.",
+      "type": "mcq",
+      "question": "What is the slope of the line that passes through the coordinates (2, 5) and (4, 1)?",
+      "id": "MK-010"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "4y^6 / x^4",
+        "2y^5 / x^4",
+        "4x^4y^6",
+        "2y^6 / x^4"
+      ],
+      "explanation": "Apply the power of a product rule, raising each term inside the parentheses to the power of 2:\n1. 2^2 = 4.\n2. (x^-2)^2 = x^(-2 * 2) = x^-4.\n3. (y^3)^2 = y^(3 * 2) = y^6.\nThe expression is now 4 * x^-4 * y^6. To eliminate the negative exponent, move x^-4 to the denominator: 4y^6 / x^4.",
+      "type": "mcq",
+      "question": "Simplify the expression: (2x^-2 y^3)^2",
+      "id": "MK-011"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "4*pi",
+        "16*pi",
+        "32*pi",
+        "8*pi"
+      ],
+      "explanation": "Step 1: Use the area formula Area = pi * r^2 to find the radius. \n16*pi = pi * r^2. Dividing by pi gives 16 = r^2, so r = 4. \nStep 2: Use the circumference formula C = 2 * pi * r. \nC = 2 * pi * 4 = 8*pi. Therefore, the circumference of the circle is 8*pi units.",
+      "type": "mcq",
+      "question": "If the area of a circle is 16*pi square units, what is its circumference?",
+      "id": "MK-012"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "(x - 2) / (x + 3)",
+        "(x + 2) / (x + 3)",
+        "(x - 2) / (x - 3)",
+        "(x + 2) / (x - 3)"
+      ],
+      "explanation": "First, factor both the numerator and the denominator.\nNumerator: x^2 - 4 is a difference of squares: (x - 2)(x + 2).\nDenominator: x^2 + 5x + 6 is a trinomial that factors into (x + 2)(x + 3).\nThe expression becomes: [(x - 2)(x + 2)] / [(x + 2)(x + 3)].\nCancel the common factor (x + 2) from the numerator and denominator, leaving (x - 2) / (x + 3).",
+      "type": "mcq",
+      "question": "Simplify the rational expression: (x^2 - 4) / (x^2 + 5x + 6)",
+      "id": "MK-013"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "18",
+        "3",
+        "9",
+        "81"
+      ],
+      "explanation": "A fractional exponent a^(m/n) can be evaluated as the n-th root of a raised to the power of m: (root n of a)^m.\nStep 1: Find the cube root (n=3) of 27. The number that multiplied by itself three times equals 27 is 3 (since 3 × 3 × 3 = 27).\nStep 2: Square the result (m=2). 3^2 = 9. So, 27^(2/3) = 9.",
+      "type": "mcq",
+      "question": "Find the value of the expression: 27^(2/3)",
+      "id": "MK-014"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "59",
+        "63",
+        "55",
+        "60"
+      ],
+      "explanation": "The formula for the n-th term of an arithmetic sequence is an = a1 + (n - 1)d.\nStep 1: Identify the values: a1 = 3, d = 4, and n = 15.\nStep 2: Substitute values into the formula: a15 = 3 + (15 - 1) × 4.\nStep 3: Simplify the parenthesis: a15 = 3 + (14) × 4.\nStep 4: Multiply: 14 × 4 = 56.\nStep 5: Add: 3 + 56 = 59.",
+      "type": "mcq",
+      "question": "Determine the 15th term of an arithmetic sequence where the first term (a1) is 3 and the common difference (d) is 4.",
+      "id": "MK-015"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "3",
+        "30",
+        "60",
+        "180"
+      ],
+      "explanation": "To find the least common multiple (LCM), we first find the prime factorization of each number.\n12 = 2 × 2 × 3 (or 2² × 3¹)\n15 = 3 × 5 (or 3¹ × 5¹)\nThe LCM is found by taking the highest power of each prime factor present: 2² × 3¹ × 5¹.\nCalculation: 2 × 2 = 4.\n4 × 3 = 12.\n12 × 5 = 60.\nTherefore, 60 is the smallest number that is a multiple of both 12 and 15.",
+      "type": "mcq",
+      "question": "What is the least common multiple (LCM) of 12 and 15?",
+      "id": "MK-016"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "7x - 3",
+        "13x - 27",
+        "10x - 15",
+        "7x - 27"
+      ],
+      "explanation": "First, use the distributive property to multiply the terms inside the parentheses.\n5 × 2x = 10x\n5 × -3 = -15\nNext, distribute the -3 across the second set of parentheses:\n-3 × x = -3x\n-3 × 4 = -12\nCombine the results: 10x - 15 - 3x - 12.\nGroup like terms together: (10x - 3x) + (-15 - 12).\n10x - 3x = 7x\n-15 - 12 = -27\nThe simplified expression is 7x - 27.",
+      "type": "mcq",
+      "question": "Simplify the algebraic expression: 5(2x - 3) - 3(x + 4)",
+      "id": "MK-017"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "8 cm",
+        "12 cm",
+        "10 cm",
+        "14 cm"
+      ],
+      "explanation": "We use the Pythagorean theorem: a² + b² = c², where 'a' and 'b' are the legs and 'c' is the hypotenuse.\nGiven: a = 5 and c = 13.\n5² + b² = 13²\nCalculation: 5 × 5 = 25.\nCalculation: 13 × 13 = 169.\n25 + b² = 169\nSubtract 25 from both sides: b² = 169 - 25.\nCalculation: 169 - 25 = 144.\nNow find the square root: b = sqrt(144).\nCalculation: sqrt(144) = 12.\nThe length of the other leg is 12 cm.",
+      "type": "mcq",
+      "question": "In a right triangle, one leg measures 5 cm and the hypotenuse measures 13 cm. What is the length of the other leg?",
+      "id": "MK-018"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "5",
+        "7",
+        "sqrt(7)",
+        "25"
+      ],
+      "explanation": "To find the distance between two points (x1, y1) and (x2, y2), use the distance formula: d = sqrt((x2 - x1)² + (y2 - y1)²).\nIdentify coordinates: x1 = 1, y1 = -2, x2 = 4, y2 = 2.\nSubtract x-coordinates: 4 - 1 = 3.\nSubtract y-coordinates: 2 - (-2) = 2 + 2 = 4.\nSquare the differences: 3² = 9 and 4² = 16.\nAdd the squared values: 9 + 16 = 25.\nTake the square root of the sum: sqrt(25) = 5.\nThe distance between the points is 5 units.",
+      "type": "mcq",
+      "question": "Find the distance between the points (1, -2) and (4, 2) in the Cartesian plane.",
+      "id": "MK-019"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "1",
+        "xy",
+        "-1",
+        "(x + y) / (xy)"
+      ],
+      "explanation": "First, simplify the numerator by finding a common denominator for (1/x) and (1/y), which is xy.\n(1/x) becomes (y/xy) and (1/y) becomes (x/xy).\nSo, the numerator is (y - x) / xy.\nThe full expression is now ((y - x) / xy) / ((x - y) / xy).\nTo divide fractions, multiply by the reciprocal of the divisor: ((y - x) / xy) × (xy / (x - y)).\nThe xy in the numerator and denominator cancel out, leaving (y - x) / (x - y).\nSince (y - x) = -1(x - y), the expression becomes -1(x - y) / (x - y), which simplifies to -1.",
+      "type": "mcq",
+      "question": "Simplify the complex rational expression: ((1 / x) - (1 / y)) / ((x - y) / (xy))",
+      "id": "MK-020"
+    }
+  ]
 }

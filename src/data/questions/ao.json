@@ -1,5 +1,156 @@
 {
   "_comment": "Assembling Objects (AO) questions. Each item must be type 'diagram'. Required fields: id (string, e.g. 'AO-001'), sectionId ('AO'), difficulty ('easy'|'medium'|'hard'), type ('diagram'), diagramUrl (path under /public, e.g. '/diagrams/ao/AO-001.png'), altText (string — describes the diagram for screen readers), question (string), options (string[4]), correctIndex (0–3), explanation (string).",
   "sectionId": "AO",
-  "questions": []
+  "questions": [
+    {
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Square",
+        "Rhombus",
+        "Trapezoid",
+        "Rectangle"
+      ],
+      "explanation": "An equilateral triangle has three equal sides. When two of these triangles are joined along a common side, the resulting figure has four equal exterior sides of 5 inches each. A quadrilateral with four equal sides is a rhombus. On the actual ASVAB, Assembling Objects questions use diagrams to show how these pieces are moved and connected spatially.",
+      "type": "mcq",
+      "question": "Two identical equilateral triangles, each with side lengths of 5 inches, are joined together along one of their sides so that no parts overlap. What is the name of the resulting four-sided geometric shape?",
+      "id": "AO-001"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "An oval",
+        "A rectangle",
+        "A circle",
+        "A cylinder"
+      ],
+      "explanation": "A semicircle is exactly half of a circle, created by cutting a circle along its diameter. When two identical semicircles are joined along their straight diameter edges, they reconstruct the original whole circle. This basic spatial reasoning task requires visualizing how flat edges align to form a continuous curved boundary. On the ASVAB, this would be presented with a line-drawing diagram.",
+      "type": "mcq",
+      "question": "Two identical semicircles with a diameter of 10 inches are placed such that their straight edges are perfectly aligned and touching. What shape is formed by this assembly?",
+      "id": "AO-002"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "6 inches by 6 inches",
+        "2 inches by 18 inches",
+        "6 inches by 12 inches",
+        "4 inches by 6 inches"
+      ],
+      "explanation": "When rectangles are placed side-by-side along their longest sides (6 inches), the height of the assembly remains 6 inches. The width of the new shape is the sum of the widths of the individual rectangles. Since there are three rectangles each 2 inches wide, the total width is 2 + 2 + 2 = 6 inches. A 6x6 rectangle is also known as a square.",
+      "type": "mcq",
+      "question": "Three identical rectangles, each measuring 2 inches by 6 inches, are placed side-by-side so that their 6-inch sides are touching. What are the dimensions of the new larger rectangle formed?",
+      "id": "AO-003"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "12 inches",
+        "18 inches",
+        "24 inches",
+        "36 inches"
+      ],
+      "explanation": "To form a larger square from four smaller squares, they must be arranged in a 2x2 grid. This makes the side length of the new large square equal to two small square sides (3 + 3 = 6 inches). The perimeter of a square is calculated by multiplying the side length by four. Therefore, 6 inches multiplied by 4 equals 24 inches. On the ASVAB, you would see the transition from four separate squares to the combined unit.",
+      "type": "mcq",
+      "question": "Four identical squares with side lengths of 3 inches are arranged to form one larger square. What is the perimeter of the resulting large square?",
+      "id": "AO-004"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "At the bottom, extending to the left",
+        "At the bottom, extending to the right",
+        "At the top, extending to the left",
+        "In the middle, extending to the right"
+      ],
+      "explanation": "A 180-degree rotation flips an object both vertically and horizontally. The original short line was at the 'top', so after rotation, it is at the 'bottom'. The original short line extended to the 'right', so after rotation, it extends to the 'left'. Mental rotation is a key component of the Assembling Objects subtest, where you must predict the orientation of shapes after movement.",
+      "type": "mcq",
+      "question": "A shape consists of a long vertical line with a short horizontal line attached to the top, extending to the right (resembling a flipped letter 'L' or a '7'). If this shape is rotated 180 degrees in a 2D plane, what is the new position of the short horizontal line?",
+      "id": "AO-005"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Circle",
+        "Rectangle",
+        "Triangle",
+        "Ellipse"
+      ],
+      "explanation": "The cross-section of a 3D object depends on the angle of the cut. A cut parallel to the base of a cylinder produces a circle. A cut perpendicular to the base produces a rectangle. Any diagonal cut that passes through the vertical sides of a cylinder without intersecting the bases results in an ellipse (an elongated circle). Visualizing these 3D interactions is essential for high-level AO performance.",
+      "type": "mcq",
+      "question": "A solid cylinder is standing upright on its circular base. If a flat, diagonal cut is made entirely through the cylinder at a 45-degree angle to the base, what is the shape of the surface created by the cut?",
+      "id": "AO-006"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "The square on the far left",
+        "The top square of the vertical row",
+        "The bottom square of the vertical row",
+        "The second square from the bottom"
+      ],
+      "explanation": "In this specific 'cross' net, the central square of the cross (the second from the top) acts as a base or side. The squares attached to its left and right will fold up to become opposite faces of the cube. Spatial visualization requires mentally folding these 2D patterns into 3D shapes to determine which faces end up parallel (opposite) to one another.",
+      "type": "mcq",
+      "question": "A cardboard net for a cube is laid flat. It consists of four squares in a vertical row, with one extra square attached to the left side of the second square from the top, and one extra square attached to the right side of the second square from the top. When folded into a cube, which square will be opposite the square on the far right?",
+      "id": "AO-007"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "explanation": "First, determine the total area. The 3x2 rectangle has an area of 6 square inches (3 × 2 = 6). Each L-shaped piece is made of three 1x1 squares, so each piece has an area of 3 square inches. Dividing the total area by the area per piece (6 / 3 = 2) shows that 2 pieces are needed. Spatially, one piece can be rotated 180 degrees and fitted into the other to form the rectangle.",
+      "type": "mcq",
+      "question": "An 'L-shaped' piece is made by joining three 1x1 inch squares. Two squares form a vertical column, and the third is attached to the right of the bottom square. How many of these pieces are needed to perfectly cover a rectangle that is 3 inches wide and 2 inches tall?",
+      "id": "AO-008"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "Pointing to the right",
+        "Pointing downward",
+        "Pointing to the left",
+        "Pointing upward"
+      ],
+      "explanation": "Rotating an object 180 degrees around a horizontal axis is equivalent to flipping it upside down. The face that was originally the 'top' becomes the 'bottom'. Since the pyramid was attached to the top face and pointed 'upward' away from the cube, after the flip, it will be underneath the cube and pointing 'downward'. This task tests 3D mental manipulation, a complex aspect of spatial reasoning.",
+      "type": "mcq",
+      "question": "A 3D object consists of a cube with a small pyramid attached to the center of its top face. If the entire object is rotated 180 degrees around its horizontal axis (flipped upside down), what is the new orientation of the pyramid's point (vertex)?",
+      "id": "AO-009"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "A square pyramid",
+        "A triangular prism",
+        "A tetrahedron",
+        "A cube"
+      ],
+      "explanation": "The central 3x3 square serves as the base of the object. The four triangles attached to the sides of the square fold upward to form the slanted lateral faces. When the vertices (tips) of these four triangles meet at a single point directly above the center of the base, the resulting three-dimensional figure is a square pyramid. This requires visualizing how 2D 'nets' transition into 3D solids.",
+      "type": "mcq",
+      "question": "A flat template consists of a central 3x3 inch square. Attached to each of the four sides of this central square is a triangle with a base of 3 inches and a height of 4 inches. When the four triangles are folded upward until their tips meet, what 3D shape is formed?",
+      "id": "AO-010"
+    }
+  ]
 }

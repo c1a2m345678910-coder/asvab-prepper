@@ -1,5 +1,156 @@
 {
   "_comment": "Auto & Shop Information (AS) questions. Each item must be type 'mcq'. Required fields: id (string, e.g. 'AS-001'), sectionId ('AS'), difficulty ('easy'|'medium'|'hard'), type ('mcq'), question (string), options (string[4]), correctIndex (0–3), explanation (string).",
   "sectionId": "AS",
-  "questions": []
+  "questions": [
+    {
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Water pump",
+        "Thermostat",
+        "Radiator",
+        "Expansion tank"
+      ],
+      "explanation": "The radiator is a heat exchanger located at the front of the vehicle. As hot coolant flows through its small internal tubes, heat is transferred to the metal fins. Air passing over these fins, driven by either the vehicle's movement or a cooling fan, removes the heat before the coolant returns to the engine.",
+      "type": "mcq",
+      "question": "Which component of an automotive cooling system is responsible for dissipating heat from the coolant into the outside air?",
+      "id": "AS-001"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 0,
+      "options": [
+        "Ball-peen hammer",
+        "Claw hammer",
+        "Rubber mallet",
+        "Sledgehammer"
+      ],
+      "explanation": "A ball-peen hammer features a flat striking face on one side and a rounded 'peen' on the other. Unlike a claw hammer, which is designed to pull nails from wood, the ball-peen hammer is made of hardened steel suitable for shaping metal, setting rivets, and striking metal tools like cold chisels without damaging the hammer head.",
+      "type": "mcq",
+      "question": "Which type of hammer is specifically designed for metalworking and striking punches or chisels?",
+      "id": "AS-002"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "To increase the speed at which bolts are tightened",
+        "To reach fasteners located in tight, narrow spaces",
+        "To measure the diameter of a bolt before installation",
+        "To apply a specific, calibrated amount of rotational force to a fastener"
+      ],
+      "explanation": "A torque wrench is a precision tool used to ensure that fasteners, such as cylinder head bolts or lug nuts, are tightened to the manufacturer's exact specifications. This prevents components from warping, ensures even clamping pressure, and avoids the risk of stripping threads or snapping bolts by over-tightening them.",
+      "type": "mcq",
+      "question": "What is the primary purpose of using a torque wrench during engine assembly?",
+      "id": "AS-003"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "The intake valve opens to let air and fuel enter the cylinder",
+        "The piston moves upward with both valves closed to pressurize the air-fuel mixture",
+        "The spark plug fires and forces the piston downward to create power",
+        "The exhaust valve opens to allow burned gases to exit the cylinder"
+      ],
+      "explanation": "During the compression stroke, the crankshaft pushes the piston from the bottom to the top of the cylinder. Both the intake and exhaust valves remain tightly closed, sealing the combustion chamber. This upward movement compresses the air-fuel mixture into a much smaller volume, increasing its temperature and pressure for more efficient combustion.",
+      "type": "mcq",
+      "question": "In a four-stroke internal combustion engine, what occurs during the compression stroke?",
+      "id": "AS-004"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "The brake fluid level is too low in the master cylinder",
+        "The brake pads have become contaminated with grease",
+        "The brake rotors have become warped or have uneven thickness",
+        "The vacuum booster has a leaking internal diaphragm"
+      ],
+      "explanation": "A pulsating brake pedal is usually a symptom of 'runout' or warped rotors in a disc brake system. As the brake pads clamp down on a rotor that is no longer perfectly flat, the pads are pushed back and forth, sending hydraulic pulses through the brake lines that the driver feels in the pedal.",
+      "type": "mcq",
+      "question": "If a driver experiences a rhythmic pulsating sensation in the brake pedal while slowing down from high speeds, what is the most likely mechanical fault?",
+      "id": "AS-005"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "By the number of radial lines marked on the bolt head",
+        "By the color of the zinc plating on the bolt shank",
+        "By the width of the hex head across the flats",
+        "By the total length of the bolt measured from the head to the tip"
+      ],
+      "explanation": "In the SAE marking system, bolt strength is indicated by raised lines on the head. A Grade 2 bolt has no lines; a Grade 5 bolt has three lines; and a Grade 8 bolt (high strength) has six lines. To determine the grade, you generally add two to the number of lines shown on the head.",
+      "type": "mcq",
+      "question": "When identifying SAE (Standard) bolts, how is the strength or 'grade' of the bolt determined?",
+      "id": "AS-006"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "The anvil",
+        "The ratchet stop",
+        "The frame",
+        "The thimble"
+      ],
+      "explanation": "While the thimble is used for rapid adjustment, the ratchet stop (located at the end of the handle) is designed to slip once a specific amount of pressure is applied. Using the ratchet stop ensures that every measurement is taken with the same amount of force, which prevents the user from over-tightening the tool and getting an inaccurate reading.",
+      "type": "mcq",
+      "question": "Which specific part of an outside micrometer should be used to apply the final, consistent pressure against the object being measured?",
+      "id": "AS-007"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "To shift the transmission into the highest possible gear ratio",
+        "To disconnect the engine from the transmission during braking",
+        "To equalize the torque between the front and rear axles",
+        "To allow the drive wheels to rotate at different speeds while the vehicle turns"
+      ],
+      "explanation": "When a vehicle rounds a corner, the outside wheel must travel a longer path than the inside wheel in the same amount of time. The differential uses a set of planetary gears to split engine torque between the two wheels while allowing them to spin at different RPMs, preventing tire scrubbing and drivetrain binding.",
+      "type": "mcq",
+      "question": "What is the primary function of the differential in a vehicle's drivetrain?",
+      "id": "AS-008"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "Camber",
+        "Caster",
+        "Toe-in",
+        "Steering axis inclination"
+      ],
+      "explanation": "Camber is the measure of the tire's vertical tilt. If the top of the tire tilts outward, it is positive camber; if it tilts inward toward the engine, it is negative camber. Proper camber is essential for maintaining an even tire contact patch during cornering and preventing premature wear on the inside or outside edges of the tread.",
+      "type": "mcq",
+      "question": "Which wheel alignment angle refers to the inward or outward tilt of the top of the tire when viewed from the front of the vehicle?",
+      "id": "AS-009"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "The battery is simply discharged and needs a slow trickle charge",
+        "The alternator is overcharging the battery and boiling the electrolyte",
+        "The cell is defective or shorted and the battery likely needs replacement",
+        "The electrolyte level is too high and needs to be drained"
+      ],
+      "explanation": "A hydrometer measures the density (specific gravity) of the electrolyte, which changes based on the concentration of sulfuric acid. While a low reading across all cells indicates a discharged battery, a single low cell indicates a localized internal failure, such as a short circuit or plate sulfation, meaning the battery can no longer hold a full charge.",
+      "type": "mcq",
+      "question": "When testing a conventional lead-acid battery with a hydrometer, a technician finds that one cell has a significantly lower specific gravity reading than the others. What does this result indicate?",
+      "id": "AS-010"
+    }
+  ]
 }

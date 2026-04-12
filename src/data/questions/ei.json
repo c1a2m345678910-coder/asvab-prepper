@@ -1,5 +1,156 @@
 {
   "_comment": "Electronics Information (EI) questions. Each item must be type 'mcq'. Required fields: id (string, e.g. 'EI-001'), sectionId ('EI'), difficulty ('easy'|'medium'|'hard'), type ('mcq'), question (string), options (string[4]), correctIndex (0–3), explanation (string).",
   "sectionId": "EI",
-  "questions": []
+  "questions": [
+    {
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Current",
+        "Resistance",
+        "Voltage",
+        "Power"
+      ],
+      "explanation": "Voltage is defined as the electrical pressure or potential difference between two points in a circuit. It is measured in volts (V) and represents the energy available to push charge through a conductor. Without voltage, no current would flow, much like water requires pressure to move through a pipe.",
+      "type": "mcq",
+      "question": "Which of the following terms describes the electrical pressure or potential difference that causes electrons to flow through a conductor?",
+      "id": "EI-001"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "AND gate",
+        "OR gate",
+        "NOT gate",
+        "NAND gate"
+      ],
+      "explanation": "A NOT gate is a fundamental digital logic gate that performs logical negation. If the input signal is a logic high (1), the output will be a logic low (0). Conversely, if the input is low (0), the output is high (1). This component is frequently referred to as an inverter in circuit design.",
+      "type": "mcq",
+      "question": "In digital electronics, which logic gate is known as an 'inverter' because it outputs the opposite state of its input?",
+      "id": "EI-002"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "8 amperes",
+        "1800 amperes",
+        "0.125 amperes",
+        "135 amperes"
+      ],
+      "explanation": "Step 1: Identify the given values: Voltage (V) = 120 V and Resistance (R) = 15 Ω. Step 2: Use Ohm's Law, which states I = V / R. Step 3: Substitute the values: I = 120 V / 15 Ω = 8 amperes. Current is the actual flow of charge, and resistance limits this flow proportional to the voltage.",
+      "type": "mcq",
+      "question": "If a 120 V circuit is connected to a heating element with a resistance of 15 Ω, what is the current flowing through the element?",
+      "id": "EI-003"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "To increase the voltage for downstream components",
+        "To store electrical energy for use during power surges",
+        "To convert Alternating Current (AC) into Direct Current (DC)",
+        "To protect the circuit by breaking the path if current becomes excessive"
+      ],
+      "explanation": "Fuses are safety devices designed to protect electrical circuits from damage caused by overcurrent or short circuits. They contain a thin metal strip that melts when the current exceeds a specific threshold, thereby opening the circuit and stopping the flow. Unlike circuit breakers, fuses must be replaced once they have blown to restore operation.",
+      "type": "mcq",
+      "question": "What is the primary purpose of a fuse in an electrical circuit?",
+      "id": "EI-004"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "5 Ω",
+        "50 Ω",
+        "3750 Ω",
+        "0.02 Ω"
+      ],
+      "explanation": "In a series circuit, the total resistance (Rt) is found by adding all individual resistances together. Step 1: Identify the resistor values: R1 = 10 Ω, R2 = 25 Ω, and R3 = 15 Ω. Step 2: Apply the formula Rt = R1 + R2 + R3. Step 3: Calculate the sum: Rt = 10 + 25 + 15 = 50 Ω.",
+      "type": "mcq",
+      "question": "A circuit contains three resistors in series with values of 10 Ω, 25 Ω, and 15 Ω. What is the total resistance of the circuit?",
+      "id": "EI-005"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "40 Ω",
+        "20 Ω",
+        "10 Ω",
+        "5 Ω"
+      ],
+      "explanation": "For resistors in parallel, the equivalent resistance (Req) is calculated using the reciprocal formula. Step 1: Identify R1 = 20 Ω and R2 = 20 Ω. Step 2: Use the formula Req = (R1 * R2) / (R1 + R2). Step 3: Calculate the values: (20 * 20) / (20 + 20) = 400 / 40 = 10 Ω. Note that parallel resistance is always lower than the smallest branch resistor.",
+      "type": "mcq",
+      "question": "Two 20 Ω resistors are connected in parallel. What is the equivalent resistance of this specific combination?",
+      "id": "EI-006"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "2 Watts",
+        "12 Watts",
+        "288 Watts",
+        "48 Watts"
+      ],
+      "explanation": "To calculate power (P), we first find current (I) using Ohm's Law. Step 1: I = V / R = 24 V / 12 Ω = 2 Amperes. Step 2: Use the power formula P = V * I. Step 3: P = 24 V * 2 A = 48 Watts. Alternatively, you could use P = V² / R, which is (24 * 24) / 12 = 576 / 12 = 48 Watts.",
+      "type": "mcq",
+      "question": "A 24-volt light bulb has a measured resistance of 12 Ω. How much power is consumed by the bulb during normal operation?",
+      "id": "EI-007"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "24 V AC",
+        "600 V AC",
+        "12 V AC",
+        "240 V AC"
+      ],
+      "explanation": "The voltage ratio of a transformer is directly proportional to its turns ratio. Step 1: Identify primary voltage (Vp = 120 V), primary turns (Np = 500), and secondary turns (Ns = 100). Step 2: Use the formula Vs = Vp * (Ns / Np). Step 3: Calculate: Vs = 120 * (100 / 500) = 120 * 0.2 = 24 V AC.",
+      "type": "mcq",
+      "question": "A step-down transformer has a primary coil with 500 turns and a secondary coil with 100 turns. If the input primary voltage is 120 V AC, what is the output secondary voltage?",
+      "id": "EI-008"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "The base must be negative relative to the emitter",
+        "The base must be approximately 0.7V higher than the emitter",
+        "The base must be at the same potential as the collector",
+        "The emitter must be at a higher voltage than both the base and collector"
+      ],
+      "explanation": "For an NPN transistor to 'turn on' and conduct current from collector to emitter, the base-emitter PN junction must be forward-biased. In silicon-based transistors, this typically requires the base to be approximately 0.7 volts higher than the emitter. This voltage provides the energy needed for electrons to cross the barrier between the P-type base and N-type emitter.",
+      "type": "mcq",
+      "question": "In an NPN bipolar junction transistor (BJT), what must be the general voltage relationship between the base and emitter to allow the transistor to conduct in the active region?",
+      "id": "EI-009"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "20 μF",
+        "100 μF",
+        "1 μF",
+        "5 μF"
+      ],
+      "explanation": "When capacitors are connected in series, their total capacitance (Ct) is found using a reciprocal formula, similar to resistors in parallel. Step 1: Identify C1 = 10 μF and C2 = 10 μF. Step 2: Use the formula 1/Ct = 1/C1 + 1/C2. Step 3: Calculate 1/Ct = 1/10 + 1/10 = 2/10. Therefore, Ct = 10 / 2 = 5 μF.",
+      "type": "mcq",
+      "question": "Two capacitors, each rated at 10 μF, are connected in series. What is the total capacitance of this arrangement?",
+      "id": "EI-010"
+    }
+  ]
 }

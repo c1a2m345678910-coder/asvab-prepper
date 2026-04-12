@@ -1,5 +1,156 @@
 {
   "_comment": "General Science (GS) questions. Each item in 'questions' must be type 'mcq'. Required fields per question: id (string, e.g. 'GS-001'), sectionId ('GS'), difficulty ('easy'|'medium'|'hard'), type ('mcq'), question (string), options (string[4]), correctIndex (0–3), explanation (string).",
   "sectionId": "GS",
-  "questions": []
+  "questions": [
+    {
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Nucleus",
+        "Cell Wall",
+        "Mitochondrion",
+        "Cytoplasm"
+      ],
+      "explanation": "Plant cells possess a rigid cell wall made of cellulose that provides structural support and protection, whereas animal cells only have a flexible cell membrane. Other structures such as the nucleus, mitochondria, and cytoplasm are common to both types of eukaryotic cells and perform similar functions.",
+      "type": "mcq",
+      "question": "Which structure is found in plant cells but generally absent in animal cells?",
+      "id": "GS-001"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Condensation",
+        "Evaporation",
+        "Sublimation",
+        "Melting"
+      ],
+      "explanation": "Sublimation occurs when a substance gains enough thermal energy to skip the liquid phase and transition directly from a solid to a gas. A common example is dry ice (solid carbon dioxide) at room temperature. In contrast, condensation is gas to liquid, and evaporation is liquid to gas.",
+      "type": "mcq",
+      "question": "What process describes a solid changing directly into a gas without becoming a liquid first?",
+      "id": "GS-002"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "explanation": "The troposphere is the lowest layer of the atmosphere, extending from the Earth's surface to about 12 kilometers high. It contains approximately 75% of the atmosphere's total mass and almost all of its water vapor and aerosols, which is why clouds and weather patterns form in this layer.",
+      "type": "mcq",
+      "question": "In which layer of the Earth's atmosphere does nearly all weather occur?",
+      "id": "GS-003"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "First Law",
+        "Second Law",
+        "Law of Universal Gravitation",
+        "Third Law"
+      ],
+      "explanation": "Newton's Third Law of Motion explains that forces always exist in pairs. If Object A exerts a force on Object B, Object B exerts a force of equal magnitude and opposite direction back on Object A. The First Law concerns inertia, while the Second Law relates force to mass and acceleration.",
+      "type": "mcq",
+      "question": "Which of Newton's laws states that for every action, there is an equal and opposite reaction?",
+      "id": "GS-004"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Right Atrium",
+        "Right Ventricle",
+        "Left Atrium",
+        "Left Ventricle"
+      ],
+      "explanation": "The left ventricle has the thickest muscular walls of the four chambers because it must generate enough pressure to pump oxygen-rich blood through the aorta to the entire systemic circulation. The right side of the heart handles deoxygenated blood, while the left atrium receives oxygenated blood from the lungs.",
+      "type": "mcq",
+      "question": "Which chamber of the human heart is responsible for pumping oxygenated blood directly into the aorta for distribution to the rest of the body?",
+      "id": "GS-005"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "Endothermic",
+        "Exothermic",
+        "Isothermal",
+        "Synthesis"
+      ],
+      "explanation": "In an exothermic reaction, the energy required to break the bonds of the reactants is less than the energy released when new bonds form in the products. This net release of energy causes the temperature of the surrounding environment to rise. Conversely, endothermic reactions absorb heat from the surroundings.",
+      "type": "mcq",
+      "question": "A chemical reaction that releases energy into its surroundings, usually in the form of heat, is classified as:",
+      "id": "GS-006"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "It is reduced to one-half",
+        "It doubles",
+        "It quadruples",
+        "It remains the same"
+      ],
+      "explanation": "The wave equation states that speed equals frequency multiplied by wavelength (v = f * λ). If the speed (v) is constant and the frequency (f) increases by a factor of two, the wavelength (λ) must decrease by a factor of two—becoming half its original size—to maintain the mathematical equality.",
+      "type": "mcq",
+      "question": "If the frequency of a sound wave is doubled while its speed remains constant, what happens to its wavelength?",
+      "id": "GS-007"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "A mid-ocean ridge",
+        "A transform fault",
+        "A subduction zone with a trench",
+        "A rift valley"
+      ],
+      "explanation": "Because oceanic crust is denser than continental crust, it is forced downward into the mantle in a process called subduction. This creates deep-sea trenches and often leads to the formation of volcanic mountain ranges on the overlying continental plate. Mid-ocean ridges and rift valleys occur at divergent boundaries.",
+      "type": "mcq",
+      "question": "At a convergent plate boundary where an oceanic plate meets a continental plate, which geological feature is most likely to form?",
+      "id": "GS-008"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "Homozygous dominant",
+        "Homozygous recessive",
+        "Heterozygous",
+        "Phenotypic"
+      ],
+      "explanation": "An organism is heterozygous for a gene when it possesses two different alleles—typically one dominant and one recessive—for that trait. 'Homozygous' refers to having two of the same alleles (either TT or tt). The phenotype is the physical expression of the trait, while the genotype is the genetic code.",
+      "type": "mcq",
+      "question": "If an organism has two different alleles for a specific trait, such as 'Tt' for plant height, its genotype is described as:",
+      "id": "GS-009"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "17",
+        "20",
+        "37",
+        "54"
+      ],
+      "explanation": "The mass number of an atom is defined as the sum of its protons and neutrons. To find the number of neutrons, you subtract the atomic number (number of protons) from the mass number. In this case, 37 (mass number) minus 17 (protons) equals 20 neutrons. Electrons do not contribute significantly to mass.",
+      "type": "mcq",
+      "question": "An isotope of an element has a mass number of 37 and contains 17 protons. How many neutrons are located in the nucleus of this atom?",
+      "id": "GS-010"
+    }
+  ]
 }

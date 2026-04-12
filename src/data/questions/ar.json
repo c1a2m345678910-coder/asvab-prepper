@@ -1,5 +1,306 @@
 {
   "_comment": "Arithmetic Reasoning (AR) questions — AFQT section. Each item must be type 'mcq'. Required fields: id (string, e.g. 'AR-001'), sectionId ('AR'), difficulty ('easy'|'medium'|'hard'), type ('mcq'), question (string word problem), options (string[4]), correctIndex (0–3), explanation (string).",
   "sectionId": "AR",
-  "questions": []
+  "questions": [
+    {
+      "sectionId": "AR",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "84 planks",
+        "96 planks",
+        "108 planks",
+        "120 planks"
+      ],
+      "explanation": "Step 1 — Identify the number of planks needed for one unit, which is 12 planks per bookshelf. Step 2 — Identify the total number of units required, which is 8 bookshelves. Step 3 — Multiply the planks per unit by the number of units: 12 × 8 = 96 planks.",
+      "type": "mcq",
+      "question": "A carpenter needs 12 wood planks to build a single bookshelf. If a client orders 8 bookshelves, how many planks must the carpenter purchase?",
+      "id": "AR-001"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "$18",
+        "$19",
+        "$21",
+        "$25"
+      ],
+      "explanation": "Step 1 — Calculate the remaining balance after the backpack purchase: $150 - $45 = $105. Step 2 — Divide the remaining amount by the number of textbooks to find the price per book: $105 ÷ 5 = $21. Each textbook costs exactly $21.00.",
+      "type": "mcq",
+      "question": "A student has $150 in her savings account. She spends $45 on a new backpack and uses the remaining money to buy 5 identical textbooks. How much does each textbook cost?",
+      "id": "AR-002"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "650 boxes",
+        "665 boxes",
+        "680 boxes",
+        "710 boxes"
+      ],
+      "explanation": "Step 1 — List all the quantities provided: 125, 340, and 215. Step 2 — Add the first two quantities: 125 + 340 = 465. Step 3 — Add the final quantity to the sum: 465 + 215 = 680. The total number of boxes is 680.",
+      "type": "mcq",
+      "question": "A logistics warehouse receives three separate shipments of electronics in one morning: 125 boxes, 340 boxes, and 215 boxes. What is the total number of boxes the warehouse received?",
+      "id": "AR-003"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "$63.00",
+        "$51.00",
+        "$66.00",
+        "$72.00"
+      ],
+      "explanation": "Step 1 — Calculate the cost of the gasoline: 15 gallons × $3.40 per gallon = $51.00. Step 2 — Add the cost of the car wash to the fuel total: $51.00 + $12.00 = $63.00. The total amount spent by the driver is $63.00.",
+      "type": "mcq",
+      "question": "Gasoline costs $3.40 per gallon. If a driver fills a vehicle with 15 gallons of gas and also purchases a premium car wash for $12.00, what is the total amount spent?",
+      "id": "AR-004"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "4.25 cups",
+        "4.5 cups",
+        "5.0 cups",
+        "5.5 cups"
+      ],
+      "explanation": "Step 1 — Identify the fraction of sugar needed per loaf: 3/4. Step 2 — Multiply the fraction by the number of loaves: (3/4) × 6. Step 3 — Calculate the numerator: 3 × 6 = 18. Step 4 — Divide by the denominator: 18 ÷ 4 = 4.5 cups.",
+      "type": "mcq",
+      "question": "A bakery recipe for a large loaf of bread requires 3/4 cup of sugar. If the baker needs to make 6 loaves of bread for a morning order, how many cups of sugar are required in total?",
+      "id": "AR-005"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "40 feet",
+        "70 feet",
+        "75 feet",
+        "80 feet"
+      ],
+      "explanation": "Step 1 — Recall the perimeter formula for a rectangle: P = 2 × (Length + Width). Step 2 — Add the length and width together: 25 + 15 = 40. Step 3 — Multiply the sum by 2 to account for all four sides: 40 × 2 = 80 feet.",
+      "type": "mcq",
+      "question": "A rectangular garden is 25 feet long and 15 feet wide. If a gardener wants to install a fence around the entire perimeter of the garden, how many feet of fencing are needed?",
+      "id": "AR-006"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "13,800 residents",
+        "13,500 residents",
+        "12,180 residents",
+        "14,200 residents"
+      ],
+      "explanation": "Step 1 — Calculate the amount of the increase: 12,000 × 0.15 = 1,800. Step 2 — Add the increase to the original population: 12,000 + 1,800 = 13,800. Alternatively, multiply the original population by 1.15: 12,000 × 1.15 = 13,800 residents.",
+      "type": "mcq",
+      "question": "A small town had a population of 12,000 residents last year. This year, the population increased by 15%. What is the new population of the town?",
+      "id": "AR-007"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "24 hours",
+        "28 hours",
+        "30 hours",
+        "35 hours"
+      ],
+      "explanation": "Step 1 — Find the time required to paint one room: 5 hours ÷ 2 rooms = 2.5 hours per room. Step 2 — Multiply the time per room by the total number of rooms to be painted: 2.5 hours × 12 rooms = 30 hours total.",
+      "type": "mcq",
+      "question": "If a professional painter can complete 2 rooms in 5 hours, how many hours will it take her to paint 12 rooms if she continues to work at the same consistent rate?",
+      "id": "AR-008"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "25 gears",
+        "27 gears",
+        "30 gears",
+        "75 gears"
+      ],
+      "explanation": "Step 1 — Set up a proportion: 3/5 = x/45, where x is the number of large gears. Step 2 — Determine the multiplier for the denominator: 45 ÷ 5 = 9. Step 3 — Apply the same multiplier to the numerator: 3 × 9 = 27 large gears.",
+      "type": "mcq",
+      "question": "In a mechanical gear assembly, the ratio of large gears to small gears is 3:5. If the assembly contains 45 small gears, how many large gears are present?",
+      "id": "AR-009"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "6 liters",
+        "10 liters",
+        "11 liters",
+        "12 liters"
+      ],
+      "explanation": "Step 1 — Calculate the total hours in 2 days: 24 hours/day × 2 days = 48 hours. Step 2 — Calculate total milliliters leaked: 48 hours × 250 mL/hour = 12,000 mL. Step 3 — Convert milliliters to liters: 12,000 mL ÷ 1,000 mL/L = 12 liters.",
+      "type": "mcq",
+      "question": "A damaged pipe leaks water at a constant rate of 250 milliliters per hour. How many total liters of water will leak out over a period of exactly 2 full days? (Note: 1,000 milliliters = 1 liter)",
+      "id": "AR-010"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "$270",
+        "$540",
+        "$810",
+        "$920"
+      ],
+      "explanation": "Step 1 — Identify the simple interest formula: Interest = Principal × Rate × Time. Step 2 — Calculate interest for one year: $4,500 × 0.06 = $270. Step 3 — Multiply the annual interest by the number of years: $270 × 3 = $810. The total interest is $810.",
+      "type": "mcq",
+      "question": "An electrician borrows $4,500 to purchase new equipment at a simple interest rate of 6% per year. How much total interest will he have paid after a period of 3 years?",
+      "id": "AR-011"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "36 cubic feet",
+        "30 cubic feet",
+        "45 cubic feet",
+        "60 cubic feet"
+      ],
+      "explanation": "Step 1 — Calculate the total volume of the crate: Volume = length × width × height = 4 ft × 3 ft × 5 ft = 60 cubic feet. Step 2 — Calculate 60% of the total volume: 60 × 0.60 = 36 cubic feet of packing material.",
+      "type": "mcq",
+      "question": "A rectangular shipping crate has a base measuring 4 feet by 3 feet and a height of 5 feet. If the crate is currently 60% full of packing material, what is the volume of the packing material?",
+      "id": "AR-012"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "410 miles",
+        "470 miles",
+        "440 miles",
+        "500 miles"
+      ],
+      "explanation": "Step 1 — Calculate the total miles needed for a 5-day average of 350: 350 × 5 = 1,750 miles. Step 2 — Calculate the miles already driven in the first 4 days: 320 × 4 = 1,280 miles. Step 3 — Subtract the miles driven from the total needed: 1,750 - 1,280 = 470 miles.",
+      "type": "mcq",
+      "question": "On the first 4 days of a cross-country delivery trip, a driver traveled an average of 320 miles per day. To achieve an overall average of 350 miles per day for a 5-day trip, how many miles must she drive on the fifth day?",
+      "id": "AR-013"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "2 chairs",
+        "3 chairs",
+        "1 chair",
+        "4 chairs"
+      ],
+      "explanation": "Step 1 — Let x be the number of chairs. Then (6 - x) is the number of desks. Step 2 — Set up the cost equation: 80x + 120(6 - x) = 560. Step 3 — Distribute: 80x + 720 - 120x = 560. Step 4 — Combine terms: -40x + 720 = 560. Step 5 — Solve: -40x = -160, so x = 4 chairs.",
+      "type": "mcq",
+      "question": "An office manager spent exactly $560 to buy a total of 6 pieces of furniture. Each chair cost $80 and each desk cost $120. How many chairs did the manager purchase?",
+      "id": "AR-014"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "48 mph",
+        "50 mph",
+        "52 mph",
+        "54 mph"
+      ],
+      "explanation": "Step 1 — Calculate distance for the first leg: 40 mph × 2 hours = 80 miles. Step 2 — Calculate distance for the second leg: 60 mph × 3 hours = 180 miles. Step 3 — Find total distance and total time: 80 + 180 = 260 miles; 2 + 3 = 5 hours. Step 4 — Average speed = total distance ÷ total time: 260 ÷ 5 = 52 mph.",
+      "type": "mcq",
+      "question": "A courier travels from Point A to Point B at a speed of 40 mph for 2 hours, and then travels from Point B to Point C at a speed of 60 mph for 3 hours. What was the average speed for the entire trip?",
+      "id": "AR-015"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "60 reams",
+        "70 reams",
+        "80 reams",
+        "90 reams"
+      ],
+      "explanation": "Step 1 — Identify the known quantities: there are 14 boxes and each box contains 5 reams. Step 2 — To find the total number of reams, multiply the number of boxes by the reams per box. Step 3 — Perform the calculation: 14 × 5 = 70. Therefore, the inventory contains 70 reams of paper.",
+      "type": "mcq",
+      "question": "An office supply clerk is organizing inventory. There are 14 boxes, and each box contains exactly 5 reams of printer paper. How many total reams of paper are in the inventory?",
+      "id": "AR-016"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "4 feet",
+        "5 feet",
+        "6 feet",
+        "7 feet"
+      ],
+      "explanation": "Step 1 — Calculate the total amount of wire already used: 14 feet + 11 feet = 25 feet. Step 2 — Subtract the used wire from the original roll to find the remainder: 50 feet - 25 feet = 25 feet. Step 3 — Divide the remaining 25 feet by the 5 equal pieces required: 25 ÷ 5 = 5 feet. Each piece is 5 feet long.",
+      "type": "mcq",
+      "question": "A homeowner buys a 50-foot roll of electrical wire for home repairs. He uses 14 feet for a kitchen outlet and 11 feet for a hallway light. He then cuts the remaining wire into 5 equal pieces for smaller repairs. How long is each of the 5 pieces?",
+      "id": "AR-017"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "$204.00",
+        "$214.20",
+        "$222.40",
+        "$252.00"
+      ],
+      "explanation": "Step 1 — Calculate the discount amount by multiplying the original price by the discount rate: $240.00 × 0.15 = $36.00. Step 2 — Subtract the discount from the original price to find the sale price: $240.00 - $36.00 = $204.00. Step 3 — Calculate the sales tax on the sale price: $204.00 × 0.05 = $10.20. Step 4 — Add the tax to the sale price: $204.00 + $10.20 = $214.20.",
+      "type": "mcq",
+      "question": "A professional chef purchases a high-end knife set originally priced at $240.00. The store provides a 15% professional discount. If a 5% sales tax is added to the price after the discount, what is the final total cost?",
+      "id": "AR-018"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "3.0 hours",
+        "3.5 hours",
+        "4.0 hours",
+        "4.5 hours"
+      ],
+      "explanation": "Step 1 — Calculate the distance covered in the first part of the trip: 45 mph × 2 hours = 90 miles. Step 2 — Find the remaining distance to the destination: 180 miles - 90 miles = 90 miles. Step 3 — Calculate the time needed for the remaining distance: 90 miles ÷ 60 mph = 1.5 hours. Step 4 — Sum the time from both segments: 2 hours + 1.5 hours = 3.5 hours total.",
+      "type": "mcq",
+      "question": "A transport convoy must travel a total distance of 180 miles. For the first 2 hours, the convoy travels at a steady speed of 45 mph. To reach the destination on time, the convoy increases its speed to 60 mph for the remainder of the trip. What is the total duration of the trip?",
+      "id": "AR-019"
+    },
+    {
+      "sectionId": "AR",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "$24.00",
+        "$48.00",
+        "$192.00",
+        "$240.00"
+      ],
+      "explanation": "Step 1 — Determine the total number of parts in the mixture ratio: 1 (cement) + 3 (sand) + 4 (gravel) = 8 parts. Step 2 — Calculate the weight of a single part: 1,600 pounds total ÷ 8 parts = 200 pounds per part. Step 3 — Determine the total weight of cement needed: 1 part × 200 pounds = 200 pounds of cement. Step 4 — Calculate the final cost: 200 pounds × $0.12 per pound = $24.00.",
+      "type": "mcq",
+      "question": "A construction contractor is mixing concrete using a ratio of 1 part cement, 3 parts sand, and 4 parts gravel by weight. If the contractor needs to produce exactly 1,600 pounds of this concrete mixture, and cement costs $0.12 per pound, what is the total cost of the cement required?",
+      "id": "AR-020"
+    }
+  ]
 }

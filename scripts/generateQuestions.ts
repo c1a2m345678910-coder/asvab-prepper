@@ -23,7 +23,7 @@
 import * as path from 'node:path';
 import * as fs from 'node:fs';
 import * as crypto from 'node:crypto';
-import Anthropic from '@anthropic-ai/sdk';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 import { config as loadDotenv } from 'dotenv';
 import { z } from 'zod';
 import {
@@ -43,7 +43,7 @@ const QUESTIONS_DIR = path.join(PROJECT_ROOT, 'src', 'data', 'questions');
 
 // ── Constants ──────────────────────────────────────────────────────────────
 
-const MODEL = 'claude-sonnet-4-6';
+const MODEL = 'gemini-3-flash-preview';
 const MAX_TOKENS = 8000;
 /** Questions requested per API call. Smaller = more focused, more API calls. */
 const BATCH_SIZE = 15;
@@ -460,27 +460,23 @@ async function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function callClaude(
-  anthropic: Anthropic,
+async function callGemini(
+  genAI: GoogleGenerativeAI,
   systemPrompt: string,
   userPrompt: string,
 ): Promise<string> {
-  const response = await anthropic.messages.create({
+  const model = genAI.getGenerativeModel({
     model: MODEL,
-    max_tokens: MAX_TOKENS,
-    system: systemPrompt,
-    messages: [
-      { role: 'user', content: userPrompt },
-      // Prefill the assistant turn with `[` to force a JSON array response.
-      // Claude will continue directly from this character.
-      { role: 'assistant', content: '[' },
-    ],
+    systemInstruction: systemPrompt,
+    generationConfig: {
+      maxOutputTokens: MAX_TOKENS,
+    },
   });
 
-  const block = response.content[0];
-  if (block.type !== 'text') throw new Error('Expected text response from API');
-  // Prepend the prefilled `[` since the response contains only the continuation.
-  return '[' + block.text;
+  const result = await model.generateContent(userPrompt);
+  const text = result.response.text();
+  if (!text || !text.trim()) throw new Error('Empty response from Gemini');
+  return text;
 }
 
 // ── JSON extraction and validation ─────────────────────────────────────────
@@ -557,15 +553,15 @@ async function main(): Promise<void> {
   }
 
   // ── Validate API key ─────────────────────────────────────────────────────
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.error('ANTHROPIC_API_KEY is not set.');
+  if (!process.env.GEMINI_API_KEY) {
+    console.error('GEMINI_API_KEY is not set.');
     console.error('Add it to .env.local (in the project root) or export it in your shell.');
     process.exit(1);
   }
 
   const config = SECTION_CONFIGS[sectionId];
   console.log(`\n🎯 Generating ${targetCount} ${config.name} (${sectionId}) questions`);
-  console.log(`   Model: ${MODEL} | Batch size: ${BATCH_SIZE}`);
+  console.log(`   Model: ${MODEL} (Gemini) | Batch size: ${BATCH_SIZE}`);
 
   // ── Load existing questions ───────────────────────────────────────────────
   const existing = readQuestionFile(sectionId);
@@ -577,7 +573,7 @@ async function main(): Promise<void> {
   const existingTexts = new Set(existing.map(questionKey));
 
   // ── Generate in batches ───────────────────────────────────────────────────
-  const anthropic = new Anthropic(); // reads ANTHROPIC_API_KEY from env
+  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
   const system = buildSystemPrompt();
 
   let allNew: AnyQuestion[] = [...existing]; // running total for ID assignment
@@ -602,7 +598,7 @@ async function main(): Promise<void> {
     while (attempt < RETRY_ATTEMPTS) {
       attempt++;
       try {
-        rawText = await callClaude(anthropic, system, userPrompt);
+        rawText = await callGemini(genAI, system, userPrompt);
         break;
       } catch (err) {
         const msg = err instanceof Error ? err.message : String(err);

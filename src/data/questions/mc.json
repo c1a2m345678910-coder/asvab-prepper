@@ -1,5 +1,156 @@
 {
   "_comment": "Mechanical Comprehension (MC) questions. Prefer type 'diagram' for questions with visual diagrams; fall back to type 'mcq' for text-only questions. Diagram fields: id, sectionId ('MC'), difficulty, type ('diagram'), diagramUrl (path under /public, e.g. '/diagrams/mc/MC-001.png'), altText (string), question (string), options (string[4]), correctIndex (0–3), explanation. MCQ fields: id, sectionId, difficulty, type ('mcq'), question, options, correctIndex, explanation.",
   "sectionId": "MC",
-  "questions": []
+  "questions": [
+    {
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Friction",
+        "Inertia",
+        "Velocity",
+        "Torque"
+      ],
+      "explanation": "Newton's First Law of Motion states that an object at rest will remain at rest, and an object in motion will remain in motion unless acted upon by an external force. This inherent resistance to change is known as inertia. The amount of inertia an object possesses is directly related to its mass; the heavier the object, the more inertia it has.",
+      "type": "mcq",
+      "question": "Which of the following terms describes the tendency of an object to resist any change in its state of rest or motion?",
+      "id": "MC-001"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Convection",
+        "Radiation",
+        "Conduction",
+        "Insulation"
+      ],
+      "explanation": "Conduction is the process by which heat energy is transmitted through collisions between neighboring atoms or molecules. In a solid metal rod, the particles at the heated end vibrate more rapidly and pass this kinetic energy to adjacent particles. This differs from convection, which requires fluid movement, and radiation, which involves electromagnetic waves.",
+      "type": "mcq",
+      "question": "In a solid metal rod, heat travels from one end to the other primarily through which method of heat transfer?",
+      "id": "MC-002"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "First-class",
+        "Second-class",
+        "Third-class",
+        "Fourth-class"
+      ],
+      "explanation": "Levers are classified by the relative positions of the fulcrum, load, and effort. In a second-class lever, the load (the nut) is positioned between the fulcrum (the pivot joint) and the effort (the force applied by the hands). This configuration always provides a mechanical advantage greater than one, allowing the user to crush hard objects with less input force.",
+      "type": "mcq",
+      "question": "A nutcracker consists of two handles joined at a pivot at one end, with the nut placed in the middle. What class of lever is this device?",
+      "id": "MC-003"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "25 psi",
+        "50 psi",
+        "100 psi",
+        "200 psi"
+      ],
+      "explanation": "Pressure is defined as the total force applied divided by the area over which it is distributed. \nCalculation: Pressure = Force / Area. \nPressure = 50 pounds / 2 square inches = 25 pounds per square inch (psi). \nAccording to Pascal's Principle, this pressure is transmitted equally and undiminished in every direction throughout the contained fluid.",
+      "type": "mcq",
+      "question": "If a force of 50 pounds is applied to a hydraulic piston with a surface area of 2 square inches, what is the resulting pressure within the fluid?",
+      "id": "MC-004"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "200 pounds",
+        "100 pounds",
+        "50 pounds",
+        "25 pounds"
+      ],
+      "explanation": "The mechanical advantage (MA) of a pulley system is equal to the number of rope strands that are directly supporting the movable load. \nCalculation: MA = 4. \nEffort = Load / MA = 200 lbs / 4 = 50 pounds. \nBy using four strands, the weight of the engine is distributed across each strand, requiring the user to pull with only one-quarter of the total weight.",
+      "type": "mcq",
+      "question": "A block and tackle pulley system uses four supporting rope strands to lift a 200-pound engine. Neglecting friction, how much effort force must be applied to the pull rope to lift the engine?",
+      "id": "MC-005"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "450 RPM",
+        "300 RPM",
+        "75 RPM",
+        "50 RPM"
+      ],
+      "explanation": "The gear ratio is determined by dividing the number of teeth on the driven gear by the number of teeth on the drive gear. \nCalculation: Gear Ratio = 36 / 12 = 3. \nSince the driven gear is three times larger, it will rotate three times slower than the drive gear. \nDriven Speed = 150 RPM / 3 = 50 RPM. This represents a trade-off where speed is sacrificed to increase torque.",
+      "type": "mcq",
+      "question": "A drive gear with 12 teeth is meshed with a driven gear that has 36 teeth. If the drive gear rotates at a speed of 150 RPM, what is the rotation speed of the driven gear?",
+      "id": "MC-006"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "40 pounds",
+        "80 pounds",
+        "160 pounds",
+        "320 pounds"
+      ],
+      "explanation": "The mechanical advantage (MA) of a hydraulic system is the ratio of the piston areas. Area = π × radius². \nCalculation: Input Area = π × 1² = 1π. Output Area = π × 4² = 16π. \nMA = 16π / 1π = 16. \nOutput Force = Input Force × MA = 10 lbs × 16 = 160 pounds. \nPascal's Principle ensures that because the area increases sixteen-fold, the output force also increases sixteen-fold.",
+      "type": "mcq",
+      "question": "In a hydraulic jack, the small input piston has a radius of 1 inch and the large output piston has a radius of 4 inches. If 10 pounds of force is applied to the small piston, how much force is generated by the large piston?",
+      "id": "MC-007"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "1 inch",
+        "1.5 inches",
+        "3 inches",
+        "6 inches"
+      ],
+      "explanation": "For springs arranged in parallel, the effective spring constant (K-total) is the sum of the individual constants. \nCalculation: K-total = 20 lb/in + 20 lb/in = 40 lb/in. \nUsing Hooke's Law (F = kx), we solve for displacement (x). \nx = Force / K-total = 60 lbs / 40 lb/in = 1.5 inches. \nParallel configurations increase the stiffness of the system, meaning each spring only carries half of the total load.",
+      "type": "mcq",
+      "question": "A spring has a spring constant (k) of 20 pounds per inch. If two identical such springs are placed side-by-side in a parallel configuration to support a 60-pound weight, how many inches will the weight compress the springs?",
+      "id": "MC-008"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "5 pounds",
+        "40 pounds",
+        "120 pounds",
+        "80 pounds"
+      ],
+      "explanation": "A wheel and axle functions as a continuous lever. The mechanical advantage (MA) is the ratio of the radius (or diameter) of the wheel where force is applied to the radius (or diameter) of the axle where the load is lifted. \nCalculation: MA = 12-inch diameter / 3-inch diameter = 4. \nLoad = Force × MA = 20 lbs × 4 = 80 pounds. \nThe larger the wheel relative to the axle, the greater the lifting capacity.",
+      "type": "mcq",
+      "question": "A manual winch consists of a 12-inch diameter wheel attached to a 3-inch diameter axle. If a person applies 20 pounds of force to the outer edge of the wheel, how much weight can the axle lift?",
+      "id": "MC-009"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "200 pounds",
+        "150 pounds",
+        "100 pounds",
+        "300 pounds"
+      ],
+      "explanation": "We must account for both the beam's own weight and the external load. First, the 100-lb beam's weight is distributed equally: 100 / 2 = 50 lbs per pillar. Second, use the principle of moments around the right pillar for the 200-lb load: (Force-Left × 10 ft) = (200 lbs × 7.5 ft). Force-Left = 1,500 / 10 = 150 lbs. \nTotal Force on Left Pillar = 50 lbs (beam) + 150 lbs (load) = 200 pounds.",
+      "type": "mcq",
+      "question": "A 10-foot uniform wooden beam weighing 100 pounds is supported by two pillars, one at each end. If a 200-pound load is placed on the beam exactly 2.5 feet from the left pillar, what is the total vertical force supported by the left pillar?",
+      "id": "MC-010"
+    }
+  ]
 }
