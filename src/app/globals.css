@@ -24,3 +24,32 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ── Question component animations ───────────────────────────────────────── */
+
+@keyframes shake {
+  0%,  100% { transform: translateX(0); }
+  20%        { transform: translateX(-7px); }
+  40%        { transform: translateX(7px); }
+  60%        { transform: translateX(-4px); }
+  80%        { transform: translateX(4px); }
+}
+
+/* Outward ring pulse — fires on correct answers */
+@keyframes correct-pulse {
+  0%   { box-shadow: 0 0 0 0   rgba(16, 185, 129, 0.55); }
+  60%  { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);   }
+  100% { box-shadow: 0 0 0 0   rgba(16, 185, 129, 0);   }
+}
+
+/* Explanation panel slides up into view */
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+@theme {
+  --animate-shake:         shake 0.45s cubic-bezier(.36,.07,.19,.97) both;
+  --animate-correct-pulse: correct-pulse 0.6s ease-out;
+  --animate-slide-up:      slide-up 0.28s ease-out both;
+}
