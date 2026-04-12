@@ -1,6 +1,5 @@
 import { create } from 'zustand';
 import type { Question } from '@/types/asvab';
-import { getQuestionsForSection, shuffle } from '@/lib/questions';
 
 // ── State ──────────────────────────────────────────────────────────────────
 
@@ -23,11 +22,11 @@ interface SessionState {
 
 interface SessionActions {
   /**
-   * Start a new session for the given section.
-   * Questions are shuffled; if fewer than `count` exist, all are used.
+   * Start a new session with a pre-built question queue.
+   * Question selection (new vs SRS-due mix) is handled by questionSelector.ts.
    * Any in-progress session is discarded.
    */
-  startSession: (sectionId: string, count: number) => void;
+  startSession: (sectionId: string, questions: Question[]) => void;
 
   /**
    * Record whether the current question was answered correctly or not.
@@ -74,14 +73,12 @@ const initialState: SessionState = {
 export const useSessionStore = create<SessionStore>()((set) => ({
   ...initialState,
 
-  startSession: (sectionId, count) => {
-    const all = getQuestionsForSection(sectionId);
-    const queue = shuffle(all).slice(0, count);
+  startSession: (sectionId, questions) => {
     set({
       ...initialState,
-      isActive: queue.length > 0,
+      isActive: questions.length > 0,
       currentSection: sectionId,
-      questionQueue: queue,
+      questionQueue: questions,
     });
   },
 
