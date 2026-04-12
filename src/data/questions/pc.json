@@ -1,0 +1,5 @@
+{
+  "_comment": "Paragraph Comprehension (PC) questions — AFQT section. Each item must be type 'passage'. Required fields: id (string, e.g. 'PC-001'), sectionId ('PC'), difficulty ('easy'|'medium'|'hard'), type ('passage'), passage (string — the reading excerpt), question (string), options (string[4]), correctIndex (0–3), explanation (string).",
+  "sectionId": "PC",
+  "questions": []
+}

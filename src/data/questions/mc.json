@@ -1,0 +1,5 @@
+{
+  "_comment": "Mechanical Comprehension (MC) questions. Prefer type 'diagram' for questions with visual diagrams; fall back to type 'mcq' for text-only questions. Diagram fields: id, sectionId ('MC'), difficulty, type ('diagram'), diagramUrl (path under /public, e.g. '/diagrams/mc/MC-001.png'), altText (string), question (string), options (string[4]), correctIndex (0–3), explanation. MCQ fields: id, sectionId, difficulty, type ('mcq'), question, options, correctIndex, explanation.",
+  "sectionId": "MC",
+  "questions": []
+}

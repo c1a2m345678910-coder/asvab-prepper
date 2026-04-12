@@ -1,0 +1,5 @@
+{
+  "_comment": "Assembling Objects (AO) questions. Each item must be type 'diagram'. Required fields: id (string, e.g. 'AO-001'), sectionId ('AO'), difficulty ('easy'|'medium'|'hard'), type ('diagram'), diagramUrl (path under /public, e.g. '/diagrams/ao/AO-001.png'), altText (string — describes the diagram for screen readers), question (string), options (string[4]), correctIndex (0–3), explanation (string).",
+  "sectionId": "AO",
+  "questions": []
+}

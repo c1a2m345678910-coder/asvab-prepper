@@ -1,0 +1,5 @@
+{
+  "_comment": "Word Knowledge (WK) questions — AFQT section. Each item must be type 'vocab'. Required fields: id (string, e.g. 'WK-001'), sectionId ('WK'), difficulty ('easy'|'medium'|'hard'), type ('vocab'), word (string — the target word), definition (string — the correct definition), options (string[4] — four definition choices including the correct one), correctIndex (0–3), explanation (string).",
+  "sectionId": "WK",
+  "questions": []
+}

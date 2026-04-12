@@ -1,0 +1,5 @@
+{
+  "_comment": "Arithmetic Reasoning (AR) questions — AFQT section. Each item must be type 'mcq'. Required fields: id (string, e.g. 'AR-001'), sectionId ('AR'), difficulty ('easy'|'medium'|'hard'), type ('mcq'), question (string word problem), options (string[4]), correctIndex (0–3), explanation (string).",
+  "sectionId": "AR",
+  "questions": []
+}
