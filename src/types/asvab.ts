@@ -105,21 +105,21 @@ export interface UserProgress {
  * automatically. No punitive hearts/lives system.
  *
  * Algorithm fields mirror SM-2:
- *   interval    — days until next review (starts at 1)
- *   easeFactor  — multiplier applied to interval on correct recall (starts at 2.5)
- *   repetitions — count of consecutive correct recalls at current interval
- *   lapses      — total times this card was answered incorrectly after graduation
- *   nextReviewAt — ISO-8601 datetime when card is due for review
+ *   interval       — days until next review (starts at 1)
+ *   easiness       — multiplier applied to interval on correct recall (default 2.5, min 1.3)
+ *   repetitions    — count of consecutive correct recalls at current interval
+ *   lapses         — total times this card was answered incorrectly after graduation
+ *   nextReviewDate — ISO-8601 datetime when card is due for review
  */
 export interface SRSCard {
   questionId: string;
   sectionId: string;
   /** Days until the next review */
   interval: number;
-  /** SM-2 ease factor; minimum 1.3 */
-  easeFactor: number;
+  /** SM-2 ease factor; minimum 1.3, default 2.5 */
+  easiness: number;
   /** ISO-8601 datetime string */
-  nextReviewAt: string;
+  nextReviewDate: string;
   /** Number of consecutive successful reviews at current interval */
   repetitions: number;
   /** Number of times this card has lapsed (answered incorrectly after graduation) */
