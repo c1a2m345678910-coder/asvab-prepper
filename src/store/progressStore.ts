@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
-import type { SRSCard } from '@/types/asvab';
+import type { SRSCard, DiagnosticResult } from '@/types/asvab';
 import { createCard, gradeCard } from '@/lib/srs';
 
 // XP awards per answer — mistake-positive: attempting always earns something
@@ -30,6 +30,11 @@ interface ProgressState {
   lastActiveDate: string | null;
   /** Total XP earned across all sessions. */
   totalXP: number;
+  /**
+   * Result of the most recently completed AFQT diagnostic.
+   * Null until the user completes a diagnostic for the first time.
+   */
+  latestDiagnostic: DiagnosticResult | null;
 }
 
 // ── Actions ────────────────────────────────────────────────────────────────
@@ -52,6 +57,9 @@ interface ProgressActions {
    * but can also be called on app open to capture passive streaks.
    */
   updateStreak: () => void;
+
+  /** Persist the result of the most recently completed AFQT diagnostic. */
+  saveDiagnostic: (result: DiagnosticResult) => void;
 
   /** Wipe all persisted progress and reset to initial state. */
   resetProgress: () => void;
@@ -103,6 +111,7 @@ const initialState: ProgressState = {
   streakDays: 0,
   lastActiveDate: null,
   totalXP: 0,
+  latestDiagnostic: null,
 };
 
 // ── Store ──────────────────────────────────────────────────────────────────
@@ -173,6 +182,8 @@ export const useProgressStore = create<ProgressStore>()(
 
       updateStreak: () =>
         set((state) => computeStreak(state.streakDays, state.lastActiveDate)),
+
+      saveDiagnostic: (result) => set({ latestDiagnostic: result }),
 
       resetProgress: () => set({ ...initialState }),
     }),

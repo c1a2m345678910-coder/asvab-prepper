@@ -128,6 +128,24 @@ export default function HomePage() {
           </div>
         </div>
 
+        {/* ── Diagnostic banner ───────────────────────────────────────── */}
+        <Link
+          href="/diagnostic"
+          className="flex items-center justify-between bg-indigo-600 rounded-2xl
+            px-4 py-3.5 mb-4 active:scale-[0.98] transition-transform"
+        >
+          <div className="flex items-center gap-3">
+            <span className="text-xl">🎯</span>
+            <div>
+              <p className="text-sm font-semibold text-white">AFQT Diagnostic</p>
+              <p className="text-xs text-indigo-200 mt-0.5">
+                30-question adaptive test · get your projected score
+              </p>
+            </div>
+          </div>
+          <span className="text-indigo-300 font-bold text-lg">→</span>
+        </Link>
+
         {/* ── Review banner ───────────────────────────────────────────── */}
         {totalDue > 0 && (
           <Link

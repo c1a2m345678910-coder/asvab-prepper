@@ -1,6 +1,11 @@
 // ── Shared primitives ──────────────────────────────────────────────────────
 
-export type Difficulty = 'easy' | 'medium' | 'hard';
+/**
+ * Numeric difficulty on a 1–5 scale.
+ * 1 = very easy, 3 = medium, 5 = very hard.
+ * Used by the adaptive diagnostic's IRT model to assign b-parameters.
+ */
+export type DifficultyLevel = 1 | 2 | 3 | 4 | 5;
 
 // ── Section ────────────────────────────────────────────────────────────────
 
@@ -24,7 +29,7 @@ export interface Section {
 interface QuestionBase {
   id: string;
   sectionId: string;
-  difficulty: Difficulty;
+  difficulty: DifficultyLevel;
   /** Zero-based index into options[] pointing to the correct answer */
   correctIndex: number;
   options: string[];
@@ -124,4 +129,43 @@ export interface SRSCard {
   repetitions: number;
   /** Number of times this card has lapsed (answered incorrectly after graduation) */
   lapses: number;
+}
+
+// ── Diagnostic ─────────────────────────────────────────────────────────────
+
+/** Per-section summary produced by the AFQT diagnostic. */
+export interface DiagnosticSectionScore {
+  /** Number of questions answered correctly in this section. */
+  correct: number;
+  /** Total questions asked in this section. */
+  total: number;
+  /** Strength classification: ≥70% correct = strong, 40–69% = medium, <40% = weak. */
+  strength: 'strong' | 'medium' | 'weak';
+}
+
+/**
+ * Result of a completed adaptive AFQT diagnostic.
+ *
+ * DISCLAIMER: The projected AFQT percentile is a rough educational estimate
+ * based on a simplified IRT model. It is not an official AFQT score and
+ * should not be used for enlistment eligibility decisions.
+ */
+export interface DiagnosticResult {
+  /** ISO-8601 timestamp when the diagnostic was completed. */
+  completedAt: string;
+  /**
+   * Projected AFQT percentile (1–99).
+   * Derived from an IRT (Rasch) ability estimate mapped to the approximate
+   * 1997 Profile of American Youth norming distribution.
+   */
+  projectedAfqt: number;
+  /** Per-AFQT-section correct/total counts and strength classification. */
+  sectionScores: Record<string, DiagnosticSectionScore>;
+  totalCorrect: number;
+  totalQuestions: number;
+  /**
+   * IRT theta (latent ability estimate) exposed for transparency.
+   * Scale: roughly −3.5 (very low) to +3.5 (very high); 0 ≈ average.
+   */
+  estimatedTheta: number;
 }
