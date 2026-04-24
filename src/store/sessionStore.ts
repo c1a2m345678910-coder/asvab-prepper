@@ -16,6 +16,8 @@ interface SessionState {
   sessionCorrect: number;
   /** Number of questions answered incorrectly this session. */
   sessionWrong: number;
+  /** Current consecutive-correct streak this session. Resets on any wrong answer. */
+  currentStreak: number;
 }
 
 // ── Actions ────────────────────────────────────────────────────────────────
@@ -56,6 +58,7 @@ const initialState: SessionState = {
   currentIndex: 0,
   sessionCorrect: 0,
   sessionWrong: 0,
+  currentStreak: 0,
 };
 
 // ── Store (no persistence — session is ephemeral) ──────────────────────────
@@ -86,6 +89,7 @@ export const useSessionStore = create<SessionStore>()((set) => ({
     set((state) => ({
       sessionCorrect: state.sessionCorrect + (correct ? 1 : 0),
       sessionWrong: state.sessionWrong + (correct ? 0 : 1),
+      currentStreak: correct ? state.currentStreak + 1 : 0,
     })),
 
   nextQuestion: () =>

@@ -3,6 +3,7 @@
   "sectionId": "MK",
   "questions": [
     {
+      "id": "MK-001",
       "sectionId": "MK",
       "difficulty": 1,
       "correctIndex": 0,
@@ -14,10 +15,10 @@
       ],
       "explanation": "To add fractions with different denominators, we must first find a common denominator. The least common multiple of 4 and 8 is 8. We convert 3/4 to eighths: (3 × 2) / (4 × 2) = 6/8. Now we add the numerators: 6/8 + 1/8 = (6 + 1) / 8 = 7/8.",
       "type": "mcq",
-      "question": "Simplify the expression: 3/4 + 1/8",
-      "id": "MK-001"
+      "question": "Simplify the expression: 3/4 + 1/8"
     },
     {
+      "id": "MK-002",
       "sectionId": "MK",
       "difficulty": 1,
       "correctIndex": 1,
@@ -29,10 +30,10 @@
       ],
       "explanation": "The formula for the area of a rectangle is Area = length × width. Substituting the given values: Area = 12 feet × 7 feet. Calculating the product: 12 × 7 = 84. Therefore, the total area of the rectangle is 84 square feet. Options like 19 (sum) and 38 (perimeter) are common errors.",
       "type": "mcq",
-      "question": "Find the area of a rectangle that has a length of 12 feet and a width of 7 feet.",
-      "id": "MK-002"
+      "question": "Find the area of a rectangle that has a length of 12 feet and a width of 7 feet."
     },
     {
+      "id": "MK-003",
       "sectionId": "MK",
       "difficulty": 1,
       "correctIndex": 3,
@@ -44,10 +45,10 @@
       ],
       "explanation": "A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. \n9 is divisible by 3 (3 × 3). \n15 is divisible by 3 and 5 (3 × 5). \n21 is divisible by 3 and 7 (3 × 7). \n23 has no factors other than 1 and 23.",
       "type": "mcq",
-      "question": "Which of the following is a prime number?",
-      "id": "MK-003"
+      "question": "Which of the following is a prime number?"
     },
     {
+      "id": "MK-004",
       "sectionId": "MK",
       "difficulty": 2,
       "correctIndex": 1,
@@ -59,10 +60,10 @@
       ],
       "explanation": "Following the order of operations (PEMDAS/BODMAS):\n1. Handle exponents: 2^2 = 4.\n2. Solve inside parentheses: 4 + 4 = 8.\n3. Perform multiplication: 3(8) = 24.\n4. Perform subtraction: 24 - 5 = 19.\nEach step must be followed in sequence to arrive at the correct value of 19.",
       "type": "mcq",
-      "question": "Evaluate the expression: 3(4 + 2^2) - 5",
-      "id": "MK-004"
+      "question": "Evaluate the expression: 3(4 + 2^2) - 5"
     },
     {
+      "id": "MK-005",
       "sectionId": "MK",
       "difficulty": 2,
       "correctIndex": 1,
@@ -74,10 +75,10 @@
       ],
       "explanation": "To solve for x, we perform inverse operations to isolate the variable.\nStep 1: Add 7 to both sides of the equation: 4x - 7 + 7 = 21 + 7, which simplifies to 4x = 28.\nStep 2: Divide both sides by 4: 4x / 4 = 28 / 4, which simplifies to x = 7.",
       "type": "mcq",
-      "question": "Solve for x: 4x - 7 = 21",
-      "id": "MK-005"
+      "question": "Solve for x: 4x - 7 = 21"
     },
     {
+      "id": "MK-006",
       "sectionId": "MK",
       "difficulty": 2,
       "correctIndex": 2,
@@ -89,10 +90,10 @@
       ],
       "explanation": "First, apply the power of a power rule, which states that (x^a)^b = x^(a*b). \n(x^3)^4 = x^(3 × 4) = x^12. \nNext, apply the quotient rule, which states that x^a / x^b = x^(a - b). \nx^12 / x^5 = x^(12 - 5) = x^7. The simplified expression is x^7.",
       "type": "mcq",
-      "question": "Simplify the following expression using the laws of exponents: (x^3)^4 / x^5",
-      "id": "MK-006"
+      "question": "Simplify the following expression using the laws of exponents: (x^3)^4 / x^5"
     },
     {
+      "id": "MK-007",
       "sectionId": "MK",
       "difficulty": 3,
       "correctIndex": 0,
@@ -104,10 +105,10 @@
       ],
       "explanation": "To factor x^2 - 9x + 20, we look for two numbers that multiply to the constant term (+20) and add up to the linear coefficient (-9).\nTesting pairs: (-4) × (-5) = 20 and (-4) + (-5) = -9.\nThese numbers satisfy both conditions. Thus, the factored form is (x - 4)(x - 5).",
       "type": "mcq",
-      "question": "Factor the trinomial completely: x^2 - 9x + 20",
-      "id": "MK-007"
+      "question": "Factor the trinomial completely: x^2 - 9x + 20"
     },
     {
+      "id": "MK-008",
       "sectionId": "MK",
       "difficulty": 3,
       "correctIndex": 1,
@@ -119,10 +120,10 @@
       ],
       "explanation": "According to the Pythagorean theorem, a^2 + b^2 = c^2, where a and b are the legs and c is the hypotenuse.\nStep 1: 6^2 + 8^2 = c^2.\nStep 2: 36 + 64 = c^2.\nStep 3: 100 = c^2.\nStep 4: Take the square root of both sides: sqrt(100) = 10. The hypotenuse is 10 inches.",
       "type": "mcq",
-      "question": "A right triangle has legs measuring 6 inches and 8 inches. What is the length of the hypotenuse?",
-      "id": "MK-008"
+      "question": "A right triangle has legs measuring 6 inches and 8 inches. What is the length of the hypotenuse?"
     },
     {
+      "id": "MK-009",
       "sectionId": "MK",
       "difficulty": 3,
       "correctIndex": 2,
@@ -134,10 +135,10 @@
       ],
       "explanation": "We can use the elimination method by adding the two equations together.\n(x + y) + (x - y) = 10 + 2\n2x = 12\nx = 6.\nNow substitute x = 6 into the first equation: 6 + y = 10. Subtract 6 from both sides to find y = 4. The solution is (6, 4).",
       "type": "mcq",
-      "question": "Solve the system of equations for x and y: \nx + y = 10 \nx - y = 2",
-      "id": "MK-009"
+      "question": "Solve the system of equations for x and y: \nx + y = 10 \nx - y = 2"
     },
     {
+      "id": "MK-010",
       "sectionId": "MK",
       "difficulty": 4,
       "correctIndex": 3,
@@ -149,10 +150,10 @@
       ],
       "explanation": "The slope (m) formula is m = (y2 - y1) / (x2 - x1). \nUsing the points (x1, y1) = (2, 5) and (x2, y2) = (4, 1):\nm = (1 - 5) / (4 - 2).\nm = -4 / 2.\nm = -2. \nA negative slope indicates the line moves downward as it moves from left to right.",
       "type": "mcq",
-      "question": "What is the slope of the line that passes through the coordinates (2, 5) and (4, 1)?",
-      "id": "MK-010"
+      "question": "What is the slope of the line that passes through the coordinates (2, 5) and (4, 1)?"
     },
     {
+      "id": "MK-011",
       "sectionId": "MK",
       "difficulty": 4,
       "correctIndex": 0,
@@ -164,10 +165,10 @@
       ],
       "explanation": "Apply the power of a product rule, raising each term inside the parentheses to the power of 2:\n1. 2^2 = 4.\n2. (x^-2)^2 = x^(-2 * 2) = x^-4.\n3. (y^3)^2 = y^(3 * 2) = y^6.\nThe expression is now 4 * x^-4 * y^6. To eliminate the negative exponent, move x^-4 to the denominator: 4y^6 / x^4.",
       "type": "mcq",
-      "question": "Simplify the expression: (2x^-2 y^3)^2",
-      "id": "MK-011"
+      "question": "Simplify the expression: (2x^-2 y^3)^2"
     },
     {
+      "id": "MK-012",
       "sectionId": "MK",
       "difficulty": 4,
       "correctIndex": 3,
@@ -179,10 +180,10 @@
       ],
       "explanation": "Step 1: Use the area formula Area = pi * r^2 to find the radius. \n16*pi = pi * r^2. Dividing by pi gives 16 = r^2, so r = 4. \nStep 2: Use the circumference formula C = 2 * pi * r. \nC = 2 * pi * 4 = 8*pi. Therefore, the circumference of the circle is 8*pi units.",
       "type": "mcq",
-      "question": "If the area of a circle is 16*pi square units, what is its circumference?",
-      "id": "MK-012"
+      "question": "If the area of a circle is 16*pi square units, what is its circumference?"
     },
     {
+      "id": "MK-013",
       "sectionId": "MK",
       "difficulty": 5,
       "correctIndex": 0,
@@ -194,10 +195,10 @@
       ],
       "explanation": "First, factor both the numerator and the denominator.\nNumerator: x^2 - 4 is a difference of squares: (x - 2)(x + 2).\nDenominator: x^2 + 5x + 6 is a trinomial that factors into (x + 2)(x + 3).\nThe expression becomes: [(x - 2)(x + 2)] / [(x + 2)(x + 3)].\nCancel the common factor (x + 2) from the numerator and denominator, leaving (x - 2) / (x + 3).",
       "type": "mcq",
-      "question": "Simplify the rational expression: (x^2 - 4) / (x^2 + 5x + 6)",
-      "id": "MK-013"
+      "question": "Simplify the rational expression: (x^2 - 4) / (x^2 + 5x + 6)"
     },
     {
+      "id": "MK-014",
       "sectionId": "MK",
       "difficulty": 5,
       "correctIndex": 2,
@@ -209,10 +210,10 @@
       ],
       "explanation": "A fractional exponent a^(m/n) can be evaluated as the n-th root of a raised to the power of m: (root n of a)^m.\nStep 1: Find the cube root (n=3) of 27. The number that multiplied by itself three times equals 27 is 3 (since 3 × 3 × 3 = 27).\nStep 2: Square the result (m=2). 3^2 = 9. So, 27^(2/3) = 9.",
       "type": "mcq",
-      "question": "Find the value of the expression: 27^(2/3)",
-      "id": "MK-014"
+      "question": "Find the value of the expression: 27^(2/3)"
     },
     {
+      "id": "MK-015",
       "sectionId": "MK",
       "difficulty": 5,
       "correctIndex": 0,
@@ -224,10 +225,10 @@
       ],
       "explanation": "The formula for the n-th term of an arithmetic sequence is an = a1 + (n - 1)d.\nStep 1: Identify the values: a1 = 3, d = 4, and n = 15.\nStep 2: Substitute values into the formula: a15 = 3 + (15 - 1) × 4.\nStep 3: Simplify the parenthesis: a15 = 3 + (14) × 4.\nStep 4: Multiply: 14 × 4 = 56.\nStep 5: Add: 3 + 56 = 59.",
       "type": "mcq",
-      "question": "Determine the 15th term of an arithmetic sequence where the first term (a1) is 3 and the common difference (d) is 4.",
-      "id": "MK-015"
+      "question": "Determine the 15th term of an arithmetic sequence where the first term (a1) is 3 and the common difference (d) is 4."
     },
     {
+      "id": "MK-016",
       "sectionId": "MK",
       "difficulty": 1,
       "correctIndex": 2,
@@ -239,10 +240,10 @@
       ],
       "explanation": "To find the least common multiple (LCM), we first find the prime factorization of each number.\n12 = 2 × 2 × 3 (or 2² × 3¹)\n15 = 3 × 5 (or 3¹ × 5¹)\nThe LCM is found by taking the highest power of each prime factor present: 2² × 3¹ × 5¹.\nCalculation: 2 × 2 = 4.\n4 × 3 = 12.\n12 × 5 = 60.\nTherefore, 60 is the smallest number that is a multiple of both 12 and 15.",
       "type": "mcq",
-      "question": "What is the least common multiple (LCM) of 12 and 15?",
-      "id": "MK-016"
+      "question": "What is the least common multiple (LCM) of 12 and 15?"
     },
     {
+      "id": "MK-017",
       "sectionId": "MK",
       "difficulty": 2,
       "correctIndex": 3,
@@ -254,10 +255,10 @@
       ],
       "explanation": "First, use the distributive property to multiply the terms inside the parentheses.\n5 × 2x = 10x\n5 × -3 = -15\nNext, distribute the -3 across the second set of parentheses:\n-3 × x = -3x\n-3 × 4 = -12\nCombine the results: 10x - 15 - 3x - 12.\nGroup like terms together: (10x - 3x) + (-15 - 12).\n10x - 3x = 7x\n-15 - 12 = -27\nThe simplified expression is 7x - 27.",
       "type": "mcq",
-      "question": "Simplify the algebraic expression: 5(2x - 3) - 3(x + 4)",
-      "id": "MK-017"
+      "question": "Simplify the algebraic expression: 5(2x - 3) - 3(x + 4)"
     },
     {
+      "id": "MK-018",
       "sectionId": "MK",
       "difficulty": 3,
       "correctIndex": 1,
@@ -269,10 +270,10 @@
       ],
       "explanation": "We use the Pythagorean theorem: a² + b² = c², where 'a' and 'b' are the legs and 'c' is the hypotenuse.\nGiven: a = 5 and c = 13.\n5² + b² = 13²\nCalculation: 5 × 5 = 25.\nCalculation: 13 × 13 = 169.\n25 + b² = 169\nSubtract 25 from both sides: b² = 169 - 25.\nCalculation: 169 - 25 = 144.\nNow find the square root: b = sqrt(144).\nCalculation: sqrt(144) = 12.\nThe length of the other leg is 12 cm.",
       "type": "mcq",
-      "question": "In a right triangle, one leg measures 5 cm and the hypotenuse measures 13 cm. What is the length of the other leg?",
-      "id": "MK-018"
+      "question": "In a right triangle, one leg measures 5 cm and the hypotenuse measures 13 cm. What is the length of the other leg?"
     },
     {
+      "id": "MK-019",
       "sectionId": "MK",
       "difficulty": 4,
       "correctIndex": 0,
@@ -284,10 +285,10 @@
       ],
       "explanation": "To find the distance between two points (x1, y1) and (x2, y2), use the distance formula: d = sqrt((x2 - x1)² + (y2 - y1)²).\nIdentify coordinates: x1 = 1, y1 = -2, x2 = 4, y2 = 2.\nSubtract x-coordinates: 4 - 1 = 3.\nSubtract y-coordinates: 2 - (-2) = 2 + 2 = 4.\nSquare the differences: 3² = 9 and 4² = 16.\nAdd the squared values: 9 + 16 = 25.\nTake the square root of the sum: sqrt(25) = 5.\nThe distance between the points is 5 units.",
       "type": "mcq",
-      "question": "Find the distance between the points (1, -2) and (4, 2) in the Cartesian plane.",
-      "id": "MK-019"
+      "question": "Find the distance between the points (1, -2) and (4, 2) in the Cartesian plane."
     },
     {
+      "id": "MK-020",
       "sectionId": "MK",
       "difficulty": 5,
       "correctIndex": 2,
@@ -299,8 +300,667 @@
       ],
       "explanation": "First, simplify the numerator by finding a common denominator for (1/x) and (1/y), which is xy.\n(1/x) becomes (y/xy) and (1/y) becomes (x/xy).\nSo, the numerator is (y - x) / xy.\nThe full expression is now ((y - x) / xy) / ((x - y) / xy).\nTo divide fractions, multiply by the reciprocal of the divisor: ((y - x) / xy) × (xy / (x - y)).\nThe xy in the numerator and denominator cancel out, leaving (y - x) / (x - y).\nSince (y - x) = -1(x - y), the expression becomes -1(x - y) / (x - y), which simplifies to -1.",
       "type": "mcq",
-      "question": "Simplify the complex rational expression: ((1 / x) - (1 / y)) / ((x - y) / (xy))",
-      "id": "MK-020"
+      "question": "Simplify the complex rational expression: ((1 / x) - (1 / y)) / ((x - y) / (xy))"
+    },
+    {
+      "id": "MK-021",
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "24",
+        "28",
+        "32",
+        "35"
+      ],
+      "explanation": "To find a percentage of a number, convert the percentage to a decimal by dividing it by 100 and then multiply it by the number. First, 35% / 100 = 0.35. Next, multiply 0.35 by 80: 0.35 * 80 = 28. Alternatively, you can calculate 10% of 80 (8), multiply by 3 to get 30% (24), and add 5% (half of 8, which is 4) to get 28.",
+      "type": "mcq",
+      "question": "What is 35% of 80?"
+    },
+    {
+      "id": "MK-022",
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "-4",
+        "4",
+        "-0.8",
+        "-20"
+      ],
+      "explanation": "To solve for x, follow these algebraic steps to isolate the variable. First, subtract 12 from both sides of the equation: 5x + 12 - 12 = -8 - 12, which results in 5x = -20. Next, divide both sides by 5: 5x / 5 = -20 / 5. This simplifies to x = -4. Always remember that subtracting a positive number from a negative number makes it more negative.",
+      "type": "mcq",
+      "question": "Solve for x: 5x + 12 = -8"
+    },
+    {
+      "id": "MK-023",
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "10*pi",
+        "20*pi",
+        "25*pi",
+        "100*pi"
+      ],
+      "explanation": "The formula for the area of a circle is A = pi * r^2, where r is the radius. Since the diameter is given as 10 units, the radius is half of that: 10 / 2 = 5 units. Plug the radius into the formula: A = pi * (5)^2. Calculate 5 squared: 5 * 5 = 25. Thus, the area is 25*pi square units.",
+      "type": "mcq",
+      "question": "A circle has a diameter of 10 units. What is the area of the circle in terms of pi?"
+    },
+    {
+      "id": "MK-024",
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "(2, 6)",
+        "(4, 5)",
+        "(1, 5)",
+        "(1, 3)"
+      ],
+      "explanation": "The midpoint formula is defined as ((x1 + x2) / 2, (y1 + y2) / 2). First, calculate the x-coordinate: (-3 + 5) / 2 = 2 / 2 = 1. Next, calculate the y-coordinate: (8 + (-2)) / 2 = 6 / 2 = 3. Combining these coordinates gives the midpoint (1, 3). This represents the point exactly in the middle of the segment in the coordinate plane.",
+      "type": "mcq",
+      "question": "Find the midpoint of the line segment connecting the points (-3, 8) and (5, -2)."
+    },
+    {
+      "id": "MK-025",
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "2x / 3y^2",
+        "3y^2 / 2x",
+        "9y^4 / 4x^2",
+        "81y^8 / 16x^4"
+      ],
+      "explanation": "To simplify, first handle the negative exponent by taking the reciprocal of the fraction: (81y^8 / 16x^4)^(1/4). Next, apply the fractional exponent (1/4) to each term inside the parentheses. The fourth root of 81 is 3 (because 3^4 = 81), and the fourth root of y^8 is y^(8/4) = y^2. In the denominator, the fourth root of 16 is 2 (because 2^4 = 16), and the fourth root of x^4 is x^(4/4) = x. The result is 3y^2 / 2x.",
+      "type": "mcq",
+      "question": "Simplify the expression: (16x^4 / 81y^8)^(-1/4)"
+    },
+    {
+      "id": "MK-026",
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "4x + 7",
+        "11x",
+        "x + 28",
+        "4x + 28"
+      ],
+      "explanation": "To simplify the expression 4(x + 7), you must apply the distributive property, which states that a(b + c) = ab + ac. First, multiply the outer term 4 by the first inner term x to get 4x. Next, multiply the outer term 4 by the second inner term 7 to get 28. Combining these two products results in the final simplified expression of 4x + 28.",
+      "type": "mcq",
+      "question": "Apply the distributive property to simplify the expression: 4(x + 7)"
+    },
+    {
+      "id": "MK-027",
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "x > 6",
+        "x < 6",
+        "x > 2.67",
+        "x < 2.67"
+      ],
+      "explanation": "Step 1: Isolate the term containing x by adding 5 to both sides of the inequality: 3x - 5 + 5 > 13 + 5, which simplifies to 3x > 18. Step 2: Isolate x by dividing both sides by 3: (3x) / 3 > 18 / 3. Step 3: This results in x > 6. Because we divided by a positive number, the direction of the inequality sign remains the same.",
+      "type": "mcq",
+      "question": "Solve the following inequality for x: 3x - 5 > 13"
+    },
+    {
+      "id": "MK-028",
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "3*pi cm^2",
+        "12*pi cm^2",
+        "6*pi cm^2",
+        "36*pi cm^2"
+      ],
+      "explanation": "Step 1: Calculate the total area of the circle using the formula A = pi * r^2. With a radius of 6, the total area is pi * (6^2) = 36*pi square centimeters. Step 2: Determine what fraction of the circle the sector represents by dividing the central angle by 360 degrees: 60 / 360 = 1/6. Step 3: Multiply the total area by this fraction: (1/6) * 36*pi = 6*pi square centimeters.",
+      "type": "mcq",
+      "question": "A circle has a radius of 6 cm. What is the area of a sector of this circle with a central angle of 60 degrees?"
+    },
+    {
+      "id": "MK-029",
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "y = 1",
+        "y = 2",
+        "y = 3",
+        "y = 4"
+      ],
+      "explanation": "Step 1: Multiply the second equation by 3 to allow for elimination: 3(5x - y) = 3(13) becomes 15x - 3y = 39. Step 2: Add this new equation to the first equation to eliminate y: (2x + 15x) + (3y - 3y) = 12 + 39, which simplifies to 17x = 51. Step 3: Divide by 17 to find x = 3. Step 4: Substitute x = 3 into the original second equation: 5(3) - y = 13. Step 5: 15 - y = 13, therefore y = 2.",
+      "type": "mcq",
+      "question": "Solve the following system of linear equations for y: 2x + 3y = 12 and 5x - y = 13"
+    },
+    {
+      "id": "MK-030",
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "2x^2 * y",
+        "2x^2 / y",
+        "2x^3 * y",
+        "8x^2 * y"
+      ],
+      "explanation": "Step 1: Handle the negative exponent in the denominator by moving y^-3 to the numerator as y^3, resulting in (8 * x^6 * y^3)^(1/3). Step 2: Distribute the fractional exponent 1/3 to each factor inside the parentheses. Step 3: Find the cube root of 8, which is 8^(1/3) = 2. Step 4: Apply the power rule to x^6: (x^6)^(1/3) = x^(6/3) = x^2. Step 5: Apply the power rule to y^3: (y^3)^(1/3) = y^(3/3) = y. Combining these results gives 2x^2 * y.",
+      "type": "mcq",
+      "question": "Simplify the expression using the laws of exponents: (8x^6 / y^-3)^(1/3)"
+    },
+    {
+      "id": "MK-031",
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "4",
+        "6",
+        "12",
+        "18"
+      ],
+      "explanation": "To find the Greatest Common Factor (GCF), we list the factors of each number. Factors of 24 are 1, 2, 3, 4, 6, 8, 12, and 24. Factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, and 36. The GCF is the largest number that appears in both lists. Comparing the two sets of factors, 12 is the highest value shared by both numbers.",
+      "type": "mcq",
+      "question": "What is the greatest common factor (GCF) of 24 and 36?"
+    },
+    {
+      "id": "MK-032",
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "6x^2 - 3",
+        "6x^2 - 12x",
+        "4x^2 - 12x + 2",
+        "6x - 12"
+      ],
+      "explanation": "First, apply the distributive property to the first part of the expression: 4x * x = 4x^2 and 4x * -3 = -12x. This expands the expression to 4x^2 - 12x + 2x^2. Next, combine the like terms (the x^2 terms): 4x^2 + 2x^2 = 6x^2. The final simplified form of the algebraic expression is 6x^2 - 12x.",
+      "type": "mcq",
+      "question": "Simplify the expression: 4x(x - 3) + 2x^2"
+    },
+    {
+      "id": "MK-033",
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "-2/3",
+        "2/3",
+        "-3/2",
+        "3/2"
+      ],
+      "explanation": "The given equation is in slope-intercept form (y = mx + b), where the slope (m) is -2/3. In coordinate geometry, the slopes of two perpendicular lines are negative reciprocals of one another, meaning their product equals -1. To find the negative reciprocal of -2/3, you must flip the fraction to 3/2 and change the negative sign to a positive sign.",
+      "type": "mcq",
+      "question": "A line is defined by the equation y = -2/3x + 5. What is the slope of a line that is perpendicular to this line?"
+    },
+    {
+      "id": "MK-034",
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "(4x^2 - 9)(4x^2 + 9)",
+        "(2x - 3)^4",
+        "(2x - 3)(2x + 3)(4x^2 + 9)",
+        "(4x^2 - 9)^2"
+      ],
+      "explanation": "This expression is a difference of squares: a^2 - b^2 = (a - b)(a + b). Let a = 4x^2 and b = 9, so it factors initially into (4x^2 - 9)(4x^2 + 9). However, the first factor (4x^2 - 9) is also a difference of squares where a = 2x and b = 3. Factoring that part gives (2x - 3)(2x + 3). Combining everything, the complete factorization is (2x - 3)(2x + 3)(4x^2 + 9).",
+      "type": "mcq",
+      "question": "Factor completely: 16x^4 - 81"
+    },
+    {
+      "id": "MK-035",
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "(3, -4)",
+        "(-3, 32)",
+        "(6, 5)",
+        "(3, 5)"
+      ],
+      "explanation": "To find the vertex of a parabola y = ax^2 + bx + c, use the formula x = -b / (2a). Here, a = 1 and b = -6, so x = -(-6) / (2 * 1) = 3. Next, find the y-coordinate by substituting x = 3 back into the original function: f(3) = (3)^2 - 6(3) + 5. Calculating this gives 9 - 18 + 5 = -4. Therefore, the vertex is (3, -4).",
+      "type": "mcq",
+      "question": "Find the coordinates of the vertex of the parabola defined by the function f(x) = x^2 - 6x + 5."
+    },
+    {
+      "id": "MK-036",
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "0.380",
+        "0.425",
+        "0.333",
+        "0.375"
+      ],
+      "explanation": "To convert a fraction to a decimal, divide the numerator by the denominator. For the fraction 3/8, divide 3 by 8. By performing long division: 8 goes into 30 three times (24) with remainder 6; 8 goes into 60 seven times (56) with remainder 4; 8 goes into 40 five times (40) with remainder 0. The final result is 0.375.",
+      "type": "mcq",
+      "question": "What is 3/8 expressed as a decimal?"
+    },
+    {
+      "id": "MK-037",
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "19",
+        "27",
+        "23",
+        "31"
+      ],
+      "explanation": "Follow the order of operations (PEMDAS). First, evaluate the exponent: 5^2 = 25. Second, perform the division within the parentheses: 18 / 3 = 6. Third, perform the multiplication: 4 * 2 = 8. Finally, perform the addition and subtraction from left to right: 25 - 6 = 19, and then 19 + 8 = 27. The simplified value is 27.",
+      "type": "mcq",
+      "question": "Simplify the expression: 5^2 - (18 / 3) + 4 * 2"
+    },
+    {
+      "id": "MK-038",
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "31.4 cm",
+        "62.8 cm",
+        "15.7 cm",
+        "78.5 cm"
+      ],
+      "explanation": "The formula for arc length is (Angle / 360) * 2 * pi * radius. First, calculate the full circumference of the circle: 2 * 3.14 * 10 = 62.8 cm. Next, find the fraction of the circle represented by the 90-degree angle: 90 / 360 = 1/4 or 0.25. Finally, multiply the fraction by the total circumference: 0.25 * 62.8 = 15.7 cm.",
+      "type": "mcq",
+      "question": "A circle has a radius of 10 cm. Find the length of an arc formed by a central angle of 90 degrees. (Use pi = 3.14)"
+    },
+    {
+      "id": "MK-039",
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "(2x + 1)(x + 3)",
+        "(2x + 3)(x + 1)",
+        "(2x - 1)(x - 3)",
+        "(x + 7)(2x + 3)"
+      ],
+      "explanation": "To factor 2x^2 + 7x + 3, identify two numbers that multiply to 6 (the product of the leading coefficient 2 and the constant 3) and add to 7. These numbers are 6 and 1. Rewrite the expression as 2x^2 + 6x + 1x + 3. Group the terms: (2x^2 + 6x) + (1x + 3). Factor out common factors: 2x(x + 3) + 1(x + 3). This simplifies to (2x + 1)(x + 3).",
+      "type": "mcq",
+      "question": "Factor the following trinomial completely: 2x^2 + 7x + 3"
+    },
+    {
+      "id": "MK-040",
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "x^4 / y^7",
+        "x^3 / y^5",
+        "x^4 / y",
+        "x^2 / y^6"
+      ],
+      "explanation": "Start by applying the power rule to the denominator: (x^-1 * y^2)^2 = x^(-1*2) * y^(2*2) = x^-2 * y^4. The expression is now (x^2 * y^-3) / (x^-2 * y^4). Using the quotient rule for exponents (subtracting the bottom exponent from the top), for x: 2 - (-2) = 4, and for y: -3 - 4 = -7. This results in x^4 * y^-7, which is rewritten with positive exponents as x^4 / y^7.",
+      "type": "mcq",
+      "question": "Simplify the following algebraic expression: (x^2 * y^-3) / (x^-1 * y^2)^2"
+    },
+    {
+      "id": "MK-041",
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "4/12",
+        "1/2",
+        "5/8",
+        "7/8"
+      ],
+      "explanation": "To add fractions, they must have a common denominator. The least common multiple of 8 and 4 is 8. Convert 1/4 to eighths by multiplying both the numerator and denominator by 2: 1/4 * (2/2) = 2/8. Now add the numerators while keeping the denominator the same: 3/8 + 2/8 = (3 + 2)/8 = 5/8.",
+      "type": "mcq",
+      "question": "What is the sum of 3/8 and 1/4?"
+    },
+    {
+      "id": "MK-042",
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "2^7",
+        "2^10",
+        "2^12",
+        "2^25"
+      ],
+      "explanation": "First, use the product rule for exponents: a^m * a^n = a^(m+n). In this expression, 2^3 * 2^2 = 2^(3+2) = 2^5. Next, apply the power rule for exponents: (a^m)^n = a^(m*n). Using this rule on our intermediate result gives: (2^5)^2 = 2^(5 * 2) = 2^10. The value 2^10 equals 1,024.",
+      "type": "mcq",
+      "question": "Simplify the expression: (2^3 * 2^2)^2"
+    },
+    {
+      "id": "MK-043",
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "8",
+        "10",
+        "11",
+        "12"
+      ],
+      "explanation": "Use the Pythagorean theorem, which states that a^2 + b^2 = c^2, where c represents the hypotenuse of a right triangle. Plugging in the known values, we get: 5^2 + b^2 = 13^2. Calculating the squares: 25 + b^2 = 169. Subtract 25 from both sides to isolate the variable: b^2 = 144. Take the square root: sqrt(144) = 12.",
+      "type": "mcq",
+      "question": "In a right triangle, the hypotenuse is 13 units long and one leg is 5 units long. What is the length of the other leg?"
+    },
+    {
+      "id": "MK-044",
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "3",
+        "2",
+        "5",
+        "15"
+      ],
+      "explanation": "To solve this system, use the elimination method. Add the two equations together: (2x + 3x) + (y + (-y)) = 10 + 5. This simplifies to 5x = 15 because the positive and negative y variables cancel each other out. Dividing both sides by 5 yields x = 15 / 5 = 3. Substituting x back into either original equation would yield y = 4.",
+      "type": "mcq",
+      "question": "Solve for x in the following system of equations: 2x + y = 10 and 3x - y = 5."
+    },
+    {
+      "id": "MK-045",
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "-18",
+        "1/9",
+        "1/3",
+        "9"
+      ],
+      "explanation": "First, address the negative exponent, which indicates a reciprocal: 27^(-2/3) = 1 / (27^(2/3)). Next, simplify the fractional exponent using the rule x^(a/b) = (b-th root of x)^a. The cube root of 27 is 3, because 3 * 3 * 3 = 27. Finally, square that result: 3^2 = 9. Therefore, the final value is 1/9.",
+      "type": "mcq",
+      "question": "Evaluate the expression: 27^(-2/3)"
+    },
+    {
+      "id": "MK-046",
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "0.125",
+        "0.375",
+        "0.380",
+        "0.625"
+      ],
+      "explanation": "To convert a fraction to a decimal, divide the numerator (3) by the denominator (8). First, 8 goes into 30 three times (24) with a remainder of 6. Next, 8 goes into 60 seven times (56) with a remainder of 4. Finally, 8 goes into 40 exactly five times. Thus, 3 divided by 8 equals 0.375.",
+      "type": "mcq",
+      "question": "Convert the fraction 3/8 into a decimal."
+    },
+    {
+      "id": "MK-047",
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "2",
+        "8",
+        "16",
+        "4"
+      ],
+      "explanation": "First, apply the product rule for exponents: a^m * a^n = a^(m+n). So, 2^3 * 2^4 = 2^(3+4) = 2^7. Next, apply the quotient rule: a^m / a^n = a^(m-n). This gives us 2^7 / 2^5 = 2^(7-5) = 2^2. Finally, calculate the value of 2^2, which is 2 * 2 = 4.",
+      "type": "mcq",
+      "question": "Simplify the expression: (2^3 * 2^4) / 2^5"
+    },
+    {
+      "id": "MK-048",
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "12pi square units",
+        "36pi square units",
+        "24pi square units",
+        "144pi square units"
+      ],
+      "explanation": "The formula for the area of a circle is A = pi * r^2, where 'r' is the radius of the circle. In this problem, the radius 'r' is given as 6. Plugging the value into the formula gives A = pi * (6)^2. Since 6 squared (6 * 6) equals 36, the total area is 36pi square units.",
+      "type": "mcq",
+      "question": "A circle has a radius of 6 units. What is the area of the circle?"
+    },
+    {
+      "id": "MK-049",
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "y = 1",
+        "y = 3",
+        "y = 4",
+        "y = 2"
+      ],
+      "explanation": "To solve for y, use the elimination method. Multiply the second equation (x - 2y = -1) by 2 to get 2x - 4y = -2. Now, subtract this new equation from the first equation: (2x + 3y) - (2x - 4y) = 12 - (-2). This simplifies to 3y + 4y = 12 + 2, which results in 7y = 14. Dividing by 7, we find y = 2.",
+      "type": "mcq",
+      "question": "Solve the following system of linear equations for the value of y: 2x + 3y = 12 and x - 2y = -1."
+    },
+    {
+      "id": "MK-050",
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "1/9",
+        "-18",
+        "9",
+        "-1/9"
+      ],
+      "explanation": "First, address the negative exponent using the rule a^(-n) = 1/a^n, resulting in 1 / (27^(2/3)). Next, evaluate the fractional exponent 27^(2/3) as (cube root of 27) squared. Since the cube root of 27 is 3 (because 3 * 3 * 3 = 27), the expression becomes 1 / (3^2). Finally, 3 squared is 9, so the final answer is 1/9.",
+      "type": "mcq",
+      "question": "Evaluate the following expression: 27^(-2/3)"
+    },
+    {
+      "id": "MK-051",
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 0,
+      "options": [
+        "3/4",
+        "2/3",
+        "6/8",
+        "7/8"
+      ],
+      "explanation": "To simplify 42/56, we must find the greatest common divisor (GCD) of the numerator and the denominator. Both 42 and 56 are divisible by 14. \nStep 1: 42 ÷ 14 = 3. \nStep 2: 56 ÷ 14 = 4. \nTherefore, the simplified fraction is 3/4. Alternatively, you can divide by smaller factors like 2 (yielding 21/28) and then by 7 (yielding 3/4) to reach the same result.",
+      "type": "mcq",
+      "question": "Simplify the fraction 42/56 to its lowest terms."
+    },
+    {
+      "id": "MK-052",
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "2",
+        "5",
+        "8",
+        "11"
+      ],
+      "explanation": "We can solve this linear equation using algebraic operations. \nStep 1: Divide both sides of the equation by 4 to isolate the parenthetical term: 4(x - 3) / 4 = 20 / 4, which simplifies to x - 3 = 5. \nStep 2: Add 3 to both sides to isolate x: x - 3 + 3 = 5 + 3. \nStep 3: Calculate the final sum: x = 8. \nVerification: 4(8 - 3) = 4(5) = 20, which is correct.",
+      "type": "mcq",
+      "question": "Solve for x: 4(x - 3) = 20"
+    },
+    {
+      "id": "MK-053",
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "5*pi",
+        "10*pi",
+        "20*pi",
+        "25*pi"
+      ],
+      "explanation": "To find the area, we first need the radius. \nStep 1: Use the circumference formula C = 2 * pi * r. Set 10 * pi = 2 * pi * r. \nStep 2: Divide both sides by 2 * pi to find r: 10 / 2 = 5, so r = 5. \nStep 3: Use the area formula A = pi * r^2. \nStep 4: Substitute the radius: A = pi * (5)^2 = 25 * pi. The area of the circle is 25*pi.",
+      "type": "mcq",
+      "question": "A circle has a circumference of 10*pi. What is the area of this circle?"
+    },
+    {
+      "id": "MK-054",
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "explanation": "We use the elimination method to solve this system. \nStep 1: Add the two equations together to eliminate y: (2x + y) + (x - y) = 10 + 2. This simplifies to 3x = 12. \nStep 2: Solve for x by dividing by 3: x = 4. \nStep 3: Substitute x = 4 into the second equation to find y: 4 - y = 2. \nStep 4: Solve for y: -y = 2 - 4, so -y = -2, which means y = 2. The solution for y is 2.",
+      "type": "mcq",
+      "question": "Solve the system of equations for the value of y: \n2x + y = 10 \nx - y = 2"
+    },
+    {
+      "id": "MK-055",
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "x^2 / y^5",
+        "x^6 / y^5",
+        "x^2 / y",
+        "x^6 / y"
+      ],
+      "explanation": "Apply exponent rules step-by-step. \nStep 1: Distribute the -1 power to the first term: (x^-2)^-1 * (y^3)^-1 = x^2 * y^-3. \nStep 2: Multiply this by the second term: (x^2 * y^-3) * (x^4 * y^-2). \nStep 3: Use the product rule by adding exponents for like bases: x^(2+4) * y^(-3-2) = x^6 * y^-5. \nStep 4: Convert the negative exponent to a positive exponent by moving it to the denominator: x^6 / y^5.",
+      "type": "mcq",
+      "question": "Simplify the algebraic expression: (x^-2 * y^3)^-1 * (x^4 * y^-2)"
+    },
+    {
+      "id": "MK-056",
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 0,
+      "options": [
+        "2x + 12",
+        "2x + 3",
+        "6x + 12",
+        "4x + 10"
+      ],
+      "explanation": "To simplify the expression, first apply the distributive property to the term 4(x + 3):\n1. 4 * x = 4x\n2. 4 * 3 = 12\nThe expression now reads: 4x + 12 - 2x.\nNext, combine the like terms (the x terms):\n3. 4x - 2x = 2x\n4. Add the remaining constant: 2x + 12.\nThe simplified form is 2x + 12.",
+      "type": "mcq",
+      "question": "Simplify the following expression: 4(x + 3) - 2x"
+    },
+    {
+      "id": "MK-057",
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "-4/9",
+        "4/9",
+        "9/4",
+        "6/4"
+      ],
+      "explanation": "A negative exponent indicates that we should take the reciprocal of the base and change the exponent to a positive value:\n1. (2/3)^-2 = (3/2)^2\nNow, square both the numerator and the denominator:\n2. 3^2 = 3 * 3 = 9\n3. 2^2 = 2 * 2 = 4\n4. The resulting fraction is 9/4.\nThis follows the rule (a/b)^-n = (b/a)^n.",
+      "type": "mcq",
+      "question": "Evaluate the expression: (2/3)^-2"
+    },
+    {
+      "id": "MK-058",
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "4",
+        "0",
+        "1",
+        "2"
+      ],
+      "explanation": "We can solve this system using the elimination method because the y-terms have opposite coefficients (+2y and -2y).\n1. Add the two equations together: (3x + 2y) + (x - 2y) = 12 + 4\n2. Combine like terms: 4x = 16\n3. Divide by 4: x = 4\n4. Substitute x = 4 back into the second equation: 4 - 2y = 4\n5. Subtract 4 from both sides: -2y = 0\n6. Divide by -2: y = 0.",
+      "type": "mcq",
+      "question": "Solve the system of equations for y: \n3x + 2y = 12 \nx - 2y = 4"
+    },
+    {
+      "id": "MK-059",
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "4x^4",
+        "4x^2",
+        "16x^4",
+        "2x^4"
+      ],
+      "explanation": "Apply the power (2/3) to both parts of the product inside the parentheses using the rule (ab)^n = a^n * b^n.\n1. Handle the constant: 8^(2/3) = (cube root of 8) squared = (2)^2 = 4.\n2. Handle the variable: (x^6)^(2/3) = x^(6 * 2/3) = x^(12/3) = x^4.\n3. Combine the results: 4 * x^4 = 4x^4.\nThe completely simplified expression is 4x^4.",
+      "type": "mcq",
+      "question": "Simplify the expression using the laws of exponents: (8x^6)^(2/3)"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "19 cm²",
+        "38 cm²",
+        "84 cm²",
+        "96 cm²"
+      ],
+      "explanation": "The formula for the area of a rectangle is area = length × width (A = l × w). Given a length of 12 cm and a width of 7 cm, the calculation is 12 cm × 7 cm = 84 cm². The value 19 represents the sum of the sides, while 38 represents the perimeter of the rectangle (2l + 2w).",
+      "type": "mcq",
+      "question": "What is the area of a rectangle with a length of 12 cm and a width of 7 cm?",
+      "id": "MK-060"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "-16",
+        "-8",
+        "1/8",
+        "1/16"
+      ],
+      "explanation": "A negative exponent indicates the reciprocal of the base raised to the positive power. The rule is a^-n = 1 / a^n. Applying this to the expression, 4^-2 = 1 / (4^2). Since 4 × 4 = 16, the final simplified value is 1/16. A common error is multiplying the base by the negative exponent to get -8.",
+      "type": "mcq",
+      "question": "Simplify the following expression: 4^-2",
+      "id": "MK-061"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "2",
+        "6",
+        "4",
+        "8"
+      ],
+      "explanation": "Step 1: Use the elimination method by adding the two equations together to eliminate y: (x + y) + (2x - y) = 10 + 8, which simplifies to 3x = 18. Step 2: Divide by 3 to find x = 6. Step 3: Substitute x = 6 back into the first equation: 6 + y = 10. Step 4: Subtract 6 from both sides to find y = 4.",
+      "type": "mcq",
+      "question": "Solve the following system of equations for the value of y:\nx + y = 10\n2x - y = 8",
+      "id": "MK-062"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "(-2, -2)",
+        "(-5, -3)",
+        "(5, 3)",
+        "(-2, 3)"
+      ],
+      "explanation": "The midpoint formula is M = ((x1 + x2) / 2, (y1 + y2) / 2). First, calculate the x-coordinate: (3 + (-7)) / 2 = -4 / 2 = -2. Next, calculate the y-coordinate: (-5 + 1) / 2 = -4 / 2 = -2. Combining these results gives the midpoint of the segment as (-2, -2). This point represents the exact center of the segment in the coordinate plane.",
+      "type": "mcq",
+      "question": "Find the midpoint of a line segment with endpoints at coordinates (3, -5) and (-7, 1).",
+      "id": "MK-063"
+    },
+    {
+      "sectionId": "MK",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "18x^4",
+        "9x^4",
+        "9x^9",
+        "6x^4"
+      ],
+      "explanation": "Using the power of a product rule (ab)^n = a^n * b^n, we first evaluate 27^(2/3). This means taking the cube root of 27 and squaring it: cbrt(27) = 3, and 3^2 = 9. Next, use the power of a power rule for the variable: (x^6)^(2/3) = x^(6 * 2/3) = x^(12/3) = x^4. Combining the two parts results in 9x^4.",
+      "type": "mcq",
+      "question": "Simplify the expression: (27x^6)^(2/3)",
+      "id": "MK-064"
     }
   ]
 }

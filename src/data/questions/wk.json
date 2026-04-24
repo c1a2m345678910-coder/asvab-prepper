@@ -1,8 +1,10 @@
+
 {
   "_comment": "Word Knowledge (WK) questions — AFQT section. Each item must be type 'vocab'. Required fields: id (string, e.g. 'WK-001'), sectionId ('WK'), difficulty (1–5), type ('vocab'), word (string in ALL CAPS), definition (string), options (string[4]), correctIndex (0–3), explanation (string).",
   "sectionId": "WK",
   "questions": [
     {
+      "id": "WK-001",
       "sectionId": "WK",
       "difficulty": 1,
       "correctIndex": 0,
@@ -15,10 +17,10 @@
       "explanation": "VIVID refers to things that are intense or distinct. In a literary context, it describes imagery that is so clear it seems real. It is often used to describe colors that are bright or memories that are very strong and detailed, rather than faint or blurry.",
       "type": "vocab",
       "word": "VIVID",
-      "definition": "producing powerful feelings or strong, clear images in the mind",
-      "id": "WK-001"
+      "definition": "producing powerful feelings or strong, clear images in the mind"
     },
     {
+      "id": "WK-002",
       "sectionId": "WK",
       "difficulty": 1,
       "correctIndex": 2,
@@ -31,10 +33,10 @@
       "explanation": "AGILE describes physical or mental nimbleness. A gymnast must be physically agile to perform complex tumbles, while a computer programmer might need an agile mind to solve logical problems quickly. It is the opposite of being stiff, clumsy, or slow-moving.",
       "type": "vocab",
       "word": "AGILE",
-      "definition": "able to move quickly and easily",
-      "id": "WK-002"
+      "definition": "able to move quickly and easily"
     },
     {
+      "id": "WK-003",
       "sectionId": "WK",
       "difficulty": 1,
       "correctIndex": 1,
@@ -47,10 +49,10 @@
       "explanation": "CONCEAL means to prevent something from being seen or known. For example, a person might use camouflage to conceal themselves in the woods. This word is the direct antonym of 'reveal,' which means to make something known or visible to others.",
       "type": "vocab",
       "word": "CONCEAL",
-      "definition": "to hide or keep from sight",
-      "id": "WK-003"
+      "definition": "to hide or keep from sight"
     },
     {
+      "id": "WK-004",
       "sectionId": "WK",
       "difficulty": 2,
       "correctIndex": 1,
@@ -63,10 +65,10 @@
       "explanation": "HOSTILE describes a person or environment that is aggressive or opposed to something. A hostile witness in a courtroom is someone who is not cooperative. It is derived from the Latin word 'hostis,' which means 'enemy.' It is the opposite of 'amicable' or 'friendly.'",
       "type": "vocab",
       "word": "HOSTILE",
-      "definition": "unfriendly or antagonistic",
-      "id": "WK-004"
+      "definition": "unfriendly or antagonistic"
     },
     {
+      "id": "WK-005",
       "sectionId": "WK",
       "difficulty": 2,
       "correctIndex": 0,
@@ -79,10 +81,10 @@
       "explanation": "BENIGN is used to describe things that are harmless. In medical terms, it refers to a growth that is not cancerous. In a social context, it refers to a person with a kind or gentle disposition. Its opposite is 'malignant' or 'harmful,' indicating something dangerous.",
       "type": "vocab",
       "word": "BENIGN",
-      "definition": "gentle and kindly; not harmful in effect",
-      "id": "WK-005"
+      "definition": "gentle and kindly; not harmful in effect"
     },
     {
+      "id": "WK-006",
       "sectionId": "WK",
       "difficulty": 2,
       "correctIndex": 2,
@@ -95,10 +97,10 @@
       "explanation": "PERSIST means to keep going despite obstacles or opposition. If you persist in your studies, you keep working hard even when the material is difficult. It implies a sense of determination and endurance. The noun form of this word is 'persistence,' which is a valued trait.",
       "type": "vocab",
       "word": "PERSIST",
-      "definition": "to continue firmly in an opinion or a course of action",
-      "id": "WK-006"
+      "definition": "to continue firmly in an opinion or a course of action"
     },
     {
+      "id": "WK-007",
       "sectionId": "WK",
       "difficulty": 3,
       "correctIndex": 0,
@@ -111,10 +113,10 @@
       "explanation": "PRUDENT describes someone who is wise and cautious, particularly with money or long-term decisions. A prudent person saves money for emergencies rather than spending it all at once. It suggests a level of practical wisdom and the ability to avoid unnecessary risks or reckless behavior.",
       "type": "vocab",
       "word": "PRUDENT",
-      "definition": "acting with or showing care and thought for the future",
-      "id": "WK-007"
+      "definition": "acting with or showing care and thought for the future"
     },
     {
+      "id": "WK-008",
       "sectionId": "WK",
       "difficulty": 3,
       "correctIndex": 1,
@@ -127,10 +129,10 @@
       "explanation": "RESOLUTE comes from the word 'resolve.' When someone is resolute, they have made up their mind and will not be swayed by others. This quality is often associated with leaders who remain firm in their goals during a crisis. It is the opposite of being 'irresolute' or 'wavering.'",
       "type": "vocab",
       "word": "RESOLUTE",
-      "definition": "admirably purposeful, determined, and unwavering",
-      "id": "WK-008"
+      "definition": "admirably purposeful, determined, and unwavering"
     },
     {
+      "id": "WK-009",
       "sectionId": "WK",
       "difficulty": 3,
       "correctIndex": 2,
@@ -143,10 +145,10 @@
       "explanation": "METICULOUS describes a person who is extremely careful and precise about every small detail. For example, a meticulous accountant will double-check every entry to ensure there are no errors. While it is usually a positive trait, it can sometimes imply someone who is overly concerned with tiny details.",
       "type": "vocab",
       "word": "METICULOUS",
-      "definition": "showing great attention to detail; very careful and precise",
-      "id": "WK-009"
+      "definition": "showing great attention to detail; very careful and precise"
     },
     {
+      "id": "WK-010",
       "sectionId": "WK",
       "difficulty": 4,
       "correctIndex": 2,
@@ -159,10 +161,10 @@
       "explanation": "CIRCUMSPECT comes from the Latin 'circum' (around) and 'specere' (to look). Literally, it means 'looking around.' A circumspect person is cautious and considers all possible consequences before acting or speaking. This word is often used to describe diplomats or leaders who must act very carefully.",
       "type": "vocab",
       "word": "CIRCUMSPECT",
-      "definition": "wary and unwilling to take risks",
-      "id": "WK-010"
+      "definition": "wary and unwilling to take risks"
     },
     {
+      "id": "WK-011",
       "sectionId": "WK",
       "difficulty": 4,
       "correctIndex": 0,
@@ -175,10 +177,10 @@
       "explanation": "LOQUACIOUS is a more formal synonym for talkative. It stems from the Latin 'loqui,' which means 'to speak.' A loquacious person enjoys conversation and may sometimes talk more than is necessary. It is similar in meaning to 'garrulous,' though loquacious often implies a certain fluency or eloquence.",
       "type": "vocab",
       "word": "LOQUACIOUS",
-      "definition": "tending to talk a great deal; talkative",
-      "id": "WK-011"
+      "definition": "tending to talk a great deal; talkative"
     },
     {
+      "id": "WK-012",
       "sectionId": "WK",
       "difficulty": 4,
       "correctIndex": 1,
@@ -191,10 +193,10 @@
       "explanation": "ASSIDUOUS describes someone who works hard and consistently at a task. An assiduous student spends many hours studying and never gives up until the work is mastered. It carries the connotation of being both diligent and persistent over a long period of time to achieve success.",
       "type": "vocab",
       "word": "ASSIDUOUS",
-      "definition": "showing great care and perseverance",
-      "id": "WK-012"
+      "definition": "showing great care and perseverance"
     },
     {
+      "id": "WK-013",
       "sectionId": "WK",
       "difficulty": 5,
       "correctIndex": 3,
@@ -207,10 +209,10 @@
       "explanation": "GARRULOUS specifically describes someone who talks too much about things that aren't important. While 'loquacious' just means talkative, 'garrulous' often carries a slightly negative tone, suggesting that the person is rambling or annoying others with pointless chatter. It is a common word in advanced literature and SAT/ASVAB lists.",
       "type": "vocab",
       "word": "GARRULOUS",
-      "definition": "excessively talkative, especially on trivial matters",
-      "id": "WK-013"
+      "definition": "excessively talkative, especially on trivial matters"
     },
     {
+      "id": "WK-014",
       "sectionId": "WK",
       "difficulty": 5,
       "correctIndex": 3,
@@ -223,10 +225,10 @@
       "explanation": "AMELIORATE is a formal way to say 'improve.' It is most often used when discussing social conditions, problems, or difficult situations. For example, a new law might be designed to ameliorate living conditions in poor neighborhoods. Its direct antonym is 'exacerbate,' which means to make a situation worse.",
       "type": "vocab",
       "word": "AMELIORATE",
-      "definition": "to make something bad or unsatisfactory better",
-      "id": "WK-014"
+      "definition": "to make something bad or unsatisfactory better"
     },
     {
+      "id": "WK-015",
       "sectionId": "WK",
       "difficulty": 5,
       "correctIndex": 3,
@@ -239,10 +241,10 @@
       "explanation": "OBSTREPEROUS is used to describe people (often children or crowds) who are loud, unruly, and defiant. An obstreperous person resists control or discipline in a noisy way. The word comes from Latin 'ob-' (against) and 'strepere' (to make a noise), literally meaning to make noise against authority.",
       "type": "vocab",
       "word": "OBSTREPEROUS",
-      "definition": "noisy and difficult to control",
-      "id": "WK-015"
+      "definition": "noisy and difficult to control"
     },
     {
+      "id": "WK-016",
       "sectionId": "WK",
       "difficulty": 1,
       "correctIndex": 1,
@@ -255,10 +257,10 @@
       "explanation": "VAGUE refers to something that is unclear, indefinite, or lacks precise detail. If a set of directions is vague, it is difficult to follow because the information is not specific enough to guide the user effectively. It is the opposite of being clear or specific.",
       "type": "vocab",
       "word": "VAGUE",
-      "definition": "not clearly or explicitly stated or expressed",
-      "id": "WK-016"
+      "definition": "not clearly or explicitly stated or expressed"
     },
     {
+      "id": "WK-017",
       "sectionId": "WK",
       "difficulty": 2,
       "correctIndex": 2,
@@ -271,10 +273,10 @@
       "explanation": "TEDIOUS describes a task or situation that is dull, repetitive, and time-consuming. It often leads to boredom or weariness because it lacks variety or excitement. Examples include long data entry tasks or repetitive manual labor that requires little mental engagement but much time.",
       "type": "vocab",
       "word": "TEDIOUS",
-      "definition": "long and tiresome; boring",
-      "id": "WK-017"
+      "definition": "long and tiresome; boring"
     },
     {
+      "id": "WK-018",
       "sectionId": "WK",
       "difficulty": 3,
       "correctIndex": 1,
@@ -287,10 +289,10 @@
       "explanation": "CANDID describes someone who is honest and straightforward in speech or behavior. A candid conversation is one where people speak their minds without hiding their true feelings or trying to be deceptive. The word is often used to describe honest feedback or unrehearsed photography.",
       "type": "vocab",
       "word": "CANDID",
-      "definition": "frank, outspoken, or open and sincere",
-      "id": "WK-018"
+      "definition": "frank, outspoken, or open and sincere"
     },
     {
+      "id": "WK-019",
       "sectionId": "WK",
       "difficulty": 4,
       "correctIndex": 2,
@@ -303,10 +305,10 @@
       "explanation": "PERSPICACIOUS describes someone with sharp insight and clear understanding. A perspicacious observer notices subtle details that others might miss, allowing them to grasp complex situations or solve difficult problems quickly. It comes from the Latin word for 'seeing through,' suggesting a deep level of mental clarity.",
       "type": "vocab",
       "word": "PERSPICACIOUS",
-      "definition": "having keen mental perception and understanding",
-      "id": "WK-019"
+      "definition": "having keen mental perception and understanding"
     },
     {
+      "id": "WK-020",
       "sectionId": "WK",
       "difficulty": 5,
       "correctIndex": 3,
@@ -319,8 +321,295 @@
       "explanation": "PELLUCID refers to something that is crystal clear, whether it be a physical substance like water or an intellectual concept like an explanation. It implies a level of clarity that allows light or understanding to pass through perfectly without any obstruction or confusion.",
       "type": "vocab",
       "word": "PELLUCID",
-      "definition": "translucently clear; easy to understand",
-      "id": "WK-020"
+      "definition": "translucently clear; easy to understand"
+    },
+    {
+      "id": "WK-021",
+      "sectionId": "WK",
+      "difficulty": 1,
+      "correctIndex": 0,
+      "options": [
+        "showing courage in the face of danger",
+        "being very tall and strong",
+        "acting in a very quiet way",
+        "feeling happy and excited"
+      ],
+      "explanation": "BRAVE is a common adjective used to describe someone who demonstrates courage or fearlessness. In military and civil service contexts, bravery is the quality of facing difficult or dangerous situations without retreating. Synonyms include courageous, valiant, and heroic, while the opposite is cowardly.",
+      "type": "vocab",
+      "word": "BRAVE",
+      "definition": "showing courage in the face of danger"
+    },
+    {
+      "id": "WK-022",
+      "sectionId": "WK",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "moving at a high speed",
+        "making no sound or noise",
+        "feeling very tired or weak",
+        "having a bright and shiny color"
+      ],
+      "explanation": "SILENT describes an absence of sound or speech. It is used to indicate that someone is not talking or that a machine or environment is making no noise. In formal settings, a silent protest is one done without vocalization, and a silent partner is one who provides capital but does not manage operations.",
+      "type": "vocab",
+      "word": "SILENT",
+      "definition": "making no sound or noise"
+    },
+    {
+      "id": "WK-023",
+      "sectionId": "WK",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "being very old and historic",
+        "having a sharp and pointy edge",
+        "of considerable size or extent",
+        "moving in a graceful manner"
+      ],
+      "explanation": "LARGE refers to something that has great dimensions or a high quantity. It is the opposite of small or tiny. In various contexts, it can describe physical space, the scale of a project, or the volume of an object. Synonyms include big, spacious, and substantial.",
+      "type": "vocab",
+      "word": "LARGE",
+      "definition": "of considerable size or extent"
+    },
+    {
+      "id": "WK-024",
+      "sectionId": "WK",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "extremely loud and disturbing",
+        "having a very sticky texture",
+        "moving with great force and power",
+        "delicate or precise as to be difficult to analyze"
+      ],
+      "explanation": "SUBTLE describes something that is not obvious or blatant. It refers to fine distinctions or small details that might be easily overlooked. For example, a subtle hint is one that is indirectly suggested rather than stated clearly. This word is often used in art, flavors, and interpersonal communication.",
+      "type": "vocab",
+      "word": "SUBTLE",
+      "definition": "delicate or precise as to be difficult to analyze"
+    },
+    {
+      "id": "WK-025",
+      "sectionId": "WK",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "not showing or feeling nervousness or anger",
+        "feeling very hungry and weak",
+        "acting in a very aggressive way",
+        "moving with sudden and jerky motions"
+      ],
+      "explanation": "CALM describes a state of tranquility or peace. It can refer to a person's emotional state, meaning they are relaxed and composed, or to a physical environment, such as a calm sea with no waves. Maintaining a calm demeanor is essential for leaders during high-pressure or emergency situations.",
+      "type": "vocab",
+      "word": "CALM",
+      "definition": "not showing or feeling nervousness or anger"
+    },
+    {
+      "id": "WK-026",
+      "sectionId": "WK",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "being very thirsty and dehydrated",
+        "feeling or showing strong annoyance or hostility",
+        "moving in a slow and clumsy way",
+        "having a very sweet and pleasant taste"
+      ],
+      "explanation": "ANGRY is an emotional state characterized by antagonism toward someone or something you feel has deliberately done you wrong. It is a common human emotion that can range from mild irritation to intense rage. Synonyms include irate, furious, and indignant, while the opposite is content or pleased.",
+      "type": "vocab",
+      "word": "ANGRY",
+      "definition": "feeling or showing strong annoyance or hostility"
+    },
+    {
+      "id": "WK-027",
+      "sectionId": "WK",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "acting in a lazy or careless way",
+        "feeling very confused or lost",
+        "showing steady and earnest care and effort",
+        "having a very smooth and soft texture"
+      ],
+      "explanation": "DILIGENT describes someone who is hard-working and thorough in their tasks. A diligent student studies consistently and pays attention to detail. This trait is highly valued in professional environments because it implies reliability and a commitment to completing work correctly and efficiently without cutting corners.",
+      "type": "vocab",
+      "word": "DILIGENT",
+      "definition": "showing steady and earnest care and effort"
+    },
+    {
+      "id": "WK-028",
+      "sectionId": "WK",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "easily persuaded by other people",
+        "moving in a very fast and quick way",
+        "feeling very happy and cheerful",
+        "stubbornly refusing to change one's opinion"
+      ],
+      "explanation": "OBSTINATE comes from Latin roots meaning 'determined.' It describes a person who is bull-headed or stubborn, refusing to change their mind even when presented with good reasons to do so. While 'resolute' has a positive connotation of being firm, 'obstinate' usually suggests an annoying or unreasonable level of inflexibility.",
+      "type": "vocab",
+      "word": "OBSTINATE",
+      "definition": "stubbornly refusing to change one's opinion"
+    },
+    {
+      "id": "WK-029",
+      "sectionId": "WK",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "having or displaying a passionate intensity",
+        "feeling very cold and shivering",
+        "acting in a very sneaky way",
+        "being very bored and uninterested"
+      ],
+      "explanation": "FERVENT is used to describe feelings or beliefs that are very strong and sincere. A fervent supporter of a cause is deeply committed and enthusiastic. The word originally related to boiling or glowing with heat, which reflects the 'warmth' and 'fire' of someone’s passion or intense conviction.",
+      "type": "vocab",
+      "word": "FERVENT",
+      "definition": "having or displaying a passionate intensity"
+    },
+    {
+      "id": "WK-030",
+      "sectionId": "WK",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "extremely angry and vengeful",
+        "generously forgiving or showing noble generosity",
+        "stubbornly refusing to change",
+        "excessively talkative and loud"
+      ],
+      "explanation": "MAGNANIMOUS comes from Latin 'magnus' (great) + 'animus' (spirit). It describes someone who is noble-minded and forgiving, especially toward rivals or less powerful people. A magnanimous leader pardons a defeated enemy rather than punishing them. It is the opposite of being petty, resentful, or vindictive.",
+      "type": "vocab",
+      "word": "MAGNANIMOUS",
+      "definition": "generously forgiving or showing noble generosity"
+    },
+    {
+      "id": "WK-031",
+      "sectionId": "WK",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "having a very pleasant smell",
+        "being very shy and withdrawn",
+        "eager or quick to argue or fight",
+        "moving in a graceful manner"
+      ],
+      "explanation": "PUGNACIOUS comes from the Latin 'pugnare,' meaning 'to fight.' It describes a personality trait of someone who is combative or belligerent. Such a person looks for conflict and is often ready to start an argument or physical altercation. Synonyms include truculent, bellicose, and quarrelsome.",
+      "type": "vocab",
+      "word": "PUGNACIOUS",
+      "definition": "eager or quick to argue or fight"
+    },
+    {
+      "id": "WK-032",
+      "sectionId": "WK",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "existing for a long period of time",
+        "having a very heavy weight",
+        "moving in a circular motion",
+        "lasting for a very short time"
+      ],
+      "explanation": "EPHEMERAL describes something that is fleeting or short-lived. It was originally used in biology to describe insects or flowers that live for only one day. In a broader sense, it can refer to fleeting emotions, trends, or moments that pass quickly. Synonyms include transitory, transient, and momentary.",
+      "type": "vocab",
+      "word": "EPHEMERAL",
+      "definition": "lasting for a very short time"
+    },
+    {
+      "id": "WK-033",
+      "sectionId": "WK",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "a state of deep sadness and gloom",
+        "brisk and cheerful readiness",
+        "a tendency to move very slowly",
+        "a feeling of intense fear and dread"
+      ],
+      "explanation": "ALACRITY refers to a quick and eager willingness to do something. If a soldier responds to an order with alacrity, they do it immediately and with a positive attitude. It implies both speed and enthusiasm. This is a high-level vocabulary word often found in formal literature and professional evaluations.",
+      "type": "vocab",
+      "word": "ALACRITY",
+      "definition": "brisk and cheerful readiness"
+    },
+    {
+      "id": "WK-034",
+      "sectionId": "WK",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "staying the same for a long time",
+        "acting in a very logical manner",
+        "given to sudden and unaccountable changes of mood",
+        "being very tall and intimidating"
+      ],
+      "explanation": "CAPRICIOUS describes someone or something that is unpredictable or impulsive. A capricious leader might change their mind frequently without any obvious reason, making it difficult for subordinates to follow a consistent plan. It is often used to describe the weather or financial markets when they fluctuate wildly and unexpectedly.",
+      "type": "vocab",
+      "word": "CAPRICIOUS",
+      "definition": "given to sudden and unaccountable changes of mood"
+    },
+    {
+      "id": "WK-035",
+      "sectionId": "WK",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "to make someone feel very excited",
+        "to build something from the ground up",
+        "to move in a very stealthy way",
+        "to cause someone to feel drained of energy"
+      ],
+      "explanation": "ENERVATE is often misused to mean 'energize' because it sounds similar, but it actually means the opposite. To enervate is to weaken or sap the mental or physical vigor of someone. For example, extreme heat can enervate a marathon runner, leaving them feeling exhausted and powerless before the race is over.",
+      "type": "vocab",
+      "word": "ENERVATE",
+      "definition": "to cause someone to feel drained of energy"
+    },
+    {
+      "id": "WK-036",
+      "sectionId": "WK",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "tending to be very nervous",
+        "easily influenced by others",
+        "tending to keep a firm hold of something",
+        "extremely thin or fragile"
+      ],
+      "explanation": "TENACIOUS comes from the Latin 'tenere' (to hold). It describes someone who is persistent, stubborn, or cohesive. A tenacious grip is one that does not let go easily. Distractors like 'tenuous' (meaning thin or weak) are included because they are frequently confused with tenacious by test-takers despite having nearly opposite meanings regarding strength.",
+      "type": "vocab",
+      "word": "TENACIOUS",
+      "definition": "tending to keep a firm hold of something"
+    },
+    {
+      "id": "WK-037",
+      "sectionId": "WK",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "extremely ambitious and driven",
+        "able to use both hands equally",
+        "having mixed feelings or contradictory ideas",
+        "very clear and easy to understand"
+      ],
+      "explanation": "AMBIVALENT comes from the roots 'ambi-' (both) and 'valentia' (strength). It literally means having 'both strengths' or conflicting emotions about a person or situation, making it difficult to choose a side. Distractors include 'ambidextrous' (both hands) and 'ambitious,' which share the same prefix but have entirely different meanings in English.",
+      "type": "vocab",
+      "word": "AMBIVALENT",
+      "definition": "having mixed feelings or contradictory ideas"
+    },
+    {
+      "sectionId": "WK",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "a state of extreme exhaustion",
+        "ability to move quickly and easily",
+        "a tendency to sleep frequently",
+        "strong desire for food or water"
+      ],
+      "explanation": "Agility refers to the physical or mental capacity to move with speed and ease. In the context of an animal or athlete, it often describes the coordination needed to navigate obstacles or change direction rapidly. It is derived from the Latin 'agilis,' meaning nimble or quick. Common synonyms include nimbleness and litheness.",
+      "type": "vocab",
+      "word": "AGILITY",
+      "definition": "ability to move quickly and easily",
+      "id": "WK-038"
     }
   ]
 }

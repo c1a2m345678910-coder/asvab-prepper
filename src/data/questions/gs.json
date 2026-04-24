@@ -3,6 +3,7 @@
   "sectionId": "GS",
   "questions": [
     {
+      "id": "GS-001",
       "sectionId": "GS",
       "difficulty": 1,
       "correctIndex": 1,
@@ -14,10 +15,10 @@
       ],
       "explanation": "Plant cells possess a rigid cell wall made of cellulose that provides structural support and protection, whereas animal cells only have a flexible cell membrane. Other structures such as the nucleus, mitochondria, and cytoplasm are common to both types of eukaryotic cells and perform similar functions.",
       "type": "mcq",
-      "question": "Which structure is found in plant cells but generally absent in animal cells?",
-      "id": "GS-001"
+      "question": "Which structure is found in plant cells but generally absent in animal cells?"
     },
     {
+      "id": "GS-002",
       "sectionId": "GS",
       "difficulty": 1,
       "correctIndex": 2,
@@ -29,10 +30,10 @@
       ],
       "explanation": "Sublimation occurs when a substance gains enough thermal energy to skip the liquid phase and transition directly from a solid to a gas. A common example is dry ice (solid carbon dioxide) at room temperature. In contrast, condensation is gas to liquid, and evaporation is liquid to gas.",
       "type": "mcq",
-      "question": "What process describes a solid changing directly into a gas without becoming a liquid first?",
-      "id": "GS-002"
+      "question": "What process describes a solid changing directly into a gas without becoming a liquid first?"
     },
     {
+      "id": "GS-003",
       "sectionId": "GS",
       "difficulty": 2,
       "correctIndex": 0,
@@ -44,10 +45,10 @@
       ],
       "explanation": "The troposphere is the lowest layer of the atmosphere, extending from the Earth's surface to about 12 kilometers high. It contains approximately 75% of the atmosphere's total mass and almost all of its water vapor and aerosols, which is why clouds and weather patterns form in this layer.",
       "type": "mcq",
-      "question": "In which layer of the Earth's atmosphere does nearly all weather occur?",
-      "id": "GS-003"
+      "question": "In which layer of the Earth's atmosphere does nearly all weather occur?"
     },
     {
+      "id": "GS-004",
       "sectionId": "GS",
       "difficulty": 2,
       "correctIndex": 3,
@@ -59,10 +60,10 @@
       ],
       "explanation": "Newton's Third Law of Motion explains that forces always exist in pairs. If Object A exerts a force on Object B, Object B exerts a force of equal magnitude and opposite direction back on Object A. The First Law concerns inertia, while the Second Law relates force to mass and acceleration.",
       "type": "mcq",
-      "question": "Which of Newton's laws states that for every action, there is an equal and opposite reaction?",
-      "id": "GS-004"
+      "question": "Which of Newton's laws states that for every action, there is an equal and opposite reaction?"
     },
     {
+      "id": "GS-005",
       "sectionId": "GS",
       "difficulty": 3,
       "correctIndex": 3,
@@ -74,10 +75,10 @@
       ],
       "explanation": "The left ventricle has the thickest muscular walls of the four chambers because it must generate enough pressure to pump oxygen-rich blood through the aorta to the entire systemic circulation. The right side of the heart handles deoxygenated blood, while the left atrium receives oxygenated blood from the lungs.",
       "type": "mcq",
-      "question": "Which chamber of the human heart is responsible for pumping oxygenated blood directly into the aorta for distribution to the rest of the body?",
-      "id": "GS-005"
+      "question": "Which chamber of the human heart is responsible for pumping oxygenated blood directly into the aorta for distribution to the rest of the body?"
     },
     {
+      "id": "GS-006",
       "sectionId": "GS",
       "difficulty": 3,
       "correctIndex": 1,
@@ -89,10 +90,10 @@
       ],
       "explanation": "In an exothermic reaction, the energy required to break the bonds of the reactants is less than the energy released when new bonds form in the products. This net release of energy causes the temperature of the surrounding environment to rise. Conversely, endothermic reactions absorb heat from the surroundings.",
       "type": "mcq",
-      "question": "A chemical reaction that releases energy into its surroundings, usually in the form of heat, is classified as:",
-      "id": "GS-006"
+      "question": "A chemical reaction that releases energy into its surroundings, usually in the form of heat, is classified as:"
     },
     {
+      "id": "GS-007",
       "sectionId": "GS",
       "difficulty": 4,
       "correctIndex": 0,
@@ -104,10 +105,10 @@
       ],
       "explanation": "The wave equation states that speed equals frequency multiplied by wavelength (v = f * λ). If the speed (v) is constant and the frequency (f) increases by a factor of two, the wavelength (λ) must decrease by a factor of two—becoming half its original size—to maintain the mathematical equality.",
       "type": "mcq",
-      "question": "If the frequency of a sound wave is doubled while its speed remains constant, what happens to its wavelength?",
-      "id": "GS-007"
+      "question": "If the frequency of a sound wave is doubled while its speed remains constant, what happens to its wavelength?"
     },
     {
+      "id": "GS-008",
       "sectionId": "GS",
       "difficulty": 4,
       "correctIndex": 2,
@@ -119,10 +120,10 @@
       ],
       "explanation": "Because oceanic crust is denser than continental crust, it is forced downward into the mantle in a process called subduction. This creates deep-sea trenches and often leads to the formation of volcanic mountain ranges on the overlying continental plate. Mid-ocean ridges and rift valleys occur at divergent boundaries.",
       "type": "mcq",
-      "question": "At a convergent plate boundary where an oceanic plate meets a continental plate, which geological feature is most likely to form?",
-      "id": "GS-008"
+      "question": "At a convergent plate boundary where an oceanic plate meets a continental plate, which geological feature is most likely to form?"
     },
     {
+      "id": "GS-009",
       "sectionId": "GS",
       "difficulty": 5,
       "correctIndex": 2,
@@ -134,10 +135,10 @@
       ],
       "explanation": "An organism is heterozygous for a gene when it possesses two different alleles—typically one dominant and one recessive—for that trait. 'Homozygous' refers to having two of the same alleles (either TT or tt). The phenotype is the physical expression of the trait, while the genotype is the genetic code.",
       "type": "mcq",
-      "question": "If an organism has two different alleles for a specific trait, such as 'Tt' for plant height, its genotype is described as:",
-      "id": "GS-009"
+      "question": "If an organism has two different alleles for a specific trait, such as 'Tt' for plant height, its genotype is described as:"
     },
     {
+      "id": "GS-010",
       "sectionId": "GS",
       "difficulty": 5,
       "correctIndex": 1,
@@ -149,8 +150,982 @@
       ],
       "explanation": "The mass number of an atom is defined as the sum of its protons and neutrons. To find the number of neutrons, you subtract the atomic number (number of protons) from the mass number. In this case, 37 (mass number) minus 17 (protons) equals 20 neutrons. Electrons do not contribute significantly to mass.",
       "type": "mcq",
-      "question": "An isotope of an element has a mass number of 37 and contains 17 protons. How many neutrons are located in the nucleus of this atom?",
-      "id": "GS-010"
+      "question": "An isotope of an element has a mass number of 37 and contains 17 protons. How many neutrons are located in the nucleus of this atom?"
+    },
+    {
+      "id": "GS-011",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Lysosome",
+        "Vacuole"
+      ],
+      "explanation": "Ribosomes are the cellular machines responsible for protein synthesis. They translate messenger RNA (mRNA) into chains of amino acids, which then fold into functional proteins. This process occurs in both prokaryotic and eukaryotic cells, either freely in the cytoplasm or attached to the rough endoplasmic reticulum.",
+      "type": "mcq",
+      "question": "Which organelle is the primary site of protein synthesis within a cell?"
+    },
+    {
+      "id": "GS-012",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Evaporation",
+        "Melting",
+        "Condensation",
+        "Sublimation"
+      ],
+      "explanation": "Condensation is the phase change that occurs when a substance in its gaseous state loses thermal energy and transforms into a liquid. This is the opposite of evaporation. An everyday example is water droplets forming on the outside of a cold glass as water vapor in the air cools down.",
+      "type": "mcq",
+      "question": "Which process occurs when a gas changes into a liquid state?"
+    },
+    {
+      "id": "GS-013",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "explanation": "Earth's atmosphere is composed of several gases, but nitrogen is by far the most abundant at roughly 78 percent. Oxygen follows at approximately 21 percent, while argon, carbon dioxide, and trace amounts of other gases make up the remaining 1 percent of the air we breathe.",
+      "type": "mcq",
+      "question": "Which gas makes up approximately 78% of Earth's atmosphere?"
+    },
+    {
+      "id": "GS-014",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "It multiplies the magnitude of the input force",
+        "It reduces the total amount of work required to lift the load",
+        "It changes the direction of the applied force",
+        "It increases the distance the load moves compared to the input distance"
+      ],
+      "explanation": "A fixed pulley (a pulley that does not move with the load) has a mechanical advantage of 1. While it does not reduce the amount of force required to lift the object, it allows the user to pull downward to lift the object upward, utilizing their body weight more effectively.",
+      "type": "mcq",
+      "question": "A fixed pulley is used to lift a heavy crate. What is the primary advantage of using this simple machine?"
+    },
+    {
+      "id": "GS-015",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "Genotype",
+        "Phenotype",
+        "Allele",
+        "Chromosome"
+      ],
+      "explanation": "The phenotype refers to the observable physical or physiological traits of an organism, such as hair color or height. While the genotype is the specific genetic code (alleles) carried by the individual, the phenotype is the actual expression of those genes, often influenced by environmental factors.",
+      "type": "mcq",
+      "question": "The physical appearance of an organism, which is determined by its genetic makeup and environmental influences, is known as its:"
+    },
+    {
+      "id": "GS-016",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "They are highly flammable and reactive",
+        "They are liquid at room temperature",
+        "They are generally unreactive due to a full valence shell",
+        "They have the lowest atomic masses in their respective rows"
+      ],
+      "explanation": "The noble gases are located in Group 18 of the periodic table and possess a full outer shell of valence electrons. This stable electron configuration makes them extremely unreactive under standard conditions, as they do not easily gain or lose electrons to form chemical bonds with other elements.",
+      "type": "mcq",
+      "question": "Elements in the last column (Group 18) of the periodic table, such as Neon and Argon, are known as noble gases because:"
+    },
+    {
+      "id": "GS-017",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Sedimentary",
+        "Igneous",
+        "Volcanic",
+        "Metamorphic"
+      ],
+      "explanation": "Metamorphic rocks form when sedimentary or igneous rocks are subjected to high temperatures and pressures deep within the Earth's crust. These conditions cause physical or chemical changes without the rock melting into magma. If the rock were to melt and then cool, it would become igneous rock.",
+      "type": "mcq",
+      "question": "Which type of rock is formed when existing rocks are subjected to intense heat and pressure without melting?"
+    },
+    {
+      "id": "GS-018",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Diffraction",
+        "Interference"
+      ],
+      "explanation": "Refraction is the bending of light as it passes between different media, such as air and water. This occurs because light travels at different speeds in different materials. The change in speed causes the light wave to change direction at the boundary between the two substances.",
+      "type": "mcq",
+      "question": "What phenomenon occurs when a light wave bends as it passes from one medium into another of a different density?"
+    },
+    {
+      "id": "GS-019",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "Pancreas",
+        "Liver",
+        "Gallbladder",
+        "Spleen"
+      ],
+      "explanation": "The pancreas is a vital organ in the digestive and endocrine systems. Its endocrine function involves producing the hormones insulin and glucagon. Insulin helps lower blood sugar by allowing cells to absorb glucose, while glucagon helps raise blood sugar by signaling the liver to release stored glucose.",
+      "type": "mcq",
+      "question": "Which organ in the human body is primarily responsible for the production of insulin to regulate blood glucose levels?"
+    },
+    {
+      "id": "GS-020",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "2 times",
+        "5 times",
+        "10 times",
+        "100 times"
+      ],
+      "explanation": "The pH scale is logarithmic, meaning each whole number change represents a tenfold difference in acidity or alkalinity. A pH of 3 is 10 times more acidic than a pH of 4, 100 times more acidic than a pH of 5, and 1,000 times more acidic than a pH of 6.",
+      "type": "mcq",
+      "question": "If a solution has a pH of 3, it is considered how many times more acidic than a solution with a pH of 4?"
+    },
+    {
+      "id": "GS-021",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "Centrifugal force from Earth's rotation",
+        "Tidal forces exerted by the Moon's gravity",
+        "Solar radiation heating the Earth's surface",
+        "Convection currents in the Earth's mantle"
+      ],
+      "explanation": "Convection currents in the Earth's mantle are caused by the heat generated from the core and radioactive decay. As the mantle material heats up, it becomes less dense and rises; as it cools near the crust, it sinks. This continuous cycle creates the lateral force that moves tectonic plates.",
+      "type": "mcq",
+      "question": "In the theory of plate tectonics, what is the primary driving mechanism that causes the movement of the Earth's lithospheric plates?"
+    },
+    {
+      "id": "GS-022",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "The current is doubled",
+        "The current is halved",
+        "The current remains the same",
+        "The current is quadrupled"
+      ],
+      "explanation": "Ohm's Law is defined by the formula: Current (I) = Voltage (V) / Resistance (R). Step 1: Initial state is I = V / R. Step 2: If Voltage is doubled, the new Voltage (V') = 2V. Step 3: The new Current (I') = (2V) / R. Step 4: This simplifies to I' = 2 * (V / R), which means the current is exactly doubled.",
+      "type": "mcq",
+      "question": "According to Ohm's Law, if the resistance in an electrical circuit is held constant and the voltage is doubled, what happens to the current?"
+    },
+    {
+      "id": "GS-023",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "Energy is lost as heat through metabolic processes",
+        "Higher-level consumers consume less total biomass",
+        "Decomposers remove energy before it can be consumed",
+        "Plants store most of their energy in indigestible fibers"
+      ],
+      "explanation": "According to the 10 percent rule in ecology, only about ten percent of the energy from one trophic level is passed on to the next. The remaining 90 percent is used by the organisms for life processes like movement and respiration, or it is lost to the environment as heat.",
+      "type": "mcq",
+      "question": "In an energy pyramid, why does the amount of available energy decrease significantly at each successively higher trophic level?"
+    },
+    {
+      "id": "GS-024",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "It gains electrons",
+        "It gains protons",
+        "It loses neutrons",
+        "It loses electrons"
+      ],
+      "explanation": "Oxidation is the loss of electrons during a chemical reaction by a molecule, atom, or ion. A helpful mnemonic is OIL RIG, which stands for 'Oxidation Is Loss, Reduction Is Gain.' When a substance loses electrons, its oxidation state increases, while the substance gaining those electrons is said to be reduced.",
+      "type": "mcq",
+      "question": "In a redox (reduction-oxidation) reaction, what happens to the substance that undergoes oxidation?"
+    },
+    {
+      "id": "GS-025",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "The object stops moving entirely",
+        "The acceleration of the object is zero",
+        "The force of gravity on the object becomes zero",
+        "The air resistance becomes greater than the force of gravity"
+      ],
+      "explanation": "Terminal velocity occurs when the force of air resistance (drag) equals the downward force of gravity. Because these forces are balanced, there is no net force acting on the object. According to Newton's Second Law (F=ma), if the net force is zero, the acceleration must also be zero, meaning the object falls at a constant speed.",
+      "type": "mcq",
+      "question": "When an object falling through the air reaches terminal velocity, which statement best describes its motion?"
+    },
+    {
+      "id": "GS-026",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Nucleus",
+        "Cell wall",
+        "Cell membrane",
+        "Cytoplasm"
+      ],
+      "explanation": "The cell membrane acts as a protective, semi-permeable barrier that regulates the movement of substances like nutrients, water, and waste products into and out of the cell. This selective permeability is essential for maintaining homeostasis, allowing the cell to maintain a stable internal environment regardless of external conditions.",
+      "type": "mcq",
+      "question": "Which component of a cell is semi-permeable and regulates the passage of materials into and out of the cell?"
+    },
+    {
+      "id": "GS-027",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Neutrons",
+        "Protons",
+        "Electrons",
+        "Positrons"
+      ],
+      "explanation": "The atomic number is a fundamental property of an element that identifies its position on the periodic table; it represents the total number of protons found in the nucleus of an atom. While the number of neutrons can vary (isotopes) and electrons can change (ions), the number of protons defines the element's identity.",
+      "type": "mcq",
+      "question": "The atomic number of an element is determined by the number of which subatomic particles located in the nucleus?"
+    },
+    {
+      "id": "GS-028",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "Condensation",
+        "Precipitation",
+        "Infiltration",
+        "Transpiration"
+      ],
+      "explanation": "Transpiration is the biological process where water is absorbed by plant roots, travels through the vascular system, and eventually evaporates into the air through small pores in the leaves called stomata. This process is a vital component of the global water cycle and contributes significantly to the humidity in the atmosphere.",
+      "type": "mcq",
+      "question": "Which stage of the water cycle involves plants releasing water vapor into the atmosphere through their leaves?"
+    },
+    {
+      "id": "GS-029",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "4 m/s²",
+        "100 m/s²",
+        "15 m/s²",
+        "0.25 m/s²"
+      ],
+      "explanation": "Newton's Second Law of Motion is defined by the formula Force = mass × acceleration (F=ma). To find acceleration, we rearrange the formula to acceleration = Force / mass. Plugging in the given values: 20 N / 5 kg = 4 m/s². Therefore, the object will accelerate at a rate of 4 meters per second squared.",
+      "type": "mcq",
+      "question": "If a 5 kg object is pushed with a constant net force of 20 Newtons, what will be the resulting acceleration of the object?"
+    },
+    {
+      "id": "GS-030",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "Bronchi",
+        "Alveoli",
+        "Trachea",
+        "Pharynx"
+      ],
+      "explanation": "Alveoli are tiny, grape-like air sacs located at the terminus of the bronchial tubes within the lungs. They are surrounded by a dense network of capillaries, providing a large surface area where oxygen from inhaled air diffuses into the bloodstream and carbon dioxide from the blood diffuses into the lungs to be exhaled.",
+      "type": "mcq",
+      "question": "In the human respiratory system, in which specific structures does the actual exchange of oxygen and carbon dioxide take place?"
+    },
+    {
+      "id": "GS-031",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "The pressure decreases.",
+        "The pressure remains unchanged.",
+        "The pressure increases.",
+        "The pressure drops to zero."
+      ],
+      "explanation": "As the temperature of a gas increases, the kinetic energy of the gas molecules also increases, causing them to move faster and collide with the walls of the container more frequently and with greater force. In a fixed volume, these more energetic collisions result in an overall increase in the measured gas pressure.",
+      "type": "mcq",
+      "question": "According to the kinetic molecular theory, what happens to the pressure of a gas if its temperature is increased while the volume remains constant?"
+    },
+    {
+      "id": "GS-032",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "Deep-sea trench",
+        "Volcanic island arc",
+        "Mid-ocean ridge",
+        "Folded mountain range"
+      ],
+      "explanation": "At divergent plate boundaries, tectonic plates move away from each other. In the ocean, this process allows magma to rise from the mantle to the surface, cooling and solidifying to create new oceanic crust. This continuous process forms long, underwater mountain chains known as mid-ocean ridges, such as the Mid-Atlantic Ridge.",
+      "type": "mcq",
+      "question": "Which geological feature is most commonly formed at a divergent plate boundary located on the ocean floor?"
+    },
+    {
+      "id": "GS-033",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "Kinetic energy is converted to potential energy.",
+        "Potential energy is converted to kinetic energy.",
+        "Thermal energy is converted to chemical energy.",
+        "Nuclear energy is converted to mechanical energy."
+      ],
+      "explanation": "At the top of the hill, the ball possesses gravitational potential energy due to its height. As it rolls downward, its height decreases and its speed increases. Consequently, the stored potential energy is converted into kinetic energy, which is the energy of motion. Neglecting friction, the total mechanical energy of the system remains constant.",
+      "type": "mcq",
+      "question": "A ball is held stationary at the top of a steep hill. As the ball is released and begins to roll down the hill, what energy transformation occurs?"
+    },
+    {
+      "id": "GS-034",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Males have two X chromosomes, increasing the chance of inheritance.",
+        "Females possess a Y chromosome that masks the recessive trait.",
+        "The Y chromosome produces hormones that activate the trait.",
+        "Males have only one X chromosome, so a single recessive allele causes the trait."
+      ],
+      "explanation": "Males have an XY chromosome pair, meaning they possess only one X chromosome. If they inherit a recessive allele on that X chromosome, there is no second X chromosome to provide a dominant allele to mask it. Females (XX) would need to inherit two copies of the recessive allele to express the trait.",
+      "type": "mcq",
+      "question": "Why are X-linked recessive genetic traits, such as color blindness, more frequently expressed in human males than in females?"
+    },
+    {
+      "id": "GS-035",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "Water and a salt",
+        "Hydrogen gas and oxygen",
+        "Glucose and water",
+        "Carbon dioxide and a salt"
+      ],
+      "explanation": "Neutralization occurs when the hydrogen ions (H+) from an acid react with the hydroxide ions (OH-) from a base to form water (H2O). The remaining ions (in this case, sodium and chloride) combine to form an ionic compound known as a salt. For HCl and NaOH, the salt produced is sodium chloride (NaCl).",
+      "type": "mcq",
+      "question": "In a neutralization reaction between an acid and a base, such as hydrochloric acid (HCl) and sodium hydroxide (NaOH), what are the two resulting products?"
+    },
+    {
+      "id": "GS-036",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "The stratosphere is significantly closer to the Sun.",
+        "Heat is generated by friction from incoming meteors.",
+        "The ozone layer absorbs ultraviolet (UV) radiation from the Sun.",
+        "Greenhouse gases are more concentrated in the stratosphere."
+      ],
+      "explanation": "The stratosphere contains the ozone layer, a region with a high concentration of ozone (O3) molecules. These molecules absorb the majority of the Sun's harmful ultraviolet (UV) radiation. This absorption of energy releases heat, which causes the temperature of the stratosphere to rise as you move higher through the layer, away from the Earth's surface.",
+      "type": "mcq",
+      "question": "Why does the temperature in the stratosphere increase with increasing altitude, which is the opposite of the trend seen in the troposphere?"
+    },
+    {
+      "id": "GS-037",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "Convex lens",
+        "Concave lens",
+        "Biconvex lens",
+        "Planar lens"
+      ],
+      "explanation": "A concave lens, also known as a diverging lens, is curved inward. When parallel light rays enter a concave lens, they are refracted outward, away from the principal axis. This makes objects viewed through the lens appear smaller. In contrast, a convex lens curves outward and converges light rays to a single focal point.",
+      "type": "mcq",
+      "question": "Which type of optical lens is thinner in the center than at the edges and causes parallel light rays to diverge after passing through it?"
+    },
+    {
+      "id": "GS-038",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "Oxygen (O2)",
+        "Chlorophyll",
+        "Water (H2O)",
+        "Carbon dioxide (CO2)"
+      ],
+      "explanation": "The Calvin cycle takes place in the stroma of the chloroplast. During this process, plants use the energy stored in ATP and NADPH (produced during the light-dependent reactions) to 'fix' carbon from atmospheric carbon dioxide into organic molecules. Through a series of enzyme-mediated steps, these carbon atoms are eventually used to build glucose.",
+      "type": "mcq",
+      "question": "During the light-independent reactions (Calvin cycle) of photosynthesis, what specific molecule is used to provide the carbon atoms needed to synthesize glucose?"
+    },
+    {
+      "id": "GS-039",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "They have only one valence electron that is easily lost.",
+        "They have full outer electron shells that attract other atoms.",
+        "They have seven valence electrons and seek one more to be stable.",
+        "They have an unusually high number of neutrons in their nuclei."
+      ],
+      "explanation": "Alkali metals (such as lithium and sodium) have exactly one electron in their outermost (valence) shell. Atoms are most stable when they have a full outer shell. Because it requires very little energy to remove this single valence electron, alkali metals react readily and vigorously with other elements, especially halogens and water, to achieve stability.",
+      "type": "mcq",
+      "question": "Why are the alkali metals, located in Group 1 of the periodic table, extremely reactive in their pure form?"
+    },
+    {
+      "id": "GS-040",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "The remaining resistors stop functioning immediately.",
+        "The remaining resistors continue to function normally.",
+        "The total resistance of the circuit increases to infinity.",
+        "The current flowing through the remaining resistors drops to zero."
+      ],
+      "explanation": "In a parallel circuit, each component is connected along its own separate path or branch to the power source. Because there are multiple paths for the current to follow, a break in one branch does not interrupt the flow of electricity to the others. Therefore, if one resistor fails, the other branches remain complete and functional.",
+      "type": "mcq",
+      "question": "In a parallel circuit containing three resistors, what happens to the functionality of the remaining two resistors if one resistor fails and creates an open circuit on its branch?"
+    },
+    {
+      "id": "GS-041",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Hemoglobin",
+        "Chlorophyll",
+        "Melanin",
+        "Keratin"
+      ],
+      "explanation": "Chlorophyll is the primary green pigment found in the chloroplasts of plants and algae. It absorbs light energy, primarily from the blue and red portions of the electromagnetic spectrum, to drive the chemical reaction that converts carbon dioxide and water into glucose and oxygen.",
+      "type": "mcq",
+      "question": "Which pigment is primarily responsible for capturing light energy for use in photosynthesis?"
+    },
+    {
+      "id": "GS-042",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Alkali metals",
+        "Halogens",
+        "Noble gases",
+        "Transition metals"
+      ],
+      "explanation": "The elements in Group 18 of the periodic table are known as noble gases. They are characterized by having a full valence shell of electrons, which makes them highly stable and chemically unreactive under standard conditions. Examples include Helium, Neon, Argon, Krypton, and Xenon.",
+      "type": "mcq",
+      "question": "Elements in the far-right column of the periodic table, such as Helium and Neon, are classified as:"
+    },
+    {
+      "id": "GS-043",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "An unbalanced force",
+        "A constant velocity",
+        "A balanced force",
+        "A magnetic field"
+      ],
+      "explanation": "Newton's first law, the law of inertia, states that an object's velocity will not change unless it is acted upon by an unbalanced force. An unbalanced force occurs when the net force acting on an object is greater than zero, resulting in acceleration or a change in direction.",
+      "type": "mcq",
+      "question": "According to Newton's first law of motion, an object at rest will remain at rest unless acted upon by:"
+    },
+    {
+      "id": "GS-044",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "It is closer to the Sun",
+        "Friction from incoming meteors",
+        "Increasing density of carbon dioxide",
+        "Absorption of ultraviolet radiation by ozone"
+      ],
+      "explanation": "In the troposphere, temperature decreases as altitude increases. However, in the stratosphere, temperature rises with height because the ozone layer absorbs high-energy ultraviolet radiation from the Sun. This process converts solar energy into thermal energy, which warms the air in this specific layer of the Earth's atmosphere.",
+      "type": "mcq",
+      "question": "Why does the temperature increase with altitude in the stratosphere, unlike the troposphere below it?"
+    },
+    {
+      "id": "GS-045",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "2 times",
+        "10 times",
+        "100 times",
+        "1,000 times"
+      ],
+      "explanation": "The pH scale is logarithmic, meaning each whole number change represents a tenfold change in acidity. To find the difference between pH 5 and pH 3, subtract the values: 5 - 3 = 2. Since it is base-10, the calculation is 10 to the power of 2 (10 * 10), which equals 100.",
+      "type": "mcq",
+      "question": "A solution with a pH of 3 is how many times more acidic than a solution with a pH of 5?"
+    },
+    {
+      "id": "GS-046",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Stratosphere",
+        "Mesosphere",
+        "Troposphere",
+        "Exosphere"
+      ],
+      "explanation": "The troposphere is the lowest layer of the atmosphere, extending from the surface up to approximately 12 kilometers. It contains about 75% of the atmosphere's total mass and 99% of its water vapor, which is why almost all weather phenomena, such as clouds and storms, take place there.",
+      "type": "mcq",
+      "question": "Which layer of Earth's atmosphere is closest to the surface and is the location where nearly all weather events occur?"
+    },
+    {
+      "id": "GS-047",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "Protons",
+        "Neutrons",
+        "Electrons",
+        "Photons"
+      ],
+      "explanation": "The atomic number is the unique identifier for an element and represents the exact number of protons found in its nucleus. While neutrons contribute to the atomic mass and electrons determine the charge of an ion, only the proton count determines which specific element an atom belongs to on the periodic table.",
+      "type": "mcq",
+      "question": "The atomic number of an element is determined by the total number of which subatomic particles in the nucleus of its atoms?"
+    },
+    {
+      "id": "GS-048",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Sublimation",
+        "Convection"
+      ],
+      "explanation": "Convection is the transfer of heat through the physical movement of a fluid (liquid or gas). When a fluid is heated, it becomes less dense and rises, while cooler, denser fluid sinks to take its place. This creates a circulation pattern, known as a convection current, that distributes thermal energy.",
+      "type": "mcq",
+      "question": "Which method of heat transfer is primarily responsible for the movement of energy through a fluid, such as boiling water or circulating air?"
+    },
+    {
+      "id": "GS-049",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "explanation": "To determine the probability, we use a Punnett square crossing Tt and tt. The possible offspring genotypes are Tt, Tt, tt, and tt. Since two out of the four possibilities (50%) are homozygous recessive (tt), there is a 50% chance the offspring will express the recessive phenotype for being short.",
+      "type": "mcq",
+      "question": "If a pea plant that is heterozygous for tallness (Tt) is crossed with a plant that is homozygous recessive for shortness (tt), what is the probability that an offspring will be short?"
+    },
+    {
+      "id": "GS-050",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "It gains protons",
+        "It loses neutrons",
+        "It loses electrons",
+        "It gains electrons"
+      ],
+      "explanation": "In chemistry, reduction is defined as the gain of electrons by a substance during a reaction. This process decreases the oxidation state of the atom or molecule. It occurs simultaneously with oxidation, which is the loss of electrons. A common mnemonic for this is 'OIL RIG' (Oxidation Is Loss, Reduction Is Gain).",
+      "type": "mcq",
+      "question": "In a reduction-oxidation (redox) chemical reaction, what specifically happens to the substance that is being reduced?"
+    },
+    {
+      "id": "GS-051",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "To absorb water from the soil",
+        "To capture light energy from the sun",
+        "To transport sugar to the roots",
+        "To release carbon dioxide into the atmosphere"
+      ],
+      "explanation": "Chlorophyll is a green pigment located within the chloroplasts of plant cells. Its primary function is to capture light energy, usually from the sun, which is then used to fuel the chemical reactions that convert water and carbon dioxide into glucose during the process of photosynthesis.",
+      "type": "mcq",
+      "question": "What is the primary role of chlorophyll in plants?"
+    },
+    {
+      "id": "GS-052",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Metamorphic rock",
+        "Sedimentary rock",
+        "Igneous rock",
+        "Limestone"
+      ],
+      "explanation": "Igneous rocks are formed through the cooling and solidification of molten rock material, known as magma when below the surface and lava when above. Examples include basalt and granite. In contrast, sedimentary rocks form from compacted sediments, and metamorphic rocks form from existing rocks changed by heat and pressure.",
+      "type": "mcq",
+      "question": "Which type of rock is formed when molten magma or lava cools and solidifies?"
+    },
+    {
+      "id": "GS-053",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "The same number of valence electrons",
+        "The same number of electron shells",
+        "The same atomic mass",
+        "The same number of neutrons"
+      ],
+      "explanation": "Elements in the same vertical group of the periodic table have the same number of valence electrons in their outermost shell. Because valence electrons determine how an atom bonds and interacts with others, elements in a group often exhibit very similar chemical properties, behaviors, and reactivity levels.",
+      "type": "mcq",
+      "question": "Elements in the same vertical group of the periodic table typically share which characteristic?"
+    },
+    {
+      "id": "GS-054",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "Equal in magnitude and in the same direction",
+        "Greater in magnitude and in the opposite direction",
+        "Less in magnitude and in the same direction",
+        "Equal in magnitude and in the opposite direction"
+      ],
+      "explanation": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction. This means that forces always exist in pairs; when Object A pushes on Object B, Object B pushes back on Object A with the exact same amount of force but in the reverse direction.",
+      "type": "mcq",
+      "question": "According to Newton's Third Law of Motion, if an object exerts a force on a second object, the second object exerts a force on the first that is:"
+    },
+    {
+      "id": "GS-055",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "The wave speed increases and it bends away from the normal line",
+        "The wave speed decreases and it bends toward the normal line",
+        "The wave speed remains constant but the frequency increases",
+        "The wave speed decreases and the wavelength increases"
+      ],
+      "explanation": "When light enters a denser medium with a higher refractive index, its speed decreases. According to the principles of refraction, this reduction in speed causes the light ray to bend toward the normal line. While the wave frequency remains the same during the transition, the wavelength decreases along with the speed.",
+      "type": "mcq",
+      "question": "What occurs when a light wave moves from a medium with a lower refractive index (like air) into a medium with a higher refractive index (like water)?"
+    },
+    {
+      "id": "GS-056",
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Veins",
+        "Capillaries",
+        "Arteries",
+        "Venules"
+      ],
+      "explanation": "Arteries are thick-walled vessels that carry oxygenated blood (with the exception of the pulmonary artery) away from the heart to provide oxygen to the body's tissues. Veins return deoxygenated blood to the heart, capillaries allow for gas exchange at the cellular level, and venules connect capillaries to the larger veins.",
+      "type": "mcq",
+      "question": "Which type of blood vessel is responsible for carrying blood away from the heart to the rest of the body?"
+    },
+    {
+      "id": "GS-057",
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "Neutrons",
+        "Protons",
+        "Electrons",
+        "Positrons"
+      ],
+      "explanation": "The atomic number is a unique identifier for every element on the periodic table; it represents the specific number of protons found in the nucleus of an atom of that element. Neutrons affect the atomic mass but not the element's identity, and electrons orbit the nucleus and are involved in chemical bonding.",
+      "type": "mcq",
+      "question": "The atomic number of an element is determined by the total number of which subatomic particle found in its nucleus?"
+    },
+    {
+      "id": "GS-058",
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "Potential energy is being converted into kinetic energy",
+        "Kinetic energy is being converted into potential energy",
+        "Chemical energy is being converted into thermal energy",
+        "Thermal energy is being converted into potential energy"
+      ],
+      "explanation": "At the top of the hill, the ball has maximum gravitational potential energy because of its elevated position. As gravity pulls the ball downward, this stored energy is transformed into kinetic energy, which is the energy of motion. Neglecting air resistance and friction, the total mechanical energy remains constant throughout the descent.",
+      "type": "mcq",
+      "question": "A ball is held at the top of a steep hill. If the ball is released and begins to roll down the hill, which energy transformation is primarily occurring?"
+    },
+    {
+      "id": "GS-059",
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "Cooling and crystallization of molten magma",
+        "Weathering and erosion by wind and water",
+        "Deposition and cementation of mineral particles",
+        "Application of extreme heat and pressure without melting"
+      ],
+      "explanation": "Metamorphic rocks are created when pre-existing rocks are exposed to high temperatures and pressures, causing them to change physically or chemically. This occurs while the rock remains in a solid state; if the rock melts completely, it becomes magma and will eventually cool to form an igneous rock instead.",
+      "type": "mcq",
+      "question": "Which geological process is primarily responsible for the formation of metamorphic rock from existing sedimentary rock?"
+    },
+    {
+      "id": "GS-060",
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "explanation": "In a monohybrid cross between two Tt parents, the possible offspring genotypes are TT, Tt, Tt, and tt. Each box in the 2x2 Punnett square represents a 25% chance. Since the 't' allele is recessive, only the homozygous 'tt' genotype (1 out of 4) results in a short-stemmed phenotype, leading to a 25% probability.",
+      "type": "mcq",
+      "question": "In a specific plant species, the allele for tall stems (T) is completely dominant over the allele for short stems (t). If two heterozygous (Tt) plants are crossed, what is the probability that an offspring will exhibit the short-stem phenotype?"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Evaporation",
+        "Sublimation",
+        "Condensation",
+        "Deposition"
+      ],
+      "explanation": "Sublimation is the phase transition of a substance directly from the solid to the gas phase without passing through the intermediate liquid phase. An everyday example of this is dry ice (solid carbon dioxide) turning into gas at room temperature. Evaporation is liquid to gas, condensation is gas to liquid, and deposition is gas to solid.",
+      "type": "mcq",
+      "question": "Which process describes a substance changing directly from a solid state to a gaseous state without becoming a liquid first?",
+      "id": "GS-061"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Ions",
+        "Molecules",
+        "Isotopes",
+        "Isomers"
+      ],
+      "explanation": "Isotopes are variants of a particular chemical element which differ in neutron number, and consequently in nucleon number. Although all isotopes of a given element have the same number of protons in each atom, they have different masses. Ions refer to charged atoms, while isomers are molecules with the same chemical formula but different structures.",
+      "type": "mcq",
+      "question": "Atoms of the same element that have the same number of protons but different numbers of neutrons are referred to as:",
+      "id": "GS-062"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere",
+        "Troposphere"
+      ],
+      "explanation": "The troposphere is the lowest layer of Earth's atmosphere, extending from the surface up to an average height of about 12 kilometers. It is the densest layer and is where nearly all weather conditions, such as clouds and precipitation, take place. The stratosphere contains the ozone layer, while the mesosphere and thermosphere are higher layers.",
+      "type": "mcq",
+      "question": "In which layer of the Earth's atmosphere does most of the planet's weather occur, containing approximately 80% of the atmosphere's total mass?",
+      "id": "GS-063"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "Medulla oblongata",
+        "Cerebrum",
+        "Cerebellum",
+        "Thalamus"
+      ],
+      "explanation": "The medulla oblongata is located in the brainstem and acts as the control center for autonomic (involuntary) functions. It ensures the body maintains homeostasis by managing vital reflexes like heart rate and respiration. The cerebrum handles higher-level functions like thought, while the cerebellum coordinates movement and balance. The thalamus processes sensory information.",
+      "type": "mcq",
+      "question": "Which part of the human brain is primarily responsible for regulating involuntary functions such as heart rate, breathing, and blood pressure?",
+      "id": "GS-064"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "It speeds up and bends away from the normal.",
+        "It slows down and bends toward the normal.",
+        "It maintains speed but changes color.",
+        "It reflects entirely back into the first medium."
+      ],
+      "explanation": "According to Snell's Law, when light enters a denser medium (one with a higher refractive index), its velocity decreases. This change in speed causes the light path to bend toward the 'normal,' which is an imaginary line perpendicular to the surface. This physical principle explains why objects submerged in water often appear shifted from their actual positions.",
+      "type": "mcq",
+      "question": "When a ray of light passes from a medium with a lower refractive index (like air) into a medium with a higher refractive index (like glass) at an angle, what happens to the light ray?",
+      "id": "GS-065"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "Exosphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Troposphere"
+      ],
+      "explanation": "The troposphere is the lowest layer of the atmosphere, extending from the surface up to about 7 to 15 kilometers. It contains approximately 75% of the atmosphere's total mass and almost all of its water vapor and aerosols, which is why nearly all of Earth's weather occurs in this layer.",
+      "type": "mcq",
+      "question": "Which layer of Earth's atmosphere is closest to the planet's surface and contains the majority of its weather phenomena?",
+      "id": "GS-066"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Kinetic energy",
+        "Thermal energy",
+        "Gravitational potential energy",
+        "Elastic potential energy"
+      ],
+      "explanation": "Potential energy is energy stored in an object due to its position or arrangement. Gravitational potential energy specifically depends on the object's mass, its height above a reference point, and the force of gravity. Kinetic energy is the energy of motion, while thermal energy relates to the internal temperature of the object.",
+      "type": "mcq",
+      "question": "A ball held 10 meters above the ground possesses which type of energy due to its position relative to the surface?",
+      "id": "GS-067"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "0",
+        "+1",
+        "-1",
+        "+2"
+      ],
+      "explanation": "An atom's charge is determined by the balance of positive protons and negative electrons. Neutrons are neutral and do not affect the charge. In this case, 11 protons (+11) and 10 electrons (-10) result in a net calculation of +11 - 10 = +1. This positively charged atom is called a cation.",
+      "type": "mcq",
+      "question": "If an atom has 11 protons, 12 neutrons, and 10 electrons, what is its overall electrical charge?",
+      "id": "GS-068"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "explanation": "A heterozygous plant has the genotype Rr, and a white plant must be homozygous recessive (rr). Using a Punnett square to cross Rr and rr results in the following offspring genotypes: Rr, Rr, rr, and rr. This means 2 out of 4 (or 50%) of the offspring will have the rr genotype, expressing the recessive white trait.",
+      "type": "mcq",
+      "question": "In a certain plant species, red flowers (R) are dominant over white flowers (r). If a heterozygous red-flowered plant is crossed with a white-flowered plant, what is the probability that an offspring will have white flowers?",
+      "id": "GS-069"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "It speeds up and bends away from the normal.",
+        "It slows down and bends away from the normal.",
+        "It speeds up and stays in a straight line.",
+        "It slows down and bends toward the normal."
+      ],
+      "explanation": "Refraction occurs when light changes speed while passing from one medium into another of a different optical density. Glass is denser than air, so the light ray slows down upon entry. According to Snell's Law, when light enters a more dense medium at an angle, it bends toward the 'normal,' which is the line perpendicular to the surface.",
+      "type": "mcq",
+      "question": "When a light ray travels from air into a denser medium like glass at an angle, what happens to the ray's speed and direction?",
+      "id": "GS-070"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "Platelets",
+        "White blood cells",
+        "Plasma",
+        "Red blood cells"
+      ],
+      "explanation": "Red blood cells, also known as erythrocytes, contain a protein called hemoglobin that binds to oxygen in the lungs and carries it to the rest of the body. Platelets are involved in blood clotting, white blood cells are part of the immune system to fight infection, and plasma is the liquid component that carries nutrients and waste.",
+      "type": "mcq",
+      "question": "Which component of human blood is primarily responsible for transporting oxygen to the body's tissues?",
+      "id": "GS-071"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "The same atomic mass",
+        "Similar chemical properties",
+        "The same number of neutrons",
+        "The same state of matter at room temperature"
+      ],
+      "explanation": "Elements in the same group of the periodic table have the same number of valence electrons in their outermost shell. Because chemical reactivity and bonding are determined by these valence electrons, elements in the same group tend to exhibit very similar chemical properties and behaviors during chemical reactions.",
+      "type": "mcq",
+      "question": "In the periodic table, elements located in the same vertical column are referred to as a 'group.' What do elements within the same group generally share?",
+      "id": "GS-072"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "Divergent boundary",
+        "Convergent boundary",
+        "Transform boundary",
+        "Subduction zone"
+      ],
+      "explanation": "A transform boundary occurs where two tectonic plates slide past one another horizontally. The friction between the plates prevents smooth movement, causing stress to build up in the crust until it is suddenly released as an earthquake. The San Andreas Fault is a well-known example of this type of boundary.",
+      "type": "mcq",
+      "question": "Which type of tectonic plate boundary occurs when two plates slide horizontally past each other, often resulting in significant earthquake activity?",
+      "id": "GS-073"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "The acceleration will be halved.",
+        "The acceleration will remain the same.",
+        "The acceleration will double.",
+        "The acceleration will quadruple."
+      ],
+      "explanation": "Newton's Second Law is defined by the formula Force (F) = mass (m) × acceleration (a). If the mass remains constant and the force is doubled (2F), the equation becomes 2F = m × (new acceleration). To balance the equation, the acceleration must also be multiplied by two (2a). Therefore, force and acceleration are directly proportional.",
+      "type": "mcq",
+      "question": "According to Newton's Second Law of Motion, if the net force acting on an object is doubled while the object's mass remains constant, what will happen to the object's acceleration?",
+      "id": "GS-074"
+    },
+    {
+      "sectionId": "GS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "It speeds up and bends away from the normal line.",
+        "It slows down and bends toward the normal line.",
+        "It maintains its speed but changes color.",
+        "It stops completely and is absorbed as thermal energy."
+      ],
+      "explanation": "This phenomenon is known as refraction. Light travels more slowly in denser materials because the refractive index is higher. When a light ray enters a denser medium at an angle, the decrease in speed causes the path of the light to bend toward the 'normal,' which is an imaginary line perpendicular to the surface interface.",
+      "type": "mcq",
+      "question": "When a light ray passes from a less dense medium, such as air, into a more dense medium, such as glass, at an angle, what occurs to the light ray?",
+      "id": "GS-075"
     }
   ]
 }

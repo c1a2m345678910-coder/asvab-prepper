@@ -22,7 +22,7 @@ export function PassageQuestion({ question, onAnswer }: Props) {
   return (
     <div className="flex flex-col gap-6">
       {/* ── Sticky passage band ─────────────────────────────────────────── */}
-      <div className="sticky top-0 z-10 rounded-xl border border-indigo-100 bg-indigo-50 shadow-sm">
+      <div className="sticky top-0 z-10 rounded-xl border border-indigo-100 bg-indigo-50 shadow-sm dark:bg-indigo-950/30 dark:border-indigo-900/50">
         <div className="flex items-center gap-2 px-4 pt-3 pb-1">
           <span className="text-[10px] font-bold uppercase tracking-widest text-indigo-400">
             Passage
@@ -30,14 +30,14 @@ export function PassageQuestion({ question, onAnswer }: Props) {
         </div>
         {/* Inner scroll so the band never exceeds ~40 % of the viewport */}
         <div className="max-h-[40vh] overflow-y-auto px-4 pb-4">
-          <p className="text-sm text-slate-700 leading-relaxed whitespace-pre-wrap">
+          <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-wrap">
             {question.passage}
           </p>
         </div>
       </div>
 
       {/* ── Question ────────────────────────────────────────────────────── */}
-      <p className="text-base font-semibold text-slate-900 leading-snug">
+      <p className="text-base font-semibold text-slate-900 dark:text-slate-100 leading-snug">
         {question.question}
       </p>
 

@@ -86,6 +86,7 @@ export function selectQuestions(
 export function selectReviewQuestions(
   srsCards: Record<string, SRSCard>,
   sectionId?: string,
+  limit = Infinity,
 ): Question[] {
   const dueCards = getDueCards(srsCards, new Date());
   if (dueCards.length === 0) return [];
@@ -98,7 +99,7 @@ export function selectReviewQuestions(
     questions.push(...getQuestionsForSection(sid).filter((q) => dueIds.has(q.id)));
   }
 
-  return shuffle(questions);
+  return shuffle(questions).slice(0, limit);
 }
 
 // ── Review queue stats ─────────────────────────────────────────────────────

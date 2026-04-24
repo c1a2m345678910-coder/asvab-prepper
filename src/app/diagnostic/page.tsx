@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import Link from 'next/link';
 import type { Question, DiagnosticResult } from '@/types/asvab';
 import { QuestionRenderer } from '@/components/questions/QuestionRenderer';
@@ -14,6 +14,7 @@ import {
 } from '@/lib/diagnostic';
 import { computeAfqtProjection } from '@/lib/afqtProjection';
 import { getQuestionsForSection } from '@/lib/questions';
+import ErrorBoundary from '@/components/ErrorBoundary';
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -73,14 +74,13 @@ function IntroScreen({
   previousResult: DiagnosticResult | null;
 }) {
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
       <div className="max-w-lg mx-auto px-4 pb-16 pt-10">
 
         {/* Back link */}
         <Link
           href="/"
-          className="inline-flex items-center gap-1 text-sm text-slate-400
-            hover:text-slate-600 transition-colors mb-8"
+          className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-8"
         >
           ← Home
         </Link>
@@ -91,7 +91,7 @@ function IntroScreen({
             justify-center text-3xl mb-5">
             🎯
           </div>
-          <h1 className="text-3xl font-bold text-slate-900 tracking-tight mb-2">
+          <h1 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight mb-2">
             AFQT Diagnostic
           </h1>
           <p className="text-slate-500 text-base leading-relaxed">
@@ -102,7 +102,7 @@ function IntroScreen({
         </div>
 
         {/* How it works */}
-        <div className="bg-white rounded-2xl border border-slate-100 p-5 mb-5 shadow-sm">
+        <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 p-5 mb-5 shadow-sm">
           <h2 className="text-sm font-bold text-slate-700 uppercase tracking-wider mb-4">
             How it works
           </h2>
@@ -207,11 +207,11 @@ function RunningScreen({
   const currentDiff = question.difficulty;
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
       <div className="max-w-lg mx-auto px-4 pb-10">
 
         {/* Sticky header */}
-        <div className="sticky top-0 z-20 bg-slate-50 pt-4 pb-3">
+        <div className="sticky top-0 z-20 bg-slate-50 dark:bg-slate-950 pt-4 pb-3">
           <div className="flex items-center gap-3 mb-3">
             <button
               onClick={onAbort}
@@ -317,20 +317,31 @@ function ResultsScreen({
       : 'Below passing for most branches — focused study will help.';
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
       <div className="max-w-lg mx-auto px-4 pb-16 pt-10">
 
         {/* Back */}
         <Link
           href="/"
-          className="inline-flex items-center gap-1 text-sm text-slate-400
-            hover:text-slate-600 transition-colors mb-8"
+          className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-8"
         >
           ← Home
         </Link>
 
+        {/* Early-end notice */}
+        {result.totalQuestions < DIAGNOSTIC_TOTAL && (
+          <div className="flex items-start gap-2.5 bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-800/40 rounded-xl px-4 py-3 text-xs text-amber-700 dark:text-amber-400 mb-5">
+            <span className="shrink-0 mt-px">⚠️</span>
+            <span>
+              Test ended after <strong>{result.totalQuestions}</strong> questions — the
+              question bank ran out before reaching {DIAGNOSTIC_TOTAL}. Add more questions
+              in Settings for a complete diagnostic.
+            </span>
+          </div>
+        )}
+
         {/* Score hero */}
-        <div className="bg-white rounded-3xl border border-slate-100 shadow-sm p-7 mb-5 text-center">
+        <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm p-7 mb-5 text-center">
           <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">
             Projected AFQT Percentile
           </p>
@@ -354,7 +365,7 @@ function ResultsScreen({
         </div>
 
         {/* Per-section breakdown */}
-        <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-5 mb-5">
+        <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm p-5 mb-5">
           <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">
             Section Breakdown
           </h2>
@@ -402,7 +413,7 @@ function ResultsScreen({
 
         {/* Study priority */}
         {studyPriority.length > 0 && (
-          <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-5 mb-6">
+          <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm p-5 mb-6">
             <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">
               Recommended Study Priority
             </h2>
@@ -547,18 +558,18 @@ export default function DiagnosticPage() {
 
   // ── Render ─────────────────────────────────────────────────────────────
 
+  let content: React.ReactNode;
+
   if (phase === 'intro') {
-    return (
+    content = (
       <IntroScreen
         onStart={handleStart}
         hasQuestions={hasAfqtQuestions()}
         previousResult={latestDiagnostic}
       />
     );
-  }
-
-  if (phase === 'running' && currentQ) {
-    return (
+  } else if (phase === 'running' && currentQ) {
+    content = (
       <RunningScreen
         question={currentQ}
         responses={responses}
@@ -568,16 +579,20 @@ export default function DiagnosticPage() {
         onAbort={handleAbort}
       />
     );
+  } else if (phase === 'complete' && result) {
+    content = <ResultsScreen result={result} onRetake={handleRetake} />;
+  } else {
+    // Transitional / fallback — should never be visible
+    content = (
+      <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex items-center justify-center">
+        <div className="w-8 h-8 rounded-full border-4 border-indigo-200 border-t-indigo-500 animate-spin" />
+      </div>
+    );
   }
 
-  if (phase === 'complete' && result) {
-    return <ResultsScreen result={result} onRetake={handleRetake} />;
-  }
-
-  // Transitional / fallback — should never be visible
   return (
-    <div className="min-h-screen bg-slate-50 flex items-center justify-center">
-      <div className="w-8 h-8 rounded-full border-4 border-indigo-200 border-t-indigo-500 animate-spin" />
-    </div>
+    <ErrorBoundary fallbackHref="/" fallbackLabel="← Back to Home">
+      {content}
+    </ErrorBoundary>
   );
 }

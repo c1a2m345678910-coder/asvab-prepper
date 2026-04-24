@@ -80,6 +80,14 @@ export const SECTIONS: Section[] = [
     description: 'Tests ability to determine how an object will look when its parts are put together.',
     iconEmoji: '🧩',
   },
+  {
+    id: 'MED',
+    name: 'Medical Sciences',
+    abbrev: 'MED',
+    isAFQT: false,
+    description: 'Anatomy, physiology, biology, and medical terminology targeting the Skilled Technical (ST) score required for Combat Medic (68W) and medical MOS qualification.',
+    iconEmoji: '🩺',
+  },
 ];
 
 /** O(1) lookup map by section id (e.g. SECTION_MAP['GS']) */

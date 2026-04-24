@@ -8,6 +8,7 @@ import eiData from '@/data/questions/ei.json';
 import asData from '@/data/questions/as.json';
 import mcData from '@/data/questions/mc.json';
 import aoData from '@/data/questions/ao.json';
+import medData from '@/data/questions/med.json';
 
 // TypeScript infers the JSON `questions` field as `never[]` while the arrays
 // are empty. The cast is safe and will widen automatically as questions are added.
@@ -21,6 +22,7 @@ const QUESTIONS_BY_SECTION: Record<string, Question[]> = {
   AS: asData.questions as unknown as Question[],
   MC: mcData.questions as unknown as Question[],
   AO: aoData.questions as unknown as Question[],
+  MED: medData.questions as unknown as Question[],
 };
 
 /** Return all questions for a given section. Returns [] for unknown sectionIds. */

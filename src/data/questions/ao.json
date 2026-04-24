@@ -3,6 +3,7 @@
   "sectionId": "AO",
   "questions": [
     {
+      "id": "AO-001",
       "sectionId": "AO",
       "difficulty": 1,
       "correctIndex": 1,
@@ -14,10 +15,10 @@
       ],
       "explanation": "An equilateral triangle has three equal sides. When two of these triangles are joined along a common side, the resulting figure has four equal exterior sides of 5 inches each. A quadrilateral with four equal sides is a rhombus. On the actual ASVAB, Assembling Objects questions use diagrams to show how these pieces are moved and connected spatially.",
       "type": "mcq",
-      "question": "Two identical equilateral triangles, each with side lengths of 5 inches, are joined together along one of their sides so that no parts overlap. What is the name of the resulting four-sided geometric shape?",
-      "id": "AO-001"
+      "question": "Two identical equilateral triangles, each with side lengths of 5 inches, are joined together along one of their sides so that no parts overlap. What is the name of the resulting four-sided geometric shape?"
     },
     {
+      "id": "AO-002",
       "sectionId": "AO",
       "difficulty": 1,
       "correctIndex": 2,
@@ -29,10 +30,10 @@
       ],
       "explanation": "A semicircle is exactly half of a circle, created by cutting a circle along its diameter. When two identical semicircles are joined along their straight diameter edges, they reconstruct the original whole circle. This basic spatial reasoning task requires visualizing how flat edges align to form a continuous curved boundary. On the ASVAB, this would be presented with a line-drawing diagram.",
       "type": "mcq",
-      "question": "Two identical semicircles with a diameter of 10 inches are placed such that their straight edges are perfectly aligned and touching. What shape is formed by this assembly?",
-      "id": "AO-002"
+      "question": "Two identical semicircles with a diameter of 10 inches are placed such that their straight edges are perfectly aligned and touching. What shape is formed by this assembly?"
     },
     {
+      "id": "AO-003",
       "sectionId": "AO",
       "difficulty": 2,
       "correctIndex": 0,
@@ -44,10 +45,10 @@
       ],
       "explanation": "When rectangles are placed side-by-side along their longest sides (6 inches), the height of the assembly remains 6 inches. The width of the new shape is the sum of the widths of the individual rectangles. Since there are three rectangles each 2 inches wide, the total width is 2 + 2 + 2 = 6 inches. A 6x6 rectangle is also known as a square.",
       "type": "mcq",
-      "question": "Three identical rectangles, each measuring 2 inches by 6 inches, are placed side-by-side so that their 6-inch sides are touching. What are the dimensions of the new larger rectangle formed?",
-      "id": "AO-003"
+      "question": "Three identical rectangles, each measuring 2 inches by 6 inches, are placed side-by-side so that their 6-inch sides are touching. What are the dimensions of the new larger rectangle formed?"
     },
     {
+      "id": "AO-004",
       "sectionId": "AO",
       "difficulty": 2,
       "correctIndex": 2,
@@ -59,10 +60,10 @@
       ],
       "explanation": "To form a larger square from four smaller squares, they must be arranged in a 2x2 grid. This makes the side length of the new large square equal to two small square sides (3 + 3 = 6 inches). The perimeter of a square is calculated by multiplying the side length by four. Therefore, 6 inches multiplied by 4 equals 24 inches. On the ASVAB, you would see the transition from four separate squares to the combined unit.",
       "type": "mcq",
-      "question": "Four identical squares with side lengths of 3 inches are arranged to form one larger square. What is the perimeter of the resulting large square?",
-      "id": "AO-004"
+      "question": "Four identical squares with side lengths of 3 inches are arranged to form one larger square. What is the perimeter of the resulting large square?"
     },
     {
+      "id": "AO-005",
       "sectionId": "AO",
       "difficulty": 3,
       "correctIndex": 0,
@@ -74,10 +75,10 @@
       ],
       "explanation": "A 180-degree rotation flips an object both vertically and horizontally. The original short line was at the 'top', so after rotation, it is at the 'bottom'. The original short line extended to the 'right', so after rotation, it extends to the 'left'. Mental rotation is a key component of the Assembling Objects subtest, where you must predict the orientation of shapes after movement.",
       "type": "mcq",
-      "question": "A shape consists of a long vertical line with a short horizontal line attached to the top, extending to the right (resembling a flipped letter 'L' or a '7'). If this shape is rotated 180 degrees in a 2D plane, what is the new position of the short horizontal line?",
-      "id": "AO-005"
+      "question": "A shape consists of a long vertical line with a short horizontal line attached to the top, extending to the right (resembling a flipped letter 'L' or a '7'). If this shape is rotated 180 degrees in a 2D plane, what is the new position of the short horizontal line?"
     },
     {
+      "id": "AO-006",
       "sectionId": "AO",
       "difficulty": 3,
       "correctIndex": 3,
@@ -89,10 +90,10 @@
       ],
       "explanation": "The cross-section of a 3D object depends on the angle of the cut. A cut parallel to the base of a cylinder produces a circle. A cut perpendicular to the base produces a rectangle. Any diagonal cut that passes through the vertical sides of a cylinder without intersecting the bases results in an ellipse (an elongated circle). Visualizing these 3D interactions is essential for high-level AO performance.",
       "type": "mcq",
-      "question": "A solid cylinder is standing upright on its circular base. If a flat, diagonal cut is made entirely through the cylinder at a 45-degree angle to the base, what is the shape of the surface created by the cut?",
-      "id": "AO-006"
+      "question": "A solid cylinder is standing upright on its circular base. If a flat, diagonal cut is made entirely through the cylinder at a 45-degree angle to the base, what is the shape of the surface created by the cut?"
     },
     {
+      "id": "AO-007",
       "sectionId": "AO",
       "difficulty": 4,
       "correctIndex": 0,
@@ -104,10 +105,10 @@
       ],
       "explanation": "In this specific 'cross' net, the central square of the cross (the second from the top) acts as a base or side. The squares attached to its left and right will fold up to become opposite faces of the cube. Spatial visualization requires mentally folding these 2D patterns into 3D shapes to determine which faces end up parallel (opposite) to one another.",
       "type": "mcq",
-      "question": "A cardboard net for a cube is laid flat. It consists of four squares in a vertical row, with one extra square attached to the left side of the second square from the top, and one extra square attached to the right side of the second square from the top. When folded into a cube, which square will be opposite the square on the far right?",
-      "id": "AO-007"
+      "question": "A cardboard net for a cube is laid flat. It consists of four squares in a vertical row, with one extra square attached to the left side of the second square from the top, and one extra square attached to the right side of the second square from the top. When folded into a cube, which square will be opposite the square on the far right?"
     },
     {
+      "id": "AO-008",
       "sectionId": "AO",
       "difficulty": 4,
       "correctIndex": 1,
@@ -119,10 +120,10 @@
       ],
       "explanation": "First, determine the total area. The 3x2 rectangle has an area of 6 square inches (3 × 2 = 6). Each L-shaped piece is made of three 1x1 squares, so each piece has an area of 3 square inches. Dividing the total area by the area per piece (6 / 3 = 2) shows that 2 pieces are needed. Spatially, one piece can be rotated 180 degrees and fitted into the other to form the rectangle.",
       "type": "mcq",
-      "question": "An 'L-shaped' piece is made by joining three 1x1 inch squares. Two squares form a vertical column, and the third is attached to the right of the bottom square. How many of these pieces are needed to perfectly cover a rectangle that is 3 inches wide and 2 inches tall?",
-      "id": "AO-008"
+      "question": "An 'L-shaped' piece is made by joining three 1x1 inch squares. Two squares form a vertical column, and the third is attached to the right of the bottom square. How many of these pieces are needed to perfectly cover a rectangle that is 3 inches wide and 2 inches tall?"
     },
     {
+      "id": "AO-009",
       "sectionId": "AO",
       "difficulty": 5,
       "correctIndex": 1,
@@ -134,10 +135,10 @@
       ],
       "explanation": "Rotating an object 180 degrees around a horizontal axis is equivalent to flipping it upside down. The face that was originally the 'top' becomes the 'bottom'. Since the pyramid was attached to the top face and pointed 'upward' away from the cube, after the flip, it will be underneath the cube and pointing 'downward'. This task tests 3D mental manipulation, a complex aspect of spatial reasoning.",
       "type": "mcq",
-      "question": "A 3D object consists of a cube with a small pyramid attached to the center of its top face. If the entire object is rotated 180 degrees around its horizontal axis (flipped upside down), what is the new orientation of the pyramid's point (vertex)?",
-      "id": "AO-009"
+      "question": "A 3D object consists of a cube with a small pyramid attached to the center of its top face. If the entire object is rotated 180 degrees around its horizontal axis (flipped upside down), what is the new orientation of the pyramid's point (vertex)?"
     },
     {
+      "id": "AO-010",
       "sectionId": "AO",
       "difficulty": 5,
       "correctIndex": 0,
@@ -149,8 +150,682 @@
       ],
       "explanation": "The central 3x3 square serves as the base of the object. The four triangles attached to the sides of the square fold upward to form the slanted lateral faces. When the vertices (tips) of these four triangles meet at a single point directly above the center of the base, the resulting three-dimensional figure is a square pyramid. This requires visualizing how 2D 'nets' transition into 3D solids.",
       "type": "mcq",
-      "question": "A flat template consists of a central 3x3 inch square. Attached to each of the four sides of this central square is a triangle with a base of 3 inches and a height of 4 inches. When the four triangles are folded upward until their tips meet, what 3D shape is formed?",
-      "id": "AO-010"
+      "question": "A flat template consists of a central 3x3 inch square. Attached to each of the four sides of this central square is a triangle with a base of 3 inches and a height of 4 inches. When the four triangles are folded upward until their tips meet, what 3D shape is formed?"
+    },
+    {
+      "id": "AO-011",
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "16 inches",
+        "24 inches",
+        "32 inches",
+        "20 inches"
+      ],
+      "explanation": "To find the perimeter of the new shape, visualize the two 4x4 squares joined together. They form a single rectangle with a width of 4 inches and a length of 8 inches (4 + 4). The perimeter is the sum of all outer sides: 8 + 4 + 8 + 4 = 24 inches. Note that the two interior sides that are touching are no longer part of the perimeter. On the actual ASVAB, this problem would be presented as a visual puzzle with labeled diagrams.",
+      "type": "mcq",
+      "question": "Two identical squares, each with a side length of 4 inches, are placed side-by-side so that one entire side of the first square is perfectly aligned with and touching one entire side of the second square. What is the perimeter of the resulting rectangle?"
+    },
+    {
+      "id": "AO-012",
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "explanation": "When you attach the hypotenuse of a right isosceles triangle to the top of a square, the triangle's 90-degree vertex becomes a new point, while the two base vertices of the triangle overlap with the existing corners of the square. Repeating this on the bottom creates another point. The resulting shape is a rhombus (a diamond shape). It has only 4 vertices: the top point of the first triangle, the bottom point of the second triangle, and the two side corners of the original square. On the real ASVAB, these shapes would be drawn out for you to assemble mentally.",
+      "type": "mcq",
+      "question": "A square with side lengths of 6 inches has two identical right isosceles triangles attached to it. Each triangle has a hypotenuse of 6 inches that is joined perfectly to one side of the square. If one triangle is attached to the top side and the other triangle is attached to the bottom side of the square, how many total vertices (corners) does the resulting polygon have?"
+    },
+    {
+      "id": "AO-013",
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Up",
+        "Down",
+        "Left",
+        "Right"
+      ],
+      "explanation": "Spatial reasoning requires tracking the orientation step-by-step. Start with the 'T' stem pointing down. Rotating 90 degrees clockwise moves the stem from pointing down to pointing left (and the top bar becomes vertical). Next, reflecting the shape horizontally (flipping it like a mirror image) changes the direction from left to right. Therefore, the stem now points to the right. On the ASVAB, you would see a series of drawings depicting these transformations.",
+      "type": "mcq",
+      "question": "A flat geometric shape is shaped like the capital letter 'T'. It consists of a horizontal bar 4 inches long and a vertical stem 6 inches long attached to the exact center of the horizontal bar. If the shape is rotated 90 degrees clockwise and then reflected (flipped) horizontally across a vertical axis, in which direction does the 6-inch stem now point?"
+    },
+    {
+      "id": "AO-014",
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "A triangle",
+        "A square",
+        "A trapezoid",
+        "A pentagon"
+      ],
+      "explanation": "In spatial visualization, a cross-section is the shape resulting from cutting through a 3D object. For any pyramid with a square base, a cut made parallel to that base will always result in a shape identical to the base, just smaller in scale. Since the base is a square, every horizontal cross-section between the base and the apex will also be a square. While the ASVAB AO section primarily uses 2D pieces, it often includes 3D perspective questions that require identifying how objects look from different angles or when sliced.",
+      "type": "mcq",
+      "question": "A solid right square pyramid is sitting on its square base. If a flat, horizontal cut is made entirely through the pyramid parallel to the base, halfway between the base and the top vertex, what is the shape of the surface (cross-section) created by the cut?"
+    },
+    {
+      "id": "AO-015",
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "explanation": "A standard cube begins with 6 faces. When you remove a smaller cube from a corner, you affect 3 of the original faces (top, front, and side), turning them from squares into L-shapes. However, each L-shape is still one single flat surface. The 'hole' left behind by the removed corner creates 3 brand-new internal faces that were not visible before. Thus, the total count is the original 6 surfaces plus the 3 new internal surfaces, totaling 9. This tests complex spatial visualization and the ability to track surfaces in 3D space, which is a key component of the ASVAB AO subtest.",
+      "type": "mcq",
+      "question": "A 3D object is created by taking a solid cube with 3-inch sides and removing a smaller cube with 1-inch sides from one of its top corners. How many distinct flat surfaces (faces) does the resulting 3D object have?"
+    },
+    {
+      "id": "AO-016",
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "A rectangle with sides 5 and 10 inches",
+        "A larger right triangle",
+        "A rhombus with side lengths of 7 inches",
+        "A square with side lengths of 5 inches"
+      ],
+      "explanation": "In a right isosceles triangle, the two angles opposite the legs are 45 degrees. When two of these triangles are joined along their hypotenuses, the 45-degree angles meet to form 90-degree angles. Because all four legs of the original triangles are equal (5 inches), the resulting shape has four equal sides and four right angles, which defines a square. On the actual ASVAB Assembling Objects subtest, you would be provided with a diagram showing the two triangles being moved together.",
+      "type": "mcq",
+      "question": "Two identical right isosceles triangles, each with legs measuring 5 inches, are joined together along their longest sides (the hypotenuses). What is the name of the resulting geometric shape?"
+    },
+    {
+      "id": "AO-017",
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "12 inches",
+        "20 inches",
+        "16 inches",
+        "24 inches"
+      ],
+      "explanation": "When you assemble three equilateral triangles in this 'up-down-up' configuration, they form an isosceles trapezoid. The bottom edge consists of the bases of the two upward-pointing triangles (4 + 4 = 8 inches). The top edge is the base of the single inverted triangle (4 inches). The left and right sides of the trapezoid are the outer legs of the first and third triangles (4 + 4 = 8 inches). Step-by-step calculation: 8 (bottom) + 4 (top) + 4 (left) + 4 (right) = 20 inches. On the ASVAB, this would be a visual puzzle where you identify the final outline.",
+      "type": "mcq",
+      "question": "Three identical equilateral triangles, each with side lengths of 4 inches, are placed side-by-side. The first and third triangles point upward, while the middle triangle is inverted (pointing downward) to fit perfectly between them. What is the perimeter of the resulting combined shape?"
+    },
+    {
+      "id": "AO-018",
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "Up",
+        "Down",
+        "Left",
+        "Right"
+      ],
+      "explanation": "To solve this, follow the movement step-by-step: 1. Initially, the triangle points Right. 2. After a 90-degree clockwise rotation, the triangle moves from the right side to the bottom of the square, now pointing Down. 3. Reflecting the shape across a horizontal axis (a mirror line running left-to-right) flips all vertical positions. The triangle at the bottom is flipped to the top, and its downward point is flipped to point Up. Spatial reasoning like this is key to the AO section, which usually uses drawings to represent these transformations.",
+      "type": "mcq",
+      "question": "A geometric shape consists of a square with a small equilateral triangle attached to the center of its right side, pointing outward to the right. If this entire shape is rotated 90 degrees clockwise and then reflected (flipped) across a horizontal axis, in which direction does the triangle now point?"
+    },
+    {
+      "id": "AO-019",
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "4 tiles",
+        "6 tiles",
+        "8 tiles",
+        "12 tiles"
+      ],
+      "explanation": "First, determine the total area of the target rectangle: 6 inches × 4 inches = 24 square inches. Next, determine the area of a single tile: since it is made of three 1x1 inch squares, each tile has an area of 3 square inches. To find the total number of tiles needed, divide the total area by the area per tile: 24 ÷ 3 = 8 tiles. In the Assembling Objects section, you would typically see a diagram of the container and the pieces and must visualize how they interlock without overlapping.",
+      "type": "mcq",
+      "question": "An 'L-shaped' tile is composed of three 1x1 inch squares (two squares aligned vertically, and one square attached to the right side of the bottom square). How many of these identical tiles are required to perfectly cover a rectangular area that measures 6 inches wide and 4 inches tall?"
+    },
+    {
+      "id": "AO-020",
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "A circle with a diameter of 2 inches inside a square with 2-inch sides",
+        "A circle with a diameter of 4 inches inside a square with 4-inch sides",
+        "A square with 4-inch sides inside a circle with a diameter of 4 inches",
+        "A square with 2-inch sides inside a circle with a diameter of 4 inches"
+      ],
+      "explanation": "Visualizing the internal cross-section is a complex spatial task. A cut through the center of a cube with 4-inch sides results in a square with 4-inch sides. Because the sphere is centered and has a diameter of 4 inches (equal to the cube's width), a cut through its center results in a circle with a 4-inch diameter. Since the sphere was inside the cube, the circle will appear perfectly inscribed (touching the edges) inside the square. On the actual ASVAB, you would be identifying the correct 2D representation of this 3D assembly.",
+      "type": "mcq",
+      "question": "A solid cube with side lengths of 4 inches has a sphere with a diameter of 4 inches placed inside it so that the sphere touches the center of all six faces. If a flat, horizontal cut is made through the exact center of both the cube and the sphere, what is the resulting cross-sectional view?"
+    },
+    {
+      "id": "AO-021",
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "A rectangle",
+        "A square",
+        "A rhombus",
+        "A trapezoid"
+      ],
+      "explanation": "Since both rectangles are 5 inches long and 2.5 inches wide, joining them along their 5-inch sides means the 5-inch length remains the same, but the total width of the new figure becomes 2.5 + 2.5 = 5 inches. A quadrilateral with four equal sides of 5 inches and four right angles is a square. On the actual ASVAB, this would be presented as a diagram showing the two pieces being moved together.",
+      "type": "mcq",
+      "question": "Two identical rectangles, each measuring 5 inches long and 2.5 inches wide, are joined along their 5-inch sides so that they do not overlap. What is the name of the resulting geometric shape?"
+    },
+    {
+      "id": "AO-022",
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "12 inches",
+        "18 inches",
+        "24 inches",
+        "30 inches"
+      ],
+      "explanation": "Each 3x3 square has four sides of 3 inches, totaling 12 inches of perimeter per square. However, when two squares are joined at an edge, two 3-inch sides are hidden inside the shape. In an 'L' shape made of three squares, there are two points of contact (two joints). Calculation: (3 squares × 4 sides) - (2 joints × 2 sides per joint) = 12 sides - 4 sides = 8 exterior sides. 8 sides × 3 inches per side = 24 inches. Step-by-step: 3+3+3+3+6+6 = 24.",
+      "type": "mcq",
+      "question": "Three identical squares, each with a side length of 3 inches, are arranged to form an 'L' shape. This is done by placing two squares vertically in a column and the third square to the right of the bottom square. What is the total perimeter of this 'L' shaped figure?"
+    },
+    {
+      "id": "AO-023",
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Left",
+        "Right",
+        "Up",
+        "Down"
+      ],
+      "explanation": "Rotating the 'F' shape 90 degrees counter-clockwise moves the vertical stem from pointing 'up' to pointing 'left', and the horizontal arms from pointing 'right' to pointing 'up'. Following this with a vertical flip (reflection across a horizontal axis) keeps the stem pointing 'left' but reverses the direction of the arms from 'up' to 'down'. Spatial reasoning regarding orientation is a core component of the Assembling Objects section.",
+      "type": "mcq",
+      "question": "Consider a flat geometric shape resembling the capital letter 'F'. It consists of a long vertical stem with two horizontal arms extending to the right. If this shape is rotated 90 degrees counter-clockwise and then reflected (flipped) across a horizontal axis, in which direction do the two horizontal arms now point?"
+    },
+    {
+      "id": "AO-024",
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "A triangle",
+        "A circle",
+        "A square",
+        "An ellipse"
+      ],
+      "explanation": "When a solid cone is cut vertically through its apex and the center of its base, the cross-section is the shape formed by the interior height and the base diameter. This results in an isosceles triangle where the two slanted sides of the cone form the legs and the diameter of the circular base forms the bottom edge of the triangle. Visualizing 3D cross-sections is a high-level spatial reasoning skill required for the ASVAB.",
+      "type": "mcq",
+      "question": "A solid right circular cone is standing on its circular base. A flat, vertical cut is made through the cone, starting from the top vertex (apex) and slicing straight down through the center of the circular base. What is the shape of the surface (cross-section) created by this cut?"
+    },
+    {
+      "id": "AO-025",
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "Square 2",
+        "Square 3",
+        "Square 4",
+        "Square 5"
+      ],
+      "explanation": "In a standard cube net, a row of four squares folds to form the four continuous sides of the cube (such as front, bottom, back, and top). In any such four-square sequence, the first and third squares will always end up opposite each other, and the second and fourth squares will be opposite each other. Therefore, square 1 is opposite square 3. Squares 5 and 6, attached to the sides of the row, fold in to become the remaining two opposite faces (left and right).",
+      "type": "mcq",
+      "question": "A flat paper template for a cube consists of a row of four squares (labeled 1, 2, 3, and 4 from left to right). Additionally, square 5 is attached to the top of square 2, and square 6 is attached to the bottom of square 3. When this template is folded into a cube, which square will be on the face directly opposite square 1?"
+    },
+    {
+      "id": "AO-026",
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "A square",
+        "A scalene triangle",
+        "A rectangle",
+        "An isosceles triangle"
+      ],
+      "explanation": "Two right triangles joined on a leg (the height of 8 inches) create a larger triangle. The new base is the sum of the two original bases (6 + 6 = 12 inches). Since the two outer sides are the original hypotenuses (both 10 inches), the triangle has two equal sides, making it isosceles. On the real ASVAB, diagrams illustrate this.",
+      "type": "mcq",
+      "question": "Two identical right triangles each have a base of 6 inches and a height of 8 inches. If they are placed back-to-back so that their 8-inch sides are perfectly touching and their 6-inch bases lie on the same straight line, what is the shape of the resulting figure?"
+    },
+    {
+      "id": "AO-027",
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "explanation": "The area of the larger 4x4 square is calculated as 4 inches × 4 inches = 16 square inches. Each T-shaped tile consists of four 1x1 squares, so its area is 4 × 1 = 4 square inches. To fill the larger area: 16 / 4 = 4 tiles. On the actual ASVAB, this would be represented by visual pieces rather than text.",
+      "type": "mcq",
+      "question": "A 'T-shaped' tile is created by joining four squares, each measuring 1 inch by 1 inch. The shape consists of a row of three squares with a fourth square attached to the bottom of the middle square. How many of these tiles are needed to completely cover a square area measuring 4 inches by 4 inches without any gaps or overlaps?"
+    },
+    {
+      "id": "AO-028",
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "Star in the bottom-left, dot in the top-right",
+        "Star in the top-right, dot in the bottom-left",
+        "Star in the bottom-right, dot in the top-left",
+        "Star in the top-left, dot in the bottom-right"
+      ],
+      "explanation": "A 180-degree rotation moves a point from top-left to bottom-right and from bottom-right to top-left. A vertical reflection (flip) then swaps left and right positions. The star moves from bottom-right to bottom-left. The dot moves from top-left to top-right. Diagrams are typically provided in actual ASVAB Assembling Objects sections to visualize these spatial transformations.",
+      "type": "mcq",
+      "question": "A square tile has a small star in its top-left corner and a small dot in its bottom-right corner. If the tile is rotated 180 degrees clockwise and then reflected (flipped) across a vertical axis, where are the star and the dot located?"
+    },
+    {
+      "id": "AO-029",
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "A rectangular pyramid",
+        "A triangular pyramid",
+        "A triangular prism",
+        "A pentagonal prism"
+      ],
+      "explanation": "A triangular prism is formed by folding three rectangles into a 'tube' and closing the ends with two triangles. Here, the three rectangles (5x10) form the sides of the prism, and the two triangles (side length 5) form the parallel bases. This multi-step spatial reasoning is usually diagram-based on the official ASVAB exam to test 3D visualization.",
+      "type": "mcq",
+      "question": "A flat paper template consists of three identical rectangles, each measuring 5 inches by 10 inches, joined side-by-side along their 10-inch edges. Two identical equilateral triangles, each with side lengths of 5 inches, are attached to the 5-inch edges of the middle rectangle (one at the top and one at the bottom). When folded together, what 3D shape is formed?"
+    },
+    {
+      "id": "AO-030",
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "A solid square",
+        "A square with a circle missing from the center",
+        "A solid circle",
+        "A rectangle with two circles missing"
+      ],
+      "explanation": "A horizontal cut through a cube results in a square cross-section. Because a vertical cylindrical hole was drilled through the entire cube, the cut also passes through that void. The intersection of the horizontal plane and the vertical hole is a circle. Thus, the final shape is a square with a circular void in the middle. Visual diagrams are essential for these problems on the ASVAB.",
+      "type": "mcq",
+      "question": "A solid cube with 6-inch sides has a circular hole with a 2-inch diameter drilled through the exact center of the top face, extending all the way through to the bottom face. If a flat, horizontal cut is made through the center of the cube, parallel to the base, what is the shape of the resulting cross-section?"
+    },
+    {
+      "id": "AO-031",
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "A larger rectangle with a width of 16 centimeters",
+        "A trapezoid",
+        "A rhombus",
+        "A square"
+      ],
+      "explanation": "When the two rectangles are joined along their 8-centimeter sides, the length of the new shape remains 8 centimeters, while the width becomes the sum of the two smaller widths (4 cm + 4 cm = 8 cm). A quadrilateral with four equal sides of 8 centimeters and right angles is a square. On the actual ASVAB, this would be presented as a visual assembly puzzle.",
+      "type": "mcq",
+      "question": "Two identical rectangles each measure 8 centimeters in length and 4 centimeters in width. If they are placed side-by-side so that their 8-centimeter sides are perfectly aligned and touching, what is the name of the resulting geometric shape?"
+    },
+    {
+      "id": "AO-032",
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "5 sides",
+        "6 sides",
+        "7 sides",
+        "8 sides"
+      ],
+      "explanation": "A regular hexagon has 6 outer edges. When you remove two adjacent triangles, you remove 2 of the original outer edges. However, you reveal 2 new interior edges that lead from the perimeter to the center point. Therefore, the new boundary consists of the 4 remaining original edges plus the 2 newly exposed interior edges, totaling 6 sides. Assembling Objects questions on the ASVAB require this type of mental manipulation of parts.",
+      "type": "mcq",
+      "question": "A regular hexagon is composed of six identical equilateral triangles that meet at a central point. If two of these triangles that share a common interior side are removed, how many total exterior sides will the remaining polygon have?"
+    },
+    {
+      "id": "AO-033",
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "Attached to the upper-left side",
+        "Attached to the upper-right side",
+        "Attached to the lower-left side",
+        "Attached to the lower-right side"
+      ],
+      "explanation": "A 180-degree rotation moves the semicircle from the upper-right to the lower-left. Following this, a reflection across a vertical axis (a horizontal flip) moves the semicircle from the left side of the vertical line back to the right side. The final position is on the lower-right. ASVAB spatial reasoning tests your ability to track these orientation changes without a physical diagram.",
+      "type": "mcq",
+      "question": "A flat geometric shape resembles a capital letter 'P'. It consists of a straight vertical line with a semicircle attached to the upper-right side. If this shape is rotated 180 degrees in a 2D plane and then reflected (flipped) across a vertical axis, where is the semicircle located relative to the vertical line?"
+    },
+    {
+      "id": "AO-034",
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "6 tiles",
+        "8 tiles",
+        "4 tiles",
+        "12 tiles"
+      ],
+      "explanation": "First, calculate the total area of the container: 4 inches × 6 inches = 24 square inches. Next, determine the area of one tile: each tile consists of four 1-inch squares, so 4 × 1 = 4 square inches. Finally, divide the total area by the tile area: 24 / 4 = 6. While this involves math, the ASVAB AO section tests if you can visualize how these 4-unit blocks fill a 24-unit space.",
+      "type": "mcq",
+      "question": "An 'S-shaped' tile is formed by four 1-inch by 1-inch squares: two squares are aligned horizontally in a row, with one square attached above the left-hand square and another attached below the right-hand square. How many of these identical tiles are needed to perfectly cover a rectangle that is 4 inches wide and 6 inches tall?"
+    },
+    {
+      "id": "AO-035",
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "A circle with an area of 12.56 square inches",
+        "A rectangle with an area of 20 square inches",
+        "A rectangle with an area of 40 square inches",
+        "An oval with an area of 50 square inches"
+      ],
+      "explanation": "The joined cylinder has a total height of 10 inches (5 + 5 = 10) and a diameter of 4 inches (radius 2 × 2 = 4). A vertical cut through the center of a cylinder produces a rectangular cross-section. The dimensions of this rectangle are the height of the cylinder and its diameter. Step-by-step: Area = Height × Diameter = 10 inches × 4 inches = 40 square inches. On the ASVAB, you must visualize 3D intersections like this.",
+      "type": "mcq",
+      "question": "Two identical solid cylinders each have a height of 5 inches and a radius of 2 inches. They are joined end-to-end at their circular bases to form one long cylinder. If this new cylinder is then sliced in half by a flat vertical cut passing through the exact center of its top and bottom bases, what is the shape and area of the resulting cross-section?"
+    },
+    {
+      "id": "AO-036",
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Two rectangles",
+        "Two equilateral triangles",
+        "Two isosceles right triangles",
+        "Two scalene triangles"
+      ],
+      "explanation": "When a square is cut along its diagonal, it creates two right triangles where the legs are the sides of the square. Since all sides of a square are equal (5 inches), both legs of the resulting triangles are equal in length, making them isosceles right triangles. On the actual ASVAB, this question would be presented with a diagram showing the square and the cut line.",
+      "type": "mcq",
+      "question": "A square with side lengths of 5 inches is cut diagonally from one corner to the opposite corner. What are the resulting two shapes?"
+    },
+    {
+      "id": "AO-037",
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "A larger equilateral triangle",
+        "A trapezoid",
+        "A rhombus",
+        "A hexagon"
+      ],
+      "explanation": "Placing three equilateral triangles in this alternating configuration creates a four-sided figure with one pair of parallel sides. The top edge is equal to the length of one triangle side, while the bottom edge is equal to the length of two triangle sides. This geometry defines a trapezoid. On the real ASVAB, visual diagrams would show the specific alignment and fit of these geometric pieces.",
+      "type": "mcq",
+      "question": "You have three identical equilateral triangles. If you place them side-by-side with their bases on a straight horizontal line and their vertices pointing up, down, and up respectively, such that their edges touch completely, what shape is formed?"
+    },
+    {
+      "id": "AO-038",
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "It is reflected across the x-axis",
+        "It is back in its original orientation",
+        "It is rotated 90 degrees clockwise",
+        "It is reflected across the line y=x"
+      ],
+      "explanation": "Reflecting a point (x, y) across the y-axis results in (-x, y). Rotating that result 180 degrees about the origin changes the sign of both coordinates: -(-x) becomes x, and -(y) becomes -y. The final coordinate (x, -y) represents a reflection across the x-axis. While the ASVAB AO section uses diagrams rather than coordinate math, the spatial logic of rotating and flipping shapes remains the same.",
+      "type": "mcq",
+      "question": "A shape is drawn on a coordinate plane. It is first reflected across the y-axis and then rotated 180 degrees about the origin. What is the final orientation of the shape compared to the original?"
+    },
+    {
+      "id": "AO-039",
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "3 cubes",
+        "4 cubes",
+        "8 cubes",
+        "6 cubes"
+      ],
+      "explanation": "To determine how many 2-inch cubes fit, calculate the number of cubes per dimension: \n1. Width: 2 inches / 2 inches = 1 cube.\n2. Length: 4 inches / 2 inches = 2 cubes.\n3. Height: 6 inches / 2 inches = 3 cubes.\n4. Total: 1 * 2 * 3 = 6 cubes.\nOn the actual ASVAB, this problem would likely be shown as a 3D perspective drawing of the box and the individual cubes.",
+      "type": "mcq",
+      "question": "A rectangular box has interior dimensions of 2 inches wide, 4 inches long, and 6 inches high. How many solid cubes with a side length of 2 inches can fit perfectly inside this box without any gaps?"
+    },
+    {
+      "id": "AO-040",
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "A triangle",
+        "An ellipse",
+        "A circle smaller than the base",
+        "A circle the same size as the base"
+      ],
+      "explanation": "A horizontal cut made parallel to the base of a right circular cone always results in a circular cross-section. Because the cone tapers linearly from the base to the apex, any cut made above the base will produce a circle with a diameter smaller than the original base. This complex 3D visualization is a hallmark of high-difficulty Assembling Objects questions, which usually use 2D projections to represent 3D objects.",
+      "type": "mcq",
+      "question": "Imagine a solid right circular cone standing vertically on its circular base. If a clean, straight horizontal cut is made halfway between the base and the top vertex (apex), what is the shape of the surface exposed by the cut?"
+    },
+    {
+      "id": "AO-041",
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "A square",
+        "A hexagon",
+        "A larger equilateral triangle",
+        "A rhombus"
+      ],
+      "explanation": "When two equilateral triangles share a side, their exterior boundaries form a quadrilateral with four equal sides (all sides are 4 inches). Because the interior angles of an equilateral triangle are all 60 degrees, the resulting figure has opposite angles measuring 60 and 120 degrees, which defines a rhombus. On the real ASVAB, this would be presented with visual diagrams.",
+      "type": "mcq",
+      "question": "Two identical equilateral triangles, each with a side length of 4 inches, are placed side-by-side so that they share one full side. What is the name of the resulting four-sided geometric figure?"
+    },
+    {
+      "id": "AO-042",
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "16 inches",
+        "12 inches",
+        "8 inches",
+        "20 inches"
+      ],
+      "explanation": "A 4x4 square cut into four equal parts creates four 2x2 squares. Placing three of these in an 'L' shape means the perimeter consists of two 4-inch outer sides and four 2-inch 'inner' or 'step' sides. Step 1: 4 + 4 + 2 + 2 + 2 + 2 = 16 inches. Note that on the real ASVAB, this question would be accompanied by a diagram showing the shapes.",
+      "type": "mcq",
+      "question": "A square with a side length of 4 inches is cut into four smaller, identical squares. If three of these smaller squares are arranged to form an 'L' shape, what is the total perimeter of the new figure?"
+    },
+    {
+      "id": "AO-043",
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "Horizontal segment points right, vertical points up",
+        "Horizontal segment points left, vertical points up",
+        "Horizontal segment points left, vertical points down",
+        "Horizontal segment points right, vertical points down"
+      ],
+      "explanation": "Imagine the 'L' on a coordinate plane. Rotating 90 degrees clockwise makes the vertical segment point right and the horizontal segment point down. Reflecting this over a vertical (Y) axis mirrors the horizontal direction, so the segment that pointed right now points left, while the downward segment remains downward. On the actual ASVAB, you would see diagrams of the shape at each step.",
+      "type": "mcq",
+      "question": "A shape resembles a capital letter 'L'. It is first rotated 90 degrees clockwise, and then it is reflected across a vertical line. What is the final orientation of the two segments?"
+    },
+    {
+      "id": "AO-044",
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "8",
+        "12",
+        "6",
+        "1"
+      ],
+      "explanation": "In a 3x3x3 cube, there are 27 total small cubes. To have exactly two painted faces, a small cube must be located on an edge but not at a corner (corners have three faces painted). Each edge of the 3-inch cube has 3 small cubes; subtracting the 2 corners leaves 1 middle cube per edge. Since a cube has 12 edges, there are 12 * 1 = 12 such cubes. On the real ASVAB, these spatial problems include visual diagrams.",
+      "type": "mcq",
+      "question": "A solid cube with 3-inch sides is painted entirely red on the outside. If the cube is then cut into 27 smaller cubes (each with 1-inch sides), how many of the small cubes will have exactly two red faces?"
+    },
+    {
+      "id": "AO-045",
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "A circle with area 9π",
+        "A rectangle with area 30",
+        "An ellipse with area 60",
+        "A rectangle with area 60"
+      ],
+      "explanation": "Slicing a cylinder vertically through the centers of its circular bases creates a rectangular cross-section. The height of this rectangle is the cylinder's height (10), and the width is the diameter of the cylinder (radius 3 * 2 = 6). Step 1: Area = height × diameter. Step 2: 10 × 6 = 60 square inches. Note: on the actual ASVAB, 3D spatial reasoning is tested with diagrams rather than text descriptions.",
+      "type": "mcq",
+      "question": "A right circular cylinder has a radius of 3 inches and a height of 10 inches. If a flat plane slices the cylinder vertically through the exact centers of both circular bases, what is the area of the resulting cross-section?"
+    },
+    {
+      "id": "AO-046",
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 0,
+      "options": [
+        "A square",
+        "An equilateral triangle",
+        "A trapezoid",
+        "A hexagon"
+      ],
+      "explanation": "An isosceles right triangle has one 90-degree angle and two 45-degree angles, with two equal legs. When two such triangles are joined at their hypotenuses, the two 45-degree angles at each end of the hypotenuse combine to form a 90-degree corner (45 + 45 = 90). Because all four resulting sides are equal (the original legs) and all four corners are now 90 degrees, the resulting shape is a square. Note: On the actual ASVAB, these shapes would be provided as a visual diagram.",
+      "type": "mcq",
+      "question": "Two identical isosceles right triangles are placed so that their longest sides (hypotenuses) are flush against each other, matching perfectly. Which of the following shapes is the result of this assembly?"
+    },
+    {
+      "id": "AO-047",
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "A larger equilateral triangle",
+        "A regular hexagon",
+        "An isosceles trapezoid",
+        "A rhombus"
+      ],
+      "explanation": "When you arrange three equilateral triangles such that the middle one is inverted, their sides align to form a single four-sided figure. The top edge consists of one triangle's side, while the bottom edge consists of two triangles' sides. Since the non-parallel sides are of equal length (being sides of the original equilateral triangles), the resulting shape is an isosceles trapezoid. This spatial reasoning task requires visualizing how edges of equal length join together. On the real ASVAB, a diagram would be shown.",
+      "type": "mcq",
+      "question": "Three identical equilateral triangles are arranged in a row. The first triangle is pointing up, the second (middle) triangle is inverted to point down, and the third triangle is pointing up. All shared sides are flush. What is the resulting shape?"
+    },
+    {
+      "id": "AO-048",
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "Attached to the bottom left of the vertical piece",
+        "Attached to the top right of the vertical piece",
+        "Attached to the top left of the vertical piece",
+        "Attached to the bottom right of the vertical piece"
+      ],
+      "explanation": "Let's track the transformation step-by-step: 1. Start: Vertical bar with a 'foot' pointing right at the bottom. 2. 180-degree rotation: The shape is now upside down. The vertical bar points down from the top, and the 'foot' is now at the top pointing left. 3. Vertical reflection: A reflection across a vertical axis swaps left and right. The 'foot' that was pointing left now points to the right. Therefore, the horizontal piece is at the top right of the vertical piece. On the ASVAB, you must perform these mental manipulations quickly using provided drawings.",
+      "type": "mcq",
+      "question": "A shape resembles a capital letter 'L', made of a 4-inch vertical rectangle and a 2-inch horizontal rectangle attached to the bottom right. If this shape is rotated 180 degrees clockwise and then reflected across a vertical axis, where is the horizontal piece located?"
+    },
+    {
+      "id": "AO-049",
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "24 inches",
+        "30 inches",
+        "36 inches",
+        "48 inches"
+      ],
+      "explanation": "To find the perimeter, we count the exposed exterior sides of the squares: 1. The three squares in a row have 2 exposed sides on each end (left/right) and 1 exposed side on the top and bottom of the outer squares, but the middle square is partially covered. 2. A better way is to count the total sides and subtract the internal connections: 4 squares × 4 sides = 16 sides total. 3. Internal connections: The left square touches the middle square (2 sides hidden). The right square touches the middle square (2 sides hidden). The top square touches the middle square (2 sides hidden). 4. Total internal sides = 2 + 2 + 2 = 6 sides. 5. External sides = 16 - 6 = 10 sides. 6. Total perimeter = 10 sides × 3 inches = 30 inches. On the ASVAB, you would visualize the silhouette of the shape.",
+      "type": "mcq",
+      "question": "Four identical squares, each with a side length of 3 inches, are assembled. Three are placed side-by-side in a horizontal row to form a rectangle. The fourth square is attached to the top of the middle square. What is the total perimeter of this final 'T-shaped' figure?"
+    },
+    {
+      "id": "AO-050",
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "A circle",
+        "An ellipse",
+        "A rectangle",
+        "A triangle"
+      ],
+      "explanation": "Visualizing 3D cross-sections is a complex spatial reasoning task. A cut made perfectly horizontal (perpendicular to the axis) through a cylinder results in a circle. A cut made perfectly vertical (parallel to the axis) results in a rectangle. However, any diagonal cut that passes through the circular sides of the cylinder at an angle results in an ellipse. Because this cut goes from the top edge to the bottom edge diagonally, the length of the cross-section will be longer than the diameter of the cylinder, while the width remains equal to the diameter, creating an elliptical shape. On the ASVAB, these are often shown as 'hidden' or 'sliced' views.",
+      "type": "mcq",
+      "question": "A solid object is shaped like a right circular cylinder. If a flat, diagonal slice is made through the cylinder—starting from the top edge on one side and ending at the bottom edge on the opposite side—what is the shape of the resulting cross-section surface?"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "8 inches",
+        "12 inches",
+        "16 inches",
+        "10 inches"
+      ],
+      "explanation": "When two 2x2 squares are joined together side-by-side, they form a single rectangle. The new length of the shape is 2 + 2 = 4 inches, while the width remains 2 inches. To find the perimeter, we add all four exterior sides: 4 + 2 + 4 + 2 = 12 inches. The internal sides that are touching are no longer part of the outer boundary. In the actual ASVAB, this spatial reasoning would be presented as a visual diagram.",
+      "type": "mcq",
+      "question": "Two identical squares, each with side lengths of 2 inches, are placed side-by-side so that one full side of the first square perfectly aligns with and touches one full side of the second square. What is the perimeter of the resulting combined shape?",
+      "id": "AO-051"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Two 5x3 rectangles",
+        "Two 10x3 rectangles",
+        "Two 5x6 rectangles",
+        "Two 10x6 rectangles"
+      ],
+      "explanation": "The original rectangle has horizontal sides of 10 inches and vertical sides of 6 inches. Connecting the midpoints of the 10-inch sides involves making a cut at the 5-inch mark across the length. This bisects the 10-inch dimension into two 5-inch segments while leaving the 6-inch height unchanged. Consequently, you are left with two smaller rectangles that are each 5 inches wide and 6 inches high. ASVAB Assembling Objects questions test your ability to visualize such transformations.",
+      "type": "mcq",
+      "question": "A rectangle has a length of 10 inches and a height of 6 inches. If this rectangle is cut exactly in half by a single straight vertical line connecting the midpoints of the 10-inch sides, what are the dimensions of the two resulting shapes?",
+      "id": "AO-052"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "A larger equilateral triangle",
+        "A hexagon",
+        "A six-pointed star",
+        "A rhombus"
+      ],
+      "explanation": "Rotating an equilateral triangle 180 degrees around its center effectively flips it so that it now points downward. When this inverted triangle is superimposed on a triangle pointing upward, the two shapes overlap in the middle but their points extend outward in six different directions. This configuration creates a hexagram, more commonly known as a six-pointed star. On the ASVAB, you would be required to identify this final assembled shape from a series of provided drawings.",
+      "type": "mcq",
+      "question": "Consider a flat equilateral triangle pointing upward. If this triangle is rotated 180 degrees around its center point and then placed directly on top of an identical, non-rotated equilateral triangle, what is the resulting outline of the combined shapes?",
+      "id": "AO-053"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "A circle with a square hole in the center",
+        "A rectangle with a circular hole in the center",
+        "A square with a circular hole in the center",
+        "Two separate rectangles side-by-side"
+      ],
+      "explanation": "To solve this, visualize the 3D object from a 2D perspective. A horizontal slice of a cube results in a square. Since the hole was drilled vertically from top to bottom, every horizontal slice will also pass through that hole. The cross-section of a cylinder is a circle. Therefore, the resulting face of the slice will be a 4x4 inch square with a 2-inch diameter circle missing from the middle. This requires multi-step spatial visualization often found in higher-difficulty AO questions.",
+      "type": "mcq",
+      "question": "A solid wooden cube has sides measuring 4 inches. A cylindrical hole with a diameter of 2 inches is drilled through the exact center of the top face all the way through to the bottom face. If the cube is then sliced horizontally (parallel to the top and bottom faces), what shape does the cross-section represent?",
+      "id": "AO-054"
+    },
+    {
+      "sectionId": "AO",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "A complete cube",
+        "An open-topped box",
+        "A triangular prism",
+        "A square pyramid"
+      ],
+      "explanation": "A standard cube net requires 6 square faces to be fully enclosed. In this 'T' shape, there are only 5 squares. When you fold the two outer squares of the top bar and the two squares of the stem around the central square (the 'base'), you create four side walls and a bottom. However, because there is no sixth square to serve as a lid, the resulting 3D shape is a box with an open top. Visualizing 2D nets folding into 3D objects is a complex skill tested on the ASVAB AO subtest.",
+      "type": "mcq",
+      "question": "Imagine a flat cardboard cutout in the shape of a 'T'. The horizontal top bar consists of three identical squares. The vertical stem consists of two additional identical squares attached below the middle square of the top bar (making 5 squares total). If the cardboard is folded 90 degrees at every line where two squares meet, what 3D object is formed?",
+      "id": "AO-055"
     }
   ]
 }

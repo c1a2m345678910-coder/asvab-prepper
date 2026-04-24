@@ -46,11 +46,11 @@ const QUESTIONS_DIR = path.join(PROJECT_ROOT, 'src', 'data', 'questions');
 const MODEL = 'gemini-3-flash-preview';
 const MAX_TOKENS = 8000;
 /** Questions requested per API call. Smaller = more focused, more API calls. */
-const BATCH_SIZE = 15;
+const BATCH_SIZE = 5;
 const RETRY_ATTEMPTS = 2;
 const RETRY_DELAY_MS = 3000;
 
-const VALID_SECTION_IDS = ['GS', 'AR', 'WK', 'PC', 'MK', 'EI', 'AS', 'MC', 'AO'] as const;
+const VALID_SECTION_IDS = ['GS', 'AR', 'WK', 'PC', 'MK', 'EI', 'AS', 'MC', 'AO', 'MED'] as const;
 type SectionId = (typeof VALID_SECTION_IDS)[number];
 
 // ── Section metadata ───────────────────────────────────────────────────────
@@ -326,6 +326,35 @@ For text-based AO questions, test:
 4 — Multi-step spatial reasoning
 5 — Complex 3D visualization from description`.trim(),
     exampleSchema: `{"type":"mcq","sectionId":"AO","difficulty":2,"question":"A right triangle has legs of 3 inches and 4 inches. Two identical copies of this triangle are placed together along their longest sides (hypotenuses). What shape is formed?","options":["A square","A rectangle","A larger right triangle","A parallelogram"],"correctIndex":1,"explanation":"The hypotenuse of a 3-4-5 right triangle has length 5 inches. When two identical right triangles are joined along their hypotenuses with one flipped, the result is a rectangle with dimensions 3×4 inches (the two legs become the sides). Note: on the actual ASVAB, this question would include a diagram."}`,
+  },
+
+  MED: {
+    name: 'Medical Sciences',
+    questionType: 'mcq',
+    topics: `
+- Anatomy: body systems (skeletal, muscular, nervous, cardiovascular, respiratory,
+  digestive, urinary, endocrine, immune/lymphatic), major organs and their functions
+- Physiology: homeostasis, cellular processes (osmosis, diffusion, ATP/energy production),
+  blood composition (red blood cells/hemoglobin, white blood cells/immunity, platelets/clotting),
+  vital signs (normal adult ranges: HR 60–100 bpm, BP ~120/80 mmHg, RR 12–20/min, temp 98.6°F/37°C)
+- Medical terminology: common prefixes (brady-, tachy-, hyper-, hypo-, peri-, dys-, hemo-),
+  suffixes (-itis, -ectomy, -ology, -algia, -plasty, -emia), root words
+- Microbiology basics: bacteria vs. viruses, infection vs. inflammation, immune response
+- Biochemistry: pH scale, acids/bases in body fluids, enzymes, vitamins, basic metabolism`.trim(),
+    styleGuide: `
+- Target ASVAB General Science (GS) and Skilled Technical (ST) score content for medical MOS (68W).
+- Test basic biology, anatomy, and physiology only — NO clinical procedures, NO TCCC,
+  NO tourniquet protocols, NO battlefield medicine. High-school science level.
+- Use correct medical and scientific terminology throughout.
+- Distractors must be plausible medical/scientific terms — not obviously wrong guesses.
+- Questions must be answerable without any clinical or military training experience.`.trim(),
+    difficultyGuide: `
+1 — Basic anatomy definitions (e.g., "What organ pumps blood?")
+2 — Function of a specific organ, cell type, or body system
+3 — Relationship between body systems; medical terminology decoding
+4 — Less common physiology; prefix/suffix combinations; normal value ranges
+5 — Detailed physiological processes; multi-system interactions`.trim(),
+    exampleSchema: `{"type":"mcq","sectionId":"MED","difficulty":2,"question":"Which blood cells are primarily responsible for carrying oxygen from the lungs to body tissues?","options":["White blood cells","Platelets","Red blood cells","Plasma proteins"],"correctIndex":2,"explanation":"Red blood cells (erythrocytes) contain hemoglobin, an iron-containing protein that binds oxygen in the lungs and releases it to tissues throughout the body. White blood cells fight infection; platelets initiate clotting; plasma proteins serve transport and immune functions. This is core cardiovascular/respiratory content directly tested on the ASVAB GS section and critical for the ST score required for 68W."}`,
   },
 };
 

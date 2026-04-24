@@ -243,6 +243,7 @@
       "question": "What is the main idea of the passage regarding ecological communities?"
     },
     {
+      "id": "PC-016",
       "sectionId": "PC",
       "difficulty": 1,
       "correctIndex": 2,
@@ -255,10 +256,10 @@
       "explanation": "The passage explicitly states that trees enter a period of dormancy to 'conserve energy and water through the cold winter months.' It mentions that this process occurs as a response to dropping temperatures and decreasing daylight, acting as a survival mechanism during the harsh winter season.",
       "type": "passage",
       "passage": "Deciduous trees are characterized by their habit of losing their leaves at the end of each growing season. This usually occurs in autumn as temperatures drop and daylight hours decrease. During this time, the trees enter a period of dormancy to conserve energy and water through the cold winter months. Before the leaves fall, they often change color from green to vibrant shades of red, orange, and yellow because the chlorophyll, which gives leaves their green color, begins to break down. In the spring, when temperatures rise, the trees emerge from dormancy and grow new leaves.",
-      "question": "According to the passage, why do deciduous trees lose their leaves?",
-      "id": "PC-016"
+      "question": "According to the passage, why do deciduous trees lose their leaves?"
     },
     {
+      "id": "PC-017",
       "sectionId": "PC",
       "difficulty": 1,
       "correctIndex": 0,
@@ -271,10 +272,10 @@
       "explanation": "The text states that the color was 'specifically chosen to make the structure more visible to ships in the thick fog that frequently blankets the area.' This detail-recall question points directly to visibility and safety as the primary reasons for the bridge's iconic paint color.",
       "type": "passage",
       "passage": "The Golden Gate Bridge, located in San Francisco, California, is one of the most recognizable structures in the world. Completed in 1937, it spans the Golden Gate Strait, the channel between San Francisco Bay and the Pacific Ocean. The bridge is famous for its 'International Orange' color, which was specifically chosen to make the structure more visible to ships in the thick fog that frequently blankets the area. At the time of its opening, it was the longest suspension bridge in the world, stretching approximately 1.7 miles in total length.",
-      "question": "According to the passage, why was the color 'International Orange' selected for the bridge?",
-      "id": "PC-017"
+      "question": "According to the passage, why was the color 'International Orange' selected for the bridge?"
     },
     {
+      "id": "PC-018",
       "sectionId": "PC",
       "difficulty": 1,
       "correctIndex": 3,
@@ -287,10 +288,10 @@
       "explanation": "The passage states that while the atmosphere is very thin, it is 'composed mostly of carbon dioxide.' Iron oxide is mentioned as the reason for the planet's red color on the surface, but it is not a gas that makes up the atmosphere.",
       "type": "passage",
       "passage": "Mars is often called the 'Red Planet' because of the iron oxide, or rust, on its surface. While the planet's atmosphere is very thin, it is composed mostly of carbon dioxide. Because the atmosphere is so thin, Mars cannot retain heat well, resulting in average temperatures around minus 80 degrees Fahrenheit. Mars is also home to the largest volcano in the solar system, Olympus Mons, and a massive canyon system called Valles Marineris. Despite its harsh environment, scientists continue to study Mars to see if it could have supported life in the distant past.",
-      "question": "What is the primary component of the Martian atmosphere?",
-      "id": "PC-018"
+      "question": "What is the primary component of the Martian atmosphere?"
     },
     {
+      "id": "PC-019",
       "sectionId": "PC",
       "difficulty": 2,
       "correctIndex": 1,
@@ -303,10 +304,10 @@
       "explanation": "The passage focuses on the overall function of ocean currents in regulating the Earth's climate. While the Gulf Stream and Western Europe are mentioned as examples, the central theme is how these currents transport heat to prevent extreme temperatures globally.",
       "type": "passage",
       "passage": "Ocean currents play a vital role in regulating the Earth's climate by transporting warm water from the equator toward the poles and cold water back toward the tropics. One of the most famous currents is the Gulf Stream, which carries warm water from the Gulf of Mexico across the Atlantic Ocean toward Europe. This movement of water helps keep the climate of Western Europe significantly milder than it would otherwise be given its northern latitude. Without these currents, many regions of the world would experience much more extreme temperatures, making them far less habitable for humans and wildlife.",
-      "question": "What is the main idea of this passage?",
-      "id": "PC-019"
+      "question": "What is the main idea of this passage?"
     },
     {
+      "id": "PC-020",
       "sectionId": "PC",
       "difficulty": 2,
       "correctIndex": 3,
@@ -319,10 +320,10 @@
       "explanation": "The passage notes that GPS was 'originally developed... for military navigation' but is 'now used in a wide variety of civilian applications.' This implies that the technology transitioned from a restricted military tool to one that is widely accessible to the general public for daily use.",
       "type": "passage",
       "passage": "The Global Positioning System (GPS) is a network of satellites orbiting the Earth that send precise microwave signals to receivers on the ground. By calculating the time it takes for signals from at least four different satellites to reach a device, the GPS receiver can determine the user's exact location, altitude, and speed. Originally developed by the United States Department of Defense for military navigation, GPS technology is now used in a wide variety of civilian applications, including smartphone maps, maritime navigation, and commercial aviation, making it an essential part of modern global infrastructure.",
-      "question": "Based on the passage, it can be inferred that GPS technology:",
-      "id": "PC-020"
+      "question": "Based on the passage, it can be inferred that GPS technology:"
     },
     {
+      "id": "PC-021",
       "sectionId": "PC",
       "difficulty": 2,
       "correctIndex": 2,
@@ -335,10 +336,10 @@
       "explanation": "The passage describes the barter system as a method of trade used before currency, highlights its primary flaw (the double coincidence of wants), and explains how money was introduced to resolve that issue. This overview defines the transition and the functional differences between the two systems.",
       "type": "passage",
       "passage": "Before the invention of standardized currency, many ancient societies relied on a barter system to trade goods and services. In a barter economy, people exchanged items they had for items they needed, such as trading a bushel of wheat for a set of iron tools. While this system allowed for trade, it had significant drawbacks, most notably the 'double coincidence of wants.' This meant that for a trade to occur, each person had to want exactly what the other person was offering. The introduction of money solved this problem by providing a universal medium of exchange that everyone accepted.",
-      "question": "What is the main idea of this passage?",
-      "id": "PC-021"
+      "question": "What is the main idea of this passage?"
     },
     {
+      "id": "PC-022",
       "sectionId": "PC",
       "difficulty": 3,
       "correctIndex": 0,
@@ -351,10 +352,10 @@
       "explanation": "The passage explains that columns are formed when stalactites and stalagmites 'eventually meet.' Since both individual formations take thousands of years to grow from slow dripping, the meeting of the two to form a column suggests a very long period of geologic time and consistent mineral deposition.",
       "type": "passage",
       "passage": "Speleothems, commonly known as cave formations, are created over thousands of years by the slow dripping of mineral-rich water. Stalactites are the icicle-shaped formations that hang from the ceiling of a cave. They form as water containing dissolved calcium carbonate drips down; as the water evaporates, it leaves behind a tiny ring of calcite. Over time, these rings build up to form a hollow tube. Conversely, stalagmites grow from the cave floor upward, created by the minerals in the water that drips off the end of a stalactite. If the two formations eventually meet, they form a solid structure known as a column.",
-      "question": "Based on the passage, it can be inferred that if a cave has a high number of columns:",
-      "id": "PC-022"
+      "question": "Based on the passage, it can be inferred that if a cave has a high number of columns:"
     },
     {
+      "id": "PC-023",
       "sectionId": "PC",
       "difficulty": 3,
       "correctIndex": 1,
@@ -367,10 +368,10 @@
       "explanation": "In the context of the passage, curing is described as necessary for the development of strength and durability. The text warns that without it, the concrete will fail. Therefore, 'integral' means that curing is an 'essential' or necessary part of the process to achieve the desired result.",
       "type": "passage",
       "passage": "Concrete is a composite material used in construction that consists of aggregate, such as sand or gravel, bonded together with fluid cement that hardens over time. One of the most important stages in concrete construction is 'curing,' the process of maintaining adequate moisture and temperature after the concrete is poured. Proper curing is integral to the development of the material's strength and durability. If concrete dries too quickly, it can shrink and crack, leading to structural weaknesses. By keeping the surface damp or using specialized curing compounds, engineers ensure that the chemical reaction between water and cement, known as hydration, is completed successfully.",
-      "question": "As used in the passage, the word 'integral' most nearly means:",
-      "id": "PC-023"
+      "question": "As used in the passage, the word 'integral' most nearly means:"
     },
     {
+      "id": "PC-024",
       "sectionId": "PC",
       "difficulty": 3,
       "correctIndex": 2,
@@ -383,10 +384,10 @@
       "explanation": "The passage states that the canal 'dramatically reduced transportation costs and travel time' for goods moving between the Midwest and New York City. This directly implies that moving goods between the interior of the country and the coastal ports became more affordable.",
       "type": "passage",
       "passage": "Completed in 1825, the Erie Canal was a groundbreaking engineering feat that connected the Great Lakes with the Atlantic Ocean via the Hudson River. Before the canal, transporting goods between the Midwest and New York City was a slow and expensive journey over rugged mountain terrain. The canal dramatically reduced transportation costs and travel time, facilitating a surge in trade and migration. This link turned New York City into the nation's premier commercial port and accelerated the development of cities like Buffalo and Rochester. Its success sparked a 'canal fever' across the United States as other states sought to replicate its economic impact.",
-      "question": "Based on the passage, what was a primary economic consequence of the Erie Canal?",
-      "id": "PC-024"
+      "question": "Based on the passage, what was a primary economic consequence of the Erie Canal?"
     },
     {
+      "id": "PC-025",
       "sectionId": "PC",
       "difficulty": 4,
       "correctIndex": 2,
@@ -399,10 +400,10 @@
       "explanation": "The passage explains that light signals the brain to suppress melatonin. If someone is in a bright, windowless room, their brain (the SCN) continues to receive light signals, even when it might be night outside. This would inhibit the release of melatonin, making it difficult for the body to recognize when it is time to sleep.",
       "type": "passage",
       "passage": "The human body operates on a circadian rhythm, an internal biological clock that regulates the sleep-wake cycle over a 24-hour period. This rhythm is heavily influenced by external cues, most notably light. When specialized cells in the retina detect daylight, they send signals to the suprachiasmatic nucleus (SCN) in the brain, which then suppresses the production of melatonin, a hormone that induces sleep. As darkness falls, the SCN triggers the release of melatonin, signaling the body to prepare for rest. Modern disruptions to this cycle, such as excessive exposure to artificial blue light from screens at night, can confuse the SCN and lead to sleep disorders and decreased metabolic efficiency.",
-      "question": "Based on the passage, what would be the most likely effect of working in a windowless office with constant bright lights?",
-      "id": "PC-025"
+      "question": "Based on the passage, what would be the most likely effect of working in a windowless office with constant bright lights?"
     },
     {
+      "id": "PC-026",
       "sectionId": "PC",
       "difficulty": 4,
       "correctIndex": 1,
@@ -415,10 +416,10 @@
       "explanation": "The author argues against the view of wetlands as 'wastelands' by listing their critical functions—filtering water and preventing floods. By mentioning the loss of wetlands and the arguments of conservationists, the author’s goal is to show why these areas are valuable and should be protected.",
       "type": "passage",
       "passage": "Wetlands are often dismissed as mere swamps or wastelands, but they provide indispensable ecosystem services. They act as natural filters, trapping pollutants and sediment from runoff before the water enters larger bodies like lakes and oceans. Additionally, wetlands serve as massive sponges that absorb excess rainfall, significantly reducing the risk of flooding in nearby communities. Despite these benefits, nearly half of the world's wetlands have been lost to agriculture and urban development over the last century. Conservationists argue that preserving these areas is not just a matter of saving wildlife habitat, but is also a critical component of coastal and inland flood management strategies.",
-      "question": "The author's primary purpose in this passage is to:",
-      "id": "PC-026"
+      "question": "The author's primary purpose in this passage is to:"
     },
     {
+      "id": "PC-027",
       "sectionId": "PC",
       "difficulty": 4,
       "correctIndex": 0,
@@ -431,10 +432,10 @@
       "explanation": "The passage states that 'the boiling point of liquids decreases at higher altitudes.' If water boils at a lower temperature (e.g., 190°F instead of 212°F), it provides less heat to the food, which would naturally result in a slower cooking process for items that require boiling.",
       "type": "passage",
       "passage": "Atmospheric pressure is the force exerted by the weight of the air above a given point. At sea level, this pressure is at its highest because the entire column of the Earth's atmosphere is pressing down. As one moves to higher altitudes, such as climbing a mountain, the amount of air above decreases, resulting in lower atmospheric pressure. This drop in pressure has physical effects: air becomes less dense, meaning there are fewer oxygen molecules in each breath. Furthermore, the boiling point of liquids decreases at higher altitudes because there is less pressure holding the liquid molecules together, allowing them to escape into a gaseous state at lower temperatures.",
-      "question": "Based on the passage, what can be inferred about cooking food in boiling water at a high altitude?",
-      "id": "PC-027"
+      "question": "Based on the passage, what can be inferred about cooking food in boiling water at a high altitude?"
     },
     {
+      "id": "PC-028",
       "sectionId": "PC",
       "difficulty": 5,
       "correctIndex": 2,
@@ -447,10 +448,10 @@
       "explanation": "The author describes the system as a 'cornerstone' and a 'check against judicial overreach.' While the passage acknowledges the 'critics' who worry about lack of expertise or emotion, the overall tone highlights the 'proponents' view of the system as 'democratic and legitimate.' It presents the system's value as a safeguard.",
       "type": "passage",
       "passage": "The jury system is a cornerstone of the American legal tradition, designed to ensure that the power to deprive a citizen of liberty rests with a group of their peers rather than solely with government officials. This process serves as a check against potential judicial overreach and ensures that community standards and common sense are integrated into the application of the law. While critics argue that juries can be swayed by emotion or lack the legal expertise to handle complex cases, proponents suggest that the deliberative process—requiring a group of diverse individuals to reach a consensus—ultimately produces a more democratic and legitimate outcome than a single judge's ruling.",
-      "question": "Which of the following best describes the author's perspective on the jury system?",
-      "id": "PC-028"
+      "question": "Which of the following best describes the author's perspective on the jury system?"
     },
     {
+      "id": "PC-029",
       "sectionId": "PC",
       "difficulty": 5,
       "correctIndex": 2,
@@ -463,10 +464,10 @@
       "explanation": "The passage states that the method is biased toward large, close-orbiting planets because they produce 'frequent and noticeable dimming.' By contrast, smaller planets (less dimming) in wider orbits (less frequent transits) require 'higher sensitivity and longer periods' because their signal is weaker and happens less often.",
       "type": "passage",
       "passage": "The Kepler Space Telescope revolutionized our understanding of the universe by using the transit method to detect exoplanets—planets orbiting stars outside our solar system. When a planet passes between its host star and the telescope, it causes a slight, periodic dip in the star's brightness. By measuring the depth and frequency of these dips, scientists can determine the planet's size and orbital period. However, this method is biased toward detecting large planets that orbit close to their stars, as they produce more frequent and noticeable dimming. Finding smaller, Earth-sized planets in wider 'habitable zone' orbits requires much higher sensitivity and longer periods of observation to confirm a consistent pattern.",
-      "question": "According to the passage, why is it more difficult to find Earth-sized planets in the habitable zone using the transit method?",
-      "id": "PC-029"
+      "question": "According to the passage, why is it more difficult to find Earth-sized planets in the habitable zone using the transit method?"
     },
     {
+      "id": "PC-030",
       "sectionId": "PC",
       "difficulty": 5,
       "correctIndex": 0,
@@ -479,10 +480,10 @@
       "explanation": "Opportunity cost is defined as the value of the 'next best alternative that is forgone.' In the case of the student, the finite resource is time. By choosing to study, the student gives up the alternative (the movie). The 'lost enjoyment' is the opportunity cost of the decision to study.",
       "type": "passage",
       "passage": "In economics, the concept of opportunity cost refers to the value of the next best alternative that is forgone when a choice is made. Because resources—such as time, money, and labor—are finite, every decision to allocate resources to one activity inherently means they cannot be used for another. For instance, if a city decides to spend its budget on building a new park, the opportunity cost is the potential benefit that could have been gained by spending that same money on road repairs or public education. Understanding opportunity cost is essential for efficient decision-making, as it forces individuals and organizations to consider the hidden costs of their choices rather than just the immediate out-of-pocket expenses.",
-      "question": "Based on the passage's definition of opportunity cost, which scenario best illustrates this concept?",
-      "id": "PC-030"
+      "question": "Based on the passage's definition of opportunity cost, which scenario best illustrates this concept?"
     },
     {
+      "id": "PC-031",
       "sectionId": "PC",
       "difficulty": 1,
       "correctIndex": 2,
@@ -495,10 +496,10 @@
       "explanation": "The passage explicitly states that rainforests are called the 'lungs of the planet' because they 'generate a significant portion of the world's oxygen.' While the other options mention facts about rainforests, they are not the specific reason given for that nickname in the provided text.",
       "type": "passage",
       "passage": "Tropical rainforests are often called the \"lungs of the planet\" because they generate a significant portion of the world's oxygen. However, their most remarkable feature is their biodiversity. Although they cover less than six percent of Earth's land surface, rainforests are home to more than half of the world’s plant and animal species. This dense concentration of life is supported by high rainfall and warm temperatures that occur year-round. Many medicines used today are derived from plants found in these forests, making their conservation vital for future medical research and global health.",
-      "question": "According to the passage, why are rainforests sometimes referred to as the \"lungs of the planet\"?",
-      "id": "PC-031"
+      "question": "According to the passage, why are rainforests sometimes referred to as the \"lungs of the planet\"?"
     },
     {
+      "id": "PC-032",
       "sectionId": "PC",
       "difficulty": 2,
       "correctIndex": 3,
@@ -511,10 +512,10 @@
       "explanation": "The passage focuses on the Enigma machine, the efforts by cryptologists to decode its messages, and the historical significance of that success in ending the war sooner. This overview encompasses the primary point of the entire text rather than focusing on a single detail like mechanics or biography.",
       "type": "passage",
       "passage": "During World War II, the German military used a device called the Enigma machine to encrypt strategic messages. The machine used a series of rotating wheels to scramble plain text into a complex code that changed daily. For years, the code was considered unbreakable. However, a team of cryptologists at Bletchley Park in England, led by Alan Turing, eventually developed techniques and early computing machines to crack the Enigma's ciphers. This achievement allowed Allied forces to intercept and read secret German communications, providing a decisive advantage that many historians believe shortened the war by at least two years.",
-      "question": "What is the main idea of this passage?",
-      "id": "PC-032"
+      "question": "What is the main idea of this passage?"
     },
     {
+      "id": "PC-033",
       "sectionId": "PC",
       "difficulty": 3,
       "correctIndex": 0,
@@ -527,10 +528,10 @@
       "explanation": "In the context of the passage, 'erode' refers to the effect high inflation has on the value of savings. If prices rise rapidly, the money people have saved loses its original value or 'purchasing power,' effectively wearing away the worth and utility of those savings over time.",
       "type": "passage",
       "passage": "Inflation is defined as a general increase in prices and a subsequent fall in the purchasing power of money. When inflation occurs, each unit of currency buys fewer goods and services than it did previously. Central banks typically aim for a modest and predictable rate of inflation to encourage consumer spending and investment. However, when inflation becomes \"galloping\" or out of control, it can erode the savings of citizens and create economic instability. To combat high inflation, central banks often raise interest rates to reduce the supply of money circulating in the economy, thereby slowing down the rate at which prices rise.",
-      "question": "As used in the passage, the word \"erode\" most nearly means:",
-      "id": "PC-033"
+      "question": "As used in the passage, the word \"erode\" most nearly means:"
     },
     {
+      "id": "PC-034",
       "sectionId": "PC",
       "difficulty": 4,
       "correctIndex": 1,
@@ -543,10 +544,10 @@
       "explanation": "The passage notes that neural networks succeed in areas where 'traditional, rule-based' programs fail because they can recognize patterns without 'being explicitly programmed with every rule.' Therefore, we can infer that a traditional program would struggle with tasks where the programmer cannot provide a fixed set of predefined rules for every scenario.",
       "type": "passage",
       "passage": "Artificial neural networks are a type of machine learning inspired by the structure of the human brain. These systems consist of interconnected \"nodes\" that process information in layers. During the training phase, the network is fed massive amounts of data, and it adjusts the strength of the connections between nodes based on whether its outputs are correct. Over time, the system \"learns\" to recognize patterns, such as identifying a specific face in a photo or translating a language, without being explicitly programmed with every rule. This flexibility allows neural networks to solve problems that are too complex for traditional, rule-based computer programs, though they often require vast computational resources.",
-      "question": "Based on the passage, it can be inferred that a traditional rule-based computer program would likely struggle with:",
-      "id": "PC-034"
+      "question": "Based on the passage, it can be inferred that a traditional rule-based computer program would likely struggle with:"
     },
     {
+      "id": "PC-035",
       "sectionId": "PC",
       "difficulty": 5,
       "correctIndex": 2,
@@ -559,8 +560,487 @@
       "explanation": "The author presents the Fermi Paradox as a 'contradiction' or 'discrepancy.' The passage balances the high mathematical probability of alien life against the lack of physical evidence, explaining why this situation is a paradox. The text explores this conflict and the theories scientists use to explain it, rather than arguing for a single conclusion.",
       "type": "passage",
       "passage": "The Fermi Paradox highlights the apparent contradiction between the high probability of extraterrestrial civilizations existing and the total lack of evidence for them. Given the billions of stars in our galaxy that are similar to the Sun, many of which are billions of years older, it is statistically likely that Earth-like planets are common and that intelligent life should have developed elsewhere. If even a few of these civilizations turned to interstellar travel, they could have crossed the entire galaxy in a few million years. Yet, despite decades of searching with radio telescopes, \"the Great Silence\" persists. This discrepancy forces scientists to consider various filters, such as the possibility that intelligent life inherently tends toward self-destruction or that the conditions for life are much rarer than initially suspected.",
+      "question": "The author's primary purpose in this passage is to:"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Heavy rainfall and wind",
+        "Human construction projects",
+        "The Colorado River",
+        "Deforestation of the surrounding area"
+      ],
+      "explanation": "The passage explicitly states that 'the Grand Canyon was primarily formed by the Colorado River cutting through layers of rock.' While the passage mentions other factors like wind, rain, and human activities in a general sense, it specifically attributes the canyon's formation to the river.",
+      "type": "passage",
+      "passage": "Erosion is the natural process by which forces such as water, wind, ice, and gravity wear away rocks and soil. While it is usually a slow process occurring over millions of years, certain events can accelerate it. For instance, the Grand Canyon was primarily formed by the Colorado River cutting through layers of rock over a vast period of time. Human activities, such as large-scale deforestation and urban construction, can also speed up erosion by removing the vegetation that naturally stabilizes the soil and protects it from heavy rainfall.",
+      "question": "According to the passage, what was the primary force responsible for forming the Grand Canyon?",
+      "id": "PC-036"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "The horses were not fast enough to reach California.",
+        "The service was replaced by the Transcontinental Telegraph.",
+        "Riders refused to travel the long distance from Missouri.",
+        "The Atlantic and Pacific coasts no longer needed mail."
+      ],
+      "explanation": "The passage clearly states that the Pony Express 'ended soon after the completion of the First Transcontinental Telegraph.' The telegraph provided a much faster method of communication (almost instant) compared to the ten-day delivery time of the horse-based relay system.",
+      "type": "passage",
+      "passage": "The Pony Express was a mail delivery service that operated in the United States from April 1860 to October 1861. It used a relay system of young riders on fast horses to carry letters across the vast distance between Missouri and California. This method reduced the time it took for mail to travel from the Atlantic to the Pacific coast to about ten days. Despite its historical fame, the service was short-lived and ended soon after the completion of the First Transcontinental Telegraph, which allowed for almost instant communication.",
+      "question": "According to the passage, why did the Pony Express stop operating?",
+      "id": "PC-037"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Oxygen from the atmosphere",
+        "Carbon dioxide and water",
+        "Glucose from the soil",
+        "Small insects for nutrients"
+      ],
+      "explanation": "The passage specifies that 'plants take in carbon dioxide from the air and water from the soil' and use solar energy to 'convert these ingredients into glucose.' Oxygen is described as a byproduct (something released), not an ingredient needed to start the process.",
+      "type": "passage",
+      "passage": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll. During this process, plants take in carbon dioxide from the air and water from the soil. Using the energy from the sun, they convert these ingredients into glucose, which is a type of sugar that provides energy for the plant. A vital byproduct of photosynthesis is oxygen, which is released into the atmosphere and is essential for the survival of most living creatures on Earth.",
+      "question": "According to the passage, what is a necessary ingredient for plants to create glucose?",
+      "id": "PC-038"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Gas giants are more common than rocky planets in the universe.",
+        "Liquid water is only found on planets within our solar system.",
+        "Scientists are searching for exoplanets that could potentially support life.",
+        "Jupiter is the largest planet currently known to astronomers."
+      ],
+      "explanation": "The passage focuses on the discovery of exoplanets and the specific search for those in the 'habitable zone' where liquid water might exist. The final sentence clarifies that the ultimate goal of finding these conditions is to identify planets capable of supporting life.",
+      "type": "passage",
+      "passage": "In recent decades, astronomers have discovered thousands of exoplanets—planets located outside our solar system. Many of these are 'gas giants' similar to Jupiter, but others are 'rocky' planets like Earth. Scientists are particularly interested in finding planets located in the 'habitable zone,' which is the distance from a star where temperatures are just right for liquid water to exist. Finding liquid water is considered a crucial step in identifying planets that might be capable of supporting life as we know it.",
+      "question": "What is the main idea of this passage?",
+      "id": "PC-039"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "Monarch butterflies have a very short lifespan compared to other insects.",
+        "The migration of Monarch butterflies is a multi-generational journey.",
+        "Scientists have fully explained how butterflies find their way to Mexico.",
+        "Butterflies prefer the climate of Mexico to that of Canada."
+      ],
+      "explanation": "The passage highlights the unique nature of the Monarch migration, emphasizing that it covers 3,000 miles and requires 'several generations' to complete because no individual butterfly lives long enough for the whole trip. This multi-generational aspect is the central focus of the text.",
+      "type": "passage",
+      "passage": "Monarch butterflies are famous for their incredible annual migration. Each autumn, millions of these insects travel from the northern United States and Canada to specific forests in central Mexico. This journey can cover more than 3,000 miles. Because a single butterfly does not live long enough to complete the entire round trip, the migration is completed over several generations. The offspring of the butterflies that fly south are the ones that eventually return north in the spring, guided by an internal biological compass that scientists are still studying.",
+      "question": "What is the main idea of this passage?",
+      "id": "PC-040"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Fossil fuels are more reliable than solar and wind power.",
+        "Battery technology is the only way to solve the energy crisis.",
+        "Renewable energy offers environmental benefits despite some logistical challenges.",
+        "Solar panels are the most efficient way to generate electricity today."
+      ],
+      "explanation": "The passage discusses the benefits of renewable energy (reducing emissions, non-depleting) while also acknowledging a major drawback (intermittency). The main idea encompasses both the positive environmental impact and the technical challenges mentioned, such as the need for storage.",
+      "type": "passage",
+      "passage": "Renewable energy sources, such as solar and wind power, have become increasingly popular as the world looks for ways to reduce carbon emissions. Solar panels capture sunlight and convert it into electricity, while wind turbines use the kinetic energy of moving air. Unlike fossil fuels, these sources do not deplete over time and produce very little pollution. However, one challenge with renewable energy is that it is intermittent; the sun does not always shine, and the wind does not always blow, requiring the development of better battery storage systems.",
+      "question": "What is the main idea of this passage?",
+      "id": "PC-041"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "To break down",
+        "To produce",
+        "To consume",
+        "To protect"
+      ],
+      "explanation": "In this context, 'synthesize' refers to the body creating or making Vitamin D. The passage explains that sunlight 'triggers a chemical reaction that produces the vitamin,' indicating that 'synthesize' and 'produce' are synonymous in describing how the body generates the nutrient internally.",
+      "type": "passage",
+      "passage": "Vitamin D is unique among essential nutrients because the human body can synthesize it through exposure to ultraviolet (UV) B radiation from the sun. When sunlight hits the skin, it triggers a chemical reaction that produces the vitamin. For people living in northern latitudes during winter, however, the sun's rays are often too weak to stimulate this production. Consequently, many people must rely on dietary sources or supplements to maintain adequate levels, which are necessary for bone health and immune system function.",
+      "question": "As used in the passage, the word 'synthesize' most nearly means",
+      "id": "PC-042"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "It requires everyone to produce their own food and clothing.",
+        "Currency is easier for governments to track than physical goods.",
+        "It can be difficult to find a trade partner with reciprocal needs.",
+        "Farmers and shoemakers rarely live in the same communities."
+      ],
+      "explanation": "The passage explains that bartering requires a 'double coincidence of wants,' which is 'difficult to find.' This difficulty in matching specific needs between two parties makes the system inefficient compared to using currency, which everyone accepts in exchange for any good.",
+      "type": "passage",
+      "passage": "In a barter economy, goods and services are exchanged directly for other goods and services without the use of money. For this system to work, there must be a 'double coincidence of wants.' This means that if a farmer wants a pair of shoes, he must find a shoemaker who specifically wants the wheat the farmer is offering. Because it is often difficult to find someone whose needs perfectly match your own, most societies eventually transitioned to using currency, which serves as a universal medium of exchange.",
+      "question": "Based on the passage, why is a barter system often inefficient?",
+      "id": "PC-043"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "A feeling of anxiety or stress",
+        "A force that stretches or pulls",
+        "The physical weight of the bridge",
+        "The height of the bridge towers"
+      ],
+      "explanation": "In an engineering context, 'tension' refers to a pulling force. The passage describes the steel cables as being 'under immense tension as they pull on the bridge's towers.' This distinguishes it from 'compression,' which is a pushing or squeezing force described later in the paragraph.",
+      "type": "passage",
+      "passage": "Suspension bridges are engineering marvels that use a combination of tension and compression to span long distances. The roadway is hung from massive steel cables, which are under immense tension as they pull on the bridge's towers. These towers, in turn, are under compression as they push down into the ground to support the weight. Because the weight is distributed through the cables to the towers and then to the anchors at each end, suspension bridges can span much wider gaps than traditional beam bridges.",
+      "question": "As used in the passage, the word 'tension' most nearly refers to",
+      "id": "PC-044"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "It was designed to make the law-making process as fast as possible.",
+        "It aims to prevent any one part of government from acting without oversight.",
+        "It ensures that the President has the final say on all national policies.",
+        "It was created to give the judicial branch more power than the other two."
+      ],
+      "explanation": "The passage describes how the branches can limit each other's actions (vetoes, overrides, judicial review). It concludes that this system provides a 'safeguard against potential tyranny,' implying that the primary goal is to prevent any single branch from exerting unchecked power or control.",
+      "type": "passage",
+      "passage": "The United States Constitution established a system of checks and balances to ensure that no single branch of government—executive, legislative, or judicial—would become too powerful. For example, while the legislative branch has the power to pass laws, the President (executive branch) can veto them. However, the legislative branch can then override that veto with a two-thirds majority vote. Similarly, the judicial branch can declare laws unconstitutional through judicial review. This intricate web of shared powers forces the branches to cooperate and provides a safeguard against potential tyranny.",
+      "question": "Based on the passage, what can be inferred about the goal of the 'checks and balances' system?",
+      "id": "PC-045"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "Argue that the Industrial Revolution was harmful to the working class.",
+        "Describe the technological and social shift from home-based to factory-based production.",
+        "Explain the mechanical workings of the spinning jenny and the power loom.",
+        "Provide a historical account of how clothing styles changed in the 19th century."
+      ],
+      "explanation": "The passage focuses on the transition from the 'cottage industry' to 'large factories,' explaining the causes (new machinery) and the effects (economic growth, urbanization, and working conditions). It provides a balanced overview of the shift rather than focusing solely on a single aspect like mechanical design or labor rights.",
+      "type": "passage",
+      "passage": "During the Industrial Revolution, the production of textiles moved from the 'cottage industry'—where individuals produced cloth in their own homes—to large factories. This shift was driven by the invention of machines like the spinning jenny and the power loom, which could produce fabric much faster and more cheaply than manual labor. While this transition led to an explosion in economic growth and the availability of affordable clothing, it also resulted in significant social changes, including the rapid growth of urban centers and difficult working conditions for the new industrial labor force.",
+      "question": "The author's primary purpose in this passage is to",
+      "id": "PC-046"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "Western Europe would experience much colder average temperatures.",
+        "The Gulf of Mexico would become significantly cooler.",
+        "The Earth's climate would become more stable and predictable.",
+        "Ocean salinity would increase in the tropics to compensate."
+      ],
+      "explanation": "The passage states that the Gulf Stream keeps Western Europe 'significantly warmer than other areas at the same latitude.' Therefore, if this current stopped, Western Europe would no longer receive that warmth, leading to much colder temperatures. This is a direct inference based on the text's description of current functions.",
+      "type": "passage",
+      "passage": "Ocean currents act as a massive conveyor belt, transporting warm water from the equator toward the poles and cold water back to the tropics. This movement is essential for regulating the Earth's climate; without it, regional temperatures would be far more extreme. For instance, the Gulf Stream carries warm water from the Gulf of Mexico across the Atlantic to Western Europe, keeping that region significantly warmer than other areas at the same latitude. If these currents were to slow down due to changes in ocean salinity or temperature, it could lead to drastic shifts in global weather patterns.",
+      "question": "Based on the passage, what would likely happen if the Gulf Stream ceased to flow?",
+      "id": "PC-047"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "Critique Karl Popper for being too skeptical of scientific progress.",
+        "Explain a specific criterion used to distinguish scientific theories from non-scientific ones.",
+        "Provide a historical timeline of the most famous scientific discoveries.",
+        "Argue that all scientific theories will eventually be proven false."
+      ],
+      "explanation": "The passage explains Popper’s concept of 'falsifiability' as a way to define what makes a theory scientific. It contrasts science with 'pseudoscience' and explains the process of disproving theories. This identifies the author's intent as clarifying a fundamental principle of scientific philosophy rather than critiquing the person or listing discoveries.",
+      "type": "passage",
+      "passage": "In the philosophy of science, Karl Popper's principle of falsifiability suggests that for a theory to be considered scientific, it must be inherently testable and capable of being proven false. Popper argued that science does not progress by 'proving' theories are true through observation, but rather by systematically attempting to disprove them. If a theory survives repeated attempts at falsification, it is accepted as the best current explanation, though it is never considered absolute truth. This distinguishes science from 'pseudoscience,' where theories are often structured so that any possible observation can be interpreted as supporting evidence.",
+      "question": "The author's primary purpose in this passage is to",
+      "id": "PC-048"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "The total financial expense required to complete a project.",
+        "The profit generated from a successful business investment.",
+        "The value of what is given up to pursue a specific choice.",
+        "The decrease in the value of a resource over time."
+      ],
+      "explanation": "The passage defines opportunity cost as the 'value of the next best alternative that must be foregone.' It emphasizes that it represents the 'lost utility' of the option not chosen. Therefore, it is the value of what is given up, not the direct financial cost or the profit of the chosen path.",
+      "type": "passage",
+      "passage": "Opportunity cost is a fundamental principle in economics that refers to the value of the next best alternative that must be foregone when a choice is made. Because resources—including time, money, and labor—are finite, choosing one path necessarily means rejecting others. For example, if a city decides to spend a portion of its budget on building a new park, the opportunity cost is whatever else that money could have funded, such as road repairs or school upgrades. This concept reminds decision-makers that the 'cost' of an action is not just its price tag, but the lost utility of the most valuable rejected alternative.",
+      "question": "Based on the passage, which of the following best describes the concept of opportunity cost?",
+      "id": "PC-049"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "Each tree successfully outcompeting its neighbors for all available resources.",
+        "The ability of trees to exist independently of other organisms like fungi.",
+        "Interconnected biological systems that facilitate resource sharing and communication.",
+        "The rapid growth of saplings without the influence of older trees."
+      ],
+      "explanation": "The passage describes the fungal network as a 'symbiotic relationship' that allows trees to 'share nutrients and information' and 'warn neighboring trees.' The author notes this suggests a 'collective approach to ecosystem survival,' implying that these interconnections and shared resources are vital to the health and survival of the forest as a whole.",
+      "type": "passage",
+      "passage": "Beneath the forest floor, a complex network of mycorrhizal fungi connects the root systems of different trees, allowing them to share nutrients and information. This symbiotic relationship, often nicknamed the 'Wood Wide Web,' enables older, established trees to send excess sugar to younger saplings struggling in the shade. Furthermore, when a tree is attacked by insects, it can release chemical signals through the fungal network to warn neighboring trees, which then preemptively boost their own immune defenses. While individuals might appear to be in competition for sunlight, this underground cooperation suggests a far more collective approach to ecosystem survival.",
+      "question": "Based on the passage, it can be inferred that the survival of a forest ecosystem depends on",
+      "id": "PC-050"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "By burning silicon layers within the panel",
+        "By sunlight knocking electrons loose",
+        "By connecting multiple panels into an array",
+        "By traditional fossil fuels reacting with the cell"
+      ],
+      "explanation": "The passage explicitly states that 'When sunlight hits the cell, it knocks electrons loose, creating an electrical current.' This is a direct detail-recall question where the answer is found word-for-word in the text. The other options describe components of the system or unrelated processes not supported by the passage.",
+      "type": "passage",
+      "passage": "Solar panels, also known as photovoltaic cells, capture energy from sunlight and convert it into electricity. This process relies on the movement of electrons within silicon layers. When sunlight hits the cell, it knocks electrons loose, creating an electrical current. Multiple cells are linked together to form a panel, and multiple panels create an array. This renewable energy source is becoming increasingly common in residential areas as a way to reduce reliance on traditional fossil fuels and lower monthly utility costs.",
+      "question": "According to the passage, how is an electrical current created in a solar cell?",
+      "id": "PC-051"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "A group of unnamed surgeons",
+        "The soldiers themselves",
+        "Jonathan Letterman",
+        "A committee of field hospital directors"
+      ],
+      "explanation": "The passage identifies Jonathan Letterman as the individual who spearheaded the organizational change involving the ambulance corps system. This detail is clearly stated in the third sentence, making it a straightforward recall task. The other choices are not mentioned in the text as the originators of this specific system.",
+      "type": "passage",
+      "passage": "During the American Civil War, medical practices underwent significant transformations. In the early stages of the conflict, doctors were often overwhelmed by the sheer volume of casualties. However, the introduction of the ambulance corps system allowed for more efficient transport of wounded soldiers from the battlefield to field hospitals. This organizational change, spearheaded by Jonathan Letterman, dramatically increased the survival rates of injured personnel by providing faster access to surgical care and stable environments for recovery.",
+      "question": "Who was responsible for the introduction of the ambulance corps system mentioned in the text?",
+      "id": "PC-052"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Nectar from the flowers",
+        "Pollen grains",
+        "Seeds from the fruit",
+        "Tiny insects"
+      ],
+      "explanation": "The passage states that 'pollen grains stick to their fuzzy bodies and are transferred to other plants.' This transfer is what facilitates cross-pollination. While bees search for nectar, the nectar itself is the incentive for the bee, not the physical material that adheres to them to cause pollination.",
+      "type": "passage",
+      "passage": "Honeybees are essential pollinators that play a critical role in the growth of fruits, vegetables, and nuts. As bees travel from flower to flower in search of nectar, pollen grains stick to their fuzzy bodies and are transferred to other plants. This cross-pollination allows plants to produce seeds and fruit. Without the intervention of bees and other pollinators, many crops would fail to yield the harvests necessary to sustain global food supplies, making their conservation a priority for agricultural scientists and environmentalists.",
+      "question": "According to the passage, what adheres to the bodies of honeybees to facilitate pollination?",
+      "id": "PC-053"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "The construction of the railroad was the most dangerous job in the 1800s.",
+        "The Transcontinental Railroad significantly impacted the U.S. economy and westward movement.",
+        "Travel across the continent was impossible before 1869.",
+        "The railroad was primarily built to transport passengers between coasts."
+      ],
+      "explanation": "The passage focuses on the broad impacts of the railroad, including the reduction in travel time, the encouragement of westward expansion, and the integration of the national economy. This makes the overall significance of the railroad the main idea. Other options focus on minor details or make hyperbolic claims not supported by the text.",
+      "type": "passage",
+      "passage": "The completion of the First Transcontinental Railroad in 1869 marked a pivotal moment in United States history. By connecting the Atlantic and Pacific coasts by rail, the journey across the continent was reduced from months to less than a week. This infrastructure project encouraged westward expansion, facilitated the transport of goods, and helped integrate the diverse regions of the country into a single national economy. While the construction was grueling and dangerous, the resulting network transformed the American landscape and spurred rapid industrial growth.",
+      "question": "What is the main idea of this passage?",
+      "id": "PC-054"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "Plants would produce more carbon dioxide.",
+        "Most life on Earth would lack a primary energy source.",
+        "Animals would evolve to eat sunlight directly.",
+        "Oxygen levels in the atmosphere would increase."
+      ],
+      "explanation": "The passage states that plants form the base of most food chains and that the energy they capture supports nearly all life. Therefore, if the process of photosynthesis stopped, the energy source for these food chains would vanish. The other options contradict the biological facts presented or inferred by the text.",
+      "type": "passage",
+      "passage": "Photosynthesis is the biological process by which green plants, algae, and some bacteria convert light energy into chemical energy. Using chlorophyll to absorb sunlight, these organisms combine water and carbon dioxide to produce glucose, which serves as their primary food source. Oxygen is released as a byproduct of this reaction. Because plants form the base of most food chains, the energy captured through photosynthesis eventually supports nearly all life on Earth, from the smallest insects to the largest mammals.",
+      "question": "Based on the passage, it can be inferred that without photosynthesis:",
+      "id": "PC-055"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Rain and snow are the most important parts of the water cycle.",
+        "The sun's energy is the only thing that creates clouds.",
+        "The sun drives a constant, closed-loop cycle of water movement on Earth.",
+        "Oceans contain the majority of the Earth's water vapor."
+      ],
+      "explanation": "The passage describes the entire process of the water cycle, emphasizing its continuous nature and the fact that it is a closed system driven by the sun. Option 2 captures this holistic view. The other options are either too narrow (focusing only on precipitation) or misinterpret the specific details provided.",
+      "type": "passage",
+      "passage": "The water cycle describes the continuous movement of water on, above, and below the surface of the Earth. Driven by energy from the sun, water evaporates from oceans and lakes, rises into the atmosphere as vapor, and then cools to form clouds through condensation. Eventually, this moisture returns to the ground as precipitation, such as rain or snow. This cycle is a closed system, meaning the total amount of water on the planet remains relatively constant, though its physical state and location change over time.",
+      "question": "What is the main idea of the passage?",
+      "id": "PC-056"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "Writing materials",
+        "Moving quickly",
+        "Fixed in one place",
+        "Deeply submerged"
+      ],
+      "explanation": "In context, the passage states the plates are 'not stationary' and then immediately explains that they 'float' and 'move.' This indicates that stationary means 'not moving' or 'fixed in one place.' Option 0 is a common homophone (stationery), while the other options provide meanings opposite to or unrelated to the context.",
+      "type": "passage",
+      "passage": "The Earth's outer shell is divided into several large and small pieces known as tectonic plates. These plates are not stationary; they 'float' on the semi-liquid mantle beneath them, moving at a rate of a few centimeters per year. Where these plates meet, their interactions create significant geological features. Divergent boundaries occur where plates pull apart, creating new crust, while convergent boundaries involve plates colliding, often forming mountain ranges or deep ocean trenches. The friction at these boundaries is also the primary cause of seismic activity.",
+      "question": "As used in the passage, the word 'stationary' most nearly means:",
+      "id": "PC-057"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "The English monarch held nearly unlimited legal authority.",
+        "The nobility had no interest in legal rights.",
+        "The United States Bill of Rights was already in effect.",
+        "Fair trials were a common right for all English citizens."
+      ],
+      "explanation": "The passage states that the document was created to 'limit the absolute power of the monarch.' This implies that before the document was signed, the monarch's power was absolute or not legally limited. The mention of 'due process' and 'fair trial' as things the document 'laid the groundwork for' suggests they were not established norms previously.",
+      "type": "passage",
+      "passage": "The Magna Carta, signed in 1215 by King John of England, is often cited as one of the most important documents in the history of democracy. It was originally drafted to address grievances among the nobility, limiting the absolute power of the monarch and establishing that no one, not even the king, was above the law. While it did not grant immediate freedom to all citizens, its principles of due process and the right to a fair trial laid the groundwork for modern constitutional governance and influenced the United States Bill of Rights.",
+      "question": "Based on the passage, it can be inferred that before the Magna Carta:",
+      "id": "PC-058"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "Formally began or introduced",
+        "Completed a long-term study",
+        "Criticized an existing theory",
+        "Healed through natural methods"
+      ],
+      "explanation": "The passage describes Jenner's discovery as a 'breakthrough' that 'led to the development of the first vaccine.' When it says his work 'inaugurated the field of immunology,' it means it started or opened up that specific area of science. 'Formally began' fits the historical context of launching a new scientific discipline.",
+      "type": "passage",
+      "passage": "In the late 18th century, Edward Jenner observed that milkmaids seemed immune to smallpox after having contracted cowpox, a much milder disease. Jenner hypothesized that exposure to the less dangerous virus provided protection against the more lethal one. He tested this by inoculating a young boy with cowpox material and later exposing him to smallpox; the boy remained healthy. This breakthrough led to the development of the first vaccine. Jenner's work inaugurated the field of immunology, fundamentally changing the approach to infectious disease prevention worldwide.",
+      "question": "As used in the passage, 'inaugurated' most nearly means:",
+      "id": "PC-059"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "A surplus of the product will immediately occur.",
+        "The market price will likely rise to compensate.",
+        "Demand will increase because the item is more expensive.",
+        "Producers will stop competing for buyers altogether."
+      ],
+      "explanation": "The passage mentions that the equilibrium shifts in response to 'production costs.' If costs increase, producers typically raise prices to maintain profit margins, or supply may decrease, leading to the upward price pressure described in the 'shortage' scenario. Higher production costs do not inherently create a surplus or increase demand; they generally lead to higher market prices.",
+      "type": "passage",
+      "passage": "In a market economy, the law of supply and demand serves as the primary mechanism for price determination. When the demand for a product exceeds its available supply, a shortage occurs, typically driving the market price upward as consumers compete for the limited goods. Conversely, when supply outpaces demand, a surplus leads to price reductions as producers compete for buyers. This equilibrium is dynamic, constantly shifting in response to consumer preferences, production costs, and external economic shocks. Understanding these fluctuations allows businesses to adjust their output and pricing strategies to maximize efficiency.",
+      "question": "Based on the passage, what is the most likely result of a sudden increase in production costs for a popular item?",
+      "id": "PC-060"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "Argue that ground-based telescopes are obsolete and should be replaced.",
+        "Detail the specific hardware failures that Hubble encountered in the 1990s.",
+        "Explain why Hubble's location and maintenance have been vital to its scientific success.",
+        "Compare the resolution of Hubble's images to those of newer telescopes."
+      ],
+      "explanation": "The passage highlights the benefits of Hubble's location (above the atmosphere) and the importance of 'service missions' (maintenance) in extending its life and productivity. While it mentions the limitations of ground-based observatories, it does not argue for their obsolescence. The focus is on how Hubble's unique situation contributed to its revolutionary scientific output.",
+      "type": "passage",
+      "passage": "Launched in 1990, the Hubble Space Telescope has revolutionized our understanding of the universe. By orbiting above the Earth's atmosphere, Hubble avoids the atmospheric distortion and light pollution that limit ground-based observatories. This clear vantage point has allowed astronomers to capture high-resolution images of distant galaxies and observe the birth of stars in nebulae. Despite several hardware challenges over the decades, successful service missions by astronauts have extended its operational life, making it one of the most productive scientific instruments ever built, providing data for thousands of peer-reviewed studies.",
       "question": "The author's primary purpose in this passage is to:",
-      "id": "PC-035"
+      "id": "PC-061"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "It is the first time humans have attempted to alter DNA.",
+        "It is derived from human immune system proteins.",
+        "Its ability to target and modify specific sections of DNA with high precision.",
+        "It only works on plant life and cannot be used on humans."
+      ],
+      "explanation": "The passage emphasizes that CRISPR allows researchers to cut DNA at a 'precise location' and notes its 'ease and accuracy.' This suggests that the defining characteristic and advantage of this tool compared to previous methods is its precision. Option 0 is factually incorrect according to general knowledge and the text, and option 1 incorrectly identifies its origin (it is from bacteria).",
+      "type": "passage",
+      "passage": "The development of CRISPR-Cas9 technology has provided scientists with a powerful tool for 'editing' the genetic code of living organisms. Derived from a natural defense mechanism in bacteria, CRISPR uses a specific protein to cut DNA at a precise location, allowing researchers to remove, add, or alter genetic material. This precision offers immense potential for treating hereditary diseases and improving crop resilience. However, the ease and accuracy of this technology also raise complex ethical questions regarding the long-term consequences of permanent genetic modifications in the human germline and the natural environment.",
+      "question": "Based on the passage, what distinguishes CRISPR from earlier genetic methods?",
+      "id": "PC-062"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "The only reliable way to understand the behavior of subatomic particles.",
+        "Insufficient for explaining the behavior of matter at the smallest scales.",
+        "Based entirely on the principle of superposition and uncertainty.",
+        "More mathematically complex than the framework of quantum mechanics."
+      ],
+      "explanation": "The passage contrasts classical mechanics with quantum mechanics, noting that the quantum realm involves 'probability and uncertainty' which are 'unlike classical mechanics.' Because quantum mechanics is needed to describe 'behavior... at the atomic and subatomic levels,' the implication is that classical mechanics—which deals with 'macroscopic objects'—cannot adequately explain these smaller-scale phenomena.",
+      "type": "passage",
+      "passage": "Quantum mechanics is the branch of physics that describes the behavior of matter and energy at the atomic and subatomic levels. Unlike classical mechanics, which deals with predictable, macroscopic objects, the quantum realm is characterized by probability and uncertainty. For instance, the 'superposition' principle suggests that a particle can exist in multiple states simultaneously until it is observed or measured. This departure from intuitive physical laws suggests that the fundamental nature of reality is far more complex than our everyday experiences would imply, requiring a mathematical rather than a purely sensory framework for understanding.",
+      "question": "Based on the passage, the author suggests that classical mechanics is:",
+      "id": "PC-063"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "Describe the aesthetic beauty of ancient Roman architecture and city planning.",
+        "Argue that Roman engineering was a fundamental component of the empire's political and military longevity.",
+        "Contrast the Roman road system with modern transportation infrastructure.",
+        "Explain the hydraulic principles used by Roman engineers to build aqueducts."
+      ],
+      "explanation": "The passage links infrastructure directly to 'stability,' 'administration,' 'survival,' 'internal cohesion,' and the ability to 'project power.' This indicates the author's purpose is to show how engineering served the state's political and military needs, contributing to its long-term survival. The other options focus on aesthetics or technical details not emphasized in the text.",
+      "type": "passage",
+      "passage": "The stability of the Roman Empire was due in no small part to its sophisticated infrastructure, particularly its extensive network of roads and aqueducts. These engineering marvels were not merely symbols of prestige; they were practical tools for administration and survival. Roads facilitated the rapid movement of legions to troubled borders and the efficient flow of commerce between provinces. Meanwhile, aqueducts ensured a reliable water supply for burgeoning urban populations, supporting public health and hygiene. By prioritizing functional engineering, the Roman state was able to maintain internal cohesion and project power across vast, diverse territories for centuries.",
+      "question": "The author's primary purpose in the passage is to:",
+      "id": "PC-064"
+    },
+    {
+      "sectionId": "PC",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "Higher CO2 levels directly poison large fish and marine mammals.",
+        "Chemical changes at the base of the food chain can cause ecological instability for more complex organisms.",
+        "The increase in carbonate ions will allow plankton to thrive at the expense of coral.",
+        "Ocean acidification is primarily a localized issue that does not affect global food supplies."
+      ],
+      "explanation": "The passage argues that acidification affects 'foundational species' (like plankton and coral) by reducing 'carbonate ions.' Because these foundational species are 'critical habitats and food sources,' their stress 'threatens to destabilize entire marine food webs.' This describes a bottom-up ecological impact where chemical changes affecting the base have cascading effects on the whole system.",
+      "type": "passage",
+      "passage": "Ocean acidification is a consequence of the rising concentration of carbon dioxide (CO2) in the atmosphere. As the oceans absorb a significant portion of human-generated CO2, a chemical reaction occurs that lowers the pH of the water, making it more acidic. This shift in chemistry reduces the availability of carbonate ions, which are essential building blocks for calcifying organisms such as corals, mollusks, and some plankton. The resulting stress on these foundational species threatens to destabilize entire marine food webs. Because these organisms provide critical habitats and food sources, the impact of acidification extends far beyond the chemical composition of the water itself.",
+      "question": "Which of the following best summarizes the underlying logic of the passage's argument regarding marine food webs?",
+      "id": "PC-065"
     }
   ]
 }

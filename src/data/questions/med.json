@@ -1,0 +1,529 @@
+{
+  "questions": [
+    {
+      "id": "med-001",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 1,
+      "question": "What is the normal range for an adult's resting heart rate?",
+      "options": [
+        "40–60 beats per minute",
+        "60–100 beats per minute",
+        "100–120 beats per minute",
+        "120–140 beats per minute"
+      ],
+      "correctIndex": 1,
+      "explanation": "Normal adult resting heart rate is 60–100 bpm. Below 60 is bradycardia; above 100 is tachycardia. The ASVAB GS section tests these baseline human physiology values directly."
+    },
+    {
+      "id": "med-002",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 1,
+      "question": "How many chambers does the human heart have?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Six"
+      ],
+      "correctIndex": 2,
+      "explanation": "The heart has four chambers: right atrium, right ventricle, left atrium, and left ventricle. Deoxygenated blood enters the right side and is pumped to the lungs; oxygenated blood returns to the left side and is pumped to the body."
+    },
+    {
+      "id": "med-003",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "Which blood type is known as the 'universal donor' for red blood cell transfusions?",
+      "options": [
+        "AB positive",
+        "A negative",
+        "O positive",
+        "O negative"
+      ],
+      "correctIndex": 3,
+      "explanation": "O negative (O–) lacks A antigens, B antigens, and the Rh factor, making it compatible with any recipient blood type. AB positive is the universal recipient. This is a classic ASVAB GS question."
+    },
+    {
+      "id": "med-004",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 1,
+      "question": "What is the primary function of red blood cells (erythrocytes)?",
+      "options": [
+        "Fight bacterial infections",
+        "Carry oxygen throughout the body",
+        "Initiate blood clotting",
+        "Produce antibodies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Red blood cells contain hemoglobin, an iron-rich protein that binds oxygen in the lungs and transports it to body tissues. Low RBC count causes anemia, resulting in fatigue and poor tissue oxygenation."
+    },
+    {
+      "id": "med-005",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "At what anatomical landmark does the trachea split into the two main bronchi?",
+      "options": [
+        "Epiglottis",
+        "Thyroid cartilage",
+        "Carina",
+        "Cricoid cartilage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The carina is the ridge of cartilage at the tracheal bifurcation (approximately at vertebral level T4–T5) where the trachea splits into the left and right main bronchi, which carry air into each lung."
+    },
+    {
+      "id": "med-006",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "What does the medical prefix 'brady-' mean?",
+      "options": [
+        "Fast or rapid",
+        "Slow",
+        "Below normal",
+        "Difficult or abnormal"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Brady-' means slow (e.g., bradycardia = slow heart rate, bradypnea = slow breathing). Its opposite 'tachy-' means fast. Medical prefix/suffix questions appear in both the GS and WK sections of the ASVAB."
+    },
+    {
+      "id": "med-007",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "What does the medical suffix '-itis' indicate?",
+      "options": [
+        "Surgical removal of a structure",
+        "Abnormal enlargement",
+        "Inflammation",
+        "Localized pain"
+      ],
+      "correctIndex": 2,
+      "explanation": "'-itis' means inflammation. Examples: appendicitis (inflamed appendix), tonsillitis (inflamed tonsils), arthritis (inflamed joints). Medical suffix recognition is tested in both the WK and GS sections of the ASVAB."
+    },
+    {
+      "id": "med-008",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "What is the standard normal adult blood pressure reading?",
+      "options": [
+        "100/60 mmHg",
+        "110/70 mmHg",
+        "120/80 mmHg",
+        "140/90 mmHg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Normal blood pressure is approximately 120/80 mmHg. Systolic (top) = pressure during heart contraction; diastolic (bottom) = pressure between beats. Hypertension is ≥ 130/80 mmHg per current guidelines."
+    },
+    {
+      "id": "med-009",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "Which organ produces insulin, the hormone that regulates blood glucose?",
+      "options": [
+        "Liver",
+        "Adrenal gland",
+        "Pancreas",
+        "Spleen"
+      ],
+      "correctIndex": 2,
+      "explanation": "The beta cells of the pancreatic islets of Langerhans produce insulin. When blood glucose rises, insulin enables cells to absorb glucose. Failure causes diabetes mellitus. The ASVAB GS section regularly tests endocrine gland functions."
+    },
+    {
+      "id": "med-010",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "What is the largest organ of the human body?",
+      "options": [
+        "Liver",
+        "Lungs",
+        "Brain",
+        "Skin"
+      ],
+      "correctIndex": 3,
+      "explanation": "The skin (integumentary system) is the largest organ, averaging about 2 square meters in adults. It provides a barrier against pathogens, regulates temperature, and prevents fluid loss. This is one of the most frequently tested ASVAB GS facts."
+    },
+    {
+      "id": "med-011",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "What is the medical term for difficulty or labored breathing?",
+      "options": [
+        "Apnea",
+        "Dyspnea",
+        "Bradypnea",
+        "Eupnea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dyspnea (dys- = difficult, pnea = breathing) is the sensation of breathlessness. Apnea = no breathing; bradypnea = abnormally slow breathing; eupnea = normal unlabored breathing. Medical vocabulary like this appears in both GS and WK."
+    },
+    {
+      "id": "med-012",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "What is the normal adult respiratory rate at rest?",
+      "options": [
+        "4–8 breaths per minute",
+        "12–20 breaths per minute",
+        "22–28 breaths per minute",
+        "30–36 breaths per minute"
+      ],
+      "correctIndex": 1,
+      "explanation": "Normal adult respiratory rate is 12–20 breaths per minute. Above 20 is tachypnea (fever, pain, respiratory distress); below 12 is bradypnea (CNS depression, drug overdose). Vital signs ranges are standard ASVAB GS content."
+    },
+    {
+      "id": "med-013",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 1,
+      "question": "What is the primary role of white blood cells (leukocytes)?",
+      "options": [
+        "Transport oxygen to tissues",
+        "Carry carbon dioxide to the lungs",
+        "Defend the body against infection and foreign substances",
+        "Form clots at injury sites"
+      ],
+      "correctIndex": 2,
+      "explanation": "Leukocytes are the core cells of the immune system — neutrophils fight bacteria, lymphocytes produce antibodies, macrophages engulf pathogens. An elevated WBC count indicates active infection. Blood cell functions are a consistent ASVAB GS topic."
+    },
+    {
+      "id": "med-014",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "In the standard primary patient assessment, what is the correct ABC sequence?",
+      "options": [
+        "Airway, Breathing, Circulation",
+        "Breathing, Airway, Circulation",
+        "Circulation, Airway, Breathing",
+        "Airway, Circulation, Bleeding"
+      ],
+      "correctIndex": 0,
+      "explanation": "ABC (Airway, Breathing, Circulation) is the primary survey sequence in emergency medicine. An open airway is confirmed first — without it, breathing and circulation are irrelevant. This is tested in ASVAB GS under human biology and health."
+    },
+    {
+      "id": "med-015",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 1,
+      "question": "Normal human body temperature is approximately:",
+      "options": [
+        "96.8°F (36.0°C)",
+        "98.6°F (37.0°C)",
+        "100.4°F (38.0°C)",
+        "101.3°F (38.5°C)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Normal body temperature is 98.6°F (37°C). A temperature ≥ 100.4°F (38°C) is fever (pyrexia). Hypothermia is core temperature below 95°F (35°C). This is one of the most commonly tested human physiology facts on the ASVAB."
+    },
+    {
+      "id": "med-016",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "Influenza (the flu) is caused by which type of pathogen?",
+      "options": [
+        "Bacterium",
+        "Fungus",
+        "Virus",
+        "Parasite"
+      ],
+      "correctIndex": 2,
+      "explanation": "Influenza is caused by influenza viruses (types A, B, C). Viruses require a living host to replicate and cannot be treated with antibiotics. Antiviral medications (e.g., oseltamivir) can reduce severity if given early. Pathogen classification is a core ASVAB GS topic."
+    },
+    {
+      "id": "med-017",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "On the pH scale, a value of 7 indicates:",
+      "options": [
+        "Highly acidic",
+        "Neutral",
+        "Mildly alkaline",
+        "Highly alkaline"
+      ],
+      "correctIndex": 1,
+      "explanation": "pH 7 is neutral (pure water). Below 7 is acidic; above 7 is alkaline. Normal blood pH is 7.35–7.45 (slightly alkaline). Deviations cause acidosis or alkalosis. The pH scale and chemical properties of acids and bases are tested in ASVAB GS chemistry questions."
+    },
+    {
+      "id": "med-018",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "Which of the following best describes shock?",
+      "options": [
+        "A sudden loss of consciousness",
+        "A sharp drop in blood pressure only",
+        "Inadequate perfusion of tissues with oxygen and nutrients",
+        "Psychological response to traumatic injury"
+      ],
+      "correctIndex": 2,
+      "explanation": "Shock is a state of circulatory failure where tissues cannot receive adequate oxygen and nutrients to sustain metabolism. Types include hypovolemic, distributive, cardiogenic, and obstructive. Understanding circulatory failure is tested in ASVAB GS under physiology."
+    },
+    {
+      "id": "med-019",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 4,
+      "question": "Which process describes the movement of water across a semi-permeable membrane from low solute concentration to high solute concentration?",
+      "options": [
+        "Diffusion",
+        "Osmosis",
+        "Active transport",
+        "Filtration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Osmosis is the passive movement of water across a semi-permeable membrane toward the area of higher solute (lower water) concentration. It governs how cells gain or lose water and is the basis for IV fluid selection. Osmosis vs. diffusion is a classic ASVAB biology question."
+    },
+    {
+      "id": "med-020",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "What is the name of the double-layered membrane that encloses each lung?",
+      "options": [
+        "Pericardium",
+        "Peritoneum",
+        "Pleura",
+        "Meninges"
+      ],
+      "correctIndex": 2,
+      "explanation": "The pleura surrounds each lung. The visceral pleura adheres to the lung surface; the parietal pleura lines the chest wall. The pericardium surrounds the heart, peritoneum lines the abdomen, and meninges surround the brain and spinal cord. Membrane identification is tested in ASVAB GS anatomy."
+    },
+    {
+      "id": "med-021",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "The femur is located in which part of the body?",
+      "options": [
+        "Upper arm",
+        "Lower leg",
+        "Forearm",
+        "Thigh"
+      ],
+      "correctIndex": 3,
+      "explanation": "The femur is the longest and strongest bone in the body, in the thigh. The humerus is in the upper arm; tibia and fibula are in the lower leg; radius and ulna are in the forearm. Bone identification by region is a standard ASVAB GS skeletal system question."
+    },
+    {
+      "id": "med-022",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "Which cellular organelle is the site of ATP production through cellular respiration?",
+      "options": [
+        "Nucleus",
+        "Ribosome",
+        "Mitochondria",
+        "Lysosome"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mitochondria produce ATP (adenosine triphosphate) by converting glucose and oxygen into energy through aerobic cellular respiration. Cells with high metabolic demands — muscle and cardiac cells — have the most mitochondria. Organelle functions are among the most commonly tested ASVAB GS cell biology questions."
+    },
+    {
+      "id": "med-023",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "Which vitamin is synthesized by the human body when skin is exposed to ultraviolet sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin B12",
+        "Vitamin C",
+        "Vitamin D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vitamin D (calciferol) is synthesized in the skin from cholesterol when exposed to UVB radiation. It is essential for calcium absorption and bone health. Deficiency causes rickets in children and osteomalacia in adults. Vitamins and their functions are common ASVAB GS health questions."
+    },
+    {
+      "id": "med-024",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "Which organ is primarily responsible for filtering metabolic waste products from the blood and excreting them as urine?",
+      "options": [
+        "Liver",
+        "Kidneys",
+        "Spleen",
+        "Pancreas"
+      ],
+      "correctIndex": 1,
+      "explanation": "The kidneys filter approximately 180 liters of blood per day, regulating fluid balance, electrolytes, and blood pressure while excreting waste (urea, creatinine) as urine. The liver processes toxins; the spleen recycles blood cells; the pancreas manages blood sugar."
+    },
+    {
+      "id": "med-025",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 4,
+      "question": "What is the primary role of platelets (thrombocytes) during hemostasis?",
+      "options": [
+        "Transport oxygen bound to hemoglobin to the injury site",
+        "Produce antibodies against wound pathogens",
+        "Aggregate at injury sites to form a platelet plug and activate the clotting cascade",
+        "Directly synthesize fibrin to seal the wound"
+      ],
+      "correctIndex": 2,
+      "explanation": "Platelets are small anucleate cell fragments that adhere to damaged vessel walls, aggregate, and release chemical signals activating the coagulation cascade, which produces fibrin to reinforce the clot. Platelet and clotting function is tested in ASVAB GS hematology questions."
+    },
+    {
+      "id": "med-026",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "What does the medical prefix 'hypo-' mean?",
+      "options": [
+        "Above or beyond normal",
+        "Below or less than normal",
+        "Across or through",
+        "Around or surrounding"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Hypo-' means below or less than normal. Hypoglycemia = low blood sugar; hypotension = low blood pressure; hypothermia = below-normal body temperature. Its opposite 'hyper-' means above or greater than normal. Prefix recognition is tested in both ASVAB GS and WK."
+    },
+    {
+      "id": "med-027",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "Antibiotics are effective against which type of pathogen?",
+      "options": [
+        "Viruses",
+        "Fungi",
+        "Bacteria",
+        "Prions"
+      ],
+      "correctIndex": 2,
+      "explanation": "Antibiotics target structures unique to bacteria — cell wall synthesis, protein synthesis, DNA replication — that human cells and viruses lack. They have no effect on viral infections. Misuse contributes to antibiotic resistance. This distinction appears regularly in ASVAB GS microbiology questions."
+    },
+    {
+      "id": "med-028",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "What is the medical term for the collarbone?",
+      "options": [
+        "Scapula",
+        "Clavicle",
+        "Sternum",
+        "Manubrium"
+      ],
+      "correctIndex": 1,
+      "explanation": "The clavicle (collarbone) connects the sternum to the scapula, forming part of the shoulder girdle. The scapula is the shoulder blade; the sternum is the breastbone; the manubrium is the upper part of the sternum. Skeletal anatomy vocabulary is tested on both ASVAB GS and WK."
+    },
+    {
+      "id": "med-029",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "What is the process by which the body maintains a stable internal environment despite external changes?",
+      "options": [
+        "Catabolism",
+        "Homeostasis",
+        "Anabolism",
+        "Metabolism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Homeostasis is the body's regulatory maintenance of stable internal conditions (temperature, pH, blood glucose, fluid balance) through feedback mechanisms. Sweating to cool down and insulin/glucagon to regulate blood sugar are classic examples. Homeostasis is among the most tested ASVAB GS biology concepts."
+    },
+    {
+      "id": "med-030",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "Which organ produces bile, which is used to digest fats in the small intestine?",
+      "options": [
+        "Pancreas",
+        "Stomach",
+        "Liver",
+        "Gallbladder"
+      ],
+      "correctIndex": 2,
+      "explanation": "The liver produces bile; the gallbladder stores it and releases it into the small intestine (duodenum) when fats are present. Bile emulsifies fat droplets into smaller particles, dramatically increasing the surface area for lipase enzymes to work on. Digestive organ functions are a consistent ASVAB GS topic."
+    },
+    {
+      "id": "med-031",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 4,
+      "question": "Which type of muscle is found in the walls of internal organs such as the stomach and intestines and operates involuntarily?",
+      "options": [
+        "Skeletal muscle",
+        "Cardiac muscle",
+        "Smooth muscle",
+        "Striated muscle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Smooth muscle lines the walls of hollow organs (intestines, bladder, blood vessels) and contracts involuntarily. Skeletal muscle is voluntary and attached to bones. Cardiac muscle is in the heart — involuntary and striated like skeletal muscle. Muscle types are a frequent ASVAB GS anatomy question."
+    },
+    {
+      "id": "med-032",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 3,
+      "question": "What does DNA stand for, and where in the cell is it primarily found?",
+      "options": [
+        "Dynamic Nucleic Acid; found in the cytoplasm",
+        "Deoxyribonucleic Acid; found in the nucleus",
+        "Double Nucleic Acid; found in the mitochondria",
+        "Deoxyribonucleic Acid; found in the ribosome"
+      ],
+      "correctIndex": 1,
+      "explanation": "DNA (Deoxyribonucleic Acid) is the molecule that carries genetic information. It is primarily found in the cell nucleus, coiled into chromosomes. Small amounts also exist in mitochondria. DNA's location and function are among the most commonly tested ASVAB GS cell biology topics."
+    },
+    {
+      "id": "med-033",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "What is the function of the diaphragm in respiration?",
+      "options": [
+        "It filters blood entering the lungs",
+        "It is a dome-shaped muscle that contracts to allow inhalation",
+        "It prevents food from entering the trachea",
+        "It regulates the pH of exhaled air"
+      ],
+      "correctIndex": 1,
+      "explanation": "The diaphragm is the primary muscle of breathing. When it contracts (flattens), it increases the volume of the thoracic cavity, lowering pressure inside so air flows into the lungs (inhalation). When it relaxes, volume decreases and air is expelled (exhalation)."
+    },
+    {
+      "id": "med-034",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 4,
+      "question": "A patient has blood type A positive. Which of the following blood types could they safely receive?",
+      "options": [
+        "A positive and AB positive only",
+        "A positive, A negative, O positive, and O negative",
+        "Any blood type",
+        "Only O negative"
+      ],
+      "correctIndex": 1,
+      "explanation": "A person with type A blood can receive types A and O (both + and – if they are Rh positive). They cannot receive B or AB blood because their immune system will produce antibodies against B antigens. Blood type compatibility is a classic ASVAB GS question that requires applying ABO rules."
+    },
+    {
+      "id": "med-035",
+      "type": "mcq",
+      "sectionId": "MED",
+      "difficulty": 2,
+      "question": "Which part of the nervous system controls the 'fight-or-flight' response?",
+      "options": [
+        "Parasympathetic nervous system",
+        "Somatic nervous system",
+        "Sympathetic nervous system",
+        "Central nervous system"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sympathetic nervous system triggers the fight-or-flight response: increased heart rate, dilated pupils, redirected blood flow to muscles, and release of adrenaline (epinephrine). The parasympathetic system governs rest-and-digest functions. This autonomic division is frequently tested on the ASVAB GS."
+    }
+  ]
+}

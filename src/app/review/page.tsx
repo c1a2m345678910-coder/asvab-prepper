@@ -12,18 +12,18 @@ export default function ReviewPage() {
   const sectionsWithDue = SECTIONS.filter((s) => (dueCounts[s.id] ?? 0) > 0);
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
       <div className="max-w-lg mx-auto px-4 pb-16">
 
         {/* ── Header ──────────────────────────────────────────────────── */}
-        <div className="sticky top-0 z-10 bg-slate-50 pt-10 pb-4">
+        <div className="sticky top-0 z-10 bg-slate-50 dark:bg-slate-950 pt-10 pb-4">
           <Link
             href="/"
-            className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 transition-colors mb-4"
+            className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-4"
           >
             ← Home
           </Link>
-          <h1 className="text-2xl font-bold text-slate-900">Review Queue</h1>
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">Review Queue</h1>
           <p className="text-sm text-slate-500 mt-1">
             {totalDue > 0
               ? `${totalDue} card${totalDue !== 1 ? 's' : ''} due today`
@@ -35,7 +35,7 @@ export default function ReviewPage() {
         {totalDue === 0 && (
           <div className="mt-16 flex flex-col items-center text-center gap-3">
             <span className="text-6xl">🎉</span>
-            <p className="text-lg font-semibold text-slate-700">All caught up!</p>
+            <p className="text-lg font-semibold text-slate-700 dark:text-slate-200">All caught up!</p>
             <p className="text-sm text-slate-400 max-w-xs">
               You&apos;ve reviewed everything that&apos;s due. Come back tomorrow for
               more cards.
@@ -58,12 +58,11 @@ export default function ReviewPage() {
                 <Link
                   key={section.id}
                   href={`/lesson/${section.id}?mode=review`}
-                  className="flex items-center gap-4 bg-white rounded-2xl px-4 py-4
-                    shadow-sm border border-slate-100 active:scale-[0.98] transition-transform"
+                  className="flex items-center gap-4 bg-white dark:bg-slate-900 rounded-2xl px-4 py-4 shadow-sm border border-slate-100 dark:border-slate-800 active:scale-[0.98] transition-transform"
                 >
                   <span className="text-2xl">{section.iconEmoji}</span>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm font-semibold text-slate-900 truncate">
+                    <p className="text-sm font-semibold text-slate-900 dark:text-slate-100 truncate">
                       {section.name}
                     </p>
                     <p className="text-xs text-slate-400 mt-0.5">
@@ -71,10 +70,10 @@ export default function ReviewPage() {
                     </p>
                   </div>
                   <div className="flex items-center gap-2 flex-shrink-0">
-                    <span className="text-xs font-bold text-amber-700 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-full">
+                    <span className="text-xs font-bold text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/40 px-2.5 py-1 rounded-full">
                       {count}
                     </span>
-                    <span className="text-slate-300">→</span>
+                    <span className="text-slate-300 dark:text-slate-600">→</span>
                   </div>
                 </Link>
               );

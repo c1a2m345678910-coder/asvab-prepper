@@ -3,6 +3,7 @@
   "sectionId": "MC",
   "questions": [
     {
+      "id": "MC-001",
       "sectionId": "MC",
       "difficulty": 1,
       "correctIndex": 1,
@@ -14,10 +15,10 @@
       ],
       "explanation": "Newton's First Law of Motion states that an object at rest will remain at rest, and an object in motion will remain in motion unless acted upon by an external force. This inherent resistance to change is known as inertia. The amount of inertia an object possesses is directly related to its mass; the heavier the object, the more inertia it has.",
       "type": "mcq",
-      "question": "Which of the following terms describes the tendency of an object to resist any change in its state of rest or motion?",
-      "id": "MC-001"
+      "question": "Which of the following terms describes the tendency of an object to resist any change in its state of rest or motion?"
     },
     {
+      "id": "MC-002",
       "sectionId": "MC",
       "difficulty": 1,
       "correctIndex": 2,
@@ -29,10 +30,10 @@
       ],
       "explanation": "Conduction is the process by which heat energy is transmitted through collisions between neighboring atoms or molecules. In a solid metal rod, the particles at the heated end vibrate more rapidly and pass this kinetic energy to adjacent particles. This differs from convection, which requires fluid movement, and radiation, which involves electromagnetic waves.",
       "type": "mcq",
-      "question": "In a solid metal rod, heat travels from one end to the other primarily through which method of heat transfer?",
-      "id": "MC-002"
+      "question": "In a solid metal rod, heat travels from one end to the other primarily through which method of heat transfer?"
     },
     {
+      "id": "MC-003",
       "sectionId": "MC",
       "difficulty": 2,
       "correctIndex": 1,
@@ -44,10 +45,10 @@
       ],
       "explanation": "Levers are classified by the relative positions of the fulcrum, load, and effort. In a second-class lever, the load (the nut) is positioned between the fulcrum (the pivot joint) and the effort (the force applied by the hands). This configuration always provides a mechanical advantage greater than one, allowing the user to crush hard objects with less input force.",
       "type": "mcq",
-      "question": "A nutcracker consists of two handles joined at a pivot at one end, with the nut placed in the middle. What class of lever is this device?",
-      "id": "MC-003"
+      "question": "A nutcracker consists of two handles joined at a pivot at one end, with the nut placed in the middle. What class of lever is this device?"
     },
     {
+      "id": "MC-004",
       "sectionId": "MC",
       "difficulty": 2,
       "correctIndex": 0,
@@ -59,10 +60,10 @@
       ],
       "explanation": "Pressure is defined as the total force applied divided by the area over which it is distributed. \nCalculation: Pressure = Force / Area. \nPressure = 50 pounds / 2 square inches = 25 pounds per square inch (psi). \nAccording to Pascal's Principle, this pressure is transmitted equally and undiminished in every direction throughout the contained fluid.",
       "type": "mcq",
-      "question": "If a force of 50 pounds is applied to a hydraulic piston with a surface area of 2 square inches, what is the resulting pressure within the fluid?",
-      "id": "MC-004"
+      "question": "If a force of 50 pounds is applied to a hydraulic piston with a surface area of 2 square inches, what is the resulting pressure within the fluid?"
     },
     {
+      "id": "MC-005",
       "sectionId": "MC",
       "difficulty": 3,
       "correctIndex": 2,
@@ -74,10 +75,10 @@
       ],
       "explanation": "The mechanical advantage (MA) of a pulley system is equal to the number of rope strands that are directly supporting the movable load. \nCalculation: MA = 4. \nEffort = Load / MA = 200 lbs / 4 = 50 pounds. \nBy using four strands, the weight of the engine is distributed across each strand, requiring the user to pull with only one-quarter of the total weight.",
       "type": "mcq",
-      "question": "A block and tackle pulley system uses four supporting rope strands to lift a 200-pound engine. Neglecting friction, how much effort force must be applied to the pull rope to lift the engine?",
-      "id": "MC-005"
+      "question": "A block and tackle pulley system uses four supporting rope strands to lift a 200-pound engine. Neglecting friction, how much effort force must be applied to the pull rope to lift the engine?"
     },
     {
+      "id": "MC-006",
       "sectionId": "MC",
       "difficulty": 3,
       "correctIndex": 3,
@@ -89,10 +90,10 @@
       ],
       "explanation": "The gear ratio is determined by dividing the number of teeth on the driven gear by the number of teeth on the drive gear. \nCalculation: Gear Ratio = 36 / 12 = 3. \nSince the driven gear is three times larger, it will rotate three times slower than the drive gear. \nDriven Speed = 150 RPM / 3 = 50 RPM. This represents a trade-off where speed is sacrificed to increase torque.",
       "type": "mcq",
-      "question": "A drive gear with 12 teeth is meshed with a driven gear that has 36 teeth. If the drive gear rotates at a speed of 150 RPM, what is the rotation speed of the driven gear?",
-      "id": "MC-006"
+      "question": "A drive gear with 12 teeth is meshed with a driven gear that has 36 teeth. If the drive gear rotates at a speed of 150 RPM, what is the rotation speed of the driven gear?"
     },
     {
+      "id": "MC-007",
       "sectionId": "MC",
       "difficulty": 4,
       "correctIndex": 2,
@@ -104,10 +105,10 @@
       ],
       "explanation": "The mechanical advantage (MA) of a hydraulic system is the ratio of the piston areas. Area = π × radius². \nCalculation: Input Area = π × 1² = 1π. Output Area = π × 4² = 16π. \nMA = 16π / 1π = 16. \nOutput Force = Input Force × MA = 10 lbs × 16 = 160 pounds. \nPascal's Principle ensures that because the area increases sixteen-fold, the output force also increases sixteen-fold.",
       "type": "mcq",
-      "question": "In a hydraulic jack, the small input piston has a radius of 1 inch and the large output piston has a radius of 4 inches. If 10 pounds of force is applied to the small piston, how much force is generated by the large piston?",
-      "id": "MC-007"
+      "question": "In a hydraulic jack, the small input piston has a radius of 1 inch and the large output piston has a radius of 4 inches. If 10 pounds of force is applied to the small piston, how much force is generated by the large piston?"
     },
     {
+      "id": "MC-008",
       "sectionId": "MC",
       "difficulty": 4,
       "correctIndex": 1,
@@ -119,10 +120,10 @@
       ],
       "explanation": "For springs arranged in parallel, the effective spring constant (K-total) is the sum of the individual constants. \nCalculation: K-total = 20 lb/in + 20 lb/in = 40 lb/in. \nUsing Hooke's Law (F = kx), we solve for displacement (x). \nx = Force / K-total = 60 lbs / 40 lb/in = 1.5 inches. \nParallel configurations increase the stiffness of the system, meaning each spring only carries half of the total load.",
       "type": "mcq",
-      "question": "A spring has a spring constant (k) of 20 pounds per inch. If two identical such springs are placed side-by-side in a parallel configuration to support a 60-pound weight, how many inches will the weight compress the springs?",
-      "id": "MC-008"
+      "question": "A spring has a spring constant (k) of 20 pounds per inch. If two identical such springs are placed side-by-side in a parallel configuration to support a 60-pound weight, how many inches will the weight compress the springs?"
     },
     {
+      "id": "MC-009",
       "sectionId": "MC",
       "difficulty": 5,
       "correctIndex": 3,
@@ -134,10 +135,10 @@
       ],
       "explanation": "A wheel and axle functions as a continuous lever. The mechanical advantage (MA) is the ratio of the radius (or diameter) of the wheel where force is applied to the radius (or diameter) of the axle where the load is lifted. \nCalculation: MA = 12-inch diameter / 3-inch diameter = 4. \nLoad = Force × MA = 20 lbs × 4 = 80 pounds. \nThe larger the wheel relative to the axle, the greater the lifting capacity.",
       "type": "mcq",
-      "question": "A manual winch consists of a 12-inch diameter wheel attached to a 3-inch diameter axle. If a person applies 20 pounds of force to the outer edge of the wheel, how much weight can the axle lift?",
-      "id": "MC-009"
+      "question": "A manual winch consists of a 12-inch diameter wheel attached to a 3-inch diameter axle. If a person applies 20 pounds of force to the outer edge of the wheel, how much weight can the axle lift?"
     },
     {
+      "id": "MC-010",
       "sectionId": "MC",
       "difficulty": 5,
       "correctIndex": 0,
@@ -149,8 +150,607 @@
       ],
       "explanation": "We must account for both the beam's own weight and the external load. First, the 100-lb beam's weight is distributed equally: 100 / 2 = 50 lbs per pillar. Second, use the principle of moments around the right pillar for the 200-lb load: (Force-Left × 10 ft) = (200 lbs × 7.5 ft). Force-Left = 1,500 / 10 = 150 lbs. \nTotal Force on Left Pillar = 50 lbs (beam) + 150 lbs (load) = 200 pounds.",
       "type": "mcq",
-      "question": "A 10-foot uniform wooden beam weighing 100 pounds is supported by two pillars, one at each end. If a 200-pound load is placed on the beam exactly 2.5 feet from the left pillar, what is the total vertical force supported by the left pillar?",
-      "id": "MC-010"
+      "question": "A 10-foot uniform wooden beam weighing 100 pounds is supported by two pillars, one at each end. If a 200-pound load is placed on the beam exactly 2.5 feet from the left pillar, what is the total vertical force supported by the left pillar?"
+    },
+    {
+      "id": "MC-011",
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Pascal's Law",
+        "Bernoulli's Principle",
+        "Hooke's Law",
+        "Newton's Third Law"
+      ],
+      "explanation": "Hooke's Law is a principle of physics that states that the force (F) needed to extend or compress a spring by some distance (x) scales linearly with respect to that distance. The formula is F = kx, where k is the constant factor characteristic of the spring. This means if you double the force applied to the spring, the displacement or change in length will also double.",
+      "type": "mcq",
+      "question": "Which physical law states that the force needed to extend or compress a spring by some distance is proportional to that distance?"
+    },
+    {
+      "id": "MC-012",
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "At the fulcrum",
+        "Between the fulcrum and the load",
+        "Opposite the fulcrum from the load",
+        "At the same point as the load"
+      ],
+      "explanation": "In a third-class lever, the effort is applied between the fulcrum and the load. Common examples include tweezers, tongs, and the human arm. While these levers do not provide a mechanical advantage in force (meaning the effort force required is actually greater than the weight of the load), they provide a distance advantage, allowing the load to move further and faster than the effort force.",
+      "type": "mcq",
+      "question": "In a third-class lever, where is the effort force located relative to the fulcrum and the load?"
+    },
+    {
+      "id": "MC-013",
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "10 pounds",
+        "50 pounds",
+        "45 pounds",
+        "30 pounds"
+      ],
+      "explanation": "The mechanical advantage (MA) of an inclined plane is calculated by dividing the length of the slope by the vertical height. Step 1: MA = Length / Height = 15 feet / 3 feet = 5. Step 2: To find the effort force required to move the load, divide the total weight by the MA: 150 pounds / 5 = 30 pounds. This calculation represents the theoretical force required before accounting for friction.",
+      "type": "mcq",
+      "question": "A mover uses a ramp that is 15 feet long to reach a truck bed that is 3 feet high. If the mover needs to push a 150-pound crate up the ramp, what is the minimum theoretical force required, neglecting friction?"
+    },
+    {
+      "id": "MC-014",
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "1 foot-pound",
+        "5 foot-pounds",
+        "25 foot-pounds",
+        "50 foot-pounds"
+      ],
+      "explanation": "The gear ratio is calculated by dividing the number of teeth on the driven gear by the number of teeth on the drive gear: 50 / 10 = 5. Torque and speed have an inverse relationship in gear systems. Because the gear ratio is 5, the speed of the output gear decreases by a factor of 5, while the output torque increases by a factor of 5: 5 foot-pounds * 5 = 25 foot-pounds.",
+      "type": "mcq",
+      "question": "A drive gear with 10 teeth is connected to a driven gear with 50 teeth. If the drive gear provides a torque of 5 foot-pounds, what is the output torque at the driven gear, assuming 100% efficiency?"
+    },
+    {
+      "id": "MC-015",
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "The iron block's temperature will increase twice as much as the aluminum's.",
+        "The aluminum block's temperature will increase twice as much as the iron's.",
+        "Both blocks will experience the exact same temperature increase.",
+        "The iron block's temperature will increase four times as much as the aluminum's."
+      ],
+      "explanation": "Specific heat capacity (c) is the amount of heat required to change a substance's temperature. Using the formula Q = mcΔT (where Q is heat, m is mass, and ΔT is temperature change), we find ΔT = Q / (mc). Since the mass (m) and heat (Q) are constant, the temperature change is inversely proportional to the specific heat. Since iron has half the specific heat of aluminum, the iron block's temperature will increase by twice as many degrees.",
+      "type": "mcq",
+      "question": "A 2-pound block of iron and a 2-pound block of aluminum are both heated with the same amount of thermal energy. If the specific heat capacity of aluminum is approximately twice that of iron, which of the following describes the resulting temperature change?"
+    },
+    {
+      "id": "MC-016",
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Gravity",
+        "Magnetism",
+        "Friction",
+        "Inertia"
+      ],
+      "explanation": "Friction is a resistive force that occurs when two surfaces rub against each other. It always acts in the direction opposite to the motion (or attempted motion) of an object. Factors affecting friction include the texture of the surfaces and the amount of force pressing them together.",
+      "type": "mcq",
+      "question": "Which of the following forces acts in the opposite direction of an object's motion and is caused by the interaction of two surfaces rubbing against each other?"
+    },
+    {
+      "id": "MC-017",
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "3",
+        "4",
+        "9",
+        "36"
+      ],
+      "explanation": "The mechanical advantage (MA) of an inclined plane is calculated by dividing the length of the slope by the vertical height gained. Using the formula MA = Length / Height, we find that 12 feet / 3 feet = 4. A higher mechanical advantage indicates that less effort force is required to move the load.",
+      "type": "mcq",
+      "question": "An inclined plane is used to move a heavy object. If the length of the ramp is 12 feet and the vertical height of the platform it reaches is 3 feet, what is the mechanical advantage (MA) of the ramp?"
+    },
+    {
+      "id": "MC-018",
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "20",
+        "31.4",
+        "125.6",
+        "62.8"
+      ],
+      "explanation": "The mechanical advantage of a screw is the ratio of the circumference of the circle through which the effort force moves to the pitch of the screw. Circumference = pi * diameter = 3.14 * 2 inches = 6.28 inches. Mechanical Advantage = Circumference / Pitch = 6.28 / 0.1 = 62.8.",
+      "type": "mcq",
+      "question": "A screw has a pitch of 0.1 inches. If a screwdriver with a handle diameter of 2 inches is used to turn the screw, what is the theoretical mechanical advantage of the system? (Use 3.14 for pi)."
+    },
+    {
+      "id": "MC-019",
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "20 pounds",
+        "80 pounds",
+        "100 pounds",
+        "160 pounds"
+      ],
+      "explanation": "When machines are combined in a system, the total mechanical advantage is the product of the individual mechanical advantages. Total MA = Crank MA * Pulley MA = 5 * 4 = 20. The required effort force is the load divided by the total MA: 400 pounds / 20 = 20 pounds of force.",
+      "type": "mcq",
+      "question": "A hand crank (wheel and axle) with a mechanical advantage of 5 is used to pull a rope connected to a block and tackle system with a mechanical advantage of 4. If the crank is turned to lift a 400-pound engine, how much force must be applied to the crank handle?"
+    },
+    {
+      "id": "MC-020",
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "800 pounds",
+        "1,600 pounds",
+        "3,200 pounds",
+        "6,400 pounds"
+      ],
+      "explanation": "First, calculate the hydraulic pressure: Pressure = Force / Area = 100 lb / 5 sq in = 20 psi. Next, find the output force at Cylinder B: Force = Pressure * Area = 20 psi * 40 sq in = 800 lbs. Finally, find the lever's lifting capacity: Lever MA = Effort Arm / Load Arm = 4 ft / 1 ft = 4. Load = Effort * MA = 800 lbs * 4 = 3,200 lbs.",
+      "type": "mcq",
+      "question": "A hydraulic system consists of two cylinders. Cylinder A has a surface area of 5 square inches and Cylinder B has a surface area of 40 square inches. If 100 pounds of force is applied to Cylinder A, and the resulting force from Cylinder B is used to push down on a second-class lever with an effort arm of 4 feet and a load arm of 1 foot, how much weight can the lever lift?"
+    },
+    {
+      "id": "MC-021",
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Inertia",
+        "Friction",
+        "Centrifugal force",
+        "Tension"
+      ],
+      "explanation": "Friction is a resistive force that occurs when two surfaces are in contact and move, or attempt to move, relative to each other. It acts in the direction opposite to the motion. Factors affecting friction include the roughness of the surfaces and the amount of force pressing them together.",
+      "type": "mcq",
+      "question": "Which of the following forces specifically describes the resistance encountered when one surface slides or attempts to slide over another?"
+    },
+    {
+      "id": "MC-022",
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "First-class levers",
+        "Second-class levers",
+        "Third-class levers",
+        "Inclined planes"
+      ],
+      "explanation": "Scissors are composed of two first-class levers. In a first-class lever, the fulcrum (the pivot screw) is located between the effort (the handles where your fingers apply force) and the load (the blades cutting the paper). This arrangement allows the tool to multiply force or change direction effectively.",
+      "type": "mcq",
+      "question": "A pair of household scissors is a tool that utilizes the mechanical advantage of which type of simple machine?"
+    },
+    {
+      "id": "MC-023",
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "200 pounds",
+        "100 pounds",
+        "50 pounds",
+        "25 pounds"
+      ],
+      "explanation": "A system with one fixed and one movable pulley provides a Mechanical Advantage (MA) of 2 because two rope segments support the weight. \nStep 1: Determine the MA, which is 2 for this configuration. \nStep 2: Effort = Load / MA = 100 lbs / 2 = 50 pounds. \nWhile it reduces the force required, you must pull twice the length of rope.",
+      "type": "mcq",
+      "question": "A pulley system is rigged with one fixed pulley and one movable pulley. If a technician needs to lift a 100-pound weight attached to the movable pulley, how much effort force must be applied to the rope, neglecting friction?"
+    },
+    {
+      "id": "MC-024",
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "12 pounds",
+        "180 pounds",
+        "240 pounds",
+        "300 pounds"
+      ],
+      "explanation": "Pascal's Principle states that pressure is distributed equally through a fluid. \nStep 1: Calculate input pressure (P = F / A) = 60 lbs / 3 sq in = 20 psi. \nStep 2: Apply that pressure to the output cylinder: Force = P * Area = 20 psi * 15 sq in = 300 pounds. \nThe mechanical advantage is the ratio of the areas (15 / 3 = 5). 60 lbs * 5 = 300 lbs.",
+      "type": "mcq",
+      "question": "A hydraulic press features a small input cylinder with a surface area of 3 square inches and a large output cylinder with a surface area of 15 square inches. If 60 pounds of force is applied to the input cylinder, what is the resulting output force?"
+    },
+    {
+      "id": "MC-025",
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "0.25 inches",
+        "0.5 inches",
+        "1.0 inch",
+        "2.0 inches"
+      ],
+      "explanation": "In a series configuration, every spring in the chain supports the full weight of the load. \nStep 1: Calculate the stretch of one spring (x = F / k) = 20 lbs / 40 lbs/in = 0.5 inches. \nStep 2: Since there are two springs in series, each stretches 0.5 inches. Total stretch = 0.5 + 0.5 = 1.0 inch. \nAlternatively, the effective spring constant (k_eff) for two identical springs in series is k / 2 = 20 lbs/in. Total displacement = 20 lbs / 20 lbs/in = 1.0 inch.",
+      "type": "mcq",
+      "question": "Two identical springs, each with a spring constant (k) of 40 pounds per inch, are connected end-to-end in a series configuration. If a 20-pound weight is suspended from the bottom of this assembly, how many total inches will the combined system stretch?"
+    },
+    {
+      "id": "MC-026",
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "The person is doing physical work on the wall.",
+        "The wall pushes back against the person with exactly 50 pounds of force.",
+        "The force exerted by the person is slightly greater than the wall's force.",
+        "Gravity is the only force acting on the person in this system."
+      ],
+      "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction. If a person applies 50 pounds of force to a wall, the wall simultaneously exerts an equal force of 50 pounds back onto the person. Since the wall remains stationary, the forces are balanced and in equilibrium.",
+      "type": "mcq",
+      "question": "If a person pushes against a heavy wall with a force of 50 pounds, but the wall does not move, which of the following statements is true according to Newton’s Third Law of Motion?"
+    },
+    {
+      "id": "MC-027",
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Convection",
+        "Sublimation"
+      ],
+      "explanation": "Convection is the transfer of heat through the movement of fluids, such as liquids or gases. As the water at the bottom of the pot heats up, it becomes less dense and rises, while the cooler, denser water sinks to take its place. This cycle creates convection currents that distribute thermal energy throughout the container.",
+      "type": "mcq",
+      "question": "When heating a pot of water on a stove, the warm water at the bottom rises while the cooler water at the top sinks. This creates a circular movement that distributes heat throughout the liquid. What is this method of heat transfer called?"
+    },
+    {
+      "id": "MC-028",
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "MA = 5; Splitting force = 250 pounds",
+        "MA = 0.2; Splitting force = 10 pounds",
+        "MA = 20; Splitting force = 1,000 pounds",
+        "MA = 5; Splitting force = 50 pounds"
+      ],
+      "explanation": "The mechanical advantage (MA) of a wedge is calculated by dividing the length of the slope by the thickness of the base.\nStep 1: MA = Length / Thickness = 10 inches / 2 inches = 5.\nStep 2: Splitting Force = Input Force × MA = 50 pounds × 5 = 250 pounds.\nA longer, thinner wedge provides a higher mechanical advantage, allowing a smaller input force to generate a larger output force.",
+      "type": "mcq",
+      "question": "A wedge has a length of 10 inches and a thickness of 2 inches at its base. If a technician uses a mallet to apply 50 pounds of force to the head of the wedge, what is the theoretical mechanical advantage (MA) and the resulting splitting force exerted outward?"
+    },
+    {
+      "id": "MC-029",
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "400 pounds",
+        "80 pounds",
+        "2,000 pounds",
+        "100 pounds"
+      ],
+      "explanation": "To solve this compound system, first find the Mechanical Advantage (MA) of the inclined plane:\nStep 1: MA = Length / Height = 20 ft / 5 ft = 4.\nStep 2: The force required to hold the object on the plane is Weight / MA = 400 lbs / 4 = 100 pounds.\nStep 3: A single fixed pulley has an MA of 1 and only changes the direction of the force. Therefore, the worker must pull with exactly 100 pounds of force.",
+      "type": "mcq",
+      "question": "A 400-pound crate sits on a frictionless inclined plane that is 20 feet long and rises to a height of 5 feet. A rope is attached to the crate and runs over a single fixed pulley at the top of the ramp to a worker pulling vertically downward. How much force must the worker apply to the rope to keep the crate from sliding down?"
+    },
+    {
+      "id": "MC-030",
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "15 psi; 2,160 pounds",
+        "240 psi; 540 pounds",
+        "15 psi; 540 pounds",
+        "60 psi; 240 pounds"
+      ],
+      "explanation": "This problem uses Pascal's Principle (Pressure = Force / Area).\nStep 1: Calculate Pressure at Piston A = 60 lbs / 4 sq in = 15 psi.\nStep 2: According to Pascal’s Principle, pressure is transmitted equally, so Piston B also experiences 15 psi.\nStep 3: Calculate the Output Force (Weight) at Piston B = Pressure × Area = 15 psi × 36 sq in = 540 pounds.\nPressure remains constant at 15 psi, but the larger area of Piston B allows it to support 540 pounds.",
+      "type": "mcq",
+      "question": "In a closed hydraulic system, Piston A has a surface area of 4 square inches and Piston B has a surface area of 36 square inches. If a force of 60 pounds is applied to Piston A, what is the pressure within the fluid and the total weight that Piston B can support?"
+    },
+    {
+      "id": "MC-031",
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "0.2 m/s²",
+        "50 m/s²",
+        "5 m/s²",
+        "500 m/s²"
+      ],
+      "explanation": "Newton's Second Law of Motion is expressed by the formula Force (F) = mass (m) × acceleration (a). To find the acceleration, we rearrange the formula to a = F / m. By substituting the given values, 50 Newtons divided by 10 kilograms equals 5 m/s². This fundamental principle dictates how much an object's velocity will change when a specific amount of force is applied to its mass.",
+      "type": "mcq",
+      "question": "If a net force of 50 Newtons is applied to a 10-kilogram object that is free to move, what is the resulting acceleration of the object according to Newton's Second Law?"
+    },
+    {
+      "id": "MC-032",
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "Counter-clockwise",
+        "Clockwise",
+        "It will not move",
+        "Alternating directions"
+      ],
+      "explanation": "When two gears are meshed together, they always rotate in opposite directions. In a series of three gears, the first gear rotates clockwise, which forces the second gear to rotate counter-clockwise. Consequently, the second gear forces the third gear to rotate clockwise. As a general rule for simple gear trains, any odd-numbered gear in the sequence will rotate in the same direction as the first gear.",
+      "type": "mcq",
+      "question": "In a gear train consisting of three gears meshed together in a straight line, if the first gear (the driver) rotates in a clockwise direction, which direction will the third gear rotate?"
+    },
+    {
+      "id": "MC-033",
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "50 pounds",
+        "500 pounds",
+        "2,500 pounds",
+        "100 pounds"
+      ],
+      "explanation": "The mechanical advantage (MA) of a pulley system is equal to the number of rope strands supporting the movable load. In this specific configuration, there are 5 strands, meaning the MA is 5. To calculate the effort force, divide the total weight by the mechanical advantage: 500 pounds / 5 = 100 pounds. While this reduces the force required, the user must pull five times more rope than the distance the load is lifted.",
+      "type": "mcq",
+      "question": "A technician uses a block and tackle pulley system with a total of five supporting rope strands connected to the movable pulley. If the load weighs 500 pounds, what is the theoretical effort force required to lift it, neglecting friction?"
+    },
+    {
+      "id": "MC-034",
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "200 pounds",
+        "400 pounds",
+        "800 pounds",
+        "1,000 pounds"
+      ],
+      "explanation": "Pressure in a hydraulic system is Force / Area. Area is proportional to the square of the radius (or diameter). The input diameter is 2 (radius 1), so the area is π(1)² = π. The output diameter is 10 (radius 5), so the area is π(5)² = 25π. The ratio of the areas is 25π / π = 25. Therefore, the output force is the input force multiplied by the area ratio: 40 pounds × 25 = 1,000 pounds.",
+      "type": "mcq",
+      "question": "A hydraulic lift has an input piston with a diameter of 2 inches and an output piston with a diameter of 10 inches. If a technician applies a force of 40 pounds to the input piston, how much force is generated at the output piston?"
+    },
+    {
+      "id": "MC-035",
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "75 pounds",
+        "100 pounds",
+        "300 pounds",
+        "900 pounds"
+      ],
+      "explanation": "To balance a lever, the clockwise torque must equal the counter-clockwise torque (Force 1 × Distance 1 = Force 2 × Distance 2). The left arm (Distance 1) is 3 feet with a 300-pound load, creating 900 foot-pounds of torque (300 × 3). The right arm (Distance 2) is the remaining length of the 12-foot beam, which is 9 feet (12 - 3). Dividing the total torque by the length of the right arm (900 / 9) gives a required balancing force of 100 pounds.",
+      "type": "mcq",
+      "question": "A 12-foot rigid metal beam is used as a lever with a fulcrum placed 3 feet from the left end. A 300-pound weight is placed on the far left tip of the beam. To keep the beam balanced horizontally, how much weight must be placed on the far right tip of the beam?"
+    },
+    {
+      "id": "MC-036",
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "First-class lever",
+        "Second-class lever",
+        "Third-class lever",
+        "Fourth-class lever"
+      ],
+      "explanation": "In a third-class lever, the effort is applied between the fulcrum and the resistance (load). Examples include tweezers, fishing rods, and the human arm. This type of lever does not provide a mechanical advantage for force; instead, it is used to increase the speed and distance that the load travels relative to the effort.",
+      "type": "mcq",
+      "question": "Which class of lever is characterized by having the effort force located between the fulcrum and the load?"
+    },
+    {
+      "id": "MC-037",
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "10 pounds",
+        "250 pounds",
+        "500 pounds",
+        "100 pounds"
+      ],
+      "explanation": "Pascal's Principle states that pressure applied to an enclosed fluid is transmitted equally in all directions. Pressure = Force / Area. Step 1: Find the input pressure: 50 lb / 2 sq in = 25 psi. Step 2: Since the pressure is constant throughout, Output Force = Pressure × Output Area. Step 3: 25 psi × 10 sq in = 250 pounds of lift.",
+      "type": "mcq",
+      "question": "A hydraulic jack has an input piston with an area of 2 square inches and an output piston with an area of 10 square inches. If a force of 50 pounds is applied to the input piston, how much weight can the output piston lift?"
+    },
+    {
+      "id": "MC-038",
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "300 RPM",
+        "4,800 RPM",
+        "100 RPM",
+        "600 RPM"
+      ],
+      "explanation": "The gear ratio is determined by dividing the number of teeth on the driven gear by the number of teeth on the drive gear. Step 1: Gear Ratio = 48 / 12 = 4. Step 2: To find the output speed, divide the input speed by the gear ratio. Step 3: 1,200 RPM / 4 = 300 RPM. Larger driven gears rotate slower but provide higher torque.",
+      "type": "mcq",
+      "question": "A drive gear with 12 teeth is meshed with a driven gear that has 48 teeth. If the drive gear is rotating at a speed of 1,200 Revolutions Per Minute (RPM), what is the rotational speed of the driven gear?"
+    },
+    {
+      "id": "MC-039",
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "200 pounds",
+        "100 pounds",
+        "800 pounds",
+        "50 pounds"
+      ],
+      "explanation": "In a block and tackle pulley system, the mechanical advantage (MA) is equal to the number of rope segments supporting the movable load. With two movable pulleys, there are four rope segments pulling upward. Step 1: Identify MA = 4. Step 2: Use the formula Effort = Load / MA. Step 3: 400 pounds / 4 = 100 pounds. This setup allows a heavy weight to be lifted with significantly less force.",
+      "type": "mcq",
+      "question": "A block and tackle system consists of two fixed pulleys and two movable pulleys. A single continuous rope is used to lift a 400-pound engine. Neglecting friction, how much effort force must be applied to the rope to lift the engine?"
+    },
+    {
+      "id": "MC-040",
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "6 inches",
+        "1.5 inches",
+        "3 inches",
+        "12 inches"
+      ],
+      "explanation": "When springs are arranged in parallel, their spring constants are additive because they share the total load. Step 1: Calculate the total spring constant (k_total) = 50 lbs/in + 50 lbs/in = 100 lbs/in. Step 2: Apply Hooke's Law, Force (F) = kx, and solve for compression (x). Step 3: x = F / k_total = 300 lbs / 100 lbs/in = 3 inches. Parallel springs are stiffer than individual springs.",
+      "type": "mcq",
+      "question": "Two identical springs, each with a spring constant (k) of 50 lbs/inch, are arranged in a parallel configuration to support a heavy metal plate. If a 300-pound weight is placed on the plate, how many inches will the two-spring system compress?"
+    },
+    {
+      "id": "MC-041",
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Convection",
+        "Radiation",
+        "Conduction",
+        "Induction"
+      ],
+      "explanation": "Conduction is the transfer of thermal energy through direct physical contact between atoms or molecules. Unlike convection, which involves the movement of fluids (liquids or gases), or radiation, which uses electromagnetic waves, conduction occurs primarily in solids as heat moves from a warmer area to a cooler one.",
+      "type": "mcq",
+      "question": "Which method of heat transfer occurs through the direct contact of two materials without the movement of the material itself?"
+    },
+    {
+      "id": "MC-042",
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "First-class lever",
+        "Second-class lever",
+        "Third-class lever",
+        "Fourth-class lever"
+      ],
+      "explanation": "In a second-class lever, the load (the walnut) is located between the fulcrum (the hinge) and the effort (the hands on the handles). This arrangement always provides a mechanical advantage greater than one, making it easier to crush hard objects. A wheelbarrow is another common example of a second-class lever where the load is between the wheel and the handles.",
+      "type": "mcq",
+      "question": "A person uses a pair of standard nutcrackers to crack a walnut. The nut is placed between the hinge and the handles where the force is applied. Which class of lever does this tool represent?"
+    },
+    {
+      "id": "MC-043",
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "400 pounds",
+        "200 pounds",
+        "100 pounds",
+        "80 pounds"
+      ],
+      "explanation": "In a pulley system, the mechanical advantage (MA) is generally equal to the number of rope segments supporting the load. \nStep 1: Identify the number of supporting strands. A system with two fixed and two movable pulleys has 4 supporting strands.\nStep 2: Determine MA = 4.\nStep 3: Calculate Effort Force = Load / MA.\nStep 4: 400 lbs / 4 = 100 pounds. \nTherefore, 100 pounds of effort force is required to lift the load.",
+      "type": "mcq",
+      "question": "A mechanic uses a block and tackle system consisting of two fixed pulleys and two movable pulleys to lift an engine weighing 400 pounds. Neglecting friction, how much force must the mechanic apply to the rope to lift the engine?"
+    },
+    {
+      "id": "MC-044",
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "150 pounds",
+        "600 pounds",
+        "750 pounds",
+        "1,500 pounds"
+      ],
+      "explanation": "Pascal's Principle states that pressure applied to a confined fluid is transmitted equally in all directions throughout the fluid.\nStep 1: Calculate Pressure (P) = Force / Area = 50 lbs / 2 sq in = 25 psi.\nStep 2: Apply this same pressure to the output piston using the formula Force = Pressure × Area.\nStep 3: Force = 25 psi × 30 sq in = 750 pounds.\nThe mechanical advantage of this system is the ratio of the output area to the input area (30 / 2 = 15), meaning 50 lbs × 15 = 750 lbs.",
+      "type": "mcq",
+      "question": "A hydraulic jack has a small input piston with an area of 2 square inches and a large output piston with an area of 30 square inches. If a technician applies 50 pounds of force to the small piston, how much weight can the large piston lift?"
+    },
+    {
+      "id": "MC-045",
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "60 RPM and 50 lb-ft torque",
+        "1,500 RPM and 2 lb-ft torque",
+        "100 RPM and 30 lb-ft torque",
+        "60 RPM and 10 lb-ft torque"
+      ],
+      "explanation": "The intermediate (idler) gear does not affect the final gear ratio or the relationship between the first and last gears; it only changes direction.\nStep 1: Calculate the overall Gear Ratio = Teeth on Output Gear / Teeth on Drive Gear = 60 / 12 = 5:1.\nStep 2: Calculate Output Speed = Input Speed / Gear Ratio = 300 RPM / 5 = 60 RPM.\nStep 3: Calculate Output Torque = Input Torque × Gear Ratio = 10 lb-ft × 5 = 50 lb-ft.\nMechanical systems trade speed for torque; since the output gear is larger, speed decreases and torque increases proportionally.",
+      "type": "mcq",
+      "question": "A drive gear with 12 teeth is meshed with an intermediate gear of 36 teeth, which is then meshed with a final output gear of 60 teeth. If the drive gear rotates at a speed of 300 Revolutions Per Minute (RPM) with 10 lb-ft of torque, what is the speed and torque of the final output gear?"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Centrifugal force",
+        "Friction",
+        "Inertia",
+        "Tension"
+      ],
+      "explanation": "Newton's First Law of Motion states that an object at rest stays at rest unless acted upon by an external force. This property of matter is called inertia. When the truck accelerates forward, the crate's inertia causes it to resist the change in motion, making it appear to slide backward relative to the truck's bed.",
+      "type": "mcq",
+      "question": "A heavy crate is sitting on the flatbed of a truck. When the truck suddenly accelerates forward, the crate tends to slide toward the rear of the truck. Which physical principle best explains this occurrence?",
+      "id": "MC-046"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "5 psi",
+        "25 psi",
+        "100 psi",
+        "250 psi"
+      ],
+      "explanation": "Pressure is defined as force divided by the area over which it is applied (Pressure = Force / Area). Using the input piston's values: Pressure = 50 pounds / 2 square inches = 25 pounds per square inch (psi). According to Pascal's Principle, this pressure is transmitted equally throughout the entire fluid in the closed hydraulic system.",
+      "type": "mcq",
+      "question": "A hydraulic press has a small input piston with an area of 2 square inches and a large output piston with an area of 10 square inches. If 50 pounds of force is applied to the small piston, what is the pressure throughout the fluid in the system?",
+      "id": "MC-047"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "25 pounds",
+        "75 pounds",
+        "100 pounds",
+        "900 pounds"
+      ],
+      "explanation": "The Mechanical Advantage (MA) of an inclined plane is calculated as the length of the slope divided by the vertical height: MA = Length / Height = 12 ft / 3 ft = 4. The effort force required is the load divided by the MA: Effort = 300 lb / 4 = 75 pounds. A longer ramp provides a greater mechanical advantage, reducing the effort force.",
+      "type": "mcq",
+      "question": "A worker uses a wooden plank as an inclined plane to roll a 300-pound barrel into a truck bed that is 3 feet high. If the plank is 12 feet long, neglecting friction, how much force must the worker apply to push the barrel up the ramp?",
+      "id": "MC-048"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "10 RPM",
+        "40 RPM",
+        "640 RPM",
+        "2,560 RPM"
+      ],
+      "explanation": "First, find the speed of Gear B: Speed B = Speed A * (Teeth A / Teeth B) = 160 * (10 / 40) = 40 RPM. Since Gear B and C are on the same shaft, Gear C also rotates at 40 RPM. Now, find the speed of Gear D: Speed D = Speed C * (Teeth C / Teeth D) = 40 * (15 / 60) = 10 RPM. This compound gear system reduces speed to increase output torque.",
+      "type": "mcq",
+      "question": "Gear A has 10 teeth and is driving Gear B, which has 40 teeth. Gear B is fixed to the same shaft as Gear C, which has 15 teeth. Gear C drives Gear D, which has 60 teeth. If Gear A rotates at 160 Revolutions Per Minute (RPM), what is the rotational speed of Gear D?",
+      "id": "MC-049"
+    },
+    {
+      "sectionId": "MC",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "0.5 inches",
+        "1 inch",
+        "2 inches",
+        "4 inches"
+      ],
+      "explanation": "Because the weight is centered, the load is distributed equally between the two springs, so each spring supports 200 pounds (400 lb / 2). Hooke's Law states that Force (F) = spring constant (k) * displacement (x). Rearranging for displacement: x = Force / k. For each spring, x = 200 lb / 100 lb/in = 2 inches. Both springs compress 2 inches to balance the load.",
+      "type": "mcq",
+      "question": "A rigid horizontal beam is supported by two identical vertical springs, one at each end. Each spring has a spring constant (k) of 100 pounds per inch. If a 400-pound weight is placed exactly in the center of the beam, how many inches will each spring compress?",
+      "id": "MC-050"
     }
   ]
 }

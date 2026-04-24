@@ -3,6 +3,7 @@
   "sectionId": "AS",
   "questions": [
     {
+      "id": "AS-001",
       "sectionId": "AS",
       "difficulty": 1,
       "correctIndex": 2,
@@ -14,10 +15,10 @@
       ],
       "explanation": "The radiator is a heat exchanger located at the front of the vehicle. As hot coolant flows through its small internal tubes, heat is transferred to the metal fins. Air passing over these fins, driven by either the vehicle's movement or a cooling fan, removes the heat before the coolant returns to the engine.",
       "type": "mcq",
-      "question": "Which component of an automotive cooling system is responsible for dissipating heat from the coolant into the outside air?",
-      "id": "AS-001"
+      "question": "Which component of an automotive cooling system is responsible for dissipating heat from the coolant into the outside air?"
     },
     {
+      "id": "AS-002",
       "sectionId": "AS",
       "difficulty": 1,
       "correctIndex": 0,
@@ -29,10 +30,10 @@
       ],
       "explanation": "A ball-peen hammer features a flat striking face on one side and a rounded 'peen' on the other. Unlike a claw hammer, which is designed to pull nails from wood, the ball-peen hammer is made of hardened steel suitable for shaping metal, setting rivets, and striking metal tools like cold chisels without damaging the hammer head.",
       "type": "mcq",
-      "question": "Which type of hammer is specifically designed for metalworking and striking punches or chisels?",
-      "id": "AS-002"
+      "question": "Which type of hammer is specifically designed for metalworking and striking punches or chisels?"
     },
     {
+      "id": "AS-003",
       "sectionId": "AS",
       "difficulty": 2,
       "correctIndex": 3,
@@ -44,10 +45,10 @@
       ],
       "explanation": "A torque wrench is a precision tool used to ensure that fasteners, such as cylinder head bolts or lug nuts, are tightened to the manufacturer's exact specifications. This prevents components from warping, ensures even clamping pressure, and avoids the risk of stripping threads or snapping bolts by over-tightening them.",
       "type": "mcq",
-      "question": "What is the primary purpose of using a torque wrench during engine assembly?",
-      "id": "AS-003"
+      "question": "What is the primary purpose of using a torque wrench during engine assembly?"
     },
     {
+      "id": "AS-004",
       "sectionId": "AS",
       "difficulty": 2,
       "correctIndex": 1,
@@ -59,10 +60,10 @@
       ],
       "explanation": "During the compression stroke, the crankshaft pushes the piston from the bottom to the top of the cylinder. Both the intake and exhaust valves remain tightly closed, sealing the combustion chamber. This upward movement compresses the air-fuel mixture into a much smaller volume, increasing its temperature and pressure for more efficient combustion.",
       "type": "mcq",
-      "question": "In a four-stroke internal combustion engine, what occurs during the compression stroke?",
-      "id": "AS-004"
+      "question": "In a four-stroke internal combustion engine, what occurs during the compression stroke?"
     },
     {
+      "id": "AS-005",
       "sectionId": "AS",
       "difficulty": 3,
       "correctIndex": 2,
@@ -74,10 +75,10 @@
       ],
       "explanation": "A pulsating brake pedal is usually a symptom of 'runout' or warped rotors in a disc brake system. As the brake pads clamp down on a rotor that is no longer perfectly flat, the pads are pushed back and forth, sending hydraulic pulses through the brake lines that the driver feels in the pedal.",
       "type": "mcq",
-      "question": "If a driver experiences a rhythmic pulsating sensation in the brake pedal while slowing down from high speeds, what is the most likely mechanical fault?",
-      "id": "AS-005"
+      "question": "If a driver experiences a rhythmic pulsating sensation in the brake pedal while slowing down from high speeds, what is the most likely mechanical fault?"
     },
     {
+      "id": "AS-006",
       "sectionId": "AS",
       "difficulty": 3,
       "correctIndex": 0,
@@ -89,10 +90,10 @@
       ],
       "explanation": "In the SAE marking system, bolt strength is indicated by raised lines on the head. A Grade 2 bolt has no lines; a Grade 5 bolt has three lines; and a Grade 8 bolt (high strength) has six lines. To determine the grade, you generally add two to the number of lines shown on the head.",
       "type": "mcq",
-      "question": "When identifying SAE (Standard) bolts, how is the strength or 'grade' of the bolt determined?",
-      "id": "AS-006"
+      "question": "When identifying SAE (Standard) bolts, how is the strength or 'grade' of the bolt determined?"
     },
     {
+      "id": "AS-007",
       "sectionId": "AS",
       "difficulty": 4,
       "correctIndex": 1,
@@ -104,10 +105,10 @@
       ],
       "explanation": "While the thimble is used for rapid adjustment, the ratchet stop (located at the end of the handle) is designed to slip once a specific amount of pressure is applied. Using the ratchet stop ensures that every measurement is taken with the same amount of force, which prevents the user from over-tightening the tool and getting an inaccurate reading.",
       "type": "mcq",
-      "question": "Which specific part of an outside micrometer should be used to apply the final, consistent pressure against the object being measured?",
-      "id": "AS-007"
+      "question": "Which specific part of an outside micrometer should be used to apply the final, consistent pressure against the object being measured?"
     },
     {
+      "id": "AS-008",
       "sectionId": "AS",
       "difficulty": 4,
       "correctIndex": 3,
@@ -119,10 +120,10 @@
       ],
       "explanation": "When a vehicle rounds a corner, the outside wheel must travel a longer path than the inside wheel in the same amount of time. The differential uses a set of planetary gears to split engine torque between the two wheels while allowing them to spin at different RPMs, preventing tire scrubbing and drivetrain binding.",
       "type": "mcq",
-      "question": "What is the primary function of the differential in a vehicle's drivetrain?",
-      "id": "AS-008"
+      "question": "What is the primary function of the differential in a vehicle's drivetrain?"
     },
     {
+      "id": "AS-009",
       "sectionId": "AS",
       "difficulty": 5,
       "correctIndex": 0,
@@ -134,10 +135,10 @@
       ],
       "explanation": "Camber is the measure of the tire's vertical tilt. If the top of the tire tilts outward, it is positive camber; if it tilts inward toward the engine, it is negative camber. Proper camber is essential for maintaining an even tire contact patch during cornering and preventing premature wear on the inside or outside edges of the tread.",
       "type": "mcq",
-      "question": "Which wheel alignment angle refers to the inward or outward tilt of the top of the tire when viewed from the front of the vehicle?",
-      "id": "AS-009"
+      "question": "Which wheel alignment angle refers to the inward or outward tilt of the top of the tire when viewed from the front of the vehicle?"
     },
     {
+      "id": "AS-010",
       "sectionId": "AS",
       "difficulty": 5,
       "correctIndex": 2,
@@ -149,8 +150,817 @@
       ],
       "explanation": "A hydrometer measures the density (specific gravity) of the electrolyte, which changes based on the concentration of sulfuric acid. While a low reading across all cells indicates a discharged battery, a single low cell indicates a localized internal failure, such as a short circuit or plate sulfation, meaning the battery can no longer hold a full charge.",
       "type": "mcq",
-      "question": "When testing a conventional lead-acid battery with a hydrometer, a technician finds that one cell has a significantly lower specific gravity reading than the others. What does this result indicate?",
-      "id": "AS-010"
+      "question": "When testing a conventional lead-acid battery with a hydrometer, a technician finds that one cell has a significantly lower specific gravity reading than the others. What does this result indicate?"
+    },
+    {
+      "id": "AS-011",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Flat-head screwdriver",
+        "Needle-nose pliers",
+        "Slip-joint pliers",
+        "Box-end wrench"
+      ],
+      "explanation": "Needle-nose pliers, also known as long-nose pliers, have tapered, elongated jaws that allow technicians to grip small components or work in confined areas where fingers or larger tools cannot reach. They are distinct from slip-joint pliers, which have adjustable pivot points for wider grips, and wrenches, which are used specifically for hexagonal fasteners. They are common in both electrical and mechanical repair.",
+      "type": "mcq",
+      "question": "Which tool is best suited for gripping and turning small parts or reaching into tight, narrow spaces?"
+    },
+    {
+      "id": "AS-012",
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "To regulate the pressure of the oil pump",
+        "To cool the oil before it enters the sump",
+        "To remove contaminants and metal shavings from the oil",
+        "To separate air bubbles from the oil stream"
+      ],
+      "explanation": "As engine oil circulates through the block and cylinder head, it picks up carbon deposits, dust, and microscopic metal shavings produced by the friction of moving parts. The oil filter contains a porous medium that traps these harmful particles, preventing them from recirculating and causing premature wear on bearings and cylinder walls. Pressure regulation is usually handled by a separate pressure relief valve located near the oil pump.",
+      "type": "mcq",
+      "question": "What is the primary function of an automotive engine's oil filter?"
+    },
+    {
+      "id": "AS-013",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "Air has entered the hydraulic brake lines",
+        "The brake pads are completely worn down to the metal",
+        "The brake rotors are warped from excessive heat",
+        "The vacuum booster has a leaking diaphragm"
+      ],
+      "explanation": "Liquid is incompressible, which allows hydraulic systems to transmit force effectively. However, air is highly compressible. If air bubbles are trapped in the brake lines, pressing the pedal compresses the air instead of immediately moving the brake calipers or wheel cylinders, resulting in a spongy or soft pedal feel. This condition requires a process called 'bleeding the brakes' to remove the trapped air from the hydraulic circuit.",
+      "type": "mcq",
+      "question": "If a vehicle's brake pedal feels 'spongy' or soft when pressed, what is the most likely cause?"
+    },
+    {
+      "id": "AS-014",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "The number of threads per inch along the shank",
+        "The diameter of the bolt head across the flat surfaces",
+        "The total length of the threaded portion of the bolt",
+        "The distance from the crest of one thread to the crest of the next"
+      ],
+      "explanation": "In the metric system, thread pitch is defined as the distance in millimeters between adjacent thread peaks (crests). This differs from the Imperial (SAE) system, which measures pitch as the number of 'threads per inch' (TPI). Correct identification of thread pitch is critical for ensuring that a bolt matches its corresponding nut or threaded hole without cross-threading or stripping the threads. Technicians often use a thread pitch gauge to verify this measurement.",
+      "type": "mcq",
+      "question": "When measuring bolt dimensions, what does the term 'thread pitch' refer to specifically in a metric fastener?"
+    },
+    {
+      "id": "AS-015",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "An excessively rich air-fuel mixture from the fuel injectors",
+        "Worn piston rings or valve stem seals",
+        "A faulty ignition coil causing a weak or intermittent spark",
+        "A cracked radiator allowing coolant into the combustion chamber"
+      ],
+      "explanation": "Oil fouling occurs when engine oil enters the combustion chamber and coats the spark plug electrodes, preventing a spark from jumping. This typically happens because the piston rings are no longer sealing the cylinder walls effectively, allowing oil to 'blow by,' or the valve stem seals have degraded, allowing oil to leak down the valve guides. This is distinct from 'carbon fouling,' which is caused by a rich fuel mixture and results in a dry, black soot rather than a wet oil coating.",
+      "type": "mcq",
+      "question": "A spark plug is removed during an inspection and is found to be covered in a heavy, wet, black oily substance. This 'oil fouling' most likely indicates which mechanical failure?"
+    },
+    {
+      "id": "AS-016",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Diagonal cutting pliers",
+        "Slip-joint pliers",
+        "Needle-nose pliers",
+        "Locking pliers"
+      ],
+      "explanation": "Slip-joint pliers feature a pivot pin that can be moved within a slotted hole, allowing the user to adjust the width of the jaws to grip objects of various sizes. Diagonal pliers are for cutting wire, needle-nose are for reaching into small spaces, and locking pliers use a toggle action to clamp down on an object.",
+      "type": "mcq",
+      "question": "Which type of pliers is specifically designed with a pivot point that can be moved into different positions to increase the opening range of the jaws?"
+    },
+    {
+      "id": "AS-017",
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "To monitor the engine's oil pressure levels",
+        "To circulate coolant through the engine block via centrifugal force",
+        "To activate the electric radiator fan when the car is idling",
+        "To maintain the engine at its optimal operating temperature"
+      ],
+      "explanation": "The thermostat is a heat-activated valve located between the engine and the radiator. It stays closed when the engine is cold to help it warm up quickly and opens when the engine reaches a specific temperature to allow coolant to flow to the radiator. This ensures the engine operates efficiently and reduces internal wear caused by cold operation.",
+      "type": "mcq",
+      "question": "What is the primary function of the thermostat in an automotive cooling system?"
+    },
+    {
+      "id": "AS-018",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "A worn inner CV (constant velocity) joint",
+        "A failing water pump bearing",
+        "A failing outer CV (constant velocity) joint",
+        "A leaking power steering rack"
+      ],
+      "explanation": "Constant Velocity (CV) joints allow the driveshaft to transmit power while the wheels turn and move up and down. A clicking sound specifically during turns usually points to a worn or dry outer CV joint. In contrast, inner CV joints more commonly cause a vibration or shudder during acceleration rather than a clicking noise during steering maneuvers.",
+      "type": "mcq",
+      "question": "If a front-wheel-drive vehicle produces a sharp, rhythmic clicking sound specifically while making a turn at low speeds, which component is most likely failing?"
+    },
+    {
+      "id": "AS-019",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "Compression and power strokes",
+        "Intake and exhaust strokes",
+        "Intake and compression strokes",
+        "Power and exhaust strokes"
+      ],
+      "explanation": "During the compression stroke, both valves are closed to seal the cylinder so the piston can compress the air-fuel mixture. During the power stroke, they remain closed to contain the high-pressure expanding gases from combustion, which forces the piston downward. The intake valve is open during the intake stroke, and the exhaust valve is open during the exhaust stroke.",
+      "type": "mcq",
+      "question": "In a four-stroke internal combustion engine, during which two strokes are both the intake and exhaust valves typically fully closed?"
+    },
+    {
+      "id": "AS-020",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "To allow the use of two different grades of brake fluid simultaneously",
+        "To ensure the vehicle can still stop if one hydraulic circuit develops a leak",
+        "To provide separate fluid reservoirs for the front brakes and the clutch slave cylinder",
+        "To balance the pressure between the hydraulic brakes and the air brake system"
+      ],
+      "explanation": "Dual-reservoir master cylinders divide the braking system into two independent hydraulic circuits (often split front/rear or diagonally). If a brake line leaks or fails in one circuit, the other circuit remains pressurized, allowing the driver to maintain partial braking capability to stop the vehicle safely. This design prevents a single leak from causing a total loss of braking power.",
+      "type": "mcq",
+      "question": "Most modern automotive master cylinders utilize a 'tandem' or dual-reservoir design. What is the primary safety purpose of this configuration?"
+    },
+    {
+      "id": "AS-021",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Open-end wrench",
+        "Box-end wrench",
+        "Combination wrench",
+        "Adjustable wrench"
+      ],
+      "explanation": "A box-end wrench provides a secure grip because it fully encloses the head of the bolt or nut. This design significantly reduces the risk of the wrench slipping and rounding off the fastener's corners compared to an open-end wrench. They are typically available in 6-point or 12-point configurations for different levels of torque and access.",
+      "type": "mcq",
+      "question": "Which type of wrench is designed with a closed loop on both ends, often featuring 6 or 12 points to grip the corners of a fastener?"
+    },
+    {
+      "id": "AS-022",
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "To meter fuel into the intake manifold",
+        "To reduce friction between the crankshaft and main bearings",
+        "To recirculate unburned combustion gases from the crankcase to the intake",
+        "To prevent engine oil from leaking out of the valve cover gasket"
+      ],
+      "explanation": "The PCV valve is a critical part of the emission control system. It pulls unburned 'blow-by' gases from the crankcase and redirects them into the intake manifold to be burned in the combustion chambers. This process prevents the buildup of internal pressure and harmful sludge, which could damage engine seals and degrade oil quality over time.",
+      "type": "mcq",
+      "question": "What is the primary purpose of the Positive Crankcase Ventilation (PCV) valve?"
+    },
+    {
+      "id": "AS-023",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "The section width of the tire in millimeters",
+        "The diameter of the wheel rim in inches",
+        "The maximum speed rating of the tire",
+        "The aspect ratio (height-to-width percentage)"
+      ],
+      "explanation": "The aspect ratio is the height of the tire's sidewall expressed as a percentage of its width. In the code P225/50R16, the sidewall is 50 percent as high as the tire is wide (112.5mm). Low-profile tires have lower aspect ratios, which typically provide better handling and cornering stability but result in a firmer, less comfortable ride.",
+      "type": "mcq",
+      "question": "On a tire with the sidewall code 'P225/50R16 92V,' what does the number '50' represent?"
+    },
+    {
+      "id": "AS-024",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "The torque converter",
+        "The differential",
+        "The planetary gear set",
+        "The flywheel"
+      ],
+      "explanation": "The torque converter is a specialized fluid coupling that replaces the mechanical clutch used in manual transmissions. It uses an internal impeller to pump transmission fluid against a turbine, transferring power to the drivetrain through kinetic energy. Its design allows the engine to keep running while the wheels are stationary, effectively preventing the vehicle from stalling at a stop.",
+      "type": "mcq",
+      "question": "In an automatic transmission, which component uses hydraulic fluid to transfer power from the engine to the transmission while allowing the vehicle to stop without stalling?"
+    },
+    {
+      "id": "AS-025",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "The crankshaft and camshaft rotate at the same speed",
+        "The camshaft rotates at twice the speed of the crankshaft",
+        "The crankshaft rotates at twice the speed of the camshaft",
+        "The camshaft rotates in the opposite direction at one-quarter speed"
+      ],
+      "explanation": "In a four-stroke internal combustion engine, the crankshaft must complete two full rotations (720 degrees) to move a piston through all four strokes of the cycle. Because each valve (intake and exhaust) only needs to open once during this entire process, the camshaft is geared to rotate at exactly half the speed of the crankshaft to maintain proper valve timing.",
+      "type": "mcq",
+      "question": "In a standard four-stroke internal combustion engine, what is the specific mechanical relationship between the rotation of the crankshaft and the rotation of the camshaft?"
+    },
+    {
+      "id": "AS-026",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Flathead screwdriver",
+        "Phillips screwdriver",
+        "Torx screwdriver",
+        "Allen wrench"
+      ],
+      "explanation": "The Phillips screwdriver was specifically designed to handle more torque and to 'cam out' (slip out) when the screw is tight to prevent over-tightening. It features a cross-shaped tip that fits into a cruciform slot. This differs from a flathead (slotted), Torx (star-shaped), or Allen (hexagonal) driver.",
+      "type": "mcq",
+      "question": "Which type of screwdriver is characterized by a cross-shaped tip designed to fit into a screw head with a matching cross-shaped slot?"
+    },
+    {
+      "id": "AS-027",
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "To increase friction between moving engine parts",
+        "To mix fuel and air for the combustion process",
+        "To synchronize the crankshaft and camshaft",
+        "To reduce friction and wear while carrying away heat"
+      ],
+      "explanation": "The lubrication system uses an oil pump to circulate engine oil throughout the engine. This oil forms a thin film between moving metal parts, such as bearings and cylinder walls, reducing friction and wear. Additionally, the oil helps cool internal components by absorbing heat and carrying it back to the oil pan.",
+      "type": "mcq",
+      "question": "What is the primary function of a vehicle's lubrication system?"
+    },
+    {
+      "id": "AS-028",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "A seized or stuck brake caliper",
+        "A leaking brake master cylinder",
+        "Worn brake pads needing replacement",
+        "Air trapped in the hydraulic brake lines"
+      ],
+      "explanation": "A seized or 'frozen' brake caliper prevents the piston from retracting fully after the brake pedal is released. This causes the brake pads to remain in constant contact with the rotor, creating friction and heat even when the brakes are not applied. While a leaking line or air in the lines usually causes a soft pedal, a seized caliper causes mechanical drag.",
+      "type": "mcq",
+      "question": "If a vehicle's wheels are difficult to turn by hand and the brakes feel hot after a short drive without heavy braking, which of the following is the most likely cause?"
+    },
+    {
+      "id": "AS-029",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "Control arms",
+        "Sway bar links",
+        "Tie rod ends",
+        "Pitman arm"
+      ],
+      "explanation": "Tie rod ends are critical steering components that bridge the gap between the steering rack and the steering knuckles, which hold the wheels. They feature ball-and-socket joints that allow the wheels to move up and down with the suspension while still being turned by the steering input from the rack. They are adjustable to set the vehicle's toe alignment.",
+      "type": "mcq",
+      "question": "In a rack-and-pinion steering system, which component specifically connects the ends of the steering rack to the steering knuckles?"
+    },
+    {
+      "id": "AS-030",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "Feeler gauge",
+        "Dial indicator",
+        "Telescoping gauge",
+        "Outside micrometer"
+      ],
+      "explanation": "A dial indicator is used to measure the amount of wobble or deviation from a perfectly flat plane, known as runout, on rotating parts. The tool is mounted on a stable base, and its plunger is placed against the surface; as the part is rotated, the needle indicates variations in distance, helping technicians determine if the part is warped beyond specification.",
+      "type": "mcq",
+      "question": "When checking the lateral 'runout' of a brake rotor or a flywheel, which precision measuring tool is typically used to detect variations in thousandths of an inch?"
+    },
+    {
+      "id": "AS-031",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Back saw",
+        "Coping saw",
+        "Rip saw",
+        "Compass saw"
+      ],
+      "explanation": "A coping saw is characterized by its deep U-shaped frame and a very thin, fine-toothed blade. This design allows the blade to be rotated within the frame, enabling the user to follow intricate lines and cut sharp curves or internal holes in thin materials. It is a fundamental tool for carpenters performing detailed trim work and molding joints.",
+      "type": "mcq",
+      "question": "Which type of saw is specifically designed to make curved cuts in thin wood or plastic?"
+    },
+    {
+      "id": "AS-032",
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "To collect exhaust gases and direct them to the muffler",
+        "To house the engine's camshafts and valves",
+        "To distribute air or the air-fuel mixture to each cylinder",
+        "To increase the pressure of the fuel before it reaches the injectors"
+      ],
+      "explanation": "The intake manifold is a series of tubes, often called runners, that deliver air to the engine cylinders. In most modern fuel-injected engines, it carries only air, as the fuel is injected directly at the cylinder head intake port. It is designed to ensure that each cylinder receives a uniform amount of air to maintain engine balance and efficiency.",
+      "type": "mcq",
+      "question": "What is the purpose of the intake manifold in a fuel-injected engine?"
+    },
+    {
+      "id": "AS-033",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "A stuck-closed thermostat",
+        "A leaking head gasket",
+        "A clogged catalytic converter",
+        "A malfunctioning electric cooling fan"
+      ],
+      "explanation": "At highway speeds, the vehicle's forward motion forces enough air through the radiator to dissipate heat. However, when the car is stationary, it relies on an electric or mechanical cooling fan to move air. If the fan is broken, the coolant will not be cooled effectively while idling, causing the engine temperature to rise until the car begins moving again.",
+      "type": "mcq",
+      "question": "If a vehicle’s engine temperature gauge rises into the red zone while idling in traffic but returns to normal when driving at highway speeds, what is the most likely cause?"
+    },
+    {
+      "id": "AS-034",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "The number of threads per inch",
+        "The length of the bolt in millimeters",
+        "The hardness grade of the steel",
+        "The diameter of the bolt head"
+      ],
+      "explanation": "In the SAE (Standard) sizing system, the second number in a bolt's description refers to the thread pitch, specifically measured as the number of threads per inch (TPI). A 3/8-16 bolt has a diameter of 3/8 of an inch and 16 threads in every inch of bolt length. This is distinct from metric fasteners, where pitch is the physical distance between threads.",
+      "type": "mcq",
+      "question": "When identifying a standard (SAE) bolt such as 3/8-16, what does the number '16' represent?"
+    },
+    {
+      "id": "AS-035",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "To activate the brake lights when the pedal is depressed",
+        "To prevent the rear wheels from locking up during heavy braking",
+        "To equalize the pressure between the left and right wheels",
+        "To ensure the front brakes receive less pressure than the rear"
+      ],
+      "explanation": "When a driver brakes hard, the vehicle's weight shifts forward, meaning the rear wheels have less traction. If the rear brakes received the same hydraulic pressure as the front, they would likely lock up, causing the vehicle to spin. The proportioning valve reduces the pressure sent to the rear brakes during heavy stops to prevent this lock-up and maintain stability.",
+      "type": "mcq",
+      "question": "In a modern hydraulic brake system, what is the primary purpose of the 'proportioning valve'?"
+    },
+    {
+      "id": "AS-036",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "A ball-peen hammer",
+        "A socket wrench with a ratchet handle",
+        "A standard flat-head screwdriver",
+        "Needle-nose pliers"
+      ],
+      "explanation": "A socket wrench with a ratchet handle is the most efficient tool for tightening or loosening bolts, especially in tight spaces. The ratcheting mechanism allows the user to turn the bolt without removing and repositioning the tool, while the socket provides a secure grip on all sides of the hexagonal bolt head.",
+      "type": "mcq",
+      "question": "Which tool is most appropriate for tightening a hexagonal bolt when space is limited and a specific torque value is not required?"
+    },
+    {
+      "id": "AS-037",
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "To regulate engine temperature by controlling coolant flow to the radiator",
+        "To monitor the oil pressure level within the crankcase",
+        "To prevent the engine from overheating by activating the radiator fan",
+        "To mix air and fuel before the mixture enters the combustion chamber"
+      ],
+      "explanation": "The thermostat is a heat-sensitive valve located between the engine and the radiator. Its primary job is to maintain the engine's ideal operating temperature. When the engine is cold, the thermostat stays closed to keep coolant within the engine block for faster warm-up. Once the engine reaches operating temperature, it opens to allow coolant to circulate through the radiator.",
+      "type": "mcq",
+      "question": "In a modern liquid-cooled engine, what is the primary function of the thermostat?"
+    },
+    {
+      "id": "AS-038",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "The brake pads are slightly worn",
+        "Air has entered the hydraulic brake lines",
+        "The parking brake cable is too tight",
+        "The brake rotors are glazed from overheating"
+      ],
+      "explanation": "A spongy brake pedal usually indicates that air is trapped in the hydraulic system. Because air is compressible and brake fluid is not, the force applied to the pedal compresses the air bubbles instead of immediately moving the brake calipers or wheel cylinders. This condition requires 'bleeding' the brakes to remove the air and restore firm pedal feel.",
+      "type": "mcq",
+      "question": "If a driver notices a 'spongy' or soft feeling when pressing the brake pedal, what is the most likely cause?"
+    },
+    {
+      "id": "AS-039",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "To lock the spindle in place once a measurement is taken",
+        "To zero out the tool before starting a measurement",
+        "To ensure consistent pressure is applied to the object being measured",
+        "To adjust the tool for metric versus imperial units"
+      ],
+      "explanation": "The ratchet stop or friction thimble is designed to ensure that the same amount of pressure is applied to the workpiece every time a measurement is taken. This prevents the user from over-tightening the spindle, which could compress the object or damage the tool's precision threads, thereby ensuring high accuracy and repeatability between different users.",
+      "type": "mcq",
+      "question": "When using a standard outside micrometer, what is the specific purpose of the 'ratchet stop' or 'friction thimble' located at the end of the handle?"
+    },
+    {
+      "id": "AS-040",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "Heavy wear on the center of the tire tread",
+        "Rapid wear on the outer edges of both front tires",
+        "Cupping wear patterns across the entire tread surface",
+        "Rapid wear on the inner edges of both front tires"
+      ],
+      "explanation": "Toe-out occurs when the front of the tires point away from each other rather than being parallel. This alignment issue causes the tires to scuff sideways as they roll forward, specifically putting excessive friction and load on the inner edges of the tread. Conversely, toe-in would cause wear on the outer edges, while center wear typically indicates over-inflation.",
+      "type": "mcq",
+      "question": "If a vehicle exhibits excessive 'toe-out' on the front wheels, which of the following is the most likely result during a tire inspection?"
+    },
+    {
+      "id": "AS-041",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Phillips screwdriver",
+        "Pipe wrench",
+        "Ball-peen hammer",
+        "Slip-joint pliers"
+      ],
+      "explanation": "A pipe wrench, also known as a Stillson wrench, features hardened serrated teeth that bite into soft iron pipe and round fittings. The top jaw is adjustable and slightly loose, allowing the wrench to grip tighter as more pressure is applied to the handle. This makes it ideal for plumbing and heavy-duty mechanical work where gripping a smooth, round surface is necessary.",
+      "type": "mcq",
+      "question": "Which tool is specifically designed to provide a secure grip on pipes and rounded surfaces by using an adjustable, serrated jaw?"
+    },
+    {
+      "id": "AS-042",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "Worn brake pads",
+        "A damaged emergency brake cable",
+        "Air trapped in the hydraulic brake lines",
+        "Over-inflated tires"
+      ],
+      "explanation": "Hydraulic brake systems rely on the fact that liquids are incompressible. If air, which is a gas and can be compressed, enters the lines, it will compress when the pedal is pressed, resulting in a soft or spongy feel and significantly reduced braking force. To fix this, a technician must 'bleed' the brakes to remove the air and replace it with fresh, solid hydraulic fluid.",
+      "type": "mcq",
+      "question": "If a vehicle’s brake pedal feels \"spongy\" or soft when pressed, what is the most likely cause?"
+    },
+    {
+      "id": "AS-043",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "Intake stroke",
+        "Compression stroke",
+        "Power stroke",
+        "Exhaust stroke"
+      ],
+      "explanation": "During the compression stroke, the piston moves from Bottom Dead Center (BDC) to Top Dead Center (TDC). Both valves must be tightly closed to seal the combustion chamber, allowing the piston to compress the air-fuel mixture for efficient ignition. While valves are also closed during the power stroke, the piston is moving downward during that phase, driven by the expansion of gases following the spark.",
+      "type": "mcq",
+      "question": "During which stroke of a four-stroke internal combustion engine are both the intake and exhaust valves completely closed while the piston moves upward?"
+    },
+    {
+      "id": "AS-044",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "0.312 inches",
+        "0.420 inches",
+        "0.3012 inches",
+        "3.120 inches"
+      ],
+      "explanation": "Reading a standard micrometer involves adding the values from the sleeve and the thimble. The sleeve represents the major increments (0.100 or 0.025), and the thimble provides the precision measurement in thousandths of an inch (0.001). Adding the sleeve reading of 0.300 and the thimble reading of 0.012 (the 12 mark) results in a final thickness of 0.312 inches. Precision measuring is critical for engine and drivetrain tolerances.",
+      "type": "mcq",
+      "question": "A technician is using a standard micrometer to measure the thickness of a shim. If the sleeve reads 0.300 and the thimble is at the 12 mark, what is the total measurement?"
+    },
+    {
+      "id": "AS-045",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Phillips screwdriver",
+        "Open-end wrench",
+        "Ball-peen hammer",
+        "Slip-joint pliers"
+      ],
+      "explanation": "An open-end wrench features a U-shaped opening that slides onto the flats of a fastener from the side. This design is particularly useful in cramped engine compartments or shop environments where there is not enough vertical clearance to use a socket or a box-end wrench to tighten or loosen bolts.",
+      "type": "mcq",
+      "question": "Which hand tool is specifically designed with a U-shaped end to grip two parallel flats of a bolt or nut?"
+    },
+    {
+      "id": "AS-046",
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "To cool the oil before it enters the engine block",
+        "To mix oil with fuel for better combustion",
+        "To remove contaminants and metal shavings from the oil",
+        "To pump oil to the upper valve train"
+      ],
+      "explanation": "The primary role of the oil filter is to capture microscopic debris, such as carbon soot and metal fragments, that accumulate as the oil circulates through the engine. By removing these contaminants, the filter prevents abrasive wear on critical surfaces like the crankshaft bearings and cylinder walls, extending the life of the engine.",
+      "type": "mcq",
+      "question": "What is the primary function of a vehicle engine's oil filter?"
+    },
+    {
+      "id": "AS-047",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "Air trapped in the hydraulic brake lines",
+        "The brake pads have reached their wear indicators",
+        "The master cylinder reservoir is overfilled",
+        "The brake rotors have become warped or glazed"
+      ],
+      "explanation": "Air trapped in the hydraulic brake lines is the most common cause of a spongy pedal because air is compressible, unlike brake fluid. When the driver presses the pedal, the air bubbles compress first, preventing the full force of the master cylinder from reaching the brake calipers or wheel cylinders effectively.",
+      "type": "mcq",
+      "question": "If a vehicle’s brake pedal feels \"spongy\" and requires more travel than usual to stop the car, what is the most probable mechanical issue?"
+    },
+    {
+      "id": "AS-048",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "To synchronize the rotational speed of the engine and transmission",
+        "To allow the drive wheels to rotate at different speeds while cornering",
+        "To increase the gear reduction ratio for high-torque applications",
+        "To lock the driveshaft to the chassis during emergency braking"
+      ],
+      "explanation": "Spider gears are located inside the differential carrier and allow the two drive axles to rotate at different speeds. This is necessary because when a vehicle turns, the outside wheel must travel a longer path than the inside wheel; without spider gears, the tires would scuff and skip during turns because they would be forced to spin at the same rate.",
+      "type": "mcq",
+      "question": "In a standard open differential, what is the specific purpose of the spider gears?"
+    },
+    {
+      "id": "AS-049",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "Camber",
+        "Toe-out",
+        "Thrust angle",
+        "Caster"
+      ],
+      "explanation": "Caster is the angle of the steering axis when viewed from the side. Positive caster occurs when the top of the steering axis tilts toward the rear of the vehicle. This angle is crucial for maintaining straight-line stability and providing the self-centering force that returns the steering wheel to the center position after completing a turn.",
+      "type": "mcq",
+      "question": "Which wheel alignment angle is defined as the forward or backward tilt of the steering axis when viewed from the side of the vehicle?"
+    },
+    {
+      "id": "AS-050",
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Flathead screwdriver",
+        "Socket wrench",
+        "Ball-peen hammer",
+        "Slip-joint pliers"
+      ],
+      "explanation": "A socket wrench, also known as a ratchet, is used with interchangeable sockets to fit various sizes of nuts and bolts. Its ratcheting mechanism allows the user to turn the fastener back and forth without removing the tool from the head, making it ideal for tight spaces where a standard wrench's swing is limited.",
+      "type": "mcq",
+      "question": "Which tool is specifically designed to tighten or loosen nuts and bolts where a standard wrench cannot fit, often using a ratcheting mechanism?"
+    },
+    {
+      "id": "AS-051",
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "To cool the oil before it reaches the oil pan",
+        "To mix oil with fuel for better combustion",
+        "To remove contaminants and debris from the engine oil",
+        "To regulate the pressure of the oil pump"
+      ],
+      "explanation": "As engine oil circulates, it picks up metal shavings, carbon deposits, and dirt that can damage engine parts. The oil filter contains a porous media that traps these particles to prevent them from causing abrasive wear on critical components like bearings and cylinder walls. This ensures the oil remains effective at lubricating the engine.",
+      "type": "mcq",
+      "question": "What is the primary function of the oil filter in an internal combustion engine?"
+    },
+    {
+      "id": "AS-052",
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "A stuck-closed thermostat",
+        "A malfunctioning radiator cooling fan",
+        "A leaking head gasket",
+        "A worn-out water pump impeller"
+      ],
+      "explanation": "At highway speeds, the vehicle's forward motion provides enough airflow through the radiator to cool the engine. At idle, the engine relies on the cooling fan to pull air through the radiator. If the fan fails, the coolant cannot release heat properly while stationary, leading to overheating. A stuck thermostat or bad pump would usually cause overheating at all speeds.",
+      "type": "mcq",
+      "question": "If a vehicle's engine consistently overheats while idling but maintains a normal temperature at highway speeds, what is the most likely cause?"
+    },
+    {
+      "id": "AS-053",
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "To lock the two axles together for maximum traction",
+        "To increase the gear ratio between the driveshaft and the axles",
+        "To synchronize the transmission output with the wheel speed",
+        "To allow the drive wheels to rotate at different speeds during a turn"
+      ],
+      "explanation": "When a vehicle turns, the outside wheel must travel a longer path—and thus rotate faster—than the inside wheel. The spider gears inside the differential housing allow this speed difference to occur while still transferring torque from the ring gear to both axle shafts. Without this mechanism, the tires would scuff and skip during turns because they would be forced to rotate at the same speed.",
+      "type": "mcq",
+      "question": "In a standard open differential, what is the specific purpose of the spider gears (planetary gears)?"
+    },
+    {
+      "id": "AS-054",
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "A bypassed master cylinder primary seal",
+        "Worn brake pads rubbing against the rotors",
+        "A seized caliper slide pin",
+        "Excessive runout in the brake rotors"
+      ],
+      "explanation": "A spongy pedal usually indicates air in the hydraulic lines or a mechanical failure in pressure generation. If air is ruled out by bleeding, an internal leak in the master cylinder is the most likely cause. When the primary seal fails, fluid bypasses the piston inside the cylinder rather than being forced into the lines, resulting in a loss of pressure and a soft pedal feel without external leaks.",
+      "type": "mcq",
+      "question": "A technician finds that a vehicle's brake pedal feels spongy or soft, but the brake fluid level is full. After bleeding the air from the system, the condition persists. What is the most probable internal failure?"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Ball-peen hammer",
+        "Sledgehammer",
+        "Claw hammer",
+        "Rubber mallet"
+      ],
+      "explanation": "A claw hammer features a flat striking face on one side and a curved, V-shaped claw on the opposite side designed to grip and pull nails using leverage. In contrast, ball-peen hammers are used for shaping metal, sledgehammers are for heavy demolition, and rubber mallets are used to strike surfaces without damaging or marring them.",
+      "type": "mcq",
+      "question": "Which of these hand tools is specifically designed for pulling and prying nails out of wood?",
+      "id": "AS-055"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "To drain oil back into the oil pan when the engine is turned off",
+        "To increase oil pressure during high-speed highway driving",
+        "To allow oil to reach the engine if the filter element becomes clogged",
+        "To prevent air bubbles from entering the oil pump intake"
+      ],
+      "explanation": "The bypass valve is a critical safety feature. If the oil filter element becomes restricted by heavy contaminants or if the oil is too thick during a cold start, the valve opens to allow oil to bypass the filter media. While this means the engine receives unfiltered oil, it prevents total engine seizure that would occur if the flow of lubrication was completely blocked.",
+      "type": "mcq",
+      "question": "What is the primary function of a bypass valve located inside an automotive oil filter?",
+      "id": "AS-056"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "Worn brake pads or shoes",
+        "Air trapped in the hydraulic lines",
+        "A seized caliper piston",
+        "Glazed brake rotors"
+      ],
+      "explanation": "Brake fluid is incompressible, allowing it to transmit force instantly. However, air is compressible. If air bubbles enter the hydraulic system through a leak or during service, the pressure from the brake pedal will compress the air pockets instead of moving the brake pistons, resulting in a soft or spongy pedal feel. Worn pads typically cause a low pedal or noise, but not the specific 'spongy' sensation.",
+      "type": "mcq",
+      "question": "If a vehicle's brake pedal feels 'spongy' or soft and travels significantly further toward the floor than usual, what is the most likely cause?",
+      "id": "AS-057"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "The length of the bolt in centimeters",
+        "The diameter of the bolt head in millimeters",
+        "The tensile strength rating of the steel",
+        "The distance between adjacent thread crests in millimeters"
+      ],
+      "explanation": "In metric fastener nomenclature, the 'M' stands for metric and '10' indicates the nominal diameter of the bolt in millimeters. The second number, '1.5', represents the thread pitch, which is the linear distance between two adjacent threads. This differs from U.S. Standard (SAE) fasteners, which measure pitch as threads per inch (TPI) rather than a direct measurement of the distance between crests.",
+      "type": "mcq",
+      "question": "In a metric bolt specification such as 'M10 x 1.5,' what does the number '1.5' represent?",
+      "id": "AS-058"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "Universal joints (U-joints)",
+        "Wheel cylinders",
+        "Leaf spring center bolts",
+        "Tire balance weights"
+      ],
+      "explanation": "Universal joints (U-joints) allow the driveshaft to transmit power at varying angles between the transmission and the differential. When the needle bearings inside a U-joint wear out, excessive clearance or 'play' develops. Shifting the transmission into gear applies torque to the driveshaft; the sudden take-up of this slack causes the metallic clunking sound. While a worn differential could also clunk, U-joints are the most common cause for this specific symptom.",
+      "type": "mcq",
+      "question": "A rear-wheel-drive vehicle produces a distinct metallic 'clunk' sound when shifting from Park into Drive or Reverse. Which component is most likely failing?",
+      "id": "AS-059"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Slotted screwdriver",
+        "Ball-peen hammer",
+        "Box-end wrench",
+        "Slip-joint pliers"
+      ],
+      "explanation": "A box-end wrench is designed to fit over a hexagonal bolt head or nut, providing a secure grip on all sides. This prevents the tool from slipping and rounding off the corners of the fastener. Screwdrivers are for screws, hammers are for striking, and pliers are for gripping but can easily damage the flat surfaces of a bolt head.",
+      "type": "mcq",
+      "question": "Which tool is most appropriate for tightening a hexagonal bolt when space is limited and a specific torque setting is not required?",
+      "id": "AS-060"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "To distribute electricity to the spark plugs in the correct firing order",
+        "To increase the low battery voltage to the high voltage needed to bridge the spark plug gap",
+        "To monitor the oxygen levels in the exhaust manifold",
+        "To store electrical energy for the headlights and radio"
+      ],
+      "explanation": "The ignition coil acts as a step-up transformer. It takes the relatively low 12-volt current from the battery and converts it into several thousand volts. This high voltage is necessary to create an electrical arc (spark) across the gap of the spark plug, which ignites the compressed air-fuel mixture in the combustion chamber during the power stroke.",
+      "type": "mcq",
+      "question": "In a traditional spark-ignition engine, what is the primary function of the ignition coil?",
+      "id": "AS-061"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "The brake pads are completely worn down to the metal",
+        "Air has entered the hydraulic brake lines",
+        "The parking brake cable is too tight",
+        "The vehicle is low on power steering fluid"
+      ],
+      "explanation": "Hydraulic brake systems rely on the fact that liquids are incompressible. If air, which is a gas and therefore compressible, enters the brake lines, the pressure applied to the pedal will compress the air pockets instead of immediately moving the brake calipers or wheel cylinders. This compression results in a soft or \"spongy\" pedal feel that reduces braking efficiency.",
+      "type": "mcq",
+      "question": "If a driver notices the brake pedal feels \"spongy\" or soft when pressed, what is the most likely cause?",
+      "id": "AS-062"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "Caster",
+        "Toe-in",
+        "Thrust angle",
+        "Camber"
+      ],
+      "explanation": "Camber is the measure in degrees of the vertical tilt of the wheel. If the top of the wheel tilts outward, it is positive camber; if it tilts inward, it is negative camber. This angle is crucial for even tire wear and handling performance. Caster involves the tilt of the steering axis from the side, and toe refers to whether the fronts of the tires are closer together than the rears.",
+      "type": "mcq",
+      "question": "Which alignment angle refers to the inward or outward tilt of the wheels when viewed from the front of the vehicle?",
+      "id": "AS-063"
+    },
+    {
+      "sectionId": "AS",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "To allow the drive wheels to rotate at different speeds while the vehicle is turning",
+        "To shift the transmission into a higher gear as vehicle speed increases",
+        "To equalize the pressure between the engine oil and the transmission fluid",
+        "To disconnect the engine from the drivetrain when the vehicle stops"
+      ],
+      "explanation": "When a vehicle turns a corner, the outside wheel must travel a longer path—and therefore rotate faster—than the inside wheel. The differential uses a set of gears to transfer torque from the driveshaft to the axles while allowing for this speed variation. Without a differential, the tires would be forced to spin at the same speed, causing them to scuff or skip across the pavement during turns.",
+      "type": "mcq",
+      "question": "What is the primary mechanical purpose of a differential in a rear-wheel-drive vehicle's drivetrain?",
+      "id": "AS-064"
     }
   ]
 }

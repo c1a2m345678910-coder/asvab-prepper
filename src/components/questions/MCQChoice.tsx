@@ -15,7 +15,7 @@ interface Props {
 export function MCQChoice({ question, onAnswer }: Props) {
   return (
     <div className="flex flex-col gap-6">
-      <p className="text-xl font-semibold text-slate-900 leading-snug">
+      <p className="text-xl font-semibold text-slate-900 dark:text-slate-100 leading-snug">
         {question.question}
       </p>
 

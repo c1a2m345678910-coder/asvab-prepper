@@ -21,14 +21,14 @@ export function VocabMatch({ question, onAnswer }: Props) {
         <p className="text-xs font-semibold uppercase tracking-widest text-indigo-400">
           Word Knowledge
         </p>
-        <p className="text-5xl font-bold text-slate-900 tracking-tight">
+        <p className="text-5xl font-bold text-slate-900 dark:text-slate-100 tracking-tight">
           {question.word}
         </p>
         {/* Decorative rule */}
         <span className="block h-1 w-10 rounded-full bg-indigo-300" />
       </div>
 
-      <p className="text-sm font-medium text-slate-500 text-center -mt-2">
+      <p className="text-sm font-medium text-slate-500 dark:text-slate-400 text-center -mt-2">
         Choose the best definition:
       </p>
 

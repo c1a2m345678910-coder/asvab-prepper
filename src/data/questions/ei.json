@@ -3,6 +3,7 @@
   "sectionId": "EI",
   "questions": [
     {
+      "id": "EI-001",
       "sectionId": "EI",
       "difficulty": 1,
       "correctIndex": 2,
@@ -14,10 +15,10 @@
       ],
       "explanation": "Voltage is defined as the electrical pressure or potential difference between two points in a circuit. It is measured in volts (V) and represents the energy available to push charge through a conductor. Without voltage, no current would flow, much like water requires pressure to move through a pipe.",
       "type": "mcq",
-      "question": "Which of the following terms describes the electrical pressure or potential difference that causes electrons to flow through a conductor?",
-      "id": "EI-001"
+      "question": "Which of the following terms describes the electrical pressure or potential difference that causes electrons to flow through a conductor?"
     },
     {
+      "id": "EI-002",
       "sectionId": "EI",
       "difficulty": 1,
       "correctIndex": 2,
@@ -29,10 +30,10 @@
       ],
       "explanation": "A NOT gate is a fundamental digital logic gate that performs logical negation. If the input signal is a logic high (1), the output will be a logic low (0). Conversely, if the input is low (0), the output is high (1). This component is frequently referred to as an inverter in circuit design.",
       "type": "mcq",
-      "question": "In digital electronics, which logic gate is known as an 'inverter' because it outputs the opposite state of its input?",
-      "id": "EI-002"
+      "question": "In digital electronics, which logic gate is known as an 'inverter' because it outputs the opposite state of its input?"
     },
     {
+      "id": "EI-003",
       "sectionId": "EI",
       "difficulty": 2,
       "correctIndex": 0,
@@ -44,10 +45,10 @@
       ],
       "explanation": "Step 1: Identify the given values: Voltage (V) = 120 V and Resistance (R) = 15 Ω. Step 2: Use Ohm's Law, which states I = V / R. Step 3: Substitute the values: I = 120 V / 15 Ω = 8 amperes. Current is the actual flow of charge, and resistance limits this flow proportional to the voltage.",
       "type": "mcq",
-      "question": "If a 120 V circuit is connected to a heating element with a resistance of 15 Ω, what is the current flowing through the element?",
-      "id": "EI-003"
+      "question": "If a 120 V circuit is connected to a heating element with a resistance of 15 Ω, what is the current flowing through the element?"
     },
     {
+      "id": "EI-004",
       "sectionId": "EI",
       "difficulty": 2,
       "correctIndex": 3,
@@ -59,10 +60,10 @@
       ],
       "explanation": "Fuses are safety devices designed to protect electrical circuits from damage caused by overcurrent or short circuits. They contain a thin metal strip that melts when the current exceeds a specific threshold, thereby opening the circuit and stopping the flow. Unlike circuit breakers, fuses must be replaced once they have blown to restore operation.",
       "type": "mcq",
-      "question": "What is the primary purpose of a fuse in an electrical circuit?",
-      "id": "EI-004"
+      "question": "What is the primary purpose of a fuse in an electrical circuit?"
     },
     {
+      "id": "EI-005",
       "sectionId": "EI",
       "difficulty": 3,
       "correctIndex": 1,
@@ -74,10 +75,10 @@
       ],
       "explanation": "In a series circuit, the total resistance (Rt) is found by adding all individual resistances together. Step 1: Identify the resistor values: R1 = 10 Ω, R2 = 25 Ω, and R3 = 15 Ω. Step 2: Apply the formula Rt = R1 + R2 + R3. Step 3: Calculate the sum: Rt = 10 + 25 + 15 = 50 Ω.",
       "type": "mcq",
-      "question": "A circuit contains three resistors in series with values of 10 Ω, 25 Ω, and 15 Ω. What is the total resistance of the circuit?",
-      "id": "EI-005"
+      "question": "A circuit contains three resistors in series with values of 10 Ω, 25 Ω, and 15 Ω. What is the total resistance of the circuit?"
     },
     {
+      "id": "EI-006",
       "sectionId": "EI",
       "difficulty": 3,
       "correctIndex": 2,
@@ -89,10 +90,10 @@
       ],
       "explanation": "For resistors in parallel, the equivalent resistance (Req) is calculated using the reciprocal formula. Step 1: Identify R1 = 20 Ω and R2 = 20 Ω. Step 2: Use the formula Req = (R1 * R2) / (R1 + R2). Step 3: Calculate the values: (20 * 20) / (20 + 20) = 400 / 40 = 10 Ω. Note that parallel resistance is always lower than the smallest branch resistor.",
       "type": "mcq",
-      "question": "Two 20 Ω resistors are connected in parallel. What is the equivalent resistance of this specific combination?",
-      "id": "EI-006"
+      "question": "Two 20 Ω resistors are connected in parallel. What is the equivalent resistance of this specific combination?"
     },
     {
+      "id": "EI-007",
       "sectionId": "EI",
       "difficulty": 4,
       "correctIndex": 3,
@@ -104,10 +105,10 @@
       ],
       "explanation": "To calculate power (P), we first find current (I) using Ohm's Law. Step 1: I = V / R = 24 V / 12 Ω = 2 Amperes. Step 2: Use the power formula P = V * I. Step 3: P = 24 V * 2 A = 48 Watts. Alternatively, you could use P = V² / R, which is (24 * 24) / 12 = 576 / 12 = 48 Watts.",
       "type": "mcq",
-      "question": "A 24-volt light bulb has a measured resistance of 12 Ω. How much power is consumed by the bulb during normal operation?",
-      "id": "EI-007"
+      "question": "A 24-volt light bulb has a measured resistance of 12 Ω. How much power is consumed by the bulb during normal operation?"
     },
     {
+      "id": "EI-008",
       "sectionId": "EI",
       "difficulty": 4,
       "correctIndex": 0,
@@ -119,10 +120,10 @@
       ],
       "explanation": "The voltage ratio of a transformer is directly proportional to its turns ratio. Step 1: Identify primary voltage (Vp = 120 V), primary turns (Np = 500), and secondary turns (Ns = 100). Step 2: Use the formula Vs = Vp * (Ns / Np). Step 3: Calculate: Vs = 120 * (100 / 500) = 120 * 0.2 = 24 V AC.",
       "type": "mcq",
-      "question": "A step-down transformer has a primary coil with 500 turns and a secondary coil with 100 turns. If the input primary voltage is 120 V AC, what is the output secondary voltage?",
-      "id": "EI-008"
+      "question": "A step-down transformer has a primary coil with 500 turns and a secondary coil with 100 turns. If the input primary voltage is 120 V AC, what is the output secondary voltage?"
     },
     {
+      "id": "EI-009",
       "sectionId": "EI",
       "difficulty": 5,
       "correctIndex": 1,
@@ -134,10 +135,10 @@
       ],
       "explanation": "For an NPN transistor to 'turn on' and conduct current from collector to emitter, the base-emitter PN junction must be forward-biased. In silicon-based transistors, this typically requires the base to be approximately 0.7 volts higher than the emitter. This voltage provides the energy needed for electrons to cross the barrier between the P-type base and N-type emitter.",
       "type": "mcq",
-      "question": "In an NPN bipolar junction transistor (BJT), what must be the general voltage relationship between the base and emitter to allow the transistor to conduct in the active region?",
-      "id": "EI-009"
+      "question": "In an NPN bipolar junction transistor (BJT), what must be the general voltage relationship between the base and emitter to allow the transistor to conduct in the active region?"
     },
     {
+      "id": "EI-010",
       "sectionId": "EI",
       "difficulty": 5,
       "correctIndex": 3,
@@ -149,8 +150,832 @@
       ],
       "explanation": "When capacitors are connected in series, their total capacitance (Ct) is found using a reciprocal formula, similar to resistors in parallel. Step 1: Identify C1 = 10 μF and C2 = 10 μF. Step 2: Use the formula 1/Ct = 1/C1 + 1/C2. Step 3: Calculate 1/Ct = 1/10 + 1/10 = 2/10. Therefore, Ct = 10 / 2 = 5 μF.",
       "type": "mcq",
-      "question": "Two capacitors, each rated at 10 μF, are connected in series. What is the total capacitance of this arrangement?",
-      "id": "EI-010"
+      "question": "Two capacitors, each rated at 10 μF, are connected in series. What is the total capacitance of this arrangement?"
+    },
+    {
+      "id": "EI-011",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 0,
+      "options": [
+        "Inductor",
+        "Capacitor",
+        "Resistor",
+        "Diode"
+      ],
+      "explanation": "An inductor is a passive component, usually consisting of a coil of wire, that stores energy in a magnetic field. When current flows through it, the inductor resists changes in the flow. In contrast, a capacitor stores energy in an electric field, a resistor dissipates energy as heat, and a diode allows current to flow in only one direction.",
+      "type": "mcq",
+      "question": "Which electronic component is primarily designed to store energy in the form of a magnetic field when electric current passes through it?"
+    },
+    {
+      "id": "EI-012",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "4.8 watts",
+        "14.5 watts",
+        "30 watts",
+        "9.5 watts"
+      ],
+      "explanation": "To find the power consumed, we use the electric power formula: P = V × I. \nStep 1: Identify the voltage (V) = 12 V and current (I) = 2.5 A. \nStep 2: Substitute the values into the formula: P = 12 V × 2.5 A. \nStep 3: Calculate the result: 12 × 2.5 = 30. \nThe power consumed is 30 watts.",
+      "type": "mcq",
+      "question": "An electric motor is connected to a 12-volt battery and is found to draw a current of 2.5 amperes. How much power is consumed by the motor during operation?"
+    },
+    {
+      "id": "EI-013",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "22 Ω",
+        "2 Ω",
+        "0.5 Ω",
+        "8 Ω"
+      ],
+      "explanation": "For resistors in parallel, use the reciprocal formula: 1/Rt = 1/R1 + 1/R2 + 1/R3. \nStep 1: Substitute the values: 1/Rt = 1/6 + 1/12 + 1/4. \nStep 2: Find a common denominator, which is 12: 1/Rt = 2/12 + 1/12 + 3/12. \nStep 3: Add the fractions: 1/Rt = 6/12. \nStep 4: Simplify the fraction: 1/Rt = 1/2. \nStep 5: Take the reciprocal to find Rt: Rt = 2 Ω. Parallel resistance is always lower than the smallest branch resistor.",
+      "type": "mcq",
+      "question": "A circuit contains three resistors connected in parallel with resistance values of 6 Ω, 12 Ω, and 4 Ω. What is the total equivalent resistance of this parallel network?"
+    },
+    {
+      "id": "EI-014",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "20 Hz",
+        "0.02 Hz",
+        "500 Hz",
+        "50 Hz"
+      ],
+      "explanation": "Frequency (f) is the number of cycles per second and is calculated as the reciprocal of the period (T). \nFormula: f = 1 / T. \nStep 1: Identify the period T = 0.02 seconds. \nStep 2: Substitute into the formula: f = 1 / 0.02. \nStep 3: Solve the division: 1 ÷ 0.02 = 50. \nTherefore, the frequency of the AC signal is 50 Hz, meaning it completes 50 cycles every second.",
+      "type": "mcq",
+      "question": "An alternating current (AC) sine wave is observed on a measuring device. If the time required to complete one full cycle (the period) is 0.02 seconds, what is the frequency of the signal?"
+    },
+    {
+      "id": "EI-015",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "NAND gate",
+        "NOR gate",
+        "AND gate",
+        "OR gate"
+      ],
+      "explanation": "A NAND gate (short for Not-AND) is a logic gate that produces an output that is false or '0' only if all its inputs are true or '1'. If any of the inputs are '0', the output will be '1'. It is functionally the opposite of an AND gate. NAND gates are considered universal gates because they can be used to replicate the functions of all other logic gates.",
+      "type": "mcq",
+      "question": "In digital electronics, which logic gate outputs a logic '0' (low) ONLY when all of its inputs are logic '1' (high)?"
+    },
+    {
+      "id": "EI-016",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Capacitor",
+        "Resistor",
+        "Solenoid",
+        "Potentiometer"
+      ],
+      "explanation": "A solenoid is a coil of wire that acts as a magnet when carrying an electric current. When the coil is wrapped around a core (like iron), the magnetic field is concentrated, allowing it to move a plunger or lever. This principle is widely used in door locks and starter motors.",
+      "type": "mcq",
+      "question": "Which component is created by wrapping an insulated wire around a ferromagnetic core and is used to convert electrical energy into mechanical movement?"
+    },
+    {
+      "id": "EI-017",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "30 V",
+        "120 V",
+        "58 V",
+        "62 V"
+      ],
+      "explanation": "Using Ohm's Law (V = I × R), we substitute the given values: V = 2 amperes × 60 ohms. Therefore, V = 120 volts. Ohm's Law defines the fundamental relationship between voltage, current, and resistance in an electrical circuit, where voltage is the product of current and resistance.",
+      "type": "mcq",
+      "question": "A technician measures a 60-ohm resistor connected to a DC power supply. If the current through the resistor is 2 amperes, what is the voltage of the power supply?"
+    },
+    {
+      "id": "EI-018",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "6 A",
+        "3 A",
+        "2 A",
+        "12 A"
+      ],
+      "explanation": "First, calculate the total resistance in series: R_total = R1 + R2 = 4 Ω + 8 Ω = 12 Ω. Next, use Ohm’s Law to find the current: I = V / R_total = 24 V / 12 Ω = 2 amperes. In a series circuit, the total resistance is always the sum of all individual resistances.",
+      "type": "mcq",
+      "question": "A series circuit is powered by a 24-volt battery and contains two resistors: a 4 Ω resistor and an 8 Ω resistor. What is the total current flowing through this circuit?"
+    },
+    {
+      "id": "EI-019",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "11 Ω",
+        "100 Ω",
+        "0.1 Ω",
+        "1,210 Ω"
+      ],
+      "explanation": "First, find the current using the power formula P = VI: I = P / V = 1,100 W / 110 V = 10 A. Then, use Ohm's Law to find resistance: R = V / I = 110 V / 10 A = 11 Ω. Alternatively, using R = V² / P, we get 12,100 / 1,100 = 11 Ω.",
+      "type": "mcq",
+      "question": "An electric heater is rated to consume 1,100 watts of power when connected to a 110-volt AC source. What is the resistance of the heating element inside the device?"
+    },
+    {
+      "id": "EI-020",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 3,
+      "options": [
+        "Electrons",
+        "Protons",
+        "Neutrons",
+        "Holes"
+      ],
+      "explanation": "P-type semiconductors are created by adding trivalent impurities (like Boron) to a pure semiconductor (like Silicon). Because these impurities have only three valence electrons, they create 'holes' (absences of electrons) in the crystal lattice. These holes act as positive charge carriers, moving through the material as electrons jump to fill them.",
+      "type": "mcq",
+      "question": "In a P-type semiconductor material, what is the primary or 'majority' charge carrier responsible for the flow of electric current?"
+    },
+    {
+      "id": "EI-021",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Check for continuity across the battery",
+        "Disconnect the power source from the circuit",
+        "Ensure the circuit is under full load",
+        "Calibrate the meter to the zero-voltage setting"
+      ],
+      "explanation": "When measuring resistance, the multimeter provides its own small internal battery to send current through the component being tested. If the circuit is still powered, the external voltage will interfere with the meter's reading and could potentially blow a fuse or damage the multimeter's internal circuitry.",
+      "type": "mcq",
+      "question": "When using a digital multimeter to measure the resistance of a specific resistor in a circuit, which of the following actions must be taken first to ensure an accurate reading and protect the meter?"
+    },
+    {
+      "id": "EI-022",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "100 Ω",
+        "200 Ω",
+        "350 Ω",
+        "250 Ω"
+      ],
+      "explanation": "To find the resistance using Ohm's Law, we use the formula R = V / I. In this scenario, the voltage (V) across the resistor is 5 volts and the current (I) is 0.02 amperes. Step 1: Substitute the values into the formula: R = 5 / 0.02. Step 2: Calculate the result: 5 ÷ 0.02 = 250. Therefore, the resistance is 250 ohms.",
+      "type": "mcq",
+      "question": "An LED circuit is designed so that a resistor has a voltage drop of 5 volts across it. If the measured current through that resistor is 0.02 amperes, what is the resistance value of the resistor?"
+    },
+    {
+      "id": "EI-023",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "1 ampere",
+        "8 amperes",
+        "4 amperes",
+        "16 amperes"
+      ],
+      "explanation": "First, find the total resistance (Rt) for the parallel combination using the formula 1/Rt = 1/R1 + 1/R2. Substituting the values: 1/Rt = 1/12 + 1/4. Find a common denominator: 1/12 + 3/12 = 4/12. Solving for Rt: Rt = 12/4 = 3 Ω. Next, use Ohm's Law (I = V / R) to find the total current: I = 12 V / 3 Ω = 4 amperes.",
+      "type": "mcq",
+      "question": "A technician connects a 12-ohm resistor and a 4-ohm resistor in parallel across a 12-volt DC power supply. What is the total current drawn from the power supply?"
+    },
+    {
+      "id": "EI-024",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "144 Ω",
+        "1.2 Ω",
+        "12,000 Ω",
+        "0.83 Ω"
+      ],
+      "explanation": "Power (P), voltage (V), and resistance (R) are related by the formula P = V² / R. To find the resistance, rearrange the formula to R = V² / P. Substituting the values: R = (120 V * 120 V) / 100 W. First, 120 squared is 14,400. Then, 14,400 divided by 100 equals 144 ohms.",
+      "type": "mcq",
+      "question": "A 100-watt incandescent light bulb is operated on a standard 120-volt AC household circuit. What is the approximate resistance of the bulb's filament while it is hot and glowing?"
+    },
+    {
+      "id": "EI-025",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "Active and Passive",
+        "Saturation and Cutoff",
+        "Amplification and Rectification",
+        "Positive and Negative"
+      ],
+      "explanation": "When a BJT acts as a switch, it avoids the linear 'active' region used for amplification. In the 'off' state, the transistor is in 'cutoff,' where essentially no current flows between the collector and emitter. In the 'on' state, it is in 'saturation,' where the transistor is fully conducting and the voltage drop across it is at its minimum.",
+      "type": "mcq",
+      "question": "In a bipolar junction transistor (BJT) configured as a simple electronic switch, what are the two primary operating regions the transistor alternates between to represent the 'on' and 'off' states?"
+    },
+    {
+      "id": "EI-026",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "Ohms",
+        "Farads",
+        "Henries",
+        "Watts"
+      ],
+      "explanation": "Capacitance is the ability of a component (a capacitor) to store an electrical charge. It is measured in Farads (F), named after Michael Faraday. One farad is defined as the capacitance across which, when charged with one coulomb, there is a potential difference of one volt. Common values are often in microfarads (µF).",
+      "type": "mcq",
+      "question": "What is the standard unit of measurement for electrical capacitance, which describes the ability of a component to store an electrical charge?"
+    },
+    {
+      "id": "EI-027",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 3,
+      "options": [
+        "5.0 amperes",
+        "0.05 amperes",
+        "8.0 amperes",
+        "0.2 amperes"
+      ],
+      "explanation": "To find the current (I), we use Ohm's Law in the form I = V / R. In this specific scenario, the formula setup is I = 40 volts / 200 Ω. Dividing 40 by 200 is equivalent to 4/20, which results in exactly 0.2 amperes. Therefore, the current flowing through the resistor is 0.2 A.",
+      "type": "mcq",
+      "question": "A technician measures the voltage across a 200 Ω resistor and finds it to be 40 volts. How much current is flowing through the resistor?"
+    },
+    {
+      "id": "EI-028",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "10 volts",
+        "60 volts",
+        "20 volts",
+        "30 volts"
+      ],
+      "explanation": "Step 1: Calculate total resistance (Rt) for series resistors: Rt = 30 Ω + 30 Ω + 30 Ω = 90 Ω. Step 2: Calculate total current (It) using Ohm's Law: It = V / Rt = 60 V / 90 Ω = 0.667 A. Step 3: Calculate the voltage drop across one resistor (V1): V1 = 0.667 A * 30 Ω = 20 volts. Since all resistors have equal resistance, each drops 20V.",
+      "type": "mcq",
+      "question": "A circuit consists of a 60-volt DC source connected to three 30 Ω resistors in series. What is the voltage drop across each individual resistor?"
+    },
+    {
+      "id": "EI-029",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "120 volts",
+        "240 volts",
+        "85 volts",
+        "141 volts"
+      ],
+      "explanation": "RMS voltage (Vrms) is the effective value of alternating current, equivalent to the DC voltage that would produce the same heating effect. The formula to convert peak voltage (Vpk) to RMS is Vrms = Vpk * 0.707. Substituting the values: 170 V * 0.707 ≈ 120.19 volts. This is the standard RMS voltage level for North American household outlets.",
+      "type": "mcq",
+      "question": "In an AC circuit, the peak voltage of a sine wave is measured at 170 volts. What is the approximate RMS (Root Mean Square) voltage, which represents the effective voltage available to do work?"
+    },
+    {
+      "id": "EI-030",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "The collector current remains constant.",
+        "The collector current decreases proportionally.",
+        "The collector current increases significantly.",
+        "The collector current drops to zero."
+      ],
+      "explanation": "Bipolar junction transistors act as current-controlled current amplifiers. In the active region, the collector current (Ic) is directly proportional to the base current (Ib) based on the gain factor (Beta). The relationship is expressed as Ic = Beta * Ib. Therefore, a small increase in the base current results in a much larger, significant increase in the collector current flowing through the device.",
+      "type": "mcq",
+      "question": "In a common-emitter NPN transistor circuit operating in the active region, what happens to the collector current (Ic) if the base current (Ib) is slightly increased?"
+    },
+    {
+      "id": "EI-031",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "Capacitor",
+        "Inductor",
+        "Diode",
+        "Potentiometer"
+      ],
+      "explanation": "A potentiometer is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. If only two terminals are used, one end and the wiper, it acts as a variable resistor or rheostat. They are commonly used to adjust levels like volume or brightness in electronic devices.",
+      "type": "mcq",
+      "question": "A variable resistor that is commonly used to control volume in audio equipment by adjusting the amount of resistance in a circuit is called a:"
+    },
+    {
+      "id": "EI-032",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 2,
+      "options": [
+        "60 Ω",
+        "0.41 Ω",
+        "2.4 Ω",
+        "17 Ω"
+      ],
+      "explanation": "To find the resistance when voltage and current are known, use the rearranged version of Ohm's Law: R = V / I. In this scenario, substitute the given values: R = 12 volts / 5 amperes. Performing the division, 12 divided by 5 equals 2.4 ohms. Electrical resistance is always measured in ohms (Ω).",
+      "type": "mcq",
+      "question": "A diagnostic tool determines that an automotive component is drawing 5 amperes of current when connected to a 12-volt battery. What is the electrical resistance of this component?"
+    },
+    {
+      "id": "EI-033",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "900 Ω",
+        "100 Ω",
+        "150 Ω",
+        "300 Ω"
+      ],
+      "explanation": "When resistors of equal value are connected in parallel, the total resistance (Rt) can be found by dividing the resistance of one component by the total number of components: Rt = R / n. Step 1: Identify R = 300 Ω. Step 2: Identify n = 3. Step 3: Calculate Rt = 300 Ω / 3 = 100 Ω. Adding paths in parallel always decreases total resistance.",
+      "type": "mcq",
+      "question": "A technician connects three 300 Ω resistors in parallel to a power source. What is the total equivalent resistance (Rt) of this circuit configuration?"
+    },
+    {
+      "id": "EI-034",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 0,
+      "options": [
+        "2 amperes",
+        "4 amperes",
+        "900 amperes",
+        "0.25 amperes"
+      ],
+      "explanation": "To solve for current using power and resistance, use the formula P = I² × R. First, rearrange the formula to solve for the square of the current: I² = P / R. Step 1: Substitute the values: I² = 60 watts / 15 ohms = 4. Step 2: Take the square root of 4 to find the current: I = 2 amperes. This shows that power increases with the square of the current.",
+      "type": "mcq",
+      "question": "A soldering iron is rated at 60 watts and has an internal resistance of 15 Ω. What is the amount of current flowing through the iron during its operation?"
+    },
+    {
+      "id": "EI-035",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "The depletion region narrows, allowing current flow",
+        "The P-type material converts into N-type material",
+        "The depletion region widens, preventing current flow",
+        "The breakdown voltage is immediately reached at any level"
+      ],
+      "explanation": "In a diode, reverse bias occurs when the positive terminal is connected to the N-type material and the negative to the P-type material. This pulls majority carriers (electrons and holes) away from the junction, widening the depletion region. This wider high-resistance area acts as an insulator, effectively blocking the flow of electric current through the component.",
+      "type": "mcq",
+      "question": "In a standard silicon PN junction diode, what occurs to the internal depletion region when a 'reverse bias' voltage is applied?"
+    },
+    {
+      "id": "EI-036",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "Resistor",
+        "Capacitor",
+        "Diode",
+        "Inductor"
+      ],
+      "explanation": "An inductor is a passive electronic component, typically consisting of a coil of wire, that stores energy within a magnetic field whenever electric current flows through it. While capacitors store energy in an electric field and resistors dissipate energy as heat, the inductor is unique for its use of electromagnetism to oppose changes in current.",
+      "type": "mcq",
+      "question": "Which electronic component is specifically designed to store energy in the form of a magnetic field?"
+    },
+    {
+      "id": "EI-037",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 1,
+      "options": [
+        "24 Watts",
+        "6 Watts",
+        "12.5 Watts",
+        "0.04 Watts"
+      ],
+      "explanation": "Electric power (P) is measured in Watts and is calculated by multiplying the voltage (V) by the current (I). Using the power formula: P = V * I. Substituting the given values: P = 12 V * 0.5 A = 6 Watts. This calculation shows the rate at which electrical energy is being converted into light and heat.",
+      "type": "mcq",
+      "question": "A small light bulb is connected to a 12-volt DC power source. If the current flowing through the bulb is measured at 0.5 amperes, how much power is the bulb consuming?"
+    },
+    {
+      "id": "EI-038",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 0,
+      "options": [
+        "10 ohms",
+        "40 ohms",
+        "20 ohms",
+        "5 ohms"
+      ],
+      "explanation": "For a circuit with two resistors in parallel, the total resistance (Rt) is calculated using the product-over-sum formula: Rt = (R1 * R2) / (R1 + R2). Substituting the values: Rt = (20 Ω * 20 Ω) / (20 Ω + 20 Ω) = 400 / 40 = 10 ohms. In a parallel circuit, the total resistance is always less than the smallest individual branch resistance.",
+      "type": "mcq",
+      "question": "A circuit contains two 20-ohm resistors connected in parallel with each other. What is the total equivalent resistance of this parallel combination?"
+    },
+    {
+      "id": "EI-039",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "480 volts",
+        "60 volts",
+        "30 volts",
+        "10 volts"
+      ],
+      "explanation": "Transformers change voltage based on the turns ratio between the primary and secondary coils. The formula used is Vs = Vp * (Ns / Np), where V is voltage and N is the number of turns. Substituting the values: Vs = 120 V * (100 / 400). Simplifying the fraction: Vs = 120 V * 0.25 = 30 volts AC. Because the secondary has fewer turns, the voltage is reduced.",
+      "type": "mcq",
+      "question": "A step-down transformer has a primary winding with 400 turns and a secondary winding with 100 turns. If the input voltage to the primary coil is 120 volts AC, what is the output voltage at the secondary coil?"
+    },
+    {
+      "id": "EI-040",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "14.4 Watts",
+        "10.8 Watts",
+        "3.6 Watts",
+        "57.6 Watts"
+      ],
+      "explanation": "To solve this, first find the total resistance: Rt = 10 Ω + 30 Ω = 40 Ω. Next, find the total current using Ohm's Law: I = V / Rt = 24 V / 40 Ω = 0.6 A. Finally, calculate the power dissipated by the 30-ohm resistor using P = I²R: P = (0.6 A)² * 30 Ω = 0.36 * 30 = 10.8 Watts. This multi-step process accounts for the shared current in a series circuit.",
+      "type": "mcq",
+      "question": "A 24-volt DC source is connected to a series circuit consisting of a 10-ohm resistor and a 30-ohm resistor. What is the power dissipated specifically by the 30-ohm resistor?"
+    },
+    {
+      "id": "EI-041",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Capacitor",
+        "Resistor",
+        "Inductor",
+        "Diode"
+      ],
+      "explanation": "An inductor is a passive electronic component, typically consisting of a coil of wire, that stores energy in a magnetic field when electric current flows through it. While capacitors store energy in an electric field, inductors oppose changes in current and are essential in filters, transformers, and radio tuning circuits.",
+      "type": "mcq",
+      "question": "Which electronic component is designed primarily to store energy in a magnetic field?"
+    },
+    {
+      "id": "EI-042",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "60 watts",
+        "240 watts",
+        "0.004 watts",
+        "120.5 watts"
+      ],
+      "explanation": "To find the power consumption, use the electrical power formula: P = V × I. In this equation, P represents power in watts, V is voltage in volts, and I is current in amperes. Substituting the provided values: P = 120 V × 0.5 A = 60 watts. This calculation shows the rate at which electrical energy is converted into light and heat.",
+      "type": "mcq",
+      "question": "A light bulb is connected to a 120-volt power source and draws 0.5 amperes of current. What is the power consumption of the bulb?"
+    },
+    {
+      "id": "EI-043",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "50 Ω",
+        "10 Ω",
+        "12 Ω",
+        "600 Ω"
+      ],
+      "explanation": "For two resistors connected in parallel, the total resistance is calculated using the product-over-sum formula: Rt = (R1 × R2) / (R1 + R2). Step 1: Multiply the resistances (20 × 30 = 600). Step 2: Add the resistances (20 + 30 = 50). Step 3: Divide the product by the sum (600 / 50 = 12 Ω). The total resistance in a parallel circuit is always lower than the smallest individual resistor.",
+      "type": "mcq",
+      "question": "A circuit contains two resistors connected in parallel. Resistor A has a resistance of 20 Ω and Resistor B has a resistance of 30 Ω. What is the total resistance (Rt) of the circuit?"
+    },
+    {
+      "id": "EI-044",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 3,
+      "options": [
+        "77.8 volts",
+        "110 volts",
+        "220 volts",
+        "155.6 volts"
+      ],
+      "explanation": "To calculate the peak voltage (Vp) from the RMS voltage of a sine wave, you multiply the RMS value by the square root of 2, which is approximately 1.414. Using the formula Vp = Vrms × 1.414: Vp = 110 V × 1.414 = 155.54 V. This rounds to approximately 155.6 volts, representing the maximum voltage reached during the AC cycle.",
+      "type": "mcq",
+      "question": "An AC voltage source is measured with a standard multimeter and shows an RMS (root mean square) value of 110 volts. What is the approximate peak voltage (Vp) of this signal?"
+    },
+    {
+      "id": "EI-045",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "1 (High)",
+        "0 (Low)",
+        "2 (Double High)",
+        "It fluctuates"
+      ],
+      "explanation": "A NAND gate (Not-AND) operates by inverting the output of an AND gate. Logic Step 1: An AND gate requires all inputs to be 1 to produce a 1; since both inputs are 1, the internal AND result is 1. Logic Step 2: The NOT gate inverts that 1 into a 0. Therefore, the final output is 0. A NAND gate only produces a 0 when all inputs are 1.",
+      "type": "mcq",
+      "question": "In digital electronics, a NAND gate is essentially an AND gate followed by a NOT gate. If Input A is '1' (High) and Input B is '1' (High), what will be the resulting output of the NAND gate?"
+    },
+    {
+      "id": "EI-046",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "30 volts",
+        "75 volts",
+        "750 volts",
+        "15 volts"
+      ],
+      "explanation": "To find the voltage in this circuit, you must apply Ohm's Law, which states that Voltage (V) = Current (I) × Resistance (R). Using the values provided: V = 0.2 amperes × 150 ohms. By performing the multiplication, you arrive at 30 volts. This fundamental calculation is used to determine how much electrical pressure is required to push a specific current through a known resistance.",
+      "type": "mcq",
+      "question": "If a circuit has a resistance of 150 ohms and a current of 0.2 amperes is measured flowing through it, what is the applied voltage?"
+    },
+    {
+      "id": "EI-047",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 1,
+      "options": [
+        "6 amperes",
+        "2 amperes",
+        "4 amperes",
+        "12 amperes"
+      ],
+      "explanation": "In a series circuit, you first calculate the total resistance (Rt) by adding the individual values: Rt = 10 Ω + 20 Ω + 30 Ω = 60 Ω. Next, calculate the total circuit current using Ohm's Law: I = V / Rt = 120 V / 60 Ω = 2 amperes. Since current is the same at every point in a series circuit, the current through the 20 Ω resistor is exactly 2 amperes.",
+      "type": "mcq",
+      "question": "Three resistors with values of 10 Ω, 20 Ω, and 30 Ω are connected in series to a 120-volt power source. What is the current flowing through the 20 Ω resistor?"
+    },
+    {
+      "id": "EI-048",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "5 watts",
+        "8,000 watts",
+        "1,000 watts",
+        "400 watts"
+      ],
+      "explanation": "To calculate power when voltage and resistance are known, you use the formula P = V² / R. Step 1: Square the voltage (200 V × 200 V = 40,000). Step 2: Divide that result by the resistance (40,000 / 40 Ω = 1,000 watts). Alternatively, you could find current first (I = V / R = 5 A) and then use P = V × I (200 V × 5 A = 1,000 watts).",
+      "type": "mcq",
+      "question": "A heating element with a resistance of 40 ohms is connected to a 200-volt DC source. How much power is dissipated by the heating element?"
+    },
+    {
+      "id": "EI-049",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 0,
+      "options": [
+        "Both the base-emitter and base-collector junctions are forward-biased.",
+        "Both the base-emitter and base-collector junctions are reverse-biased.",
+        "The base-emitter is forward-biased while the base-collector is reverse-biased.",
+        "The base-emitter is reverse-biased while the base-collector is forward-biased."
+      ],
+      "explanation": "For a Bipolar Junction Transistor (BJT) to be in the saturation region, both the base-emitter junction and the base-collector junction must be forward-biased. In this state, the transistor acts like a closed switch, allowing the maximum possible current to flow from the collector to the emitter. This differs from the 'active' region (used for amplification) where the base-collector junction is reverse-biased, or the 'cutoff' region where both are reverse-biased.",
+      "type": "mcq",
+      "question": "In a Bipolar Junction Transistor (BJT) operating in the 'saturation' region, which statement best describes the state of the junctions?"
+    },
+    {
+      "id": "EI-050",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 1,
+      "options": [
+        "OR gate",
+        "AND gate",
+        "NOT gate",
+        "NAND gate"
+      ],
+      "explanation": "An AND gate requires all inputs to be in a logic high state to produce a high output. If any input is low, the output is low. This is similar to a series circuit of switches where all switches must be closed for current to flow to the load. It is a fundamental building block of digital logic.",
+      "type": "mcq",
+      "question": "Which logic gate produces a 'high' (1) output only if all of its inputs are 'high'?"
+    },
+    {
+      "id": "EI-051",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "6 watts",
+        "24 watts",
+        "11.5 watts",
+        "0.04 watts"
+      ],
+      "explanation": "Power is calculated using the formula P = V × I. In this specific circuit, P = 12 volts × 0.5 amperes = 6 watts. Power represents the rate at which electrical energy is consumed by the component, measured in watts, which is the product of the potential difference and the current flow through the device.",
+      "type": "mcq",
+      "question": "A small light bulb is connected to a 12-volt battery and draws 0.5 amperes of current. What is the power consumption of the bulb?"
+    },
+    {
+      "id": "EI-052",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "55 Ω",
+        "35 Ω",
+        "10 Ω",
+        "25 Ω"
+      ],
+      "explanation": "First, calculate the parallel portion: 1/Rt = 1/20 + 1/20 = 2/20, which means Rt = 10 Ω. Next, add this result to the series resistor: 10 Ω + 15 Ω = 25 Ω. In a series-parallel circuit, you must simplify the parallel branches first before adding them to the series components to find the total resistance.",
+      "type": "mcq",
+      "question": "Two 20 Ω resistors are connected in parallel with each other. This parallel pair is then connected in series with a 15 Ω resistor. What is the total resistance of the entire circuit?"
+    },
+    {
+      "id": "EI-053",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "240 volts",
+        "85 volts",
+        "120 volts",
+        "170 volts"
+      ],
+      "explanation": "The RMS voltage is calculated using the formula V_rms = V_peak × 0.707. Substituting the values: 170 V × 0.707 = 120.19 V. RMS, or root mean square, is the effective voltage used for calculating power in AC circuits, representing the equivalent DC voltage level required to provide the same amount of power to a load.",
+      "type": "mcq",
+      "question": "In an alternating current (AC) circuit, if the peak voltage is measured at 170 volts, what is the approximate RMS (root mean square) voltage?"
+    },
+    {
+      "id": "EI-054",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 1,
+      "options": [
+        "A large current flows from the base to the emitter.",
+        "A small base current controls a larger collector-to-emitter current.",
+        "Current only flows when the collector is negative relative to the base.",
+        "The emitter current is always zero when the base is forward-biased."
+      ],
+      "explanation": "In an NPN transistor, the device acts as a current-controlled switch or amplifier. A small current entering the base terminal allows a significantly larger current to flow from the collector to the emitter. This property is fundamental to electronic amplification and digital switching logic in modern integrated circuits, where a small signal manages a larger load.",
+      "type": "mcq",
+      "question": "In an NPN bipolar junction transistor (BJT) operating in the active region, which statement best describes the current flow?"
+    },
+    {
+      "id": "EI-055",
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 3,
+      "options": [
+        "Capacitor",
+        "Circuit breaker",
+        "Transformer",
+        "Fuse"
+      ],
+      "explanation": "A fuse is a safety device containing a thin wire or strip of metal that melts when too much current flows through it, effectively opening the circuit to prevent damage. Unlike a circuit breaker, which can be reset after tripping, a fuse is a one-time-use component that must be replaced with a new one of the same rating once it has blown.",
+      "type": "mcq",
+      "question": "Which of the following electrical components is designed to melt and break the circuit when the current exceeds a specific limit, requiring the component to be replaced?"
+    },
+    {
+      "id": "EI-056",
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "24 Ω",
+        "6 Ω",
+        "12.5 Ω",
+        "0.04 Ω"
+      ],
+      "explanation": "Resistance can be calculated using Ohm's Law, which states that Voltage (V) equals Current (I) multiplied by Resistance (R). Rearranging the formula to solve for Resistance gives R = V / I. Substituting the values: R = 12 volts / 0.5 amperes = 24 Ω. This indicates that for every 24 ohms of resistance, 0.5 amps will flow at 12 volts.",
+      "type": "mcq",
+      "question": "If a 12-volt battery is connected to a resistor and a current of 0.5 amperes is measured, what is the resistance of the resistor?"
+    },
+    {
+      "id": "EI-057",
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 2,
+      "options": [
+        "200 Ω",
+        "100 Ω",
+        "50 Ω",
+        "25 Ω"
+      ],
+      "explanation": "To find the total resistance (Rt) of two resistors in parallel, you can use the product-over-sum formula: Rt = (R1 * R2) / (R1 + R2). Substituting the values: Rt = (100 * 100) / (100 + 100) = 10,000 / 200 = 50 Ω. Alternatively, when resistors of equal value are in parallel, the total resistance is simply the value of one resistor divided by the number of resistors (100 / 2 = 50).",
+      "type": "mcq",
+      "question": "Two 100 Ω resistors are connected in parallel with each other. What is the total equivalent resistance of this parallel combination?"
+    },
+    {
+      "id": "EI-058",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "12 watts",
+        "1,200 watts",
+        "130 watts",
+        "1,440 watts"
+      ],
+      "explanation": "Electrical power (P) is calculated by multiplying the voltage (V) by the current (I). Using the formula P = V * I and substituting the given values: P = 120 volts * 10 amperes = 1,200 watts. This represents the rate at which electrical energy is converted into heat and kinetic energy by the hair dryer's heating element and internal motor.",
+      "type": "mcq",
+      "question": "A 120-volt AC hair dryer draws 10 amperes of current during operation. How much power, in watts, is being consumed by the device?"
+    },
+    {
+      "id": "EI-059",
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "Anode, Cathode, Gate",
+        "Source, Drain, Gate",
+        "Emitter, Base, Collector",
+        "Positive, Negative, Neutral"
+      ],
+      "explanation": "Bipolar junction transistors (BJTs), whether NPN or PNP types, consist of three layers of semiconductor material forming three terminals: the Emitter, the Base, and the Collector. In an NPN transistor, a small current flowing into the Base allows a much larger current to flow from the Collector to the Emitter. This terminal configuration is essential for electronic circuits used for amplification and digital switching.",
+      "type": "mcq",
+      "question": "In a standard NPN bipolar junction transistor (BJT) used as a switch, which three terminals are used to control and direct the flow of current?"
+    },
+    {
+      "id": "EI-060",
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 2,
+      "options": [
+        "0.12 watts",
+        "1.2 watts",
+        "1.44 watts",
+        "1200 watts"
+      ],
+      "explanation": "To find the power dissipated by a resistor when voltage and resistance are known, use the formula P = V² / R. Step 1: Calculate the square of the voltage: 12 V * 12 V = 144. Step 2: Divide the squared voltage by the resistance: 144 / 100 Ω = 1.44 watts. Alternatively, you can find the current first using Ohm's Law (I = V / R = 12 V / 100 Ω = 0.12 A) and then use the power formula P = V * I (12 V * 0.12 A = 1.44 W).",
+      "type": "mcq",
+      "question": "A 100-ohm resistor is connected across a 12-volt DC power supply. How much power is dissipated by the resistor?"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 1,
+      "correctIndex": 2,
+      "options": [
+        "Resistor",
+        "Capacitor",
+        "Inductor",
+        "Diode"
+      ],
+      "explanation": "An inductor is a passive electronic component, typically consisting of a coil of wire, that stores energy in a magnetic field. When current passes through the coil, a magnetic field is established; if the current changes, the magnetic field also changes, inducing a voltage that opposes the change in current flow.",
+      "type": "mcq",
+      "question": "Which electronic component is designed primarily to store energy in a magnetic field when electric current flows through it?",
+      "id": "EI-061"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 2,
+      "correctIndex": 0,
+      "options": [
+        "12 V",
+        "48 V",
+        "6 V",
+        "24.5 V"
+      ],
+      "explanation": "To find the voltage, we use Ohm's Law, which states that Voltage (V) equals Current (I) multiplied by Resistance (R). Step 1: Identify the values, where I = 0.5 A and R = 24 Ω. Step 2: Apply the formula V = I × R. Step 3: Calculate 0.5 A × 24 Ω = 12 V. This relationship is fundamental to analyzing how energy is distributed across components in a circuit.",
+      "type": "mcq",
+      "question": "A technician measures a current of 0.5 amperes flowing through a 24 Ω resistor. What is the voltage drop across this resistor?",
+      "id": "EI-062"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 3,
+      "correctIndex": 3,
+      "options": [
+        "50 Ω",
+        "10 Ω",
+        "600 Ω",
+        "12 Ω"
+      ],
+      "explanation": "For two resistors in parallel, the total resistance (Rt) is calculated using the formula: 1/Rt = 1/R1 + 1/R2. Step 1: Substitute the values: 1/Rt = 1/20 + 1/30. Step 2: Find a common denominator, which is 60: 1/Rt = 3/60 + 2/60. Step 3: Add the fractions: 1/Rt = 5/60. Step 4: Solve for Rt by taking the reciprocal: Rt = 60 / 5 = 12 Ω.",
+      "type": "mcq",
+      "question": "A circuit contains two resistors connected in parallel. One resistor has a value of 20 Ω and the other has a value of 30 Ω. What is the total equivalent resistance of this parallel combination?",
+      "id": "EI-063"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 4,
+      "correctIndex": 1,
+      "options": [
+        "12 W",
+        "1,440 W",
+        "1,200 W",
+        "12,000 W"
+      ],
+      "explanation": "Power can be calculated using the formula P = V² / R. Step 1: Calculate the square of the voltage: 120 V × 120 V = 14,400. Step 2: Divide this result by the resistance: P = 14,400 / 10 Ω = 1,440 Watts. Alternatively, one could find the current first (I = V / R = 120 / 10 = 12 A) and then use P = V × I (120 V × 12 A = 1,440 W).",
+      "type": "mcq",
+      "question": "A heating element with a resistance of 10 Ω is connected to a 120 V power source. How much power, in watts, is dissipated by the heating element?",
+      "id": "EI-064"
+    },
+    {
+      "sectionId": "EI",
+      "difficulty": 5,
+      "correctIndex": 2,
+      "options": [
+        "Electrons flow from the collector to the emitter.",
+        "Holes are the primary charge carriers moving from the emitter to the base.",
+        "Electrons flow from the emitter, through the base, to the collector.",
+        "The base-emitter junction is reverse-biased while the base-collector junction is forward-biased."
+      ],
+      "explanation": "In an NPN transistor, the emitter is 'Negative' (rich in electrons). When the base-emitter junction is forward-biased, electrons are injected from the emitter into the base. Because the base is very thin and lightly doped, most of these electrons are swept across the reverse-biased collector-base junction into the collector, creating the main current flow. This allows a small base current to control a much larger collector current.",
+      "type": "mcq",
+      "question": "In a standard NPN bipolar junction transistor (BJT) operating in the active region, which statement best describes the flow of charge carriers?",
+      "id": "EI-065"
     }
   ]
 }
