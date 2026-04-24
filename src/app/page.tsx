@@ -164,7 +164,7 @@ export default function HomePage() {
         <div className="max-w-lg mx-auto px-4 pb-16">
 
           {/* ── App header ────────────────────────────────────────────── */}
-          <div className="pt-12 pb-6 flex items-start justify-between">
+          <div className="safe-pt-12 pb-6 flex items-start justify-between">
             <div>
               <h1 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
                 ASVAB Prep

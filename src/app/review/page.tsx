@@ -16,7 +16,7 @@ export default function ReviewPage() {
       <div className="max-w-lg mx-auto px-4 pb-16">
 
         {/* ── Header ──────────────────────────────────────────────────── */}
-        <div className="sticky top-0 z-10 bg-slate-50 dark:bg-slate-950 pt-10 pb-4">
+        <div className="sticky top-0 z-10 bg-slate-50 dark:bg-slate-950 safe-pt-10 pb-4">
           <Link
             href="/"
             className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-4"

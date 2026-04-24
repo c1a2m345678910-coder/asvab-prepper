@@ -61,3 +61,17 @@ body {
   --animate-correct-pulse: correct-pulse 0.6s ease-out;
   --animate-slide-up:      slide-up 0.28s ease-out both;
 }
+
+/* ── iOS safe-area-aware padding utilities ──────────────────────────────── */
+/* max() keeps the original padding on non-notched devices while expanding   */
+/* to the Dynamic Island safe area on iPhone 14 Pro / 15 / 16 Pro Max.       */
+
+@utility safe-pt-4 {
+  padding-top: max(1rem, env(safe-area-inset-top, 0px));
+}
+@utility safe-pt-10 {
+  padding-top: max(2.5rem, env(safe-area-inset-top, 0px));
+}
+@utility safe-pt-12 {
+  padding-top: max(3rem, env(safe-area-inset-top, 0px));
+}

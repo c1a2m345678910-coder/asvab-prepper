@@ -211,7 +211,7 @@ function RunningScreen({
       <div className="max-w-lg mx-auto px-4 pb-10">
 
         {/* Sticky header */}
-        <div className="sticky top-0 z-20 bg-slate-50 dark:bg-slate-950 pt-4 pb-3">
+        <div className="sticky top-0 z-20 bg-slate-50 dark:bg-slate-950 safe-pt-4 pb-3">
           <div className="flex items-center gap-3 mb-3">
             <button
               onClick={onAbort}

@@ -66,7 +66,7 @@ export default function SettingsPage() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white transition-colors">
       {/* Header */}
-      <header className="flex items-center gap-3 px-4 pt-12 pb-6">
+      <header className="flex items-center gap-3 px-4 safe-pt-12 pb-6">
         <Link
           href="/"
           className="text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors text-lg"
