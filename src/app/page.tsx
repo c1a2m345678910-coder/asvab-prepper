@@ -38,10 +38,10 @@ function SectionCard({
     <Link
       href={`/lesson/${section.id}`}
       className={[
-        'group flex flex-col gap-3 bg-white dark:bg-slate-900 rounded-2xl p-4 shadow-sm border active:scale-[0.97] transition-transform',
+        'group flex flex-col gap-3 rounded-2xl p-4 shadow-sm border active:scale-[0.97] transition-transform',
         highlighted
-          ? 'border-indigo-400 dark:border-indigo-500 ring-2 ring-indigo-300/60 dark:ring-indigo-700/60'
-          : 'border-slate-100 dark:border-slate-800',
+          ? 'bg-indigo-50 dark:bg-indigo-950/50 border-indigo-300 dark:border-indigo-700'
+          : 'bg-white dark:bg-slate-900 border-slate-100 dark:border-slate-800',
       ].join(' ')}
     >
       {/* Top row: emoji + AFQT badge */}
