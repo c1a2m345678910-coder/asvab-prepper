@@ -4,7 +4,10 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePrefsStore, type Theme, MOS_LIST } from '@/store/prefsStore';
 import { useProgressStore } from '@/store/progressStore';
+import { useAuthStore } from '@/store/authStore';
+import { supabase } from '@/lib/supabase';
 import QuestionBankManager from '@/components/QuestionBankManager';
+import SyncStatusBadge from '@/components/SyncStatusBadge';
 
 const VERSION = '1.0.0';
 
@@ -17,10 +20,23 @@ const THEME_OPTIONS: { value: Theme; label: string; emoji: string }[] = [
 export default function SettingsPage() {
   const { theme, setTheme, resetOnboarding, studyGoal, selectedMos, setSelectedMos } = usePrefsStore();
   const { resetProgress } = useProgressStore();
+  const { user } = useAuthStore();
 
   const [resetInput, setResetInput] = useState('');
   const [resetDone, setResetDone] = useState(false);
   const [exportDone, setExportDone] = useState(false);
+
+  async function handleSignIn() {
+    await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: { redirectTo: `${window.location.origin}/auth/callback` },
+    });
+  }
+
+  async function handleSignOut() {
+    await supabase.auth.signOut();
+    // Local data intentionally preserved after sign-out
+  }
 
   function handleReset() {
     if (resetInput !== 'RESET') return;
@@ -78,6 +94,56 @@ export default function SettingsPage() {
       </header>
 
       <div className="px-4 space-y-6 pb-16 max-w-lg">
+        {/* Account / Sync */}
+        <section>
+          <h2 className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-3">
+            Account
+          </h2>
+          <div className="bg-white dark:bg-slate-900 rounded-2xl overflow-hidden divide-y divide-slate-100 dark:divide-slate-800 border border-slate-100 dark:border-slate-800">
+            {user ? (
+              <>
+                <div className="px-4 py-3.5 flex items-center gap-3">
+                  {user.user_metadata?.avatar_url && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={user.user_metadata.avatar_url as string}
+                      alt=""
+                      className="w-8 h-8 rounded-full"
+                    />
+                  )}
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-slate-800 dark:text-slate-200 truncate">
+                      {(user.user_metadata?.full_name as string) ?? user.email}
+                    </p>
+                    <SyncStatusBadge />
+                  </div>
+                </div>
+                <button
+                  onClick={handleSignOut}
+                  className="w-full flex items-center justify-between px-4 py-3.5 active:bg-slate-50 dark:active:bg-slate-800 transition-colors"
+                >
+                  <span className="text-sm text-red-500">Sign out</span>
+                  <span className="text-slate-400 text-sm">→</span>
+                </button>
+              </>
+            ) : (
+              <button
+                onClick={handleSignIn}
+                className="w-full flex items-center gap-3 px-4 py-3.5 active:bg-slate-50 dark:active:bg-slate-800 transition-colors"
+              >
+                <span className="text-lg">🔑</span>
+                <span className="text-sm text-slate-800 dark:text-slate-200">
+                  Sign in with Google
+                </span>
+                <span className="ml-auto text-slate-400 text-sm">→</span>
+              </button>
+            )}
+          </div>
+          <p className="text-xs text-slate-400 mt-2 px-1">
+            Sign in to sync your progress across devices. Your data stays local if you sign out.
+          </p>
+        </section>
+
         {/* Theme */}
         <section>
           <h2 className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-3">

@@ -70,6 +70,8 @@ interface ProgressState {
    * interrupted. Cleared when the session completes or user navigates home.
    */
   pendingSession: PendingSession | null;
+  /** ISO timestamp of the last successful cloud push or pull. Null if never synced. */
+  syncedAt: string | null;
 }
 
 // ── Actions ────────────────────────────────────────────────────────────────
@@ -167,6 +169,7 @@ const initialState: ProgressState = {
   dailyQuestions: 0,
   dailyDate: null,
   pendingSession: null,
+  syncedAt: null,
 };
 
 // ── Store ──────────────────────────────────────────────────────────────────
@@ -273,7 +276,7 @@ export const useProgressStore = create<ProgressStore>()(
     {
       name: 'asvab-v1',
       storage: createJSONStorage(() => localStorage),
-      version: 3,
+      version: 4,
       migrate: (persistedState: unknown, fromVersion: number) => {
         const s = persistedState as Record<string, unknown>;
         if (fromVersion < 2) {
@@ -284,6 +287,10 @@ export const useProgressStore = create<ProgressStore>()(
         if (fromVersion < 3) {
           // v2 → v3: add pendingSession
           s.pendingSession = null;
+        }
+        if (fromVersion < 4) {
+          // v3 → v4: add syncedAt for cloud sync tracking
+          s.syncedAt = null;
         }
         return s;
       },
