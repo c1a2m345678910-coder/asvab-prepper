@@ -83,10 +83,10 @@ export default function SettingsPage() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white transition-colors">
       {/* Header */}
-      <header className="flex items-center gap-3 px-4 safe-pt-12 pb-6">
+      <header className="flex items-center gap-3 px-4 safe-pt-12 lg:pt-8 pb-6">
         <Link
           href="/"
-          className="text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors text-lg"
+          className="lg:hidden text-slate-400 hover:text-slate-700 dark:hover:text-white transition-colors text-lg"
           aria-label="Back"
         >
           ←
@@ -94,7 +94,7 @@ export default function SettingsPage() {
         <h1 className="text-xl font-bold text-slate-900 dark:text-white">Settings</h1>
       </header>
 
-      <div className="px-4 space-y-6 pb-16 max-w-lg">
+      <div className="px-4 space-y-6 pb-16 max-w-lg lg:max-w-2xl">
         {/* Account / Sync */}
         <section>
           <h2 className="text-xs font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-3">

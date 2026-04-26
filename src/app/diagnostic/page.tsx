@@ -75,12 +75,12 @@ function IntroScreen({
 }) {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
-      <div className="max-w-lg mx-auto px-4 pb-16 pt-10">
+      <div className="max-w-lg lg:max-w-2xl mx-auto px-4 pb-16 pt-10 lg:pt-8">
 
         {/* Back link */}
         <Link
           href="/"
-          className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-8"
+          className="lg:hidden inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-8"
         >
           ← Home
         </Link>
@@ -208,14 +208,14 @@ function RunningScreen({
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
-      <div className="max-w-lg mx-auto px-4 pb-10">
+      <div className="max-w-lg lg:max-w-2xl mx-auto px-4 pb-10">
 
         {/* Sticky header */}
-        <div className="sticky top-0 z-20 bg-slate-50 dark:bg-slate-950 safe-pt-4 pb-3">
+        <div className="sticky top-0 z-20 bg-slate-50 dark:bg-slate-950 safe-pt-4 lg:pt-6 pb-3">
           <div className="flex items-center gap-3 mb-3">
             <button
               onClick={onAbort}
-              className="text-slate-400 hover:text-slate-600 transition-colors
+              className="lg:hidden text-slate-400 hover:text-slate-600 transition-colors
                 text-lg p-1 -ml-1 active:scale-95 leading-none"
               aria-label="Exit diagnostic"
             >
@@ -318,12 +318,12 @@ function ResultsScreen({
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
-      <div className="max-w-lg mx-auto px-4 pb-16 pt-10">
+      <div className="max-w-lg lg:max-w-2xl mx-auto px-4 pb-16 pt-10 lg:pt-8">
 
         {/* Back */}
         <Link
           href="/"
-          className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-8"
+          className="lg:hidden inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-8"
         >
           ← Home
         </Link>

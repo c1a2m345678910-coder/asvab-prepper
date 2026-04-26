@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import PwaSetup from '@/components/PwaSetup';
 import SyncManager from '@/components/SyncManager';
+import AppShell from '@/components/AppShell';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -66,7 +67,10 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <PwaSetup />
         <SyncManager />
-        {children}
+        <AppShell />
+        <div className="flex-1 lg:pl-60">
+          {children}
+        </div>
       </body>
     </html>
   );

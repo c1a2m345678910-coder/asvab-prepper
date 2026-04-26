@@ -161,10 +161,10 @@ export default function HomePage() {
     <>
       <OnboardingModal />
       <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
-        <div className="max-w-lg mx-auto px-4 pb-16">
+        <div className="max-w-lg lg:max-w-3xl mx-auto px-4 pb-16">
 
           {/* ── App header ────────────────────────────────────────────── */}
-          <div className="safe-pt-12 pb-6 flex items-start justify-between">
+          <div className="safe-pt-12 lg:pt-8 pb-6 flex items-start justify-between">
             <div>
               <h1 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
                 ASVAB Prep
@@ -173,7 +173,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/settings"
-              className="mt-1 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 transition-colors p-1"
+              className="lg:hidden mt-1 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 transition-colors p-1"
               aria-label="Settings"
             >
               ⚙️
@@ -181,7 +181,7 @@ export default function HomePage() {
           </div>
 
           {/* ── Stats row ─────────────────────────────────────────────── */}
-          <div className="flex gap-3 mb-4">
+          <div className="flex gap-3 lg:gap-4 mb-4">
             {/* Streak — amber when at risk */}
             <div className={[
               'flex-1 flex items-center gap-2 border rounded-2xl px-3 py-3.5',
@@ -351,7 +351,7 @@ export default function HomePage() {
               <span className="flex-1 h-px bg-indigo-100 dark:bg-indigo-900/50" />
               <span className="text-xs text-slate-400">Counts toward score</span>
             </div>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
               {AFQT_SECTIONS.map((section) => (
                 <SectionCard
                   key={section.id}
@@ -381,7 +381,7 @@ export default function HomePage() {
                 <span className="text-xs text-slate-400">Not in AFQT</span>
               )}
             </div>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
               {technicalSections.map((section) => (
                 <SectionCard
                   key={section.id}
@@ -417,7 +417,7 @@ export default function HomePage() {
               </span>
             </div>
 
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
               {mosSections.map((section) => (
                 <SectionCard
                   key={section.id}

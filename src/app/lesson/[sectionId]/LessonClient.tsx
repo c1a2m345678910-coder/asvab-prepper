@@ -276,14 +276,14 @@ function LessonClientInner({ sectionId, reviewMode = false }: Props) {
   // ── Render: active lesson ────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
-      <div className="max-w-lg mx-auto px-4 pb-10">
+      <div className="max-w-lg lg:max-w-2xl mx-auto px-4 pb-10">
 
         {/* ── Sticky header + progress bar ─────────────────────────────── */}
-        <div className="sticky top-0 z-20 bg-slate-50 dark:bg-slate-950 safe-pt-4 pb-3">
+        <div className="sticky top-0 z-20 bg-slate-50 dark:bg-slate-950 safe-pt-4 lg:pt-6 pb-3">
           <div className="flex items-center gap-3 mb-3">
             <button
               onClick={() => router.push('/')}
-              className="text-slate-400 hover:text-slate-600 transition-colors leading-none
+              className="lg:hidden text-slate-400 hover:text-slate-600 transition-colors leading-none
                 text-lg p-1 -ml-1 active:scale-95"
               aria-label="Back to home"
             >

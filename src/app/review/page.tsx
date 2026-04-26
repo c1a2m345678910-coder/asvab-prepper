@@ -13,13 +13,13 @@ export default function ReviewPage() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
-      <div className="max-w-lg mx-auto px-4 pb-16">
+      <div className="max-w-lg lg:max-w-2xl mx-auto px-4 pb-16">
 
         {/* ── Header ──────────────────────────────────────────────────── */}
-        <div className="sticky top-0 z-10 bg-slate-50 dark:bg-slate-950 safe-pt-10 pb-4">
+        <div className="sticky top-0 z-10 bg-slate-50 dark:bg-slate-950 safe-pt-10 lg:pt-8 pb-4">
           <Link
             href="/"
-            className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-4"
+            className="lg:hidden inline-flex items-center gap-1 text-sm text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors mb-4"
           >
             ← Home
           </Link>
