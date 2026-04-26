@@ -27,9 +27,10 @@ export default function SettingsPage() {
   const [exportDone, setExportDone] = useState(false);
 
   async function handleSignIn() {
+    const base = process.env.NEXT_PUBLIC_APP_URL ?? window.location.origin;
     await supabase.auth.signInWithOAuth({
       provider: 'google',
-      options: { redirectTo: `${window.location.origin}/auth/callback` },
+      options: { redirectTo: `${base}/auth/callback` },
     });
   }
 
